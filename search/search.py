@@ -67,6 +67,30 @@ def tinyMazeSearch(problem):
   w = Directions.WEST
   return  [s,s,w,s,w,w,s,w]
 
+def genericBlindSearch(problem, fringe):
+  p = problem #shorthand name
+  state = p.getStartState()
+  fringe.push(state) #seeded with start state
+  visited = [] #marker to do graph search
+  parent = {state:()} #keep track of how each node is reached
+  #search using the fringe
+  while not fringe.isEmpty():
+    state = fringe.pop()
+    if p.isGoalState(state): break
+    if state not in visited :
+      visited.append(state)
+      successors = p.getSuccessors(state)
+      for s in successors :
+        if s[0] not in parent:
+          fringe.push(s[0])
+          parent[s[0]] = (state, s[1])
+  #search complete, enum the path from parents list
+  path = []
+  while state != p.getStartState() :
+    path.insert(0,parent[state][1])
+    state = parent[state][0]
+  return path
+
 def depthFirstSearch(problem):
   """
   Search the deepest nodes in the search tree first [p 85].
@@ -81,57 +105,11 @@ def depthFirstSearch(problem):
   print "Is the start a goal?", problem.isGoalState(problem.getStartState())
   print "Start's successors:", problem.getSuccessors(problem.getStartState())
   """
-  p = problem #shorthand name
-  state = p.getStartState()
-  fringe = util.Stack() #DFS fringe is a stack
-  fringe.push(state) #seeded with start state
-  visited = [] #marker to do graph search
-  parent = {state:()} #keep track of how each node is reached
-  #search using the fringe
-  while not fringe.isEmpty():
-    state = fringe.pop()
-    if p.isGoalState(state): break
-    if state not in visited :
-      visited.append(state)
-      successors = p.getSuccessors(state)
-      for s in successors :
-        if s[0] not in parent:
-          fringe.push(s[0])
-          parent[s[0]] = (state, s[1])
-  #search complete, enum the path from parents list
-  path = []
-  while state != p.getStartState() :
-    path.insert(0,parent[state][1])
-    state = parent[state][0]
-  return path
-
+  return genericBlindSearch(problem, util.Stack())
 
 def breadthFirstSearch(problem):
   "Search the shallowest nodes in the search tree first. [p 81]"
-  "*** YOUR CODE HERE ***"
-  p = problem #shorthand name
-  state = p.getStartState()
-  fringe = util.Queue() #BFS fringe is a queue
-  fringe.push(state) #seeded with start state
-  visited = [] #marker to do graph search
-  parent = {state:()} #keep track of how each node is reached
-  #search using the fringe
-  while not fringe.isEmpty():
-    state = fringe.pop()
-    if p.isGoalState(state): break
-    if state not in visited :
-      visited.append(state)
-      successors = p.getSuccessors(state)
-      for s in successors :
-        if s[0] not in parent:
-          fringe.push(s[0])
-          parent[s[0]] = (state, s[1])
-  #search complete, enum the path from parents list
-  path = []
-  while state != p.getStartState() :
-    path.insert(0,parent[state][1])
-    state = parent[state][0]
-  return path
+  return genericBlindSearch(problem, util.Queue())
 
 def uniformCostSearch(problem):
   "Search the node of least total cost first. "
