@@ -81,42 +81,57 @@ def depthFirstSearch(problem):
   print "Is the start a goal?", problem.isGoalState(problem.getStartState())
   print "Start's successors:", problem.getSuccessors(problem.getStartState())
   """
-  "*** YOUR CODE HERE ***"
-  "util.raiseNotDefined()"
-  state = problem.getStartState()
-  fringe = util.Stack()
-  fringe.push(state)
-  visited = []
-  parent = {state:()}
-  path = []
+  p = problem #shorthand name
+  state = p.getStartState()
+  fringe = util.Stack() #DFS fringe is a stack
+  fringe.push(state) #seeded with start state
+  visited = [] #marker to do graph search
+  parent = {state:()} #keep track of how each node is reached
+  #search using the fringe
   while not fringe.isEmpty():
     state = fringe.pop()
-    if problem.isGoalState(state):
-      #print "reached at: ", state, parent[state]
-      #print parent
-      while state != problem.getStartState() :
-        #print state
-        path.append(parent[state][1])
-        state = parent[state][0]
-      #print
-      path.reverse()
-      return path
+    if p.isGoalState(state): break
     if state not in visited :
-      #print state
-      #print parent[state]
       visited.append(state)
-      successors = problem.getSuccessors(state)
+      successors = p.getSuccessors(state)
       for s in successors :
         if s[0] not in parent:
           fringe.push(s[0])
           parent[s[0]] = (state, s[1])
+  #search complete, enum the path from parents list
+  path = []
+  while state != p.getStartState() :
+    path.insert(0,parent[state][1])
+    state = parent[state][0]
+  return path
 
-  return []
 
 def breadthFirstSearch(problem):
   "Search the shallowest nodes in the search tree first. [p 81]"
   "*** YOUR CODE HERE ***"
-  util.raiseNotDefined()
+  p = problem #shorthand name
+  state = p.getStartState()
+  fringe = util.Queue() #BFS fringe is a queue
+  fringe.push(state) #seeded with start state
+  visited = [] #marker to do graph search
+  parent = {state:()} #keep track of how each node is reached
+  #search using the fringe
+  while not fringe.isEmpty():
+    state = fringe.pop()
+    if p.isGoalState(state): break
+    if state not in visited :
+      visited.append(state)
+      successors = p.getSuccessors(state)
+      for s in successors :
+        if s[0] not in parent:
+          fringe.push(s[0])
+          parent[s[0]] = (state, s[1])
+  #search complete, enum the path from parents list
+  path = []
+  while state != p.getStartState() :
+    path.insert(0,parent[state][1])
+    state = parent[state][0]
+  return path
 
 def uniformCostSearch(problem):
   "Search the node of least total cost first. "
