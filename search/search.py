@@ -67,10 +67,12 @@ def tinyMazeSearch(problem):
   w = Directions.WEST
   return  [s,s,w,s,w,w,s,w]
 
-def genericBlindSearch(problem, fringe):
+def genericBlindSearch(problem, fringe, wPrio=False):
   p = problem #shorthand name
   state = p.getStartState()
-  fringe.push(state) #seeded with start state
+  #seeded with start state
+  if wPrio: fringe.push(state,0)
+  else: fringe.push(state)
   visited = [] #marker to do graph search
   parent = {state:()} #keep track of how each node is reached
   #search using the fringe
@@ -81,8 +83,10 @@ def genericBlindSearch(problem, fringe):
       visited.append(state)
       successors = p.getSuccessors(state)
       for s in successors :
+        print s
         if s[0] not in parent:
-          fringe.push(s[0])
+          if wPrio: fringe.push(s[0],s[2])
+          else : fringe.push(s[0])
           parent[s[0]] = (state, s[1])
   #search complete, enum the path from parents list
   path = []
@@ -114,7 +118,34 @@ def breadthFirstSearch(problem):
 def uniformCostSearch(problem):
   "Search the node of least total cost first. "
   "*** YOUR CODE HERE ***"
-  util.raiseNotDefined()
+  fringe = util.PriorityQueue()
+  wPrio = True
+  p = problem #shorthand name
+  state = p.getStartState()
+  #seeded with start state
+  if wPrio: fringe.push(state,0)
+  else: fringe.push(state)
+  visited = [] #marker to do graph search
+  parent = {state:()} #keep track of how each node is reached
+  #search using the fringe
+  while not fringe.isEmpty():
+    state = fringe.pop()
+    if p.isGoalState(state): break
+    if state not in visited :
+      visited.append(state)
+      successors = p.getSuccessors(state)
+      for s in successors :
+        print s
+        if s[0] not in parent:
+          if wPrio: fringe.push(s[0],s[2])
+          else : fringe.push(s[0])
+          parent[s[0]] = (state, s[1])
+  #search complete, enum the path from parents list
+  path = []
+  while state != p.getStartState() :
+    path.insert(0,parent[state][1])
+    state = parent[state][0]
+  return path
 
 def nullHeuristic(state, problem=None):
   """
