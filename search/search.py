@@ -89,6 +89,10 @@ class Fringe:
     return self.fringe.isEmpty()
   
 def genericBlindSearch(problem, fringeType, wPrio=False, preserveOrder=False):
+  """
+  implements generic iterative blind search. Behavior can be tuned with 
+  fringeType, priority and cost functions of problem
+  """
   p = problem #shorthand name
   fringe = Fringe(fringeType, wPrio)
   state = p.getStartState()
