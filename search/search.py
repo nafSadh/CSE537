@@ -96,6 +96,9 @@ class Record:
     self.action = action
     self.val = val
 
+  def prints(self):
+    print self.id,":",self.state," | ",self.parentId," | ",self.action
+
 def genericBlindSearch(problem, fringeType, wPrio=False, preserveOrder=False):
   """
   implements generic iterative blind search. Behavior can be tuned with 
@@ -142,7 +145,9 @@ def genericSearch(problem, fringeType, isTree,
     isp = fringe.pop()
     state = isp[1]
     id = isp[0]
-    if p.isGoalState(state) : break
+    if p.isGoalState(state) : 
+      idx = id
+      break
     if isTree or state not in visited :
       if not isTree: visited.append(state)
       successors = p.getSuccessors(state)
@@ -152,9 +157,8 @@ def genericSearch(problem, fringeType, isTree,
         fringe.add((idx,s[0]),s[2])
         records[idx] = Record(idx,s[0],id,s[1],s[2])
   #search done, enum path
-  for r in records :
-    print r,":",records[r]
   path = []
+  print idx
   while idx != 1 :
     path.insert(0,records[idx].action)
     idx = records[idx].parentId
