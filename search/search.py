@@ -71,7 +71,7 @@ class Fringe:
   """
   Fringe class wraps the fringe containers. The constructor takes a container
   class type (e.g. util.Stack, util.Queue, util.PriorityQueue) as argument, and
-  a boolean switch, wPrio denoting if the fringe structure is affected by  
+  a boolean switch, wPrio denoting if the fringe structure is affected by
   priority values
   """
   def __init__(self, fringeType, wPrio=False):
@@ -87,7 +87,15 @@ class Fringe:
 
   def isEmpty(self):
     return self.fringe.isEmpty()
-  
+
+class Record:
+  def __init__(self, id, state, parentId, action, val=0):
+    self.id = id
+    self.state = state
+    self.parentId = parentId
+    self.action = action
+    self.val = val
+
 def genericBlindSearch(problem, fringeType, wPrio=False, preserveOrder=False):
   """
   implements generic iterative blind search. Behavior can be tuned with 
@@ -119,6 +127,39 @@ def genericBlindSearch(problem, fringeType, wPrio=False, preserveOrder=False):
     state = parent[state][0]
   return path
 
+
+def genericSearch(problem, fringeType, isTree,
+                  hasPrio=False, preserveOrder=False) :
+  p = problem #shorthand
+  idx=1
+  state = p.getStartState()
+  fringe = Fringe(fringeType, hasPrio)
+  fringe.add((idx,state),0)
+  visited = []
+  records = {idx:Record(idx, state, 0, None,0)}
+  #search
+  while not fringe.isEmpty():
+    isp = fringe.pop()
+    state = isp[1]
+    id = isp[0]
+    if p.isGoalState(state) : break
+    if isTree or state not in visited :
+      if not isTree: visited.append(state)
+      successors = p.getSuccessors(state)
+      if preserveOrder: successors.reverse()
+      for s in successors:
+        idx+=1
+        fringe.add((idx,s[0]),s[2])
+        records[idx] = Record(idx,s[0],id,s[1],s[2])
+  #search done, enum path
+  for r in records :
+    print r,":",records[r]
+  path = []
+  while idx != 1 :
+    path.insert(0,records[idx].action)
+    idx = records[idx].parentId
+  return path
+
 def depthFirstSearch(problem):
   """
   Search the deepest nodes in the search tree first [p 85].
@@ -133,11 +174,11 @@ def depthFirstSearch(problem):
   print "Is the start a goal?", problem.isGoalState(problem.getStartState())
   print "Start's successors:", problem.getSuccessors(problem.getStartState())
   """
-  return genericBlindSearch(problem, util.Stack)
+  return genericSearch(problem, util.Stack, False)
 
 def breadthFirstSearch(problem):
   "Search the shallowest nodes in the search tree first. [p 81]"
-  return genericBlindSearch(problem, util.Queue)
+  return genericSearch(problem, util.Queue, False)
 
 def uniformCostSearch(problem):
   "Search the node of least total cost first. "
