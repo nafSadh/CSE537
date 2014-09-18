@@ -67,12 +67,33 @@ def tinyMazeSearch(problem):
   w = Directions.WEST
   return  [s,s,w,s,w,w,s,w]
 
-def genericBlindSearch(problem, fringe, wPrio=False):
+class Fringe:
+  """
+  Fringe class wraps the fringe containers. The constructor takes a container
+  class type (e.g. util.Stack, util.Queue, util.PriorityQueue) as argument, and
+  a boolean switch, wPrio denoting if the fringe structure is affected by  
+  priority values
+  """
+  def __init__(self, fringeType, wPrio=False):
+    self.fringe = fringeType()
+    self.wPrio = wPrio
+
+  def add(self, item, priority=0):
+    if(self.wPrio): self.fringe.push(item, prio)
+    else: self.fringe.push(item)
+
+  def pop(self):
+    return self.fringe.pop()
+
+  def isEmpty(self):
+    return self.fringe.isEmpty()
+  
+def genericBlindSearch(problem, fringeType, wPrio=False, preserveOrder=False):
   p = problem #shorthand name
+  fringe = Fringe(fringeType, wPrio)
   state = p.getStartState()
   #seeded with start state
-  if wPrio: fringe.push(state,0)
-  else: fringe.push(state)
+  fringe.add(state,0)
   visited = [] #marker to do graph search
   parent = {state:()} #keep track of how each node is reached
   #search using the fringe
@@ -82,11 +103,10 @@ def genericBlindSearch(problem, fringe, wPrio=False):
     if state not in visited :
       visited.append(state)
       successors = p.getSuccessors(state)
+      if preserveOrder : successors.reverse()
       for s in successors :
-        print s
         if s[0] not in parent:
-          if wPrio: fringe.push(s[0],s[2])
-          else : fringe.push(s[0])
+          fringe.add(s[0],s[2])
           parent[s[0]] = (state, s[1])
   #search complete, enum the path from parents list
   path = []
@@ -109,11 +129,11 @@ def depthFirstSearch(problem):
   print "Is the start a goal?", problem.isGoalState(problem.getStartState())
   print "Start's successors:", problem.getSuccessors(problem.getStartState())
   """
-  return genericBlindSearch(problem, util.Stack())
+  return genericBlindSearch(problem, util.Stack)
 
 def breadthFirstSearch(problem):
   "Search the shallowest nodes in the search tree first. [p 81]"
-  return genericBlindSearch(problem, util.Queue())
+  return genericBlindSearch(problem, util.Queue)
 
 def uniformCostSearch(problem):
   "Search the node of least total cost first. "
@@ -135,7 +155,6 @@ def uniformCostSearch(problem):
       visited.append(state)
       successors = p.getSuccessors(state)
       for s in successors :
-        print s
         if s[0] not in parent:
           if wPrio: fringe.push(s[0],s[2])
           else : fringe.push(s[0])
