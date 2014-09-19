@@ -80,7 +80,7 @@ class Fringe:
     self.wPrio = wPrio
 
   def add(self, item, priority=0):
-    if(self.wPrio): self.fringe.push(item, prio)
+    if(self.wPrio): self.fringe.push(item, priority)
     else: self.fringe.push(item)
 
   def pop(self):
@@ -90,18 +90,21 @@ class Fringe:
     return self.fringe.isEmpty()
 
 class Record:
-  def __init__(self, id, state, parentId, action, val=0):
+  def __init__(self, id, state, parentId, action, 
+               stepcost=1, totalcost_g=1, estimate_h=0, val=0):
     self.id = id
     self.state = state
     self.parentId = parentId
     self.action = action
     self.val = val
+    self.stepcost = stepcost
+    self.g = totalcost_g
+    self.h = estimate_h
 
   def prints(self):
-    print self.id,":",self.state," | ",self.parentId," | ",self.action
+    print self.id,":",self.state," | ",self.parentId," | ",self.action," @ ", self.val
 
 def genericBlindSearch(problem, fringeType, wPrio=False, preserveOrder=False):
-
   p = problem #shorthand name
   fringe = Fringe(fringeType, wPrio)
   state = p.getStartState()
@@ -112,6 +115,7 @@ def genericBlindSearch(problem, fringeType, wPrio=False, preserveOrder=False):
   #search using the fringe
   while not fringe.isEmpty():
     state = fringe.pop()
+    print state
     if p.isGoalState(state): break
     if state not in visited :
       visited.append(state)
@@ -129,22 +133,33 @@ def genericBlindSearch(problem, fringeType, wPrio=False, preserveOrder=False):
   return path
 
 class Search:
-  Graph = False
-  Tree = True
+  """
+  This class implements search logic 
+  """
+  Graph = True
+  Tree = False
   
   @staticmethod
-  def generic(problem, isTree, fringeType, hasPrio=False, preserveOrder=False):
+  def generic(problem, isGraph, fringeType, hasPrio=False,
+              heuristic=None, 
+              preserveOrder=False):
     """
-    implements generic iterative search. Behavior can be tuned with parameters:
+    This function implements generic iterative search. Behavior can be tuned 
+    with parameters:
   
-    isTree is boolean switch to turn on tree search, otherwise a graph search will
+    isTree: boolean switch to turn on tree search, otherwise a graph search will
       execute. Graph search maintains a visited list
 
-    fringeType: e.g. util.Stack, Queue, PriorityQueue
+    fringeType: e.g. util.Stack, util.Queue, util.PriorityQueue
       fringeType shall expose push(), pop() and isEmpty() functions
       push may take one argument if hasPrio false, otherwise two, second being 
       the priority
-  
+    
+    hasPrio: boolean switch saying whether fringe bhavior depends on some 
+      priority function
+
+    preserveOrder: boolean switch, if on then successors are added to fringe 
+      preserving the order
     """
     p = problem #shorthand
     idx=1
@@ -152,24 +167,25 @@ class Search:
     fringe = Fringe(fringeType, hasPrio)
     fringe.add((idx,state),0)
     visited = []
-    records = {idx:Record(idx, state, 0, None,0)}
+    records = {idx:Record(idx, state, 0, None)}
     #search
     while not fringe.isEmpty():
-      isp = fringe.pop()
-      state = isp[1]
-      id = isp[0]
-      if p.isGoalState(state) : 
-        idx = id
-        break
-      if isTree or state not in visited :
-        if not isTree: visited.append(state)
+      isp = fringe.pop(); state = isp[1]; id = isp[0]
+      g = records[id].g
+      if p.isGoalState(state) : idx = id; break
+      if state not in visited :
+        if isGraph: visited.append(state);
         successors = p.getSuccessors(state)
         if preserveOrder: successors.reverse()
         for s in successors:
-          idx+=1
-          fringe.add((idx,s[0]),s[2])
-          records[idx] = Record(idx,s[0],id,s[1],s[2])
+          #print s
+          idx+=1; stt=s[0]; act=s[1]; cost=s[2];h=0; 
+          if heuristic!=None : h = g+ cost + heuristic(stt,p)
+          fringe.add((idx,stt),h)
+          records[idx] = Record(idx,stt,id,act,cost, g+cost,h)
     #search done, enum path
+    #for r in records:
+    #  records[r].prints()
     path = []
     while idx != 1 :
       path.insert(0,records[idx].action)
@@ -198,34 +214,7 @@ def breadthFirstSearch(problem):
 
 def uniformCostSearch(problem):
   "Search the node of least total cost first. "
-  "*** YOUR CODE HERE ***"
-  fringe = util.PriorityQueue()
-  wPrio = True
-  p = problem #shorthand name
-  state = p.getStartState()
-  #seeded with start state
-  if wPrio: fringe.push(state,0)
-  else: fringe.push(state)
-  visited = [] #marker to do graph search
-  parent = {state:()} #keep track of how each node is reached
-  #search using the fringe
-  while not fringe.isEmpty():
-    state = fringe.pop()
-    if p.isGoalState(state): break
-    if state not in visited :
-      visited.append(state)
-      successors = p.getSuccessors(state)
-      for s in successors :
-        if s[0] not in parent:
-          if wPrio: fringe.push(s[0],s[2])
-          else : fringe.push(s[0])
-          parent[s[0]] = (state, s[1])
-  #search complete, enum the path from parents list
-  path = []
-  while state != p.getStartState() :
-    path.insert(0,parent[state][1])
-    state = parent[state][0]
-  return path
+  return Search.generic(problem, Search.Graph, util.PriorityQueue, True)
 
 def nullHeuristic(state, problem=None):
   """
@@ -237,7 +226,7 @@ def nullHeuristic(state, problem=None):
 def aStarSearch(problem, heuristic=nullHeuristic):
   "Search the node that has the lowest combined cost and heuristic first."
   "*** YOUR CODE HERE ***"
-  util.raiseNotDefined()
+  return Search.generic(problem, Search.Tree, util.PriorityQueue, True, heuristic)
 
 
 # Abbreviations
