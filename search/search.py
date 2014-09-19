@@ -91,15 +91,15 @@ class Fringe:
 
 class Record:
   def __init__(self, id, state, parentId, action, 
-               stepcost=1, totalcost_g=1, estimate_h=0, val=0):
+               stepcost=1, g=1, h=0, val=0):
     self.id = id
     self.state = state
     self.parentId = parentId
     self.action = action
     self.val = val
     self.stepcost = stepcost
-    self.g = totalcost_g
-    self.h = estimate_h
+    self.g = g
+    self.h = h
 
   def prints(self):
     print self.id,":",self.state," | ",self.parentId," | ",self.action," @ ", self.val
@@ -110,50 +110,55 @@ class Search:
   """
   Graph = True
   Tree = False
+  Greedy = True
+  NotGreedy = False
   
   @staticmethod
   def generic(problem, isGraph, fringeType, hasPrio=False,
-              heuristic=None, 
+              heuristic=None, isGreedy = False, 
               preserveOrder=False):
     """
     This function implements generic iterative search. Behavior can be tuned 
     with parameters:
   
-    isTree: boolean switch to turn on tree search, otherwise a graph search will
-      execute. Graph search maintains a visited list
+    isGraph: boolean switch to turn on graph search, otherwise a tree search 
+      will be executed. Graph search maintains a list of visited nodes.
 
     fringeType: e.g. util.Stack, util.Queue, util.PriorityQueue
-      fringeType shall expose push(), pop() and isEmpty() functions
-      push may take one argument if hasPrio false, otherwise two, second being 
-      the priority
+      fringeType class shall expose push(), pop() and isEmpty() functions.
+      push may take one argument if hasPrio=false, otherwise two, second being 
+      the priority.
     
     hasPrio: boolean switch saying whether fringe bhavior depends on some 
       priority function
+
+    heuristic: a Heuristic function to estimate h()
+
+    isGreedy: if true then f(n)=h(n) otherwise f(n)=g(n)+h(n)
 
     preserveOrder: boolean switch, if on then successors are added to fringe 
       preserving the order
     """
     p = problem #shorthand
-    idx=1
-    state = p.getStartState()
-    fringe = Fringe(fringeType, hasPrio)
-    fringe.add((idx,state),0)
-    visited = []
-    records = {idx:Record(idx, state, 0, None)}
+    idx=1; state = p.getStartState() #start state
+    fringe = Fringe(fringeType, hasPrio); fringe.add((idx,state),0)
+    visited = {}
+    records = {idx:Record(idx, state, None, None)}
     #search
     while not fringe.isEmpty():
       isp = fringe.pop(); state = isp[1]; id = isp[0]
       g = records[id].g
       if p.isGoalState(state) : idx = id; break
       if state not in visited :
-        if isGraph: visited.append(state);
+        if isGraph: visited[state]=True;
         successors = p.getSuccessors(state)
         if preserveOrder: successors.reverse()
         for s in successors:
           #print s
           idx+=1; stt=s[0]; act=s[1]; cost=s[2];h=0; 
-          if heuristic!=None : h = g+ cost + heuristic(stt,p)
-          fringe.add((idx,stt),h)
+          if heuristic!=None : h = heuristic(stt,p)
+          f = h if isGreedy else g+cost+h
+          fringe.add((idx,stt),f)
           records[idx] = Record(idx,stt,id,act,cost, g+cost,h)
     #search done, enum path
     #for r in records:
@@ -197,8 +202,12 @@ def nullHeuristic(state, problem=None):
 
 def aStarSearch(problem, heuristic=nullHeuristic):
   "Search the node that has the lowest combined cost and heuristic first."
-  "*** YOUR CODE HERE ***"
-  return Search.generic(problem, Search.Tree, util.PriorityQueue, True, heuristic)
+  return Search.generic(problem, Search.Graph, util.PriorityQueue, True, heuristic)
+
+
+def greedyBestFirstSearch(problem, heuristic=nullHeuristic):
+  "Search the node that has the lowest combined cost and heuristic first."
+  return Search.generic(problem, Search.Graph, util.PriorityQueue, True, heuristic, Search.Greedy)
 
 
 # Abbreviations
@@ -206,3 +215,4 @@ bfs = breadthFirstSearch
 dfs = depthFirstSearch
 astar = aStarSearch
 ucs = uniformCostSearch
+greedy = greedyBestFirstSearch
