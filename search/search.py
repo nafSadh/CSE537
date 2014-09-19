@@ -89,21 +89,6 @@ class Fringe:
   def isEmpty(self):
     return self.fringe.isEmpty()
 
-class Record:
-  def __init__(self, id, state, parentId, action, 
-               stepcost=1, g=1, h=0, val=0):
-    self.id = id
-    self.state = state
-    self.parentId = parentId
-    self.action = action
-    self.val = val
-    self.stepcost = stepcost
-    self.g = g
-    self.h = h
-
-  def prints(self):
-    print self.id,":",self.state," | ",self.parentId," | ",self.action," @ ", self.val
-
 class Search:
   """
   This class implements search logic 
@@ -113,15 +98,36 @@ class Search:
   Greedy = True
   NotGreedy = False
   
+  class Record:
+    def __init__(self, id, state, parentId, action, 
+                 stepcost=1, g=1, h=0, val=0):
+      self.id = id
+      self.state = state
+      self.parentId = parentId
+      self.action = action
+      self.val = val
+      self.stepcost = stepcost
+      self.g = g
+      self.h = h
+
+    #def prints(self): print self.id,":",self.state," | ",self.parentId," | ",self.action," @ ", self.val
+
   @staticmethod
-  def generic(problem, isGraph, fringeType, hasPrio=False,
-              heuristic=None, isGreedy = False, 
+  def isAcyclicSuccessor(records, id, state):
+    while id!=1:
+      if state==records[id].state : return False
+      id = records[id].parentId
+    return True
+  
+  @staticmethod
+  def generic(problem, graphSearch, fringeType, hasPrio=False,
+              heuristic=None, greedy = False, 
               preserveOrder=False):
     """
     This function implements generic iterative search. Behavior can be tuned 
     with parameters:
   
-    isGraph: boolean switch to turn on graph search, otherwise a tree search 
+    graphSearch: boolean switch to turn on graph search, otherwise a tree search 
       will be executed. Graph search maintains a list of visited nodes.
 
     fringeType: e.g. util.Stack, util.Queue, util.PriorityQueue
@@ -134,7 +140,7 @@ class Search:
 
     heuristic: a Heuristic function to estimate h()
 
-    isGreedy: if true then f(n)=h(n) otherwise f(n)=g(n)+h(n)
+    greedy: if true then f(n)=h(n) otherwise f(n)=g(n)+h(n)
 
     preserveOrder: boolean switch, if on then successors are added to fringe 
       preserving the order
@@ -143,25 +149,26 @@ class Search:
     idx=1; state = p.getStartState() #start state
     fringe = Fringe(fringeType, hasPrio); fringe.add((idx,state),0)
     visited = {}
-    records = {idx:Record(idx, state, None, None)}
+    records = {idx:Search.Record(idx, state, None, None)}
     #search
     while not fringe.isEmpty():
       isp = fringe.pop(); state = isp[1]; id = isp[0]
       g = records[id].g
-      if p.isGoalState(state) : idx = id; break
-      if state not in visited :
-        if isGraph: visited[state]=True;
+      if p.isGoalState(state): idx = id; break
+      if state not in visited:
+        if graphSearch: visited[state]=True;
         successors = p.getSuccessors(state)
         if preserveOrder: successors.reverse()
         for s in successors:
           idx+=1; stt=s[0]; act=s[1]; cost=s[2];
-          h = heuristic(stt,p) if heuristic!=None else 0
-          f = h if isGreedy else g+cost+h
-          fringe.add((idx,stt),f)
-          records[idx] = Record(idx,stt,id,act,cost, g+cost,h)
+          if graphSearch or Search.isAcyclicSuccessor(records, id, stt):
+            h = 0 if heuristic==None else heuristic(stt,p)
+            f = h if greedy else g+cost+h
+            fringe.add((idx,stt),f)
+            records[idx] = Search.Record(idx,stt,id,act,cost, g+cost,h)
     #search done, enum path
     path = []
-    while idx != 1 :
+    while idx != 1:
       path.insert(0,records[idx].action)
       idx = records[idx].parentId
     return path
