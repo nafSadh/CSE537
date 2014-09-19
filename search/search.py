@@ -154,15 +154,12 @@ class Search:
         successors = p.getSuccessors(state)
         if preserveOrder: successors.reverse()
         for s in successors:
-          #print s
-          idx+=1; stt=s[0]; act=s[1]; cost=s[2];h=0; 
-          if heuristic!=None : h = heuristic(stt,p)
+          idx+=1; stt=s[0]; act=s[1]; cost=s[2];
+          h = heuristic(stt,p) if heuristic!=None else 0
           f = h if isGreedy else g+cost+h
           fringe.add((idx,stt),f)
           records[idx] = Record(idx,stt,id,act,cost, g+cost,h)
     #search done, enum path
-    #for r in records:
-    #  records[r].prints()
     path = []
     while idx != 1 :
       path.insert(0,records[idx].action)
