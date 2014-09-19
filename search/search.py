@@ -51,7 +51,8 @@ class SearchProblem:
      """
       actions: A list of actions to take
 
-     This method returns the total cost of a particular sequence of actions.  The sequence must
+     This method returns the total cost of a particular sequence of actions.  
+     The sequence must
      be composed of legal moves
      """
      util.raiseNotDefined()
@@ -100,10 +101,7 @@ class Record:
     print self.id,":",self.state," | ",self.parentId," | ",self.action
 
 def genericBlindSearch(problem, fringeType, wPrio=False, preserveOrder=False):
-  """
-  implements generic iterative blind search. Behavior can be tuned with 
-  fringeType, priority and cost functions of problem
-  """
+
   p = problem #shorthand name
   fringe = Fringe(fringeType, wPrio)
   state = p.getStartState()
@@ -130,39 +128,53 @@ def genericBlindSearch(problem, fringeType, wPrio=False, preserveOrder=False):
     state = parent[state][0]
   return path
 
+class Search:
+  Graph = False
+  Tree = True
+  
+  @staticmethod
+  def generic(problem, isTree, fringeType, hasPrio=False, preserveOrder=False):
+    """
+    implements generic iterative search. Behavior can be tuned with parameters:
+  
+    isTree is boolean switch to turn on tree search, otherwise a graph search will
+      execute. Graph search maintains a visited list
 
-def genericSearch(problem, fringeType, isTree,
-                  hasPrio=False, preserveOrder=False) :
-  p = problem #shorthand
-  idx=1
-  state = p.getStartState()
-  fringe = Fringe(fringeType, hasPrio)
-  fringe.add((idx,state),0)
-  visited = []
-  records = {idx:Record(idx, state, 0, None,0)}
-  #search
-  while not fringe.isEmpty():
-    isp = fringe.pop()
-    state = isp[1]
-    id = isp[0]
-    if p.isGoalState(state) : 
-      idx = id
-      break
-    if isTree or state not in visited :
-      if not isTree: visited.append(state)
-      successors = p.getSuccessors(state)
-      if preserveOrder: successors.reverse()
-      for s in successors:
-        idx+=1
-        fringe.add((idx,s[0]),s[2])
-        records[idx] = Record(idx,s[0],id,s[1],s[2])
-  #search done, enum path
-  path = []
-  print idx
-  while idx != 1 :
-    path.insert(0,records[idx].action)
-    idx = records[idx].parentId
-  return path
+    fringeType: e.g. util.Stack, Queue, PriorityQueue
+      fringeType shall expose push(), pop() and isEmpty() functions
+      push may take one argument if hasPrio false, otherwise two, second being 
+      the priority
+  
+    """
+    p = problem #shorthand
+    idx=1
+    state = p.getStartState()
+    fringe = Fringe(fringeType, hasPrio)
+    fringe.add((idx,state),0)
+    visited = []
+    records = {idx:Record(idx, state, 0, None,0)}
+    #search
+    while not fringe.isEmpty():
+      isp = fringe.pop()
+      state = isp[1]
+      id = isp[0]
+      if p.isGoalState(state) : 
+        idx = id
+        break
+      if isTree or state not in visited :
+        if not isTree: visited.append(state)
+        successors = p.getSuccessors(state)
+        if preserveOrder: successors.reverse()
+        for s in successors:
+          idx+=1
+          fringe.add((idx,s[0]),s[2])
+          records[idx] = Record(idx,s[0],id,s[1],s[2])
+    #search done, enum path
+    path = []
+    while idx != 1 :
+      path.insert(0,records[idx].action)
+      idx = records[idx].parentId
+    return path
 
 def depthFirstSearch(problem):
   """
@@ -178,11 +190,11 @@ def depthFirstSearch(problem):
   print "Is the start a goal?", problem.isGoalState(problem.getStartState())
   print "Start's successors:", problem.getSuccessors(problem.getStartState())
   """
-  return genericSearch(problem, util.Stack, False)
+  return Search.generic(problem, Search.Graph, util.Stack)
 
 def breadthFirstSearch(problem):
   "Search the shallowest nodes in the search tree first. [p 81]"
-  return genericSearch(problem, util.Queue, False)
+  return Search.generic(problem, Search.Graph, util.Queue)
 
 def uniformCostSearch(problem):
   "Search the node of least total cost first. "
