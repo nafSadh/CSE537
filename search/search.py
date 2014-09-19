@@ -104,34 +104,6 @@ class Record:
   def prints(self):
     print self.id,":",self.state," | ",self.parentId," | ",self.action," @ ", self.val
 
-def genericBlindSearch(problem, fringeType, wPrio=False, preserveOrder=False):
-  p = problem #shorthand name
-  fringe = Fringe(fringeType, wPrio)
-  state = p.getStartState()
-  #seeded with start state
-  fringe.add(state,0)
-  visited = [] #marker to do graph search
-  parent = {state:()} #keep track of how each node is reached
-  #search using the fringe
-  while not fringe.isEmpty():
-    state = fringe.pop()
-    print state
-    if p.isGoalState(state): break
-    if state not in visited :
-      visited.append(state)
-      successors = p.getSuccessors(state)
-      if preserveOrder : successors.reverse()
-      for s in successors :
-        if s[0] not in parent:
-          fringe.add(s[0],s[2])
-          parent[s[0]] = (state, s[1])
-  #search complete, enum the path from parents list
-  path = []
-  while state != p.getStartState() :
-    path.insert(0,parent[state][1])
-    state = parent[state][0]
-  return path
-
 class Search:
   """
   This class implements search logic 
