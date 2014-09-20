@@ -12,7 +12,17 @@ by Pacman agents (in searchAgents.py).
 """
 
 import util
+import sys
 
+class assertain:
+  def __init__(self, expression):
+    self.expression = expression
+  
+  def otherwise(self,message, abort=True):
+    if not self.expression:
+      print "ASSERTION:",message,"!"
+      if abort: sys.exit(1)
+  
 class SearchProblem:
   """
   This class outlines the structure of a search problem, but doesn't implement
@@ -168,6 +178,8 @@ class Search:
             fringe.add((idx,stt),f)
             records[idx] = Search.Record(idx,stt,id,act,cost, g+cost,h)
     #print "fringe:",fringe.isEmpty(), "Goal:",p.isGoalState(state)
+    assertain(p.isGoalState(state)).otherwise(
+      "Search failed: fringe emptied before reaching any goal state.")
     #search done, enum path
     #for r in records: records[r].prints()
     path = []
