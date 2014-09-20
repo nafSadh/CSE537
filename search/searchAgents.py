@@ -262,6 +262,8 @@ class CornersProblem(search.SearchProblem):
 
   You must select a suitable state space and successor function
   """
+  GoalBitmap = 0xF
+  InitBitmap = 0x0
 
   def __init__(self, startingGameState):
     """
@@ -275,25 +277,19 @@ class CornersProblem(search.SearchProblem):
       if not startingGameState.hasFood(*corner):
         print 'Warning: no food in corner ' + str(corner)
     self._expanded = 0 # Number of search nodes expanded
-    
-    "*** YOUR CODE HERE ***"
     # For display purposes
     self._visited, self._visitedlist, self._expanded = {}, [], 0
     
   def getStartState(self):
     "Returns the start state (in your state space, not the full Pacman state space)"
-    "*** YOUR CODE HERE ***"
-    x,y = self.startingPosition
-    return x,y,0
+    return self.startingPosition,self.InitBitmap
     
   def isGoalState(self, state):
     "Returns whether this search state is a goal state of the problem"
-    "*** YOUR CODE HERE ***"
-    #isGoal = state[2] and state[3] and state[4] and state[5] 
-    isGoal = (state[2] == 0xF)
+    isGoal = (state[1] == self.GoalBitmap)
     # For display purposes only
     if isGoal:
-      self._visitedlist.append((state[0],state[1]))
+      self._visitedlist.append(state[0])
       import __main__
       if '_display' in dir(__main__):
         if 'drawExpandedCells' in dir(__main__._display): #@UndefinedVariable
@@ -323,20 +319,13 @@ class CornersProblem(search.SearchProblem):
     N=Directions.NORTH; E=Directions.EAST; W=Directions.WEST; S=Directions.SOUTH
     for action in [N,W,S,E]:
       # Add a successor state to the successor list if the action is legal
-      # Here's a code snippet for figuring out whether a new position hits a wall:
-      #   x,y = currentPosition
-      x,y = state[0],state[1]
-      #   dx, dy = Actions.directionToVector(action)
+      x,y = state[0]
       dx, dy = Actions.directionToVector(action)
       nextx, nexty = int(x + dx), int(y + dy)
-      #   nextx, nexty = int(x + dx), int(y + dy)
-      #   hitsWall = self.walls[nextx][nexty]
       if not self.walls[nextx][nexty]:
-        cV = self.updateCornerVector(state[2],(x,y))
-        #if not cV[4]:
-        nextState = nextx,nexty,cV#[0],cV[1],cV[2],cV[3]
-        cost = 1
-        successors.append( ( nextState, action, cost) )
+        cV = self.updateCornerVector(state[1],(x,y))
+        nextState = (nextx,nexty),cV
+        successors.append( ( nextState, action, 1) )
       
     # Bookkeeping for display purposes
     self._expanded += 1 
@@ -374,16 +363,17 @@ def cornersHeuristic(state, problem):
   it should be admissible.  (You need not worry about consistency for
   this heuristic to receive full credit.)
   """
-  x,y,cV = state
-  if cV==0xF: return 0
+  pos,cV = state
+  if cV==CornersProblem.GoalBitmap: return 0
   cost = None
-  i=1;mini=0;mx=x;my=y
+  mini=0; minpos=pos #bitplace and coord of nearest unvisited corner
+  i=1 #bitplace iterator
   for c in problem.corners :
-    mhd= util.manhattanDistance(c,(x,y))
-    if not i&cV and (mhd<cost or cost==None): cost=mhd;mini=i;mx,my=c
+    mhd= util.manhattanDistance(c,pos)
+    if not i&cV and (mhd<cost or cost==None): cost=mhd;mini=i;minpos=c
     i*=2
-
-  return cost+cornersHeuristic((mx,my,cV|mini),problem);
+  #cost of nearest corner plus cost to visit rest
+  return cost+cornersHeuristic((minpos,cV|mini),problem);
 
 class AStarCornersAgent(SearchAgent):
   "A SearchAgent for FoodSearchProblem using A* and your foodHeuristic"
