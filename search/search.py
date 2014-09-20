@@ -149,12 +149,13 @@ class Search:
     idx=1; state = p.getStartState() #start state
     fringe = Fringe(fringeType, hasPrio); fringe.add((idx,state),0)
     visited = {}
-    records = {idx:Search.Record(idx, state, None, None)}
+    records = {idx:Search.Record(idx, state, 0, None, 0)}
     #search
     while not fringe.isEmpty():
       isp = fringe.pop(); state = isp[1]; id = isp[0]
       g = records[id].g
       if p.isGoalState(state): idx = id; break
+      #if state in visited : print "skip state",id,state
       if state not in visited:
         if graphSearch: visited[state]=True;
         successors = p.getSuccessors(state)
@@ -166,9 +167,11 @@ class Search:
             f = h if greedy else g+cost+h
             fringe.add((idx,stt),f)
             records[idx] = Search.Record(idx,stt,id,act,cost, g+cost,h)
+    #print "fringe:",fringe.isEmpty(), "Goal:",p.isGoalState(state)
     #search done, enum path
+    #for r in records: records[r].prints()
     path = []
-    while idx != 1:
+    while records[idx].parentId != 0:
       path.insert(0,records[idx].action)
       idx = records[idx].parentId
     return path
