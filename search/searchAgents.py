@@ -437,6 +437,19 @@ class AStarFoodSearchAgent(SearchAgent):
     self.searchFunction = lambda prob: search.aStarSearch(prob, foodHeuristic)
     self.searchType = FoodSearchProblem
 
+
+def allFoodMhDist(pos, foodList):
+  if len(foodList)==0: return 0
+  cost = 0; minPos = None
+  
+  for foodPos in foodList:
+    mhd = util.manhattanDistance(pos, foodPos)
+    if minPos==None or mhd<cost: cost=mhd;minPos=foodPos
+
+  foodList.remove(minPos)
+  return cost+allFoodMhDist(minPos,foodList)
+
+
 def foodHeuristic(state, problem):
   """
   Your heuristic for the FoodSearchProblem goes here.
@@ -463,8 +476,11 @@ def foodHeuristic(state, problem):
   Subsequent calls to this heuristic can access problem.heuristicInfo['wallCount']
   """
   position, foodGrid = state
-  "*** YOUR CODE HERE ***"
-  return 0
+  "*** YOUR CODE HERE ***"   
+  foodList = list(foodGrid.asList())
+  return allFoodMhDist(position, foodList)
+
+
   
 class ClosestDotSearchAgent(SearchAgent):
   "Search for all food using a sequence of searches"
