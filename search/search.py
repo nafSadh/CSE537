@@ -14,15 +14,17 @@ by Pacman agents (in searchAgents.py).
 import util
 import sys
 
+
 class assertain:
   def __init__(self, expression):
     self.expression = expression
   
-  def otherwise(self,message, abort=True):
+  def otherwise(self, message, abort=True):
     if not self.expression:
-      print "ASSERTION:",message,"!"
+      print "ASSERTION:", message, "!"
       if abort: sys.exit(1)
   
+
 class SearchProblem:
   """
   This class outlines the structure of a search problem, but doesn't implement
@@ -77,6 +79,7 @@ def tinyMazeSearch(problem):
   s = Directions.SOUTH
   w = Directions.WEST
   return  [s,s,w,s,w,w,s,w]
+
 
 class Fringe:
   """
@@ -162,7 +165,8 @@ class Search:
     records = {idx:Search.Record(idx, state, 0, None, 0)}
     #search
     while not fringe.isEmpty():
-      isp = fringe.pop(); state = isp[1]; id = isp[0]
+      #isp = fringe.pop(); state = isp[1]; id = isp[0]
+      id,state = fringe.pop()
       g = records[id].g
       if p.isGoalState(state): idx = id; break
       #if state in visited : print "skip state",id,state
