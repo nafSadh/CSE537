@@ -88,7 +88,10 @@ class Fringe:
   a boolean switch, withPriority denoting if the fringe structure is affected by
   priority values
   """
-  def __init__(self, fringeType, withPriority=False):
+  HAS_PRIORITY = True
+  NO_PRIORITY = False
+
+  def __init__(self, fringeType, withPriority=NO_PRIORITY):
     self.fringe = fringeType()
     self.withPriority = withPriority
 
@@ -107,14 +110,15 @@ class Search:
   """
   This class implements search logic 
   """
-  Graph = True
-  Tree = False
-  Greedy = True
-  NotGreedy = False
+  GRAPH = True
+  TREE = False
+  GREEDY = True
+  OPTIMAL = False
   
   class Record:
-    def __init__(self, id, state, parentId, action, stepCost=1, g=1, h=0, val=0):
-      self.id = id
+    def __init__(self, idx, state, parentId, action, 
+                 stepCost=1, g=1, h=0, val=0):
+      self.idx = idx
       self.state = state
       self.parentId = parentId
       self.action = action
@@ -134,20 +138,20 @@ class Search:
 
 
   @staticmethod
-  def generic(problem, graphSearch, fringeType, hasPriority=False,
-              heuristic=None, greedySearch = False,
+  def generic(problem, graphSearch, fringeType, hasPriority=Fringe.NO_PRIORITY,
+              heuristic=None, greedySearch = OPTIMAL,
               preserveOrder=False):
     """
     This function implements generic iterative search. Behavior can be tuned
     with parameters:
 
     graphSearch: boolean switch to turn on graph search, otherwise a tree search
-      will be executed. Graph search maintains a list of visited nodes.
+      will be executed. GRAPH search maintains a list of visited nodes.
 
     fringeType: e.g. util.Stack, util.Queue, util.PriorityQueue
       fringeType class shall expose push(), pop() and isEmpty() functions.
-      push may take one argument if hasPriority=false, otherwise two, second being
-      the priority.
+      push may take one argument if hasPriority=false, otherwise two, second 
+      being the priority.
 
     hasPriority: boolean switch saying whether fringe behavior depends on some
       priority function
@@ -208,16 +212,17 @@ def depthFirstSearch(problem):
   print "Is the start a goal?", problem.isGoalState(problem.getStartState())
   print "Start successors:", problem.getSuccessors(problem.getStartState())
   """
-  return Search.generic(problem, Search.Graph, util.Stack)
+  return Search.generic(problem, Search.GRAPH, util.Stack)
 
 
 def breadthFirstSearch(problem):
   """Search the shallowest nodes in the search tree first. [p 81]"""
-  return Search.generic(problem, Search.Graph, util.Queue)
+  return Search.generic(problem, Search.GRAPH, util.Queue)
 
 def uniformCostSearch(problem):
   """Search the node of least total cost first. """
-  return Search.generic(problem, Search.Graph, util.PriorityQueue, True)
+  return Search.generic(problem, Search.GRAPH, 
+                        util.PriorityQueue, Fringe.HAS_PRIORITY)
 
 def nullHeuristic(state, problem=None):
   """
@@ -228,12 +233,16 @@ def nullHeuristic(state, problem=None):
 
 def aStarSearch(problem, heuristic=nullHeuristic):
   """Search the node that has the lowest combined cost and heuristic first."""
-  return Search.generic(problem, Search.Graph, util.PriorityQueue, True, heuristic)
+  return Search.generic(problem, Search.GRAPH, 
+                        util.PriorityQueue, Fringe.HAS_PRIORITY,
+                        heuristic)
 
 
 def greedyBestFirstSearch(problem, heuristic=nullHeuristic):
   """Search the node that has the lowest combined cost and heuristic first."""
-  return Search.generic(problem, Search.Graph, util.PriorityQueue, True, heuristic, Search.Greedy)
+  return Search.generic(problem, Search.GRAPH, 
+                        util.PriorityQueue, Fringe.HAS_PRIORITY,
+                        heuristic, Search.GREEDY)
 
 
 # Abbreviations
