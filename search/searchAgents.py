@@ -489,17 +489,6 @@ def distanceNearestNext(position, points, distanceFn):
   points.remove(near)
   return dist+distanceNearestNext(near, points, distanceFn)
 
-def visitTargetsMhDist(pos, targets):
-  """visit the targets one by one from current position"""
-  if len(targets)==0: return 0
-  cost=0;near = None
-  #nearest amongst targets
-  for t in targets:
-    mhd = util.manhattanDistance(pos,t)
-    if near is None or mhd<cost: cost=mhd;near=t
-  #visit rest of the targets
-  targets.remove(near)
-  return cost+visitTargetsMhDist(near,targets)
 
 def quadrantExtremesDistance(position, points, distanceFn):
   """
