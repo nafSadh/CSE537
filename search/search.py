@@ -15,7 +15,7 @@ import util
 import sys
 
 
-class assertain:
+class Ascertain:
   def __init__(self, expression):
     self.expression = expression
   
@@ -85,15 +85,15 @@ class Fringe:
   """
   Fringe class wraps the fringe containers. The constructor takes a container
   class type (e.g. util.Stack, util.Queue, util.PriorityQueue) as argument, and
-  a boolean switch, wPrio denoting if the fringe structure is affected by
+  a boolean switch, withPriority denoting if the fringe structure is affected by
   priority values
   """
-  def __init__(self, fringeType, wPrio=False):
+  def __init__(self, fringeType, withPriority=False):
     self.fringe = fringeType()
-    self.wPrio = wPrio
+    self.withPriority = withPriority
 
   def add(self, item, priority=0):
-    if(self.wPrio): self.fringe.push(item, priority)
+    if self.withPriority: self.fringe.push(item, priority)
     else: self.fringe.push(item)
 
   def pop(self):
@@ -101,6 +101,7 @@ class Fringe:
 
   def isEmpty(self):
     return self.fringe.isEmpty()
+
 
 class Search:
   """
@@ -112,85 +113,86 @@ class Search:
   NotGreedy = False
   
   class Record:
-    def __init__(self, id, state, parentId, action, 
-                 stepcost=1, g=1, h=0, val=0):
+    def __init__(self, id, state, parentId, action, stepCost=1, g=1, h=0, val=0):
       self.id = id
       self.state = state
       self.parentId = parentId
       self.action = action
       self.val = val
-      self.stepcost = stepcost
+      self.stepCost = stepCost
       self.g = g
       self.h = h
 
-    #def prints(self): print self.id,":",self.state," | ",self.parentId," | ",self.action," @ ", self.val
 
   @staticmethod
-  def isAcyclicSuccessor(records, id, state):
-    while id!=1:
-      if state==records[id].state : return False
-      id = records[id].parentId
+  def isAcyclicSuccessor(records, idx, state):
+    assert isinstance(records, {})
+    while idx!=1:
+      if state==records[idx].state : return False
+      idx = records[idx].parentId
     return True
-  
+
+
   @staticmethod
-  def generic(problem, graphSearch, fringeType, hasPrio=False,
-              heuristic=None, greedy = False, 
+  def generic(problem, graphSearch, fringeType, hasPriority=False,
+              heuristic=None, greedySearch = False,
               preserveOrder=False):
     """
-    This function implements generic iterative search. Behavior can be tuned 
+    This function implements generic iterative search. Behavior can be tuned
     with parameters:
-  
-    graphSearch: boolean switch to turn on graph search, otherwise a tree search 
+
+    graphSearch: boolean switch to turn on graph search, otherwise a tree search
       will be executed. Graph search maintains a list of visited nodes.
 
     fringeType: e.g. util.Stack, util.Queue, util.PriorityQueue
       fringeType class shall expose push(), pop() and isEmpty() functions.
-      push may take one argument if hasPrio=false, otherwise two, second being 
+      push may take one argument if hasPriority=false, otherwise two, second being
       the priority.
-    
-    hasPrio: boolean switch saying whether fringe bhavior depends on some 
+
+    hasPriority: boolean switch saying whether fringe behavior depends on some
       priority function
 
     heuristic: a Heuristic function to estimate h()
 
-    greedy: if true then f(n)=h(n) otherwise f(n)=g(n)+h(n)
+    greedySearch: if true then f(n)=h(n) otherwise f(n)=g(n)+h(n)
 
-    preserveOrder: boolean switch, if on then successors are added to fringe 
+    preserveOrder: boolean switch, if on then successors are added to fringe
       preserving the order
     """
     p = problem #shorthand
-    idx=1; state = p.getStartState() #start state
-    fringe = Fringe(fringeType, hasPrio); fringe.add((idx,state),0)
+    i=1; state = p.getStartState() #start state
+    fringe = Fringe(fringeType, hasPriority); fringe.add((i,state),0)
     visited = {}
-    records = {idx:Search.Record(idx, state, 0, None, 0)}
+    records = {i:Search.Record(i, state, 0, None, 0,0)}
     #search
     while not fringe.isEmpty():
-      #isp = fringe.pop(); state = isp[1]; id = isp[0]
-      id,state = fringe.pop()
-      g = records[id].g
-      if p.isGoalState(state): idx = id; break
+      idx,state = fringe.pop()
+      g = records[idx].g
+      if p.isGoalState(state): i = idx; break
       #if state in visited : print "skip state",id,state
       if state not in visited:
         if graphSearch: visited[state]=True;
         successors = p.getSuccessors(state)
         if preserveOrder: successors.reverse()
         for s in successors:
-          idx+=1; stt=s[0]; act=s[1]; cost=s[2];
-          if graphSearch or Search.isAcyclicSuccessor(records, id, stt):
-            h = 0 if heuristic==None else heuristic(stt,p)
-            f = h if greedy else g+cost+h
-            fringe.add((idx,stt),f)
-            records[idx] = Search.Record(idx,stt,id,act,cost, g+cost,h)
+          i+=1; stt,act,cost=s
+          if graphSearch or Search.isAcyclicSuccessor(records, idx, stt):
+            h = 0 if heuristic is None else heuristic(stt,p)
+            f = h if greedySearch else g+cost+h
+            fringe.add((i,stt),f)
+            records[i] = Search.Record(i,stt,idx,act,cost, g+cost,h)
     #print "fringe:",fringe.isEmpty(), "Goal:",p.isGoalState(state)
-    assertain(p.isGoalState(state)).otherwise(
+    Ascertain(p.isGoalState(state)).otherwise(
       "Search failed: fringe emptied before reaching any goal state.")
     #search done, enum path
     #for r in records: records[r].prints()
     path = []
-    while records[idx].parentId != 0:
-      path.insert(0,records[idx].action)
-      idx = records[idx].parentId
+    while records[i].parentId != 0:
+      path.insert(0,records[i].action)
+      i = records[i].parentId
     return path
+
+
 
 def depthFirstSearch(problem):
   """
@@ -204,16 +206,17 @@ def depthFirstSearch(problem):
 
   print "Start:", problem.getStartState()
   print "Is the start a goal?", problem.isGoalState(problem.getStartState())
-  print "Start's successors:", problem.getSuccessors(problem.getStartState())
+  print "Start successors:", problem.getSuccessors(problem.getStartState())
   """
   return Search.generic(problem, Search.Graph, util.Stack)
 
+
 def breadthFirstSearch(problem):
-  "Search the shallowest nodes in the search tree first. [p 81]"
+  """Search the shallowest nodes in the search tree first. [p 81]"""
   return Search.generic(problem, Search.Graph, util.Queue)
 
 def uniformCostSearch(problem):
-  "Search the node of least total cost first. "
+  """Search the node of least total cost first. """
   return Search.generic(problem, Search.Graph, util.PriorityQueue, True)
 
 def nullHeuristic(state, problem=None):
@@ -224,12 +227,12 @@ def nullHeuristic(state, problem=None):
   return 0
 
 def aStarSearch(problem, heuristic=nullHeuristic):
-  "Search the node that has the lowest combined cost and heuristic first."
+  """Search the node that has the lowest combined cost and heuristic first."""
   return Search.generic(problem, Search.Graph, util.PriorityQueue, True, heuristic)
 
 
 def greedyBestFirstSearch(problem, heuristic=nullHeuristic):
-  "Search the node that has the lowest combined cost and heuristic first."
+  """Search the node that has the lowest combined cost and heuristic first."""
   return Search.generic(problem, Search.Graph, util.PriorityQueue, True, heuristic, Search.Greedy)
 
 

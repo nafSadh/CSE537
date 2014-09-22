@@ -36,6 +36,7 @@ import time
 import search
 import searchAgents
 
+
 class GoWestAgent(Agent):
   "An agent that goes West until it can't."
   
@@ -267,7 +268,7 @@ class CornersProblem(search.SearchProblem):
 
   def __init__(self, startingGameState):
     """
-    Stores the walls, pacman's starting position and corners.
+    Stores the walls, Pacman's starting position and corners.
     """
     self.walls = startingGameState.getWalls()
     self.startingPosition = startingGameState.getPacmanPosition()
@@ -281,11 +282,11 @@ class CornersProblem(search.SearchProblem):
     self._visited, self._visitedlist, self._expanded = {}, [], 0
     
   def getStartState(self):
-    "Returns the start state (in your state space, not the full Pacman state space)"
+    """Returns the start state (in your state space, not the full Pacman state space)"""
     return self.startingPosition,self.InitBitmap
     
   def isGoalState(self, state):
-    "Returns whether this search state is a goal state of the problem"
+    """Returns whether this search state is a goal state of the problem"""
     isGoal = (state[1] == self.GoalBitmap)
     # For display purposes only
     if isGoal:
@@ -366,17 +367,17 @@ def cornersHeuristic(state, problem):
   pos,cV = state
   if cV==CornersProblem.GoalBitmap: return 0
   cost = None
-  mini=0; minpos=pos #bitplace and coord of nearest unvisited corner
+  mini=0; minPos=pos #bitplace and coord of nearest unvisited corner
   i=1 #bitplace iterator
   for c in problem.corners :
     mhd= util.manhattanDistance(c,pos)
-    if not i&cV and (mhd<cost or cost==None): cost=mhd;mini=i;minpos=c
+    if not i&cV and (mhd<cost or cost is None): cost=mhd;mini=i;minPos=c
     i*=2
   #cost of nearest corner plus cost to visit rest
-  return cost+cornersHeuristic((minpos,cV|mini),problem);
+  return cost+cornersHeuristic((minPos,cV|mini),problem);
 
 class AStarCornersAgent(SearchAgent):
-  "A SearchAgent for FoodSearchProblem using A* and your foodHeuristic"
+  """A SearchAgent for FoodSearchProblem using A* and your foodHeuristic"""
   def __init__(self):
     self.searchFunction = lambda prob: search.aStarSearch(prob, cornersHeuristic)
     self.searchType = CornersProblem
@@ -444,7 +445,7 @@ def allFoodMhDist(pos, foodList):
   
   for foodPos in foodList:
     mhd = util.manhattanDistance(pos, foodPos)
-    if minPos==None or mhd<cost: cost=mhd;minPos=foodPos
+    if minPos is None or mhd<cost: cost=mhd;minPos=foodPos
 
   foodList.remove(minPos)
   return cost+allFoodMhDist(minPos,foodList)
