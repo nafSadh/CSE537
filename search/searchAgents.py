@@ -439,17 +439,68 @@ class AStarFoodSearchAgent(SearchAgent):
     self.searchType = FoodSearchProblem
 
 
+
 def allFoodMhDist(pos, foodList):
+  """WARNING: this do not yield an admissible heuristic"""
   if len(foodList)==0: return 0
   cost = 0; minPos = None
-  
+  #nearest food
   for foodPos in foodList:
     mhd = util.manhattanDistance(pos, foodPos)
     if minPos is None or mhd<cost: cost=mhd;minPos=foodPos
-
+  #visit rest of the foods greedily
   foodList.remove(minPos)
   return cost+allFoodMhDist(minPos,foodList)
 
+def visitTargetsMhDist(pos, targets):
+  """visit the targets one by one from current position"""
+  if len(targets)==0: return 0
+  cost=0;near = None
+  #nearest amongst targets
+  for t in targets:
+    mhd = util.manhattanDistance(pos,t)
+    if near is None or mhd<cost: cost=mhd;near=t
+  #visit rest of the targets
+  targets.remove(near)
+  return cost+visitTargetsMhDist(near,targets)
+
+def quadrantsFoodMhDist(pos, foodList):
+  """
+  partition the board in four quadrants wrt pos
+  find the farthest food in each quadrant to enum extreme points of foods
+  estimate cost for visiting all extremes
+  """
+  if len(foodList)==0: return 0
+  x,y=pos
+  cost=[0, 0, 0, 0]
+  posn=[None, None, None, None]
+  #find farthest food in each quadrant of the grid
+  for foodPos in foodList:
+    mhd = util.manhattanDistance(foodPos, pos)
+    if mhd>0:
+      fx,fy=foodPos
+      if   fx>=x and fy>=y:
+        if cost[0]<mhd: cost[0]=mhd ; posn[0]=foodPos
+      elif fx< x and fy>=y:
+        if cost[1]<mhd: cost[1]=mhd ; posn[1]=foodPos
+      elif fx< x and fy< y: 
+        if cost[2]<mhd: cost[2]=mhd ; posn[2]=foodPos
+      elif fx>=x and fy< y: 
+        if cost[3]<mhd: cost[3]=mhd ; posn[3]=foodPos
+  #list those extremes
+  extremes=[]
+  touchcost=0
+  i=0
+  for c in cost:
+    if c>0: 
+      extremes.append(posn[i])
+      x,y=posn[i]
+      nbors = [(x+1,y),(x,y+1),(x-1,y),(x,y-1)]
+      b3 = [val for val in foodList if val in nbors]
+      if len(b3)>1: touchcost+=(len(b3)-1)
+    i+=1
+  #visit extremes one by one  
+  return visitTargetsMhDist(pos, extremes)+touchcost
 
 def foodHeuristic(state, problem):
   """
@@ -479,9 +530,10 @@ def foodHeuristic(state, problem):
   position, foodGrid = state
   "*** YOUR CODE HERE ***"   
   foodList = list(foodGrid.asList())
-  return allFoodMhDist(position, foodList)
+  return quadrantsFoodMhDist(position, foodList)
 
-
+def greedyFoodHeuristic(state, problem):
+  return state[1].count()
   
 class ClosestDotSearchAgent(SearchAgent):
   "Search for all food using a sequence of searches"
