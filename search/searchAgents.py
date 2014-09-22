@@ -438,70 +438,6 @@ class AStarFoodSearchAgent(SearchAgent):
     self.searchFunction = lambda prob: search.aStarSearch(prob, foodHeuristic)
     self.searchType = FoodSearchProblem
 
-
-
-def allFoodMhDist(pos, foodList):
-  """WARNING: this do not yield an admissible heuristic"""
-  if len(foodList)==0: return 0
-  cost = 0; minPos = None
-  #nearest food
-  for foodPos in foodList:
-    mhd = util.manhattanDistance(pos, foodPos)
-    if minPos is None or mhd<cost: cost=mhd;minPos=foodPos
-  #visit rest of the foods greedily
-  foodList.remove(minPos)
-  return cost+allFoodMhDist(minPos,foodList)
-
-def visitTargetsMhDist(pos, targets):
-  """visit the targets one by one from current position"""
-  if len(targets)==0: return 0
-  cost=0;near = None
-  #nearest amongst targets
-  for t in targets:
-    mhd = util.manhattanDistance(pos,t)
-    if near is None or mhd<cost: cost=mhd;near=t
-  #visit rest of the targets
-  targets.remove(near)
-  return cost+visitTargetsMhDist(near,targets)
-
-def quadrantsFoodMhDist(pos, foodList):
-  """
-  partition the board in four quadrants wrt pos
-  find the farthest food in each quadrant to enum extreme points of foods
-  estimate cost for visiting all extremes
-  """
-  if len(foodList)==0: return 0
-  x,y=pos
-  cost=[0, 0, 0, 0]
-  posn=[None, None, None, None]
-  #find farthest food in each quadrant of the grid
-  for foodPos in foodList:
-    mhd = util.manhattanDistance(foodPos, pos)
-    if mhd>0:
-      fx,fy=foodPos
-      if   fx>=x and fy>=y:
-        if cost[0]<mhd: cost[0]=mhd ; posn[0]=foodPos
-      elif fx< x and fy>=y:
-        if cost[1]<mhd: cost[1]=mhd ; posn[1]=foodPos
-      elif fx< x and fy< y: 
-        if cost[2]<mhd: cost[2]=mhd ; posn[2]=foodPos
-      elif fx>=x and fy< y: 
-        if cost[3]<mhd: cost[3]=mhd ; posn[3]=foodPos
-  #list those extremes
-  extremes=[]
-  touchcost=0
-  i=0
-  for c in cost:
-    if c>0: 
-      extremes.append(posn[i])
-      x,y=posn[i]
-      nbors = [(x+1,y),(x,y+1),(x-1,y),(x,y-1)]
-      b3 = [val for val in foodList if val in nbors]
-      if len(b3)>1: touchcost+=(len(b3)-1)
-    i+=1
-  #visit extremes one by one  
-  return visitTargetsMhDist(pos, extremes)+touchcost
-
 def foodHeuristic(state, problem):
   """
   Your heuristic for the FoodSearchProblem goes here.
@@ -528,12 +464,125 @@ def foodHeuristic(state, problem):
   Subsequent calls to this heuristic can access problem.heuristicInfo['wallCount']
   """
   position, foodGrid = state
-  "*** YOUR CODE HERE ***"   
   foodList = list(foodGrid.asList())
-  return quadrantsFoodMhDist(position, foodList)
+  return max(#farthestFoodMhDist(position,foodList),
+             #quadrantExtremesDistance(position, foodList, util.manhattanDistance),
+             #convexArchMhDist(position, foodList),
+             convexHullDistance(position,foodList, util.manhattanDistance),
+             #len(foodList),
+             0
+             )
+
+# ****************************************** #
+# various FoodHeuristic and helper functions #
+# ****************************************** #
+
+def distanceNearestNext(position, points, distanceFn):
+  """WARNING: directly using this do not yield an admissible heuristic"""
+  if len(points)==0: return 0
+  dist = 0; near = None
+  #find nearest food
+  for point in points:
+    d = distanceFn(position, point)
+    if near is None or d<dist: dist=d;near=point
+  #visit rest of the foods greedily
+  points.remove(near)
+  return dist+distanceNearestNext(near, points, distanceFn)
+
+def visitTargetsMhDist(pos, targets):
+  """visit the targets one by one from current position"""
+  if len(targets)==0: return 0
+  cost=0;near = None
+  #nearest amongst targets
+  for t in targets:
+    mhd = util.manhattanDistance(pos,t)
+    if near is None or mhd<cost: cost=mhd;near=t
+  #visit rest of the targets
+  targets.remove(near)
+  return cost+visitTargetsMhDist(near,targets)
+
+def quadrantExtremesDistance(position, points, distanceFn):
+  """
+  partition the board in four quadrants wrt position
+  find the farthest food in each quadrant to enum extreme points of foods
+  estimate cost for visiting all extremes
+  """
+  if len(points)==0: return 0
+  x,y=position
+  quadDist=[0, 0, 0, 0]
+  quadPoint=[None, None, None, None]
+  #find farthest food in each quadrant of the grid
+  for point in points:
+    d = distanceFn(point, position)
+    if d>0:
+      fx,fy=point
+      if   fx>=x and fy>=y:
+        if quadDist[0]<d: quadDist[0]=d ; quadPoint[0]=point
+      elif fx< x and fy>=y:
+        if quadDist[1]<d: quadDist[1]=d ; quadPoint[1]=point
+      elif fx< x and fy< y: 
+        if quadDist[2]<d: quadDist[2]=d ; quadPoint[2]=point
+      elif fx>=x and fy< y: 
+        if quadDist[3]<d: quadDist[3]=d ; quadPoint[3]=point
+  #list those extremes
+  extremes=[]
+  i=0
+  for d in quadDist:
+    if d>0: extremes.append(quadPoint[i])
+    i+=1
+  #visit extremes one by one 
+  return distanceNearestNext(position, extremes, distanceFn)
+
+def convexArchMhDist(pos, foodList):
+  foodHull = convex_hull(foodList)
+  if len(foodHull)==0: return 0
+  peri = 0
+  max = 0
+  near = None
+  afood = foodHull[0]
+  for p in foodHull:
+    mhd = util.manhattanDistance(p, afood)
+    peri+=mhd
+    if mhd>max : max = mhd
+    mhdLoc = util.manhattanDistance(pos,p)
+    if near is None or mhdLoc<near : near = mhdLoc
+    afood = p
+  return peri-max+near
+
+def convexHullDistance(position, points, distanceFn):
+  return distanceNearestNext(position, convex_hull(points), distanceFn)
+
+def farthestFoodMhDist(pos, foodList):
+  farthest = 0
+  for foodPos in foodList:
+    farthest = max(farthest,util.manhattanDistance(pos,foodPos))
+  return farthest
 
 def greedyFoodHeuristic(state, problem):
   return state[1].count()
+
+# Graham Scan - Tom Switzer <thomas.switzer@gmail.com>
+# ref: http://tomswitzer.net/2010/03/graham-scan/
+TURN_LEFT, TURN_RIGHT, TURN_NONE = (1, -1, 0)
+ 
+def turn(p, q, r):
+    return cmp((q[0] - p[0])*(r[1] - p[1]) - (r[0] - p[0])*(q[1] - p[1]), 0)
+ 
+def _keep_left(hull, r):
+    while len(hull) > 1 and turn(hull[-2], hull[-1], r) != TURN_LEFT:
+            hull.pop()
+    if not len(hull) or hull[-1] != r:
+        hull.append(r)
+    return hull
+ 
+def convex_hull(points):
+    """Returns points on convex hull of an array of points in CCW order."""
+    points = sorted(points)
+    l = reduce(_keep_left, points, [])
+    u = reduce(_keep_left, reversed(points), [])
+    return l.extend(u[i] for i in xrange(1, len(u) - 1)) or l
+
+#end Graham Scan
   
 class ClosestDotSearchAgent(SearchAgent):
   "Search for all food using a sequence of searches"
