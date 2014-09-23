@@ -136,9 +136,10 @@ class Search:
       idx = records[idx].parentId
     return True
 
+  def __init__(self, problem):
+    self.problem = problem
 
-  @staticmethod
-  def generic(problem, graphSearch, fringeType, hasPriority=Fringe.NO_PRIORITY,
+  def generic(self, graphSearch, fringeType, hasPriority=Fringe.NO_PRIORITY,
               heuristic=None, greedySearch = OPTIMAL,
               preserveOrder=False):
     """
@@ -163,14 +164,14 @@ class Search:
     preserveOrder: boolean switch, if on then successors are added to fringe
       preserving the order
     """
-    p = problem #shorthand
-    i=1; state = p.getStartState() #start state
+    p = self.problem #shorthand
+    i, state = 1, p.getStartState() #start state
     fringe = Fringe(fringeType, hasPriority); fringe.add((i,state),0)
     visited = {}
     records = {i:Search.Record(i, state, 0, None, 0,0)}
     #search
     while not fringe.isEmpty():
-      idx,state = fringe.pop()
+      idx, state = fringe.pop()
       g = records[idx].g
       if p.isGoalState(state): i = idx; break
       #if state in visited : print "skip state",id,state
@@ -197,7 +198,6 @@ class Search:
     return path
 
 
-
 def depthFirstSearch(problem):
   """
   Search the deepest nodes in the search tree first [p 85].
@@ -212,17 +212,17 @@ def depthFirstSearch(problem):
   print "Is the start a goal?", problem.isGoalState(problem.getStartState())
   print "Start successors:", problem.getSuccessors(problem.getStartState())
   """
-  return Search.generic(problem, Search.GRAPH, util.Stack)
+  return Search(problem).generic(Search.GRAPH, util.Stack)
 
 
 def breadthFirstSearch(problem):
   """Search the shallowest nodes in the search tree first. [p 81]"""
-  return Search.generic(problem, Search.GRAPH, util.Queue)
+  return Search(problem).generic(Search.GRAPH, util.Queue)
 
 def uniformCostSearch(problem):
   """Search the node of least total cost first. """
-  return Search.generic(problem, Search.GRAPH, 
-                        util.PriorityQueue, Fringe.HAS_PRIORITY)
+  return Search(problem).generic(
+    Search.GRAPH, util.PriorityQueue, Fringe.HAS_PRIORITY)
 
 def nullHeuristic(state, problem=None):
   """
@@ -233,16 +233,14 @@ def nullHeuristic(state, problem=None):
 
 def aStarSearch(problem, heuristic=nullHeuristic):
   """Search the node that has the lowest combined cost and heuristic first."""
-  return Search.generic(problem, Search.GRAPH, 
-                        util.PriorityQueue, Fringe.HAS_PRIORITY,
-                        heuristic)
+  return Search(problem).generic(
+    Search.GRAPH, util.PriorityQueue, Fringe.HAS_PRIORITY,heuristic)
 
 
 def greedyBestFirstSearch(problem, heuristic=nullHeuristic):
   """Search the node that has the lowest combined cost and heuristic first."""
-  return Search.generic(problem, Search.GRAPH, 
-                        util.PriorityQueue, Fringe.HAS_PRIORITY,
-                        heuristic, Search.GREEDY)
+  return Search(problem).generic(
+    Search.GRAPH, util.PriorityQueue, Fringe.HAS_PRIORITY, heuristic, Search.GREEDY)
 
 
 # Abbreviations
