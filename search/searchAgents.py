@@ -465,9 +465,9 @@ def foodHeuristic(state, problem):
   """
   position, foodGrid = state
   foodList = list(foodGrid.asList())
-  return max(#farthestFoodMhDist(position,foodList),
-             #quadrantExtremesDistance(position, foodList, util.manhattanDistance),
-             #convexArchMhDist(position, foodList),
+  return max(#farthestPointDistance(position,foodList),
+             quadrantExtremesDistance(position, foodList, util.manhattanDistance),
+             #convexArchLenPlusDistance(position, foodList, util.manhattanDistance),
              convexHullDistance(position,foodList, util.manhattanDistance),
              #len(foodList),
              0
@@ -478,77 +478,137 @@ def foodHeuristic(state, problem):
 # ****************************************** #
 
 def distanceNearestNext(position, points, distanceFn):
-  """WARNING: directly using this do not yield an admissible heuristic"""
+  """
+  estimated cost to visit each points greedily
+  visit nearest amongst points of interest, update position and visit next
+
+  WARNING: directly using this do not yield an admissible heuristic
+  an admissible estimate can be found by passing specially chosen set of points
+
+  :param position: current position on grid
+  :param points: a list of points of special interest
+  :param distanceFn: a distance function returning distance between two points
+  :return: estimated total distance
+  """
   if len(points)==0: return 0
-  dist = 0; near = None
+  dist, near = 0, None
   #find nearest food
   for point in points:
     d = distanceFn(position, point)
-    if near is None or d<dist: dist=d;near=point
+    if near is None or d<dist: dist, near = d, point
   #visit rest of the foods greedily
   points.remove(near)
   return dist+distanceNearestNext(near, points, distanceFn)
 
-
 def quadrantExtremesDistance(position, points, distanceFn):
   """
   partition the board in four quadrants wrt position
-  find the farthest food in each quadrant to enum extreme points of foods
-  estimate cost for visiting all extremes
+  find the farthest point in each quadrant to find extreme points of interest
+  cost for visiting extreme points only - this is an lower bound estimate of
+  real cost
+
+  :param position: current position on grid
+  :param points: points on the grid to visit
+  :param distanceFn: a distance function returning distance between two points
+  :return: estimated total distance
   """
   if len(points)==0: return 0
   x,y=position
-  quadDist=[0, 0, 0, 0]
-  quadPoint=[None, None, None, None]
-  #find farthest food in each quadrant of the grid
+  quadDist, quadPoint =[0, 0, 0, 0], [None, None, None, None]
+  #find farthest point in each quadrant of the grid
   for point in points:
     d = distanceFn(point, position)
     if d>0:
       fx,fy=point
       if   fx>=x and fy>=y:
-        if quadDist[0]<d: quadDist[0]=d ; quadPoint[0]=point
+        if quadDist[0]<d: quadDist[0],quadPoint[0] = d, point
       elif fx< x and fy>=y:
-        if quadDist[1]<d: quadDist[1]=d ; quadPoint[1]=point
+        if quadDist[1]<d: quadDist[1],quadPoint[1] = d, point
       elif fx< x and fy< y: 
-        if quadDist[2]<d: quadDist[2]=d ; quadPoint[2]=point
+        if quadDist[2]<d: quadDist[2],quadPoint[2] = d, point
       elif fx>=x and fy< y: 
-        if quadDist[3]<d: quadDist[3]=d ; quadPoint[3]=point
+        if quadDist[3]<d: quadDist[3],quadPoint[3] = d, point
   #list those extremes
-  extremes=[]
-  i=0
+  extremes, i = [], 0
   for d in quadDist:
     if d>0: extremes.append(quadPoint[i])
     i+=1
   #visit extremes one by one 
   return distanceNearestNext(position, extremes, distanceFn)
 
-def convexArchMhDist(pos, foodList):
-  foodHull = convex_hull(foodList)
-  if len(foodHull)==0: return 0
-  peri = 0
-  max = 0
-  near = None
-  afood = foodHull[0]
-  for p in foodHull:
-    mhd = util.manhattanDistance(p, afood)
-    peri+=mhd
-    if mhd>max : max = mhd
-    mhdLoc = util.manhattanDistance(pos,p)
-    if near is None or mhdLoc<near : near = mhdLoc
-    afood = p
-  return peri-max+near
+def convexArchLenPlusDistance(position, points, distanceFn):
+  """
+  Find the convex hull of points and take the convex arch by removing the
+  largest arm from the hull. Also add distance of this arch from the position.
+  This is a lower bound of actual cost.
+
+  :param position: current position on grid
+  :param points: points on the grid to visit
+  :param distanceFn: a distance function returning distance between two points
+  :return: estimated total distance
+  """
+  pointsOnHull = convex_hull(points)
+  if len(pointsOnHull)==0: return 0
+  perimeter, largeArm, hullDist = 0, 0, None
+  p0 = pointsOnHull[-1]
+  for p in pointsOnHull:
+    arm = distanceFn(p, p0)
+    perimeter+=arm
+    if arm>largeArm : largeArm = arm
+    d = distanceFn(position,p)
+    if hullDist is None or d<hullDist : hullDist = d
+    p0 = p
+  return perimeter-largeArm+hullDist
 
 def convexHullDistance(position, points, distanceFn):
+  """
+  Find the convex hull of points. Then visit each points on the hull from
+  current position.
+  This is a lower bound of actual cost.
+
+  :param position: current position on grid
+  :param points: points on the grid to visit
+  :param distanceFn: a distance function returning distance between two points
+  :return: estimated total distance
+  """
   return distanceNearestNext(position, convex_hull(points), distanceFn)
 
-def farthestFoodMhDist(pos, foodList):
+def farthestPointDistance(position, points, distanceFn):
+  """
+  distance to farthest point
+
+  :param position: current position on grid
+  :param points: points on the grid to visit
+  :param distanceFn: a distance function returning distance between two points
+  :return: distance to farthest point
+  """
   farthest = 0
-  for foodPos in foodList:
-    farthest = max(farthest,util.manhattanDistance(pos,foodPos))
+  for point in points:
+    farthest = max(farthest,distanceFn(position,point))
   return farthest
 
-def greedyFoodHeuristic(state, problem):
+def pointsLeft(points):
+  return len(points)
+
+def singleHeuristicStub(state,problem, heuristicMeasure):
+  position, foodGrid = state
+  foodList = list(foodGrid.asList())
+  return heuristicMeasure(position, foodList, util.manhattanDistance)
+
+def quadrantsExtremeHeuristic(state, problem):
+  return singleHeuristicStub(state, problem, quadrantExtremesDistance)
+
+def convexHullHeuristic(state, problem):
+  return singleHeuristicStub(state,problem, convexHullDistance)
+
+def convexArchLenPlusHeuristic(state, problem):
+  return singleHeuristicStub(state, problem, convexArchLenPlusDistance)
+
+def pointsLeftHeuristic(state, problem):
   return state[1].count()
+
+def farthestPointHeuristic(state, problem):
+  return singleHeuristicStub(state, problem, farthestPointDistance)
 
 # Graham Scan - Tom Switzer <thomas.switzer@gmail.com>
 # ref: http://tomswitzer.net/2010/03/graham-scan/
@@ -563,7 +623,7 @@ def _keep_left(hull, r):
     if not len(hull) or hull[-1] != r:
         hull.append(r)
     return hull
- 
+
 def convex_hull(points):
     """Returns points on convex hull of an array of points in CCW order."""
     points = sorted(points)
@@ -572,6 +632,18 @@ def convex_hull(points):
     return l.extend(u[i] for i in xrange(1, len(u) - 1)) or l
 
 #end Graham Scan
+
+# stored convex hull
+hullDict = {}
+hullHit,hullMiss=0,0
+def convexHull(points):
+  pointsTuple = tuple(points)
+  if pointsTuple in hullDict: searchAgents.hullHit+=1; return hullDict[pointsTuple]
+  hull = convex_hull(points)
+  hullDict[pointsTuple] = hull
+  searchAgents.hullMiss+=1
+  return hull
+
   
 class ClosestDotSearchAgent(SearchAgent):
   "Search for all food using a sequence of searches"
