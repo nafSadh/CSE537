@@ -341,7 +341,7 @@ class CornersProblem(search.SearchProblem):
     Returns the cost of a particular sequence of actions.  If those actions
     include an illegal move, return 999999.  This is implemented for you.
     """
-    if actions == None: return 999999
+    if actions is None: return 999999
     x,y= self.startingPosition
     for action in actions:
       dx, dy = Actions.directionToVector(action)
@@ -367,14 +367,14 @@ def cornersHeuristic(state, problem):
   pos,cV = state
   if cV==CornersProblem.GoalBitmap: return 0
   cost = None
-  mini=0; minPos=pos #bitplace and coord of nearest unvisited corner
+  mini, minPos= 0, pos #bitplace and coord of nearest unvisited corner
   i=1 #bitplace iterator
   for c in problem.corners :
     mhd= util.manhattanDistance(c,pos)
-    if not i&cV and (mhd<cost or cost is None): cost=mhd;mini=i;minPos=c
+    if not i&cV and (mhd<cost or cost is None): cost, mini, minPos = mhd, i, c
     i*=2
   #cost of nearest corner plus cost to visit rest
-  return cost+cornersHeuristic((minPos,cV|mini),problem);
+  return cost+cornersHeuristic((minPos,cV|mini),problem)
 
 class AStarCornersAgent(SearchAgent):
   """A SearchAgent for FoodSearchProblem using A* and your foodHeuristic"""
@@ -466,7 +466,7 @@ def foodHeuristic(state, problem):
   position, foodGrid = state
   foodList = list(foodGrid.asList())
   return max(#farthestPointDistance(position,foodList),
-             quadrantExtremesDistance(position, foodList, util.manhattanDistance),
+             #quadrantExtremesDistance(position, foodList, util.manhattanDistance),
              #convexArchLenPlusDistance(position, foodList, util.manhattanDistance),
              convexHullDistance(position,foodList, util.manhattanDistance),
              #len(foodList),
@@ -610,7 +610,8 @@ def pointsLeftHeuristic(state, problem):
 def farthestPointHeuristic(state, problem):
   return singleHeuristicStub(state, problem, farthestPointDistance)
 
-# Graham Scan - Tom Switzer <thomas.switzer@gmail.com>
+# Graham Scan
+# author: Tom Switzer <thomas.switzer@gmail.com>
 # ref: http://tomswitzer.net/2010/03/graham-scan/
 TURN_LEFT, TURN_RIGHT, TURN_NONE = (1, -1, 0)
  
