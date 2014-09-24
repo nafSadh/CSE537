@@ -465,11 +465,11 @@ def foodHeuristic(state, problem):
   """
   position, foodGrid = state
   foodList = list(foodGrid.asList())
-  return max(#farthestPointDistance(position,foodList),
-             #quadrantExtremesDistance(position, foodList, util.manhattanDistance),
-             #convexArchLenPlusDistance(position, foodList, util.manhattanDistance),
-             convexHullDistance(position,foodList, util.manhattanDistance),
-             #len(foodList),
+  return max(#farthestPointDistance(position,foodList,util.manhattanDistance),
+             quadrantExtremesDistance(position, foodList, util.manhattanDistance),
+             convexArchLenPlusDistance(position, foodList, util.manhattanDistance),
+             #convexHullDistance(position,foodList, util.manhattanDistance),
+             #pointsLeft(foodList),
              0
              )
 
@@ -564,7 +564,7 @@ def convexHullDistance(position, points, distanceFn):
   """
   Find the convex hull of points. Then visit each points on the hull from
   current position.
-  This is a lower bound of actual cost.
+  This is a lower bound estimate of actual cost.
 
   :param position: current position on grid
   :param points: points on the grid to visit
