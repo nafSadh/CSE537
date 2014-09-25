@@ -324,8 +324,8 @@ class CornersProblem(search.SearchProblem):
       dx, dy = Actions.directionToVector(action)
       nextx, nexty = int(x + dx), int(y + dy)
       if not self.walls[nextx][nexty]:
-        cV = self.updateCornerVector(state[1],(x,y))
-        nextState = (nextx,nexty),cV
+        cornersVisited = self.updateCornerVector(state[1],(x,y))
+        nextState = (nextx,nexty),cornersVisited
         successors.append( ( nextState, action, 1) )
       
     # Bookkeeping for display purposes
