@@ -326,7 +326,7 @@ class CornersProblem(search.SearchProblem):
       if not self.walls[nextx][nexty]:
         cornersVisited = self.updateCornerVector(state[1],(x,y))
         nextState = (nextx,nexty),cornersVisited
-        successors.append( ( nextState, action, 1) )
+        successors.append((nextState, action, 1))
       
     # Bookkeeping for display purposes
     self._expanded += 1 
