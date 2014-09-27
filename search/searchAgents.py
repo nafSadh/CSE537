@@ -324,7 +324,7 @@ class CornersProblem(search.SearchProblem):
       dx, dy = Actions.directionToVector(action)
       nextx, nexty = int(x + dx), int(y + dy)
       if not self.walls[nextx][nexty]:
-        cornersVisited = self.updateCornerVector(state[1],(x,y))
+        cornersVisited = self.updateCornerVector(state[1],(nextx,nexty))
         nextState = (nextx,nexty),cornersVisited
         successors.append((nextState, action, 1))
       
@@ -342,6 +342,7 @@ class CornersProblem(search.SearchProblem):
     include an illegal move, return 999999.  This is implemented for you.
     """
     if actions is None: return 999999
+    cost = 0
     x,y= self.startingPosition
     for action in actions:
       dx, dy = Actions.directionToVector(action)

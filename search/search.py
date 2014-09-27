@@ -195,6 +195,7 @@ class Search:
     while records[i].parentId != 0:
       path.insert(0,records[i].action)
       i = records[i].parentId
+    #for r in records: print r, records[r].state, records[r].parentId, records[r].action
     return path
 
 
