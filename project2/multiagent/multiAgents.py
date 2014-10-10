@@ -75,7 +75,24 @@ class ReflexAgent(Agent):
         newScaredTimes = [ghostState.scaredTimer for ghostState in newGhostStates]
 
         "*** YOUR CODE HERE ***"
-        return successorGameState.getScore()
+		#if the pacman ate the power pellet, he does not consider the ghost
+        if newScaredTimes[0] == 0 :
+			#if the pacman's new position is near ghost(Manhattan Distance equals 1 or 0), the new position has the lowest score
+            for ghost in newGhostStates:
+                if manhattanDistance(newPos,ghost.getPosition()) <= 1:
+                   return -999999
+		#if the pacman's new position is a food position, the new position will get the highest score
+		if len(successorGameState.getFood().asList()) < len(currentGameState.getFood().asList()):
+			return 999999
+   
+		#calculate the distances between each food and pacman
+		foodToPacmanDistList = [manhattanDistance(newPos, food) for food in newFood.asList()]
+   
+		#find the shortest distance
+		shortestFoodToPacmanDist = min(foodToPacmanDistList)
+
+		return 1/shortestFoodToPacmanDist
+        #return successorGameState.getScore()
 
 def scoreEvaluationFunction(currentGameState):
     """
