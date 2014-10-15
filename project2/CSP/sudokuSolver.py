@@ -134,8 +134,10 @@ class SudokuCSP:
 
     if self.cp:
       for loc in self.vars:
-        if len(self.domains[loc])<1:
-          return False
+        if loc in self.domains:
+          l = len(self.domains[loc])
+          if l<1:
+            return False
 
     self.grid[x][y] = value
     return True
