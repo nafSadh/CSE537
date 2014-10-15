@@ -1,6 +1,7 @@
 # SUDOKU SOLVER
 
 import sys
+import copy
 from time import time
 from sudokuUtil import *
 
@@ -20,8 +21,126 @@ from sudokuUtil import *
 # (basic backtracking or with MRV and forward checking).
 # For example: python sudokuSolver.py backtracking
 def solve_puzzle(puzzle, argv):
-    """Solve the sudoku puzzle."""
-    return load_sudoku('given_solution.txt')
+  """Solve the sudoku puzzle."""
+  #sol = load_sudoku('given_solution.txt')
+  csp = SudokuCSP(puzzle)
+  res,csp = solve_csp(csp)
+  return csp.grid
+
+# Sadh added
+def sudoku_check(solution):
+  """Check the suggested solution."""
+  # type check
+  if not isinstance(solution, list):
+    return False
+  if len(solution) != 9:
+    return False
+  for row in solution:
+    if not isinstance(row, list):
+      return False
+    if len(row) != 9:
+      return False
+
+  # equality check
+  for i in range(9):
+    for j in range(9):
+      n = solution[i][j]
+      if (not isinstance(n, int)) or (n < 1) or (n > 9):
+        return False
+      if puzzle[i][j] != 0 and puzzle[i][j] != n:
+        return False
+
+  # block correctness check
+  for x in range(3):
+    for y in range(3):
+      bit_map = [0] * 9
+      for i in range(3):
+        for j in range(3):
+          n = solution[3*x+i][3*y+j]
+          bit_map[n - 1] = 1
+      if sum(bit_map) != 9:
+        return False
+
+  # row correctness check
+  for i in range(9):
+    bit_map = [0] * 9
+    for j in range(9):
+      n = solution[i][j]
+      bit_map[n - 1] = 1
+    if sum(bit_map) != 9:
+      return False
+
+  # column correctness check
+  transpose_solution = map(list, zip(*solution))
+  for i in range(9):
+    bit_map = [0] * 9
+    for j in range(9):
+      n = transpose_solution[i][j]
+      bit_map[n - 1] = 1
+    if sum(bit_map) != 9:
+      return False
+
+  return True
+
+
+
+def blockRange(a):
+  bs = (a/3)*3
+  return range(bs,(bs+3))
+
+class SudokuCSP:
+  def __init__(self,grid):
+    self.vars = []
+    self.domains = {}
+    self.grid = grid
+    for i in range(9):
+      for j in range(9):
+        if grid[i][j] == 0:
+          position = (i,j)
+          domain = range(1, 10)
+          self.vars.append(position)
+          self.domains[position] = domain
+
+  
+  def assign(self, var, value):
+    x,y = var
+
+    for i in range(0,9):
+      if value == self.grid[x][i] or value == self.grid[i][y]:
+        return False
+
+    for i in blockRange(x):
+      for j in blockRange(y):
+        if value == self.grid[i][j]:
+          return False
+
+    self.grid[x][y] = value
+    return True
+
+
+  def isComplete(self): 
+    return sudoku_check(self.grid)
+
+def solve_csp(csp):
+  if len(csp.vars) == 0:
+    return csp.isComplete(),csp
+  
+  var = csp.vars.pop()
+  domain = csp.domains[var]
+  cspbak = copy.deepcopy(csp)
+
+  for val in domain:
+    csp = copy.deepcopy(cspbak)
+    if csp.assign(var,val):
+      res,csp = solve_csp(csp)
+      if res :
+        return res, csp
+
+  return False, csp
+
+
+
+
 
 #===================================================#
 puzzle = load_sudoku('puzzle.txt')
