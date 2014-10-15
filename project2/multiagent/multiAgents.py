@@ -76,7 +76,7 @@ class ReflexAgent(Agent):
         newScaredTimes = [ghostState.scaredTimer for ghostState in newGhostStates]
         """
         "*** YOUR CODE HERE ***"
-		#if the pacman ate the power pellet, he does not consider the ghost
+    #if the pacman ate the power pellet, he does not consider the ghost
         #if newScaredTimes[0] == 0 :
 			#if the pacman's new position is near ghost(Manhattan Distance equals 1 or 0), the new position has the lowest score
         #    for ghost in newGhostStates:
@@ -183,10 +183,11 @@ class MinimaxAgent(MultiAgentSearchAgent):
           Returns the total number of agents in the game
       """
       "*** YOUR CODE HERE ***"
-      actions = gameState.getLegalActions(agent)
+      actions = gameState.getLegalActions(0)
       act, v = None, float("-inf")
       for action in actions:
-        val = minimax(1, range(gameState.getNumAgents()),self.depth,successor[1],action,self.evaluationFunction)
+        val = minimax(1, range(gameState.getNumAgents()),self.depth,gameState.generateSuccessor(0, action),action,self.evaluationFunction)
+        print val
         if val<v:
           act,v = action, val
       return act
@@ -195,13 +196,13 @@ def minimax(agent,agentlist,depth,state,action,evaluationfunction):
   """
   minimax function 
   """
-  if depth == 0 or state == win or state == lose or state == end:
-	  return evaluationfunction(state,action)
+  if depth == 0 or state.isWin() or state.isLose():
+    return evaluationfunction(state)
   # Based on the value of the agent call the minimiser or maximiser
   mnmx = max if agent == 0 else min
   next_depth = depth - 1 if agent == agentlist[-1] else depth
-  next_agent = agentlist[(agent+1) % len(agentlist)]     
-	return mnmx([minimax(next_agent, agentList,state.generateSuccessor(act), act, evaluationfunction) for act state.getLegalActions(agent)])
+  next_agent = agentlist[(agent+1) % len(agentlist)]
+  return mnmx([minimax(next_agent, agentlist, next_depth,state.generateSuccessor(agent,act), act, evaluationfunction) for act in state.getLegalActions(agent)])
    	
 class AlphaBetaAgent(MultiAgentSearchAgent):
     """
