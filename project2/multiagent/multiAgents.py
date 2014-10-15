@@ -68,32 +68,69 @@ class ReflexAgent(Agent):
         to create a masterful evaluation function.
         """
         # Useful information you can extract from a GameState (pacman.py)
-        successorGameState = currentGameState.generatePacmanSuccessor(action)
+        """
+		successorGameState = currentGameState.generatePacmanSuccessor(action)
         newPos = successorGameState.getPacmanPosition()
         newFood = successorGameState.getFood()
         newGhostStates = successorGameState.getGhostStates()
         newScaredTimes = [ghostState.scaredTimer for ghostState in newGhostStates]
-
+        """
         "*** YOUR CODE HERE ***"
 		#if the pacman ate the power pellet, he does not consider the ghost
-        if newScaredTimes[0] == 0 :
+        #if newScaredTimes[0] == 0 :
 			#if the pacman's new position is near ghost(Manhattan Distance equals 1 or 0), the new position has the lowest score
-            for ghost in newGhostStates:
-                if manhattanDistance(newPos,ghost.getPosition()) <= 1:
-                   return -999999
+        #    for ghost in newGhostStates:
+        #        if manhattanDistance(newPos,ghost.getPosition()) <= 1:
+        #           return -999999
 		#if the pacman's new position is a food position, the new position will get the highest score
-		if len(successorGameState.getFood().asList()) < len(currentGameState.getFood().asList()):
-			return 999999
+		#if len(successorGameState.getFood().asList()) < len(currentGameState.getFood().asList()):
+		#	return 999999
    
 		#calculate the distances between each food and pacman
-		foodToPacmanDistList = [manhattanDistance(newPos, food) for food in newFood.asList()]
+		#foodToPacmanDistList = [manhattanDistance(newPos, food) for food in newFood.asList()]
    
 		#find the shortest distance
-		shortestFoodToPacmanDist = min(foodToPacmanDistList)
+		#shortestFoodToPacmanDist = min(foodToPacmanDistList)
 
-		return 1/shortestFoodToPacmanDist
+		#return 1/shortestFoodToPacmanDist
         #return successorGameState.getScore()
-
+        successorGameState = currentGameState.generatePacmanSuccessor(action)
+        curFood = currentGameState.getFood()
+        curFoodList = curFood.asList()
+        curPos = currentGameState.getPacmanPosition()
+        newPos = successorGameState.getPacmanPosition()
+        newFood = successorGameState.getFood()
+        newGhostStates = successorGameState.getGhostStates()
+        newScaredTimes = [ghostState.scaredTimer for ghostState in newGhostStates]
+        newFoodList = newFood.asList()
+        ghostPositions = successorGameState.getGhostPositions()
+        distance = float("inf")
+        scared = newScaredTimes[0] > 0
+        for ghost in ghostPositions:
+          d = manhattanDistance(ghost, newPos)
+          distance = min(d, distance)
+        distance2 = float("inf")
+        distance3 = float("-inf")
+        distance4 = float("inf")
+        for food in newFoodList:
+           d = manhattanDistance(food, newPos)
+           d0 = manhattanDistance(food, curPos)
+           distance2 = min(d, distance2)
+           distance3 = max(d, distance3)
+        cond = len(newFoodList) < len(curFoodList)
+        count = len(newFoodList)
+        if cond:
+          count = 10000
+        if distance < 2:
+          distance = -100000
+        else:
+          distance = 0
+        if count == 0:
+          count = -1000
+        if scared:
+          distance = 0
+        return distance + 1.0/distance2 + count - successorGameState.getScore()
+	   
 def scoreEvaluationFunction(currentGameState):
     """
       This default evaluation function just returns the score of the state.
@@ -128,27 +165,44 @@ class MinimaxAgent(MultiAgentSearchAgent):
     """
       Your minimax agent (question 2)
     """
-
     def getAction(self, gameState):
-        """
-          Returns the minimax action from the current gameState using self.depth
-          and self.evaluationFunction.
+      """
+        Returns the minimax action from the current gameState using self.depth
+        and self.evaluationFunction.
 
-          Here are some method calls that might be useful when implementing minimax.
+        Here are some method calls that might be useful when implementing minimax.
 
-          gameState.getLegalActions(agentIndex):
-            Returns a list of legal actions for an agent
-            agentIndex=0 means Pacman, ghosts are >= 1
+        gameState.getLegalActions(agentIndex):
+          Returns a list of legal actions for an agent
+          agentIndex=0 means Pacman, ghosts are >= 1
 
-          gameState.generateSuccessor(agentIndex, action):
-            Returns the successor game state after an agent takes an action
+        gameState.generateSuccessor(agentIndex, action):
+          Returns the successor game state after an agent takes an action
 
-          gameState.getNumAgents():
-            Returns the total number of agents in the game
-        """
-        "*** YOUR CODE HERE ***"
-        util.raiseNotDefined()
+        gameState.getNumAgents():
+          Returns the total number of agents in the game
+      """
+      "*** YOUR CODE HERE ***"
+      actions = gameState.getLegalActions(agent)
+      act, v = None, float("-inf")
+      for action in actions:
+        val = minimax(1, range(gameState.getNumAgents()),self.depth,successor[1],action,self.evaluationFunction)
+        if val<v:
+          act,v = action, val
+      return act
 
+def minimax(agent,agentlist,depth,state,action,evaluationfunction):
+  """
+  minimax function 
+  """
+  if depth == 0 or state == win or state == lose or state == end:
+	  return evaluationfunction(state,action)
+  # Based on the value of the agent call the minimiser or maximiser
+  mnmx = max if agent == 0 else min
+  next_depth = depth - 1 if agent == agentlist[-1] else depth
+  next_agent = agentlist[(agent+1) % len(agentlist)]     
+	return mnmx([minimax(next_agent, agentList,state.generateSuccessor(act), act, evaluationfunction) for act state.getLegalActions(agent)])
+   	
 class AlphaBetaAgent(MultiAgentSearchAgent):
     """
       Your minimax agent with alpha-beta pruning (question 3)
