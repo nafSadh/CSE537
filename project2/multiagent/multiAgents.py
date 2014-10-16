@@ -16,6 +16,7 @@
 from util import manhattanDistance
 from game import Directions
 from random import randint
+from pacman import GameState
 import random, util
 
 from game import Agent
@@ -128,6 +129,9 @@ def scoreEvaluationFunction(currentGameState):
     return currentGameState.getScore()
 
 def smartScorer(currentGameState):
+    if not isinstance(currentGameState, GameState):
+      return scoreEvaluationFunction(currentGameState)
+
     foodList = currentGameState.getFood().asList()
     distances = [manhattanDistance(currentGameState.getPacmanPosition(),pos)
                  for pos in foodList]
@@ -183,7 +187,7 @@ class MinimaxAgent(MultiAgentSearchAgent):
       "*** YOUR CODE HERE ***"
       actions = gameState.getLegalActions(0)
       count=[0]
-      if len(actions)>1 and Directions.STOP in actions: actions.remove(Directions.STOP)
+      #if len(actions)>1 and Directions.STOP in actions: actions.remove(Directions.STOP)
       options = [(action,
                   mini_max(1, range(gameState.getNumAgents()), self.depth,
                            gameState.generateSuccessor(0, action),self.evaluationFunction,

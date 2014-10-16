@@ -2,6 +2,10 @@ N:\SkyDrive\src\SBU\AI\project2\multiagent>python pacman.py -p AlphaBetaAgent -a
  depth=3,profile=True -l smallClassic -n 10 --frameTime 0.01 >> alpha_beta_defau
 ltScorer_report.txt
 
++==================+
+| % | AB | Minimax |
++==================+
+
 21 %	118 	552
 16 %	326 	1949
 17 %	402 	2256
