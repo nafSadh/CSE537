@@ -53,83 +53,52 @@ class ReflexAgent(Agent):
         return legalMoves[chosenIndex]
 
     def evaluationFunction(self, currentGameState, action):
-        """
-        Design a better evaluation function here.
+      """
+      Design a better evaluation function here.
 
-        The evaluation function takes in the current and proposed successor
-        GameStates (pacman.py) and returns a number, where higher numbers are better.
+      The evaluation function takes in the current and proposed successor
+      GameStates (pacman.py) and returns a number, where higher numbers are better.
 
-        The code below extracts some useful information from the state, like the
-        remaining food (newFood) and Pacman position after moving (newPos).
-        newScaredTimes holds the number of moves that each ghost will remain
-        scared because of Pacman having eaten a power pellet.
+      The code below extracts some useful information from the state, like the
+      remaining food (newFood) and Pacman position after moving (newPos).
+      newScaredTimes holds the number of moves that each ghost will remain
+      scared because of Pacman having eaten a power pellet.
 
-        Print out these variables to see what you're getting, then combine them
-        to create a masterful evaluation function.
-        """
-        # Useful information you can extract from a GameState (pacman.py)
-        """
-		successorGameState = currentGameState.generatePacmanSuccessor(action)
-        newPos = successorGameState.getPacmanPosition()
-        newFood = successorGameState.getFood()
-        newGhostStates = successorGameState.getGhostStates()
-        newScaredTimes = [ghostState.scaredTimer for ghostState in newGhostStates]
-        """
-        "*** YOUR CODE HERE ***"
-    #if the pacman ate the power pellet, he does not consider the ghost
-        #if newScaredTimes[0] == 0 :
-			#if the pacman's new position is near ghost(Manhattan Distance equals 1 or 0), the new position has the lowest score
-        #    for ghost in newGhostStates:
-        #        if manhattanDistance(newPos,ghost.getPosition()) <= 1:
-        #           return -999999
-		#if the pacman's new position is a food position, the new position will get the highest score
-		#if len(successorGameState.getFood().asList()) < len(currentGameState.getFood().asList()):
-		#	return 999999
-   
-		#calculate the distances between each food and pacman
-		#foodToPacmanDistList = [manhattanDistance(newPos, food) for food in newFood.asList()]
-   
-		#find the shortest distance
-		#shortestFoodToPacmanDist = min(foodToPacmanDistList)
+      Print out these variables to see what you're getting, then combine them
+      to create a masterful evaluation function.
+      """
+      # Useful information you can extract from a GameState (pacman.py)
 
-		#return 1/shortestFoodToPacmanDist
-        #return successorGameState.getScore()
-        successorGameState = currentGameState.generatePacmanSuccessor(action)
-        curFood = currentGameState.getFood()
-        curFoodList = curFood.asList()
-        curPos = currentGameState.getPacmanPosition()
-        newPos = successorGameState.getPacmanPosition()
-        newFood = successorGameState.getFood()
-        newGhostStates = successorGameState.getGhostStates()
-        newScaredTimes = [ghostState.scaredTimer for ghostState in newGhostStates]
-        newFoodList = newFood.asList()
-        ghostPositions = successorGameState.getGhostPositions()
-        distance = float("inf")
-        scared = newScaredTimes[0] > 0
-        for ghost in ghostPositions:
-          d = manhattanDistance(ghost, newPos)
-          distance = min(d, distance)
-        distance2 = float("inf")
-        distance3 = float("-inf")
-        distance4 = float("inf")
-        for food in newFoodList:
-           d = manhattanDistance(food, newPos)
-           d0 = manhattanDistance(food, curPos)
-           distance2 = min(d, distance2)
-           distance3 = max(d, distance3)
-        cond = len(newFoodList) < len(curFoodList)
-        count = len(newFoodList)
-        if cond:
-          count = 10000
-        if distance < 2:
-          distance = -100000
+      successorGameState = currentGameState.generatePacmanSuccessor(action)
+      newPos = successorGameState.getPacmanPosition()
+      newFood = successorGameState.getFood()
+      newGhostStates = successorGameState.getGhostStates()
+      newScaredTimes = [ghostState.scaredTimer for ghostState in newGhostStates]
+
+      "*** YOUR CODE HERE ***"
+      foodList=oldFood.asList()
+
+      foodList.sort(lambda x,y: util.manhattanDistance(newPos, x)-util.manhattanDistance(newPos, y))
+      foodScore=util.manhattanDistance(newPos, foodList[0])
+      #print(dir(newGhostStates[0]))
+      GhostPositions=[Ghost.getPosition() for Ghost in newGhostStates]
+      if len(GhostPositions) ==0 : GhostScore=0
+      else:
+          GhostPositions.sort(lambda x,y: disCmp(x,y,newPos))
+          if util.manhattanDistance(newPos, GhostPositions[0])==0: return -99
+          else:
+              GhostScore=2*-1.0/util.manhattanDistance(newPos, GhostPositions[0])
+      if foodScore==0: returnScore=2.0+GhostScore
+      else: returnScore=GhostScore+1.0/float(foodScore)
+
+      return returnScore
+
+def disCmp(x,y,newPos):
+    if (util.manhattanDistance(newPos, x)-util.manhattanDistance(newPos, y))<0: return -1
+    else:
+        if (util.manhattanDistance(newPos, x)-util.manhattanDistance(newPos, y))>0: return 1
         else:
-          distance = 0
-        if count == 0:
-          count = -1000
-        if scared:
-          distance = 0
-        return distance + 1.0/distance2 + count - successorGameState.getScore()
+            return 0
 	   
 def scoreEvaluationFunction(currentGameState):
     """
@@ -163,14 +132,14 @@ class MultiAgentSearchAgent(Agent):
 
 class MinimaxAgent(MultiAgentSearchAgent):
     """
-      Your minimax agent (question 2)
+      Your mini_max agent (question 2)
     """
     def getAction(self, gameState):
       """
-        Returns the minimax action from the current gameState using self.depth
+        Returns the mini_max action from the current gameState using self.depth
         and self.evaluationFunction.
 
-        Here are some method calls that might be useful when implementing minimax.
+        Here are some method calls that might be useful when implementing mini_max.
 
         gameState.getLegalActions(agentIndex):
           Returns a list of legal actions for an agent
@@ -186,36 +155,80 @@ class MinimaxAgent(MultiAgentSearchAgent):
       actions = gameState.getLegalActions(0)
       act, v = None, float("-inf")
       for action in actions:
-        val = minimax(1, range(gameState.getNumAgents()),self.depth,gameState.generateSuccessor(0, action),action,self.evaluationFunction)
+        val = mini_max(1, range(gameState.getNumAgents()), self.depth, gameState.generateSuccessor(0, action),self.evaluationFunction)
         if val>v:
           act,v = action, val
+      print val
       return act
 
-def minimax(agent,agentlist,depth,state,action,evaluationfunction):
+def mini_max(agent,agentsList,depth,state,evaluator):
   """
-  minimax function 
+  mini_max function
   """
   if depth == 0 or state.isWin() or state.isLose():
-    return evaluationfunction(state)
+    return evaluator(state)
   # Based on the value of the agent call the minimiser or maximiser
-  mnmx = max if agent == 0 else min
-  next_depth = depth - 1 if agent == agentlist[-1] else depth
-  next_agent = agentlist[(agent+1) % len(agentlist)]
-  return mnmx([minimax(next_agent, agentlist, next_depth,
-                       state.generateSuccessor(agent,act), act, evaluationfunction)
+  optimizer = max if agent == 0 else min
+  nextDepth = depth - 1 if agent == agentsList[-1] else depth
+  nextAgent = agentsList[(agent+1) % len(agentsList)]
+  return optimizer([mini_max(nextAgent, agentsList, nextDepth,
+                       state.generateSuccessor(agent,act), evaluator)
                for act in state.getLegalActions(agent)])
    	
 class AlphaBetaAgent(MultiAgentSearchAgent):
     """
-      Your minimax agent with alpha-beta pruning (question 3)
+      Your mini_max agent with alpha-beta pruning (question 3)
     """
 
     def getAction(self, gameState):
         """
-          Returns the minimax action using self.depth and self.evaluationFunction
+          Returns the mini_max action using self.depth and self.evaluationFunction
         """
         "*** YOUR CODE HERE ***"
-        util.raiseNotDefined()
+        alpha, beta = float("-inf"), float("inf")
+        act, v = None, alpha
+        actions = gameState.getLegalActions(0)
+        if Directions.STOP in actions: actions.remove(Directions.STOP)
+        print v
+        for action in actions:
+          print action
+          val = alpha_beta(1, range(gameState.getNumAgents()), alpha, beta,
+                           self.depth, gameState.generateSuccessor(0, action),
+                           self.evaluationFunction)
+          print val
+          if val > v:
+            print "p:", action
+            act, v = action, val
+          #if v > beta:
+          #  return action
+          alpha = max(alpha, v)
+        return act
+
+def alpha_beta(agent, agentsList, alpha, beta, depth, state, evaluator):
+  if depth==0 or state.isWin() or state.isLose():
+    return evaluator(state)
+
+  optimizer = max if agent == 0 else min
+  nextDepth = depth - 1 if agent == agentsList[-1] else depth
+  nextAgent = agentsList[(agent+1) % len(agentsList)]
+
+  val = float("-inf") if agent==0 else float("inf")
+
+  for act in state.getLegalActions(agent):
+    if act != Directions.STOP:
+      val = optimizer(val,
+                      alpha_beta(nextAgent, agentsList, alpha, beta, nextDepth,
+                                 state.generateSuccessor(agent,act), evaluator)
+                      )
+      if agent == 0:
+        if val > beta: return val
+        alpha = optimizer(alpha, val)
+      else :
+        if val < alpha: return val
+        beta = optimizer(beta, val)
+
+  return val
+
 
 class ExpectimaxAgent(MultiAgentSearchAgent):
     """
