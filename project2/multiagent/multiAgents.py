@@ -76,6 +76,8 @@ class ReflexAgent(Agent):
       newScaredTimes = [ghostState.scaredTimer for ghostState in newGhostStates]
 
       "*** YOUR CODE HERE ***"
+      returnScore=float(0)
+      oldFood = currentGameState.getFood()
       foodList=oldFood.asList()
 
       foodList.sort(lambda x,y: util.manhattanDistance(newPos, x)-util.manhattanDistance(newPos, y))
