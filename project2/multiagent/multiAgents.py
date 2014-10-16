@@ -182,8 +182,13 @@ class MinimaxAgent(MultiAgentSearchAgent):
       """
       "*** YOUR CODE HERE ***"
       actions = gameState.getLegalActions(0)
+      count=[0]
       if len(actions)>1 and Directions.STOP in actions: actions.remove(Directions.STOP)
-      options = [(action,mini_max(1, range(gameState.getNumAgents()), self.depth, gameState.generateSuccessor(0, action),self.evaluationFunction)) for action in actions]
+      options = [(action,
+                  mini_max(1, range(gameState.getNumAgents()), self.depth,
+                           gameState.generateSuccessor(0, action),self.evaluationFunction,
+                           count))
+                 for action in actions]
       act, val = options[0]
       for (a,v) in options: val = max(val, v)
 
@@ -192,6 +197,7 @@ class MinimaxAgent(MultiAgentSearchAgent):
         if v==val:
           choices.append(a)
 
+      if self.profile: print "total", count[0],"nodes expanded"
       return choices[randint(1,len(choices)) -1]
 
 def mini_max(agent,agentsList,depth,state,evaluator,nc):
