@@ -142,10 +142,11 @@ class MultiAgentSearchAgent(Agent):
       is another abstract class.
     """
 
-    def __init__(self, evalFn = 'scoreEvaluationFunction', depth = '2'):
+    def __init__(self, evalFn = 'scoreEvaluationFunction', depth = '2', profile = False):
         self.index = 0 # Pacman is always agent index 0
         self.evaluationFunction = util.lookup(evalFn, globals())
         self.depth = int(depth)
+        self.profile = profile
 
 class MinimaxAgent(MultiAgentSearchAgent):
     """
@@ -182,10 +183,11 @@ class MinimaxAgent(MultiAgentSearchAgent):
 
       return choices[randint(1,len(choices)) -1]
 
-def mini_max(agent,agentsList,depth,state,evaluator):
+def mini_max(agent,agentsList,depth,state,evaluator,nc):
   """
   mini_max function
   """
+  nc[0]=nc[0]+1
   if depth == 0 or state.isWin() or state.isLose():
     return evaluator(state)
   # Based on the value of the agent call the minimiser or maximiser
@@ -193,37 +195,49 @@ def mini_max(agent,agentsList,depth,state,evaluator):
   nextDepth = depth - 1 if agent == agentsList[-1] else depth
   nextAgent = agentsList[(agent+1) % len(agentsList)]
   return optimizer([mini_max(nextAgent, agentsList, nextDepth,
-                       state.generateSuccessor(agent,act), evaluator)
+                       state.generateSuccessor(agent,act), evaluator,nc)
                for act in state.getLegalActions(agent)])
    	
 class AlphaBetaAgent(MultiAgentSearchAgent):
+  """
+    Your mini_max agent with alpha-beta pruning (question 3)
+  """
+
+  def getAction(self, gameState):
     """
-      Your mini_max agent with alpha-beta pruning (question 3)
+      Returns the mini_max action using self.depth and self.evaluationFunction
     """
+    "*** YOUR CODE HERE ***"
+    alpha, beta = float("-inf"), float("inf")
+    actions = gameState.getLegalActions(0)
+    if len(actions)>1 and Directions.STOP in actions: actions.remove(Directions.STOP)
+    options=[]
+    count = [0]
+    mmcnt = [0]
 
-    def getAction(self, gameState):
-        """
-          Returns the mini_max action using self.depth and self.evaluationFunction
-        """
-        "*** YOUR CODE HERE ***"
-        alpha, beta = float("-inf"), float("inf")
-        actions = gameState.getLegalActions(0)
-        if len(actions)>1 and Directions.STOP in actions: actions.remove(Directions.STOP)
-        options=[]
-        for action in actions:
-          v = alpha_beta(1, range(gameState.getNumAgents()), alpha, beta,
-                           self.depth, gameState.generateSuccessor(0, action),
-                           self.evaluationFunction)
-          options.append((action,v))
-          alpha = max(alpha, v)
-        choices = []
-        for (a,v) in options:
-          if v==alpha:
-            choices.append(a)
+    if self.profile:
+      for action in actions:
+        mini_max(1, range(gameState.getNumAgents()), self.depth,
+                 gameState.generateSuccessor(0, action),self.evaluationFunction,
+                 mmcnt)
 
-        return choices[randint(1,len(choices)) -1]
+    for action in actions:
+      v = alpha_beta(1, range(gameState.getNumAgents()), alpha, beta,
+                       self.depth, gameState.generateSuccessor(0, action),
+                       self.evaluationFunction, count)
+      options.append((action,v))
+      alpha = max(alpha, v)
 
-def alpha_beta(agent, agentsList, alpha, beta, depth, state, evaluator):
+    choices = []
+    for (a,v) in options:
+      if v==alpha:
+        choices.append(a)
+
+    if self.profile: print (count[0]*100/mmcnt[0]),"%\t",count[0],"\t",mmcnt[0]
+    return choices[randint(1,len(choices)) -1]
+
+def alpha_beta(agent, agentsList, alpha, beta, depth, state, evaluator, nc):
+  nc[0]=nc[0]+1
   if depth==0 or state.isWin() or state.isLose():
     return evaluator(state)
 
@@ -237,7 +251,8 @@ def alpha_beta(agent, agentsList, alpha, beta, depth, state, evaluator):
     if act != Directions.STOP:
       val = optimizer(val,
                       alpha_beta(nextAgent, agentsList, alpha, beta, nextDepth,
-                                 state.generateSuccessor(agent,act), evaluator)
+                                 state.generateSuccessor(agent,act), evaluator
+                                 ,nc)
                       )
       if agent == 0:
         if val > beta: return val
