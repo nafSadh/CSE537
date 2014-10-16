@@ -1,0 +1,380 @@
+Pacman died! Score: -494
+Pacman died! Score: -493
+Pacman emerges victorious! Score: 514
+Pacman died! Score: -495
+Pacman died! Score: -495
+Pacman died! Score: -493
+Pacman died! Score: -496
+Pacman died! Score: -492
+Pacman died! Score: -495
+Pacman emerges victorious! Score: 512
+Pacman died! Score: -495
+Pacman emerges victorious! Score: 512
+Pacman died! Score: -493
+Pacman emerges victorious! Score: 511
+Pacman died! Score: -498
+Pacman emerges victorious! Score: 503
+Pacman died! Score: -498
+Pacman died! Score: -495
+Pacman died! Score: -493
+Pacman died! Score: -493
+Pacman died! Score: -500
+Pacman emerges victorious! Score: 512
+Pacman died! Score: -496
+Pacman died! Score: -493
+Pacman died! Score: -494
+Pacman died! Score: -495
+Pacman died! Score: -495
+Pacman emerges victorious! Score: 511
+Pacman emerges victorious! Score: 509
+Pacman died! Score: -495
+Pacman died! Score: -493
+Pacman emerges victorious! Score: 513
+Pacman emerges victorious! Score: 513
+Pacman died! Score: -492
+Pacman emerges victorious! Score: 512
+Pacman emerges victorious! Score: 513
+Pacman emerges victorious! Score: 512
+Pacman died! Score: -496
+Pacman died! Score: -497
+Pacman emerges victorious! Score: 512
+Pacman died! Score: -497
+Pacman died! Score: -497
+Pacman died! Score: -493
+Pacman died! Score: -493
+Pacman emerges victorious! Score: 511
+Pacman emerges victorious! Score: 511
+Pacman emerges victorious! Score: 512
+Pacman died! Score: -497
+Pacman died! Score: -497
+Pacman died! Score: -497
+Pacman died! Score: -492
+Pacman died! Score: -494
+Pacman died! Score: -496
+Pacman emerges victorious! Score: 515
+Pacman emerges victorious! Score: 515
+Pacman emerges victorious! Score: 513
+Pacman died! Score: -495
+Pacman died! Score: -495
+start: 2014-10-16 17:40:26
+Pacman died! Score: -494
+Pacman died! Score: -493
+Pacman emerges victorious! Score: 514
+Pacman died! Score: -495
+Pacman died! Score: -495
+Pacman died! Score: -493
+Pacman died! Score: -496
+Pacman died! Score: -492
+Pacman died! Score: -495
+Pacman emerges victorious! Score: 512
+Pacman died! Score: -495
+Pacman emerges victorious! Score: 512
+Pacman died! Score: -493
+Pacman emerges victorious! Score: 511
+Pacman died! Score: -498
+Pacman emerges victorious! Score: 503
+Pacman died! Score: -498
+Pacman died! Score: -495
+Pacman died! Score: -493
+Pacman died! Score: -493
+Pacman died! Score: -500
+Pacman emerges victorious! Score: 512
+Pacman died! Score: -496
+Pacman died! Score: -493
+Pacman died! Score: -494
+Pacman died! Score: -495
+Pacman died! Score: -495
+Pacman emerges victorious! Score: 511
+Pacman emerges victorious! Score: 509
+Pacman died! Score: -495
+Pacman died! Score: -493
+Pacman emerges victorious! Score: 513
+Pacman emerges victorious! Score: 513
+Pacman died! Score: -492
+Pacman emerges victorious! Score: 512
+Pacman emerges victorious! Score: 513
+Pacman emerges victorious! Score: 512
+Pacman died! Score: -496
+Pacman died! Score: -497
+Pacman emerges victorious! Score: 512
+Pacman died! Score: -497
+Pacman died! Score: -497
+Pacman died! Score: -493
+Pacman died! Score: -493
+Pacman emerges victorious! Score: 511
+Pacman emerges victorious! Score: 511
+Pacman emerges victorious! Score: 512
+Pacman died! Score: -497
+Pacman died! Score: -497
+Pacman died! Score: -497
+Pacman died! Score: -492
+Pacman died! Score: -494
+Pacman died! Score: -496
+Pacman emerges victorious! Score: 515
+Pacman emerges victorious! Score: 515
+Pacman emerges victorious! Score: 513
+Pacman died! Score: -495
+Pacman died! Score: -495
+Pacman emerges victorious! Score: 511
+Pacman emerges victorious! Score: 512
+Pacman died! Score: -500
+Pacman emerges victorious! Score: 513
+Pacman emerges victorious! Score: 511
+Pacman emerges victorious! Score: 512
+Pacman died! Score: -495
+Pacman emerges victorious! Score: 515
+Pacman emerges victorious! Score: 511
+Pacman died! Score: -492
+Pacman died! Score: -492
+Pacman died! Score: -493
+Pacman emerges victorious! Score: 509
+Pacman emerges victorious! Score: 511
+Pacman died! Score: -495
+Pacman died! Score: -494
+Pacman emerges victorious! Score: 515
+Pacman died! Score: -495
+Pacman died! Score: -494
+Pacman emerges victorious! Score: 510
+Pacman died! Score: -497
+Pacman emerges victorious! Score: 515
+Pacman died! Score: -495
+Pacman died! Score: -493
+Pacman died! Score: -493
+Pacman emerges victorious! Score: 511
+Pacman died! Score: -497
+Pacman died! Score: -497
+Pacman emerges victorious! Score: 511
+Pacman died! Score: -496
+Pacman emerges victorious! Score: 513
+Pacman died! Score: -495
+Pacman died! Score: -492
+Pacman emerges victorious! Score: 515
+Pacman died! Score: -495
+Pacman died! Score: -515
+Pacman died! Score: -492
+Pacman died! Score: -497
+Pacman died! Score: -495
+Pacman died! Score: -492
+Pacman died! Score: -495
+Pacman emerges victorious! Score: 513
+Average Score: -122.49
+Scores:        -494.0, -493.0, 514.0, -495.0, -495.0, -493.0, -496.0, -492.0, -495.0, 512.0, -495.0, 512.0, -493.0, 511.0, -498.0, 503.0, -498.0, -495.0, -493.0, -493.0, -500.0, 512.0, -496.0, -493.0, -494.0, -495.0, -495.0, 511.0, 509.0, -495.0, -493.0, 513.0, 513.0, -492.0, 512.0, 513.0, 512.0, -496.0, -497.0, 512.0, -497.0, -497.0, -493.0, -493.0, 511.0, 511.0, 512.0, -497.0, -497.0, -497.0, -492.0, -494.0, -496.0, 515.0, 515.0, 513.0, -495.0, -495.0, 511.0, 512.0, -500.0, 513.0, 511.0, 512.0, -495.0, 515.0, 511.0, -492.0, -492.0, -493.0, 509.0, 511.0, -495.0, -494.0, 515.0, -495.0, -494.0, 510.0, -497.0, 515.0, -495.0, -493.0, -493.0, 511.0, -497.0, -497.0, 511.0, -496.0, 513.0, -495.0, -492.0, 515.0, -495.0, -515.0, -492.0, -497.0, -495.0, -492.0, -495.0, 513.0
+Win Rate:      37/100 (0.37)
+Record:        Loss, Loss, Win, Loss, Loss, Loss, Loss, Loss, Loss, Win, Loss, Win, Loss, Win, Loss, Win, Loss, Loss, Loss, Loss, Loss, Win, Loss, Loss, Loss, Loss, Loss, Win, Win, Loss, Loss, Win, Win, Loss, Win, Win, Win, Loss, Loss, Win, Loss, Loss, Loss, Loss, Win, Win, Win, Loss, Loss, Loss, Loss, Loss, Loss, Win, Win, Win, Loss, Loss, Win, Win, Loss, Win, Win, Win, Loss, Win, Win, Loss, Loss, Loss, Win, Win, Loss, Loss, Win, Loss, Loss, Win, Loss, Win, Loss, Loss, Loss, Win, Loss, Loss, Win, Loss, Win, Loss, Loss, Win, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Win
+start: 2014-10-16 17:55:33
+done: 2014-10-16 17:56:36
+time taken: 0:01:03.694000 seconds
+Pacman emerges victorious! Score: 512
+Pacman emerges victorious! Score: 513
+Pacman died! Score: -493
+Pacman died! Score: -493
+Pacman emerges victorious! Score: 514
+Pacman emerges victorious! Score: 512
+Pacman emerges victorious! Score: 514
+Pacman died! Score: -495
+Pacman died! Score: -496
+Pacman died! Score: -493
+Pacman died! Score: -496
+Pacman emerges victorious! Score: 511
+Pacman died! Score: -493
+Pacman died! Score: -497
+Pacman emerges victorious! Score: 512
+Pacman died! Score: -496
+Pacman emerges victorious! Score: 514
+Pacman died! Score: -497
+Pacman died! Score: -493
+Pacman died! Score: -496
+Pacman died! Score: -496
+Pacman emerges victorious! Score: 512
+Pacman died! Score: -493
+Pacman emerges victorious! Score: 511
+Pacman died! Score: -497
+Pacman died! Score: -495
+Pacman died! Score: -496
+Pacman emerges victorious! Score: 514
+Pacman emerges victorious! Score: 510
+Pacman emerges victorious! Score: 511
+Pacman emerges victorious! Score: 513
+Pacman emerges victorious! Score: 512
+Pacman died! Score: -493
+Pacman emerges victorious! Score: 511
+Pacman died! Score: -493
+Pacman died! Score: -493
+Pacman emerges victorious! Score: 510
+Pacman emerges victorious! Score: 510
+Pacman emerges victorious! Score: 510
+Pacman emerges victorious! Score: 511
+Pacman died! Score: -495
+Pacman died! Score: -495
+Pacman died! Score: -496
+Pacman died! Score: -496
+Pacman died! Score: -493
+Pacman died! Score: -493
+Pacman emerges victorious! Score: 514
+Pacman died! Score: -493
+Pacman died! Score: -496
+Pacman died! Score: -493
+Pacman died! Score: -496
+Pacman died! Score: -496
+Pacman emerges victorious! Score: 514
+Pacman died! Score: -497
+Pacman died! Score: -493
+Pacman emerges victorious! Score: 514
+Pacman emerges victorious! Score: 512
+Pacman emerges victorious! Score: 510
+Pacman died! Score: -493
+Pacman emerges victorious! Score: 512
+Pacman died! Score: -493
+Pacman died! Score: -497
+Pacman emerges victorious! Score: 513
+Pacman emerges victorious! Score: 512
+Pacman died! Score: -496
+Pacman died! Score: -496
+Pacman died! Score: -496
+Pacman emerges victorious! Score: 511
+Pacman emerges victorious! Score: 512
+Pacman emerges victorious! Score: 514
+Pacman emerges victorious! Score: 510
+Pacman died! Score: -493
+Pacman died! Score: -497
+Pacman emerges victorious! Score: 511
+Pacman died! Score: -493
+Pacman died! Score: -493
+Pacman died! Score: -493
+Pacman died! Score: -496
+Pacman emerges victorious! Score: 511
+Pacman died! Score: -493
+Pacman died! Score: -493
+Pacman emerges victorious! Score: 510
+Pacman died! Score: -495
+Pacman emerges victorious! Score: 512
+Pacman died! Score: -493
+Pacman emerges victorious! Score: 511
+Pacman died! Score: -495
+Pacman died! Score: -495
+Pacman emerges victorious! Score: 510
+Pacman emerges victorious! Score: 513
+Pacman died! Score: -493
+Pacman emerges victorious! Score: 512
+Pacman emerges victorious! Score: 510
+Pacman emerges victorious! Score: 514
+Pacman died! Score: -496
+Pacman emerges victorious! Score: 512
+Pacman emerges victorious! Score: 509
+Pacman died! Score: -493
+Pacman emerges victorious! Score: 513
+Pacman died! Score: -493
+Average Score: -41.68
+Scores:        512.0, 513.0, -493.0, -493.0, 514.0, 512.0, 514.0, -495.0, -496.0, -493.0, -496.0, 511.0, -493.0, -497.0, 512.0, -496.0, 514.0, -497.0, -493.0, -496.0, -496.0, 512.0, -493.0, 511.0, -497.0, -495.0, -496.0, 514.0, 510.0, 511.0, 513.0, 512.0, -493.0, 511.0, -493.0, -493.0, 510.0, 510.0, 510.0, 511.0, -495.0, -495.0, -496.0, -496.0, -493.0, -493.0, 514.0, -493.0, -496.0, -493.0, -496.0, -496.0, 514.0, -497.0, -493.0, 514.0, 512.0, 510.0, -493.0, 512.0, -493.0, -497.0, 513.0, 512.0, -496.0, -496.0, -496.0, 511.0, 512.0, 514.0, 510.0, -493.0, -497.0, 511.0, -493.0, -493.0, -493.0, -496.0, 511.0, -493.0, -493.0, 510.0, -495.0, 512.0, -493.0, 511.0, -495.0, -495.0, 510.0, 513.0, -493.0, 512.0, 510.0, 514.0, -496.0, 512.0, 509.0, -493.0, 513.0, -493.0
+Win Rate:      45/100 (0.45)
+Record:        Win, Win, Loss, Loss, Win, Win, Win, Loss, Loss, Loss, Loss, Win, Loss, Loss, Win, Loss, Win, Loss, Loss, Loss, Loss, Win, Loss, Win, Loss, Loss, Loss, Win, Win, Win, Win, Win, Loss, Win, Loss, Loss, Win, Win, Win, Win, Loss, Loss, Loss, Loss, Loss, Loss, Win, Loss, Loss, Loss, Loss, Loss, Win, Loss, Loss, Win, Win, Win, Loss, Win, Loss, Loss, Win, Win, Loss, Loss, Loss, Win, Win, Win, Win, Loss, Loss, Win, Loss, Loss, Loss, Loss, Win, Loss, Loss, Win, Loss, Win, Loss, Win, Loss, Loss, Win, Win, Loss, Win, Win, Win, Loss, Win, Win, Loss, Win, Loss
+start: 2014-10-16 18:10:10
+done: 2014-10-16 18:10:44
+time taken: 0:00:33.677000 seconds
+Pacman emerges victorious! Score: 512
+Pacman died! Score: -493
+Pacman died! Score: -493
+Pacman died! Score: -497
+Pacman emerges victorious! Score: 514
+Pacman died! Score: -496
+Pacman emerges victorious! Score: 514
+Pacman emerges victorious! Score: 509
+Pacman died! Score: -496
+Pacman died! Score: -495
+Pacman emerges victorious! Score: 512
+Pacman died! Score: -496
+Pacman died! Score: -493
+Pacman emerges victorious! Score: 514
+Pacman died! Score: -493
+Pacman emerges victorious! Score: 514
+Pacman emerges victorious! Score: 514
+Pacman died! Score: -496
+Pacman emerges victorious! Score: 510
+Pacman died! Score: -495
+Pacman emerges victorious! Score: 513
+Pacman emerges victorious! Score: 512
+Pacman died! Score: -493
+Pacman died! Score: -493
+Pacman emerges victorious! Score: 511
+Pacman died! Score: -493
+Pacman died! Score: -496
+Pacman died! Score: -493
+Pacman died! Score: -495
+Pacman emerges victorious! Score: 511
+Pacman died! Score: -495
+Pacman died! Score: -493
+Pacman emerges victorious! Score: 510
+Pacman died! Score: -496
+Pacman died! Score: -495
+Pacman died! Score: -493
+Pacman died! Score: -496
+Pacman emerges victorious! Score: 514
+Pacman died! Score: -493
+Pacman died! Score: -493
+Pacman emerges victorious! Score: 513
+Pacman died! Score: -493
+Pacman died! Score: -495
+Pacman died! Score: -496
+Pacman died! Score: -493
+Pacman died! Score: -495
+Pacman emerges victorious! Score: 512
+Pacman died! Score: -493
+Pacman died! Score: -497
+Pacman died! Score: -493
+Pacman emerges victorious! Score: 513
+Pacman emerges victorious! Score: 511
+Pacman emerges victorious! Score: 511
+Pacman died! Score: -493
+Pacman died! Score: -493
+Pacman emerges victorious! Score: 513
+Pacman died! Score: -503
+Pacman died! Score: -496
+Pacman emerges victorious! Score: 512
+Pacman died! Score: -496
+Pacman died! Score: -493
+Pacman died! Score: -496
+Pacman died! Score: -493
+Pacman died! Score: -493
+Pacman died! Score: -496
+Pacman emerges victorious! Score: 514
+Pacman emerges victorious! Score: 512
+Pacman emerges victorious! Score: 512
+Pacman died! Score: -496
+Pacman died! Score: -496
+Pacman died! Score: -495
+Pacman emerges victorious! Score: 512
+Pacman emerges victorious! Score: 512
+Pacman died! Score: -495
+Pacman died! Score: -496
+Pacman died! Score: -496
+Pacman died! Score: -493
+Pacman died! Score: -496
+Pacman emerges victorious! Score: 509
+Pacman died! Score: -497
+Pacman died! Score: -497
+Pacman emerges victorious! Score: 513
+Pacman died! Score: -496
+Pacman emerges victorious! Score: 513
+Pacman died! Score: -496
+Pacman emerges victorious! Score: 514
+Pacman died! Score: -496
+Pacman died! Score: -495
+Pacman died! Score: -493
+Pacman died! Score: -495
+Pacman died! Score: -493
+Pacman died! Score: -493
+Pacman died! Score: -497
+Pacman emerges victorious! Score: 512
+Pacman died! Score: -493
+Pacman emerges victorious! Score: 510
+Pacman emerges victorious! Score: 514
+Pacman emerges victorious! Score: 509
+Pacman died! Score: -493
+Pacman died! Score: -495
+Average Score: -142.34
+Scores:        512.0, -493.0, -493.0, -497.0, 514.0, -496.0, 514.0, 509.0, -496.0, -495.0, 512.0, -496.0, -493.0, 514.0, -493.0, 514.0, 514.0, -496.0, 510.0, -495.0, 513.0, 512.0, -493.0, -493.0, 511.0, -493.0, -496.0, -493.0, -495.0, 511.0, -495.0, -493.0, 510.0, -496.0, -495.0, -493.0, -496.0, 514.0, -493.0, -493.0, 513.0, -493.0, -495.0, -496.0, -493.0, -495.0, 512.0, -493.0, -497.0, -493.0, 513.0, 511.0, 511.0, -493.0, -493.0, 513.0, -503.0, -496.0, 512.0, -496.0, -493.0, -496.0, -493.0, -493.0, -496.0, 514.0, 512.0, 512.0, -496.0, -496.0, -495.0, 512.0, 512.0, -495.0, -496.0, -496.0, -493.0, -496.0, 509.0, -497.0, -497.0, 513.0, -496.0, 513.0, -496.0, 514.0, -496.0, -495.0, -493.0, -495.0, -493.0, -493.0, -497.0, 512.0, -493.0, 510.0, 514.0, 509.0, -493.0, -495.0
+Win Rate:      35/100 (0.35)
+Record:        Win, Loss, Loss, Loss, Win, Loss, Win, Win, Loss, Loss, Win, Loss, Loss, Win, Loss, Win, Win, Loss, Win, Loss, Win, Win, Loss, Loss, Win, Loss, Loss, Loss, Loss, Win, Loss, Loss, Win, Loss, Loss, Loss, Loss, Win, Loss, Loss, Win, Loss, Loss, Loss, Loss, Loss, Win, Loss, Loss, Loss, Win, Win, Win, Loss, Loss, Win, Loss, Loss, Win, Loss, Loss, Loss, Loss, Loss, Loss, Win, Win, Win, Loss, Loss, Loss, Win, Win, Loss, Loss, Loss, Loss, Loss, Win, Loss, Loss, Win, Loss, Win, Loss, Win, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Win, Loss, Win, Win, Win, Loss, Loss
+start: 2014-10-16 18:16:02
+done: 2014-10-16 18:16:27
+time taken: 0:00:25.816000 seconds
