@@ -127,6 +127,17 @@ def scoreEvaluationFunction(currentGameState):
     """
     return currentGameState.getScore()
 
+def smartScorer(currentGameState):
+    foodList = currentGameState.getFood().asList()
+    distances = [manhattanDistance(currentGameState.getPacmanPosition(),pos)
+                 for pos in foodList]
+    nearestFoodDistance = 0 if len(distances)<1 else min(distances)
+    bonus = len(currentGameState.getCapsules())*37
+    return currentGameState.getScore()+(
+      -nearestFoodDistance-bonus+len(currentGameState.getLegalPacmanActions())
+      )
+
+
 class MultiAgentSearchAgent(Agent):
     """
       This class provides some common elements to all of your
