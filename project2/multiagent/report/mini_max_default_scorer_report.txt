@@ -1,0 +1,54 @@
+N:\SkyDrive\src\SBU\AI\project2\multiagent>python pacman.py -p MinimaxAgent -l m
+inimaxClassic -a depth=4,profile=True -n 10 >> report/mini_max_default_scorer_re
+port.txt
+
+total 3981 nodes expanded
+total 2418 nodes expanded
+total 2613 nodes expanded
+total 422 nodes expanded
+Pacman emerges victorious! Score: 516
+total 3981 nodes expanded
+total 45 nodes expanded
+Pacman died! Score: -492
+total 3981 nodes expanded
+total 2418 nodes expanded
+total 2613 nodes expanded
+total 895 nodes expanded
+Pacman emerges victorious! Score: 516
+total 3981 nodes expanded
+total 2418 nodes expanded
+total 2613 nodes expanded
+total 495 nodes expanded
+Pacman emerges victorious! Score: 516
+total 3981 nodes expanded
+total 2418 nodes expanded
+total 2613 nodes expanded
+total 422 nodes expanded
+Pacman emerges victorious! Score: 516
+total 3981 nodes expanded
+total 2418 nodes expanded
+total 2613 nodes expanded
+total 495 nodes expanded
+Pacman emerges victorious! Score: 516
+total 3981 nodes expanded
+total 2418 nodes expanded
+total 2613 nodes expanded
+total 895 nodes expanded
+Pacman emerges victorious! Score: 516
+total 3981 nodes expanded
+total 2418 nodes expanded
+total 2613 nodes expanded
+total 895 nodes expanded
+Pacman emerges victorious! Score: 516
+total 3981 nodes expanded
+total 45 nodes expanded
+Pacman died! Score: -492
+total 3981 nodes expanded
+total 2418 nodes expanded
+total 2613 nodes expanded
+total 422 nodes expanded
+Pacman emerges victorious! Score: 516
+Average Score: 314.4
+Scores:        516.0, -492.0, 516.0, 516.0, 516.0, 516.0, 516.0, 516.0, -492.0, 516.0
+Win Rate:      8/10 (0.80)
+Record:        Win, Loss, Win, Win, Win, Win, Win, Win, Loss, Win
