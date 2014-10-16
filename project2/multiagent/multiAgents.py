@@ -15,6 +15,7 @@
 
 from util import manhattanDistance
 from game import Directions
+from random import randint
 import random, util
 
 from game import Agent
@@ -76,31 +77,45 @@ class ReflexAgent(Agent):
       newScaredTimes = [ghostState.scaredTimer for ghostState in newGhostStates]
 
       "*** YOUR CODE HERE ***"
-      returnScore=float(0)
-      oldFood = currentGameState.getFood()
-      foodList=oldFood.asList()
+      successorGameState = currentGameState.generatePacmanSuccessor(action)
+      curFood = currentGameState.getFood()
+      curFoodList = curFood.asList()
+      curPos = currentGameState.getPacmanPosition()
+      newPos = successorGameState.getPacmanPosition()
+      newFood = successorGameState.getFood()
+      newGhostStates = successorGameState.getGhostStates()
+      newScaredTimes = [ghostState.scaredTimer for ghostState in newGhostStates]
+      newFoodList = newFood.asList()
 
-      foodList.sort(lambda x,y: util.manhattanDistance(newPos, x)-util.manhattanDistance(newPos, y))
-      foodScore=util.manhattanDistance(newPos, foodList[0])
-      #print(dir(newGhostStates[0]))
-      GhostPositions=[Ghost.getPosition() for Ghost in newGhostStates]
-      if len(GhostPositions) ==0 : GhostScore=0
+      ghostPositions = successorGameState.getGhostPositions()
+      distance = float("inf")
+      scared = newScaredTimes[0] > 0
+      for ghost in ghostPositions:
+        d = manhattanDistance(ghost, newPos)
+        distance = min(d, distance)
+
+      distance2 = float("inf")
+      distance3 = float("-inf")
+      distance4 = float("inf")
+      for food in newFoodList:
+        d = manhattanDistance(food, newPos)
+        d0 = manhattanDistance(food, curPos)
+        distance2 = min(d, distance2)
+        distance3 = max(d, distance3)
+
+      cond = len(newFoodList) < len(curFoodList)
+      count = len(newFoodList)
+      if cond:
+        count = 10000
+      if distance < 2:
+        distance = -100000
       else:
-          GhostPositions.sort(lambda x,y: disCmp(x,y,newPos))
-          if util.manhattanDistance(newPos, GhostPositions[0])==0: return -99
-          else:
-              GhostScore=2*-1.0/util.manhattanDistance(newPos, GhostPositions[0])
-      if foodScore==0: returnScore=2.0+GhostScore
-      else: returnScore=GhostScore+1.0/float(foodScore)
-
-      return returnScore
-
-def disCmp(x,y,newPos):
-    if (util.manhattanDistance(newPos, x)-util.manhattanDistance(newPos, y))<0: return -1
-    else:
-        if (util.manhattanDistance(newPos, x)-util.manhattanDistance(newPos, y))>0: return 1
-        else:
-            return 0
+        distance = 0
+      if count == 0:
+        count = -1000
+      if scared:
+        distance = 0
+      return distance + 1.0/distance2 + count - successorGameState.getScore()
 	   
 def scoreEvaluationFunction(currentGameState):
     """
@@ -155,13 +170,17 @@ class MinimaxAgent(MultiAgentSearchAgent):
       """
       "*** YOUR CODE HERE ***"
       actions = gameState.getLegalActions(0)
-      act, v = None, float("-inf")
-      for action in actions:
-        val = mini_max(1, range(gameState.getNumAgents()), self.depth, gameState.generateSuccessor(0, action),self.evaluationFunction)
-        if val>v:
-          act,v = action, val
-      print val
-      return act
+      if len(actions)>1 and Directions.STOP in actions: actions.remove(Directions.STOP)
+      options = [(action,mini_max(1, range(gameState.getNumAgents()), self.depth, gameState.generateSuccessor(0, action),self.evaluationFunction)) for action in actions]
+      act, val = options[0]
+      for (a,v) in options: val = max(val, v)
+
+      choices = []
+      for (a,v) in options:
+        if v==val:
+          choices.append(a)
+
+      return choices[randint(1,len(choices)) -1]
 
 def mini_max(agent,agentsList,depth,state,evaluator):
   """
@@ -188,23 +207,21 @@ class AlphaBetaAgent(MultiAgentSearchAgent):
         """
         "*** YOUR CODE HERE ***"
         alpha, beta = float("-inf"), float("inf")
-        act, v = None, alpha
         actions = gameState.getLegalActions(0)
-        if Directions.STOP in actions: actions.remove(Directions.STOP)
-        print v
+        if len(actions)>1 and Directions.STOP in actions: actions.remove(Directions.STOP)
+        options=[]
         for action in actions:
-          print action
-          val = alpha_beta(1, range(gameState.getNumAgents()), alpha, beta,
+          v = alpha_beta(1, range(gameState.getNumAgents()), alpha, beta,
                            self.depth, gameState.generateSuccessor(0, action),
                            self.evaluationFunction)
-          print val
-          if val > v:
-            print "p:", action
-            act, v = action, val
-          #if v > beta:
-          #  return action
+          options.append((action,v))
           alpha = max(alpha, v)
-        return act
+        choices = []
+        for (a,v) in options:
+          if v==alpha:
+            choices.append(a)
+
+        return choices[randint(1,len(choices)) -1]
 
 def alpha_beta(agent, agentsList, alpha, beta, depth, state, evaluator):
   if depth==0 or state.isWin() or state.isLose():
