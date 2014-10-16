@@ -187,8 +187,7 @@ class MinimaxAgent(MultiAgentSearchAgent):
       act, v = None, float("-inf")
       for action in actions:
         val = minimax(1, range(gameState.getNumAgents()),self.depth,gameState.generateSuccessor(0, action),action,self.evaluationFunction)
-        print val
-        if val<v:
+        if val>v:
           act,v = action, val
       return act
 
@@ -202,7 +201,9 @@ def minimax(agent,agentlist,depth,state,action,evaluationfunction):
   mnmx = max if agent == 0 else min
   next_depth = depth - 1 if agent == agentlist[-1] else depth
   next_agent = agentlist[(agent+1) % len(agentlist)]
-  return mnmx([minimax(next_agent, agentlist, next_depth,state.generateSuccessor(agent,act), act, evaluationfunction) for act in state.getLegalActions(agent)])
+  return mnmx([minimax(next_agent, agentlist, next_depth,
+                       state.generateSuccessor(agent,act), act, evaluationfunction)
+               for act in state.getLegalActions(agent)])
    	
 class AlphaBetaAgent(MultiAgentSearchAgent):
     """
