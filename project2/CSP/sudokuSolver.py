@@ -22,8 +22,13 @@ from sudokuUtil import *
 # For example: python sudokuSolver.py backtracking
 count = 0
 def solve_puzzle(puzzle, argv):
-  """Solve the sudoku puzzle."""
-  #sol = load_sudoku('given_solution.txt')
+  """
+  Solve the sudoku puzzle.
+  use --mrv switch to enable Minimum Remaining Value heuristic
+  use --cp switch to enable Constraint Propagation
+
+  This function creates a SudokuCSP object and finds a solution by with solve_csp
+  """
   mrv,cp = False,False
   for arg in argv:
     if arg == "--mrv":
@@ -37,9 +42,9 @@ def solve_puzzle(puzzle, argv):
   print count,"steps taken"
   return csp.grid
 
-# Sadh added
+
 def sudoku_check(solution):
-  """Check the suggested solution."""
+  """derived from sudokuChecker.check_solution."""
   # type check
   if not isinstance(solution, list):
     return False
@@ -92,14 +97,32 @@ def sudoku_check(solution):
 
   return True
 
-
-
 def blockRange(a):
+  """
+  given a index a, find the range of indices of the block a is a member of
+  :param a: index to find block of
+  :return: range of indices in the block
+  """
   bs = (a/3)*3
   return range(bs,(bs+3))
 
 class SudokuCSP:
-  def __init__(self,grid, cp):
+  """
+  a class to represent Sudoku as a CSP (compact representation)
+  fields are:
+    grid: partially filled Sudoku grid
+    vars: empty blocks in the Sudoku to fill
+    domains: domain of each vars
+    cp: if constraint satisfaction is to apply
+  """
+
+  def __init__(self, grid, cp):
+    """
+    construct a SudokuCSP object from given puzzle grid
+    :param grid: grid of puzzle
+    :param cp: is constraint propagation is to apply
+    :return: self
+    """
     self.vars = []
     self.domains = {}
     self.grid = grid
@@ -114,24 +137,37 @@ class SudokuCSP:
 
   
   def assign(self, var, value):
+    """
+    attempts to assign a value to this variable
+    :param var: unit in Sudoku to fill
+    :param value: number attempting to assign
+    :return: return true if can do
+    """
     x,y = var
 
+    # check row and column constraint
     for i in range(0,9):
+      # propagate constraint and remove this value from connected vars' domains
       if self.cp:
         if (x,i) in self.domains and i != y and value in self.domains[(x,i)]:
           self.domains[(x,i)].remove(value)
         if (i,y) in self.domains and i != x and value in self.domains[(i,y)]:
           self.domains[(i,y)].remove(value)
+      # if this value already is in same row or column, fail
       if value == self.grid[x][i] or value == self.grid[i][y]:
         return False
 
+    # check block constraint
     for i in blockRange(x):
       for j in blockRange(y):
+        # propagate constraint and remove this value from connected vars' domains
         if self.cp and (i,j) in self.domains and (i,j) != var and value in self.domains[(i,j)]:
           self.domains[(i,j)].remove(value)
+      # if this value already is in same block, fail
         if value == self.grid[i][j]:
           return False
 
+    # forward check
     if self.cp:
       for loc in self.vars:
         if loc in self.domains:
@@ -139,33 +175,56 @@ class SudokuCSP:
           if l<1:
             return False
 
+    # all set. can assign
     self.grid[x][y] = value
     return True
 
   def min_rem_val(self):
-    var,min=None,10
+    """
+    find the variable with minimum remaining value in domain
+    :return: mrv
+    """
+    var, min = None, 10
     for v in self.vars:
       l= len(self.domains[v])
       if l < min and l>0:
-        var,min = v,l
+        var, min = v,l
 
     self.vars.remove(var)
     return var
 
-  def isComplete(self): 
+  def isComplete(self):
+    """
+    check if the grid is completely assigned maintaining all constraints
+    :return: True if solution, False otherwise
+    """
     return sudoku_check(self.grid)
 
 def solve_csp(csp, mrv):
+  """
+  general backtracking algorithm, with option to add mrv
+  constraint propagation shall be handled by the CSP object
+  :param csp: SudokuCSP object
+  :param mrv: if to employ mrv
+  :return: return True and solved csp or False and failed csp
+  """
+  # keep track of nodes expanded
   global count
+
+  #if all variables assigned, check if solution
   if len(csp.vars) == 0:
     return csp.isComplete(),csp
 
+  # pick next variable
   var = csp.min_rem_val() if mrv else csp.vars.pop()
+  # get domain of the var
   domain = csp.domains[var]
-  cspbak = copy.deepcopy(csp)
+  # a copy of CSP to reseed when backtrack
+  cspBak = copy.deepcopy(csp)
 
+  # try each value in domain for the var
   for val in domain:
-    csp = copy.deepcopy(cspbak)
+    csp = copy.deepcopy(cspBak)
     count+=1
     if csp.assign(var,val):
       res,csp = solve_csp(csp,mrv)
