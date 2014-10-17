@@ -82,12 +82,10 @@ class ReflexAgent(Agent):
       curFood = currentGameState.getFood()
       curFoodList = curFood.asList()
       curPos = currentGameState.getPacmanPosition()
-      newPos = successorGameState.getPacmanPosition()
-      newFood = successorGameState.getFood()
       newGhostStates = successorGameState.getGhostStates()
-      newScaredTimes = [ghostState.scaredTimer for ghostState in newGhostStates]
       newFoodList = newFood.asList()
 
+      #find nearest ghost
       ghostPositions = successorGameState.getGhostPositions()
       distance = float("inf")
       scared = newScaredTimes[0] > 0
@@ -95,27 +93,22 @@ class ReflexAgent(Agent):
         d = manhattanDistance(ghost, newPos)
         distance = min(d, distance)
 
+      # nearest and farthest food
       distance2 = float("inf")
       distance3 = float("-inf")
-      distance4 = float("inf")
       for food in newFoodList:
         d = manhattanDistance(food, newPos)
-        d0 = manhattanDistance(food, curPos)
         distance2 = min(d, distance2)
         distance3 = max(d, distance3)
 
-      cond = len(newFoodList) < len(curFoodList)
-      count = len(newFoodList)
-      if cond:
-        count = 10000
-      if distance < 2:
-        distance = -100000
-      else:
-        distance = 0
-      if count == 0:
-        count = -1000
-      if scared:
-        distance = 0
+      # eating food in this step?
+      feeding = len(newFoodList) < len(curFoodList)
+      count = 10000 if feeding else len(newFoodList)
+
+      # sum them up
+      distance = -100000 if distance < 2 else 0
+      if scared: distance = 0
+      if count == 0: count = -1000
       return distance + 1.0/distance2 + count - successorGameState.getScore()
 	   
 def scoreEvaluationFunction(currentGameState):
@@ -129,17 +122,28 @@ def scoreEvaluationFunction(currentGameState):
     return currentGameState.getScore()
 
 def smartScorer(currentGameState):
-    if not isinstance(currentGameState, GameState):
-      return scoreEvaluationFunction(currentGameState)
+  """
+  a smart score evaluation function, which consider following:
+  - if there is a capsule around, try to eat ti
+  - penalize from going farther from nearest food
+  - try to go where more actions are possible
 
-    foodList = currentGameState.getFood().asList()
-    distances = [manhattanDistance(currentGameState.getPacmanPosition(),pos)
-                 for pos in foodList]
-    nearestFoodDistance = 0 if len(distances)<1 else min(distances)
-    bonus = len(currentGameState.getCapsules())*37
-    return currentGameState.getScore()+(
-      -nearestFoodDistance-bonus+len(currentGameState.getLegalPacmanActions())
-      )
+  this eval function shall not be used for full depth Minimax
+
+  :param currentGameState:
+  :return: a empirical score, based on actual gameScore
+  """
+  if currentGameState.isLose() or currentGameState.isWin():
+    return  scoreEvaluationFunction(currentGameState)
+
+  foodList = currentGameState.getFood().asList()
+  distances = [manhattanDistance(currentGameState.getPacmanPosition(),pos)
+               for pos in foodList]
+  nearestFoodDistance = 0 if len(distances)<1 else min(distances)
+  bonus = len(currentGameState.getCapsules())*37
+  return currentGameState.getScore()+(
+    -nearestFoodDistance-bonus+len(currentGameState.getLegalPacmanActions())
+    )
 
 
 class MultiAgentSearchAgent(Agent):
@@ -158,10 +162,16 @@ class MultiAgentSearchAgent(Agent):
     """
 
     def __init__(self, evalFn = 'scoreEvaluationFunction', depth = '2', profile = False):
-        self.index = 0 # Pacman is always agent index 0
-        self.evaluationFunction = util.lookup(evalFn, globals())
-        self.depth = int(depth)
-        self.profile = profile
+      """
+      :param evalFn: evaluation function for Minimax steps
+      :param depth: number of rounds of play to look into
+      :param profile: if to profile nodes expansion
+      :return:
+      """
+      self.index = 0 # Pacman is always agent index 0
+      self.evaluationFunction = util.lookup(evalFn, globals())
+      self.depth = int(depth)
+      self.profile = profile
 
 class MinimaxAgent(MultiAgentSearchAgent):
     """
@@ -185,40 +195,60 @@ class MinimaxAgent(MultiAgentSearchAgent):
           Returns the total number of agents in the game
       """
       "*** YOUR CODE HERE ***"
-      actions = gameState.getLegalActions(0)
+      # init node expansion counter
       count=[0]
-      #if len(actions)>1 and Directions.STOP in actions: actions.remove(Directions.STOP)
+      # get list of legal actions, without STOP
+      actions = gameState.getLegalActions(0)
+      if len(actions)>1 and Directions.STOP in actions: actions.remove(Directions.STOP)
+      # enumerate all possible actions and corresponding Minimax value
       options = [(action,
                   mini_max(1, range(gameState.getNumAgents()), self.depth,
                            gameState.generateSuccessor(0, action),self.evaluationFunction,
                            count))
                  for action in actions]
+      # find maximal Minimax value
       act, val = options[0]
       for (a,v) in options: val = max(val, v)
 
+      # collect all choices; more than one actions can yield same Minimax value
       choices = []
       for (a,v) in options:
         if v==val:
           choices.append(a)
 
       if self.profile: print "total", count[0],"nodes expanded"
+
+      # tie-break randomly
       return choices[randint(1,len(choices)) -1]
 
-def mini_max(agent,agentsList,depth,state,evaluator,nc):
+def mini_max(agent, agentsList, depth, state, evaluator, nc):
   """
-  mini_max function
+  A Minimax function
+  :param agent: Id of the agent
+  :param agentsList: list of all agent, only 0 is Max
+  :param depth: number of more rounds to look into
+  :param state: current game state
+  :param evaluator: evaluation function
+  :param nc: node expansion value
+  :return: Minimax value estimated at depth
   """
   nc[0]=nc[0]+1
+  # evaluate at last depth or game already decided
   if depth == 0 or state.isWin() or state.isLose():
     return evaluator(state)
-  # Based on the value of the agent call the minimiser or maximiser
+
+  # agent 0 is the only Max player
   optimizer = max if agent == 0 else min
+  # in a round all player should take part; decrease depth value when last agent played
   nextDepth = depth - 1 if agent == agentsList[-1] else depth
+  # get next agent
   nextAgent = agentsList[(agent+1) % len(agentsList)]
+  # recursively call for all legal actions
   return optimizer([mini_max(nextAgent, agentsList, nextDepth,
                        state.generateSuccessor(agent,act), evaluator,nc)
                for act in state.getLegalActions(agent)])
-   	
+
+
 class AlphaBetaAgent(MultiAgentSearchAgent):
   """
     Your mini_max agent with alpha-beta pruning (question 3)
@@ -233,41 +263,62 @@ class AlphaBetaAgent(MultiAgentSearchAgent):
     actions = gameState.getLegalActions(0)
     if len(actions)>1 and Directions.STOP in actions: actions.remove(Directions.STOP)
     options=[]
-    count = [0]
-    mmcnt = [0]
+    count1,count2  = [0],[0]
 
+    # to profile and compare with naive Minimax, also get node expansion count of Minimax
     if self.profile:
       for action in actions:
         mini_max(1, range(gameState.getNumAgents()), self.depth,
                  gameState.generateSuccessor(0, action),self.evaluationFunction,
-                 mmcnt)
+                 count2)
 
+    # for each legal action, find Minimax value with Alpha-Beta pruning
     for action in actions:
       v = alpha_beta(1, range(gameState.getNumAgents()), alpha, beta,
                        self.depth, gameState.generateSuccessor(0, action),
-                       self.evaluationFunction, count)
+                       self.evaluationFunction, count1)
       options.append((action,v))
       alpha = max(alpha, v)
 
+    # collect all choices; more than one actions can yield same Minimax value
     choices = []
     for (a,v) in options:
       if v==alpha:
         choices.append(a)
 
-    if self.profile: print (count[0]*100/mmcnt[0]),"%\t",count[0],"\t",mmcnt[0]
+    if self.profile: print (count1[0]*100/count2[0]),"%\t",count1[0],"\t",count2[0]
+    # tie-break randomly
     return choices[randint(1,len(choices)) -1]
 
+
 def alpha_beta(agent, agentsList, alpha, beta, depth, state, evaluator, nc):
+  """
+  A Minimax algorithm with Alpha-Beta pruning
+  :param agent: id of the agent
+  :param agentsList: if of all agents
+  :param alpha: alpha value
+  :param beta: beta value
+  :param depth: depth to look forward into
+  :param state: game state
+  :param evaluator: evaluation function
+  :param nc: node expansion counter
+  :return: Minimax value
+  """
   nc[0]=nc[0]+1
   if depth==0 or state.isWin() or state.isLose():
     return evaluator(state)
 
+  # agent 0 is the only Max agent
   optimizer = max if agent == 0 else min
+  # in a round all player should take part; decrease depth value when last agent played
   nextDepth = depth - 1 if agent == agentsList[-1] else depth
+  # next agent
   nextAgent = agentsList[(agent+1) % len(agentsList)]
 
+  # default value before evaluating
   val = float("-inf") if agent==0 else float("inf")
 
+  # recursively call for each legal actions
   for act in state.getLegalActions(agent):
     if act != Directions.STOP:
       val = optimizer(val,
