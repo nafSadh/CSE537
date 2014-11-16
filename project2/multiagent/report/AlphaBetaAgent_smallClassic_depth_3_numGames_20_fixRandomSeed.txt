@@ -1,0 +1,27 @@
+Pacman died! Score: 66
+Pacman emerges victorious! Score: 885
+Pacman emerges victorious! Score: 1113
+Pacman emerges victorious! Score: 1130
+Pacman emerges victorious! Score: 1312
+Pacman emerges victorious! Score: 1269
+Pacman emerges victorious! Score: 1124
+Pacman died! Score: 313
+Pacman emerges victorious! Score: 1445
+Pacman died! Score: 67
+Pacman died! Score: -189
+Pacman emerges victorious! Score: 1211
+Pacman died! Score: -148
+Pacman emerges victorious! Score: 981
+Pacman died! Score: -181
+Pacman died! Score: -477
+Pacman emerges victorious! Score: 1090
+Pacman died! Score: 707
+Pacman died! Score: 215
+Pacman emerges victorious! Score: 925
+Average Score: 642.9
+Scores:        66.0, 885.0, 1113.0, 1130.0, 1312.0, 1269.0, 1124.0, 313.0, 1445.0, 67.0, -189.0, 1211.0, -148.0, 981.0, -181.0, -477.0, 1090.0, 707.0, 215.0, 925.0
+Win Rate:      11/20 (0.55)
+Record:        Loss, Win, Win, Win, Win, Win, Win, Loss, Win, Loss, Loss, Win, Loss, Win, Loss, Loss, Win, Loss, Loss, Win
+start: 2014-10-16 19:32:54
+done: 2014-10-16 19:35:07
+time taken: 0:02:13.063000 seconds

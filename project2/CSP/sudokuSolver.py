@@ -210,6 +210,7 @@ def solve_csp(csp, mrv):
   """
   # keep track of nodes expanded
   global count
+  #print len(csp.vars)
 
   #if all variables assigned, check if solution
   if len(csp.vars) == 0:
