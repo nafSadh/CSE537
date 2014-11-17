@@ -21,30 +21,12 @@
       <change type="DELETED" beforePath="N:\SkyDrive\src\SBU\AI\BayesianNet\question5_solver.py" afterPath="" />
       <change type="DELETED" beforePath="N:\SkyDrive\src\SBU\AI\BayesianNet\question5_test.txt" afterPath="" />
       <change type="DELETED" beforePath="N:\SkyDrive\src\SBU\AI\BayesianNet\wordCross.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project2/CSP/given_solution.txt" afterPath="$PROJECT_DIR$/project2/CSP/given_solution.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/nafSadh.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/nafSadh.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project2/CSP/solution.txt" afterPath="$PROJECT_DIR$/project2/CSP/solution.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project2/CSP/sudokuSolver.py" afterPath="$PROJECT_DIR$/project2/CSP/sudokuSolver.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project2/multiagent/layouts/testClassic.lay" afterPath="$PROJECT_DIR$/project2/multiagent/layouts/testClassic.lay" />
-    </list>
-    <list id="3bcbd13e-25ea-46f0-92b3-efb466df2e6e" name="Failed commit: Default" comment="Project 3">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project3/BayesianNet/question1.txt" afterPath="$PROJECT_DIR$/project3/BayesianNet/question1.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project3/BayesianNet/question1_solver.py" afterPath="$PROJECT_DIR$/project3/BayesianNet/question1_solver.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project3/BayesianNet/question1_test.txt" afterPath="$PROJECT_DIR$/project3/BayesianNet/question1_test.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project3/BayesianNet/question2.txt" afterPath="$PROJECT_DIR$/project3/BayesianNet/question2.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project3/BayesianNet/question2_solver.py" afterPath="$PROJECT_DIR$/project3/BayesianNet/question2_solver.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project3/BayesianNet/question2_test.txt" afterPath="$PROJECT_DIR$/project3/BayesianNet/question2_test.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project3/BayesianNet/question3.txt" afterPath="$PROJECT_DIR$/project3/BayesianNet/question3.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project3/BayesianNet/question3_solver.py" afterPath="$PROJECT_DIR$/project3/BayesianNet/question3_solver.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project3/BayesianNet/question3_test.txt" afterPath="$PROJECT_DIR$/project3/BayesianNet/question3_test.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project3/BayesianNet/question4.txt" afterPath="$PROJECT_DIR$/project3/BayesianNet/question4.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project3/BayesianNet/question4_solver.py" afterPath="$PROJECT_DIR$/project3/BayesianNet/question4_solver.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project3/BayesianNet/question4_test.txt" afterPath="$PROJECT_DIR$/project3/BayesianNet/question4_test.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project3/BayesianNet/question5.txt" afterPath="$PROJECT_DIR$/project3/BayesianNet/question5.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project3/BayesianNet/question5_solver.py" afterPath="$PROJECT_DIR$/project3/BayesianNet/question5_solver.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project3/BayesianNet/question5_test.txt" afterPath="$PROJECT_DIR$/project3/BayesianNet/question5_test.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project3/BayesianNet/wordCross.py" afterPath="$PROJECT_DIR$/project3/BayesianNet/wordCross.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+    <list id="3bcbd13e-25ea-46f0-92b3-efb466df2e6e" name="Failed commit: Default" comment="Project 3" />
     <ignored path="AI.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -66,51 +48,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="multiAgents.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project2/multiagent/multiAgents.py">
+      <file leaf-file-name="question2_solver.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project3/BayesianNet/question2_solver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="5678" max-vertical-offset="6596">
-              <caret line="334" column="0" selection-start-line="334" selection-start-column="0" selection-end-line="334" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
+              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="27" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="puzzle.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project2/CSP/puzzle.txt">
+      <file leaf-file-name="question1_solver.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project3/BayesianNet/question1_solver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="255">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7399347" vertical-offset="0" max-vertical-offset="919">
+              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testClassic.lay" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project2/multiagent/layouts/testClassic.lay">
+      <file leaf-file-name="cpt.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project3/BayesianNet/cpt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="340">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1428">
+              <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sudokuSolver.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project2/CSP/sudokuSolver.py">
+      <file leaf-file-name="question3_solver.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project3/BayesianNet/question3_solver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4318">
-              <caret line="251" column="0" selection-start-line="251" selection-start-column="0" selection-end-line="251" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="question1.txt" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project3/BayesianNet/question1.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210647">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -152,6 +124,12 @@
         <option value="$PROJECT_DIR$/project2/CSP/puzzle.txt" />
         <option value="$PROJECT_DIR$/project2/multiagent/layouts/testClassic.lay" />
         <option value="$PROJECT_DIR$/project2/CSP/sudokuSolver.py" />
+        <option value="$PROJECT_DIR$/project3/BayesianNet/dictionSample.txt" />
+        <option value="$PROJECT_DIR$/project3/BayesianNet/wordlist.txt" />
+        <option value="$PROJECT_DIR$/project3/BayesianNet/cpt.py" />
+        <option value="$PROJECT_DIR$/project3/BayesianNet/question3_solver.py" />
+        <option value="$PROJECT_DIR$/project3/BayesianNet/question2_solver.py" />
+        <option value="$PROJECT_DIR$/project3/BayesianNet/question1_solver.py" />
       </list>
     </option>
   </component>
@@ -514,7 +492,15 @@
       <created>1416172503120</created>
       <updated>1416172503120</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Project 3">
+      <created>1416173201264</created>
+      <updated>1416173201264</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Q1">
+      <created>1416208888125</created>
+      <updated>1416208888125</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -527,7 +513,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1685678" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20468947" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -565,89 +551,13 @@
     <MESSAGE value="better var name" />
     <MESSAGE value="i hate extra w/s" />
     <MESSAGE value="Project 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project 3" />
+    <MESSAGE value="Q1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Q1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/search/searchAgents.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5981" max-vertical-offset="12257">
-          <caret line="388" column="2" selection-start-line="388" selection-start-column="2" selection-end-line="388" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search/search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4369">
-          <caret line="249" column="0" selection-start-line="249" selection-start-column="0" selection-end-line="250" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search/searchAgents.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="7581" max-vertical-offset="11747">
-          <caret line="467" column="10" selection-start-line="467" selection-start-column="10" selection-end-line="467" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search/search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1613" max-vertical-offset="4403">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search/searchAgents.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="8381" max-vertical-offset="10047">
-          <caret line="493" column="37" selection-start-line="493" selection-start-column="37" selection-end-line="493" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search/search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4148">
-          <caret line="222" column="50" selection-start-line="222" selection-start-column="50" selection-end-line="222" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search/game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2190" max-vertical-offset="12053">
-          <caret line="148" column="0" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search/search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3214" max-vertical-offset="4131">
-          <caret line="121" column="16" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search/search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="4114">
-          <caret line="72" column="66" selection-start-line="72" selection-start-column="66" selection-end-line="72" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search/game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="547" max-vertical-offset="12053">
-          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search/multiAgents.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.892857" vertical-offset="0" max-vertical-offset="3264">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/search/layouts/tinyCorners.lay">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
@@ -925,10 +835,100 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/project3/BayesianNet/question5_test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12948857" vertical-offset="0" max-vertical-offset="919">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project3/BayesianNet/question1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210647">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project3/BayesianNet/question1_test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="919">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project3/BayesianNet/dictionSample.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5674.607" vertical-offset="159501" max-vertical-offset="371875">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project3/BayesianNet/wordlist.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="119746" max-vertical-offset="1188402">
+          <caret line="5583" column="0" selection-start-line="5583" selection-start-column="0" selection-end-line="5583" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project3/BayesianNet/wordCross.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2550">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project3/BayesianNet/question2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="206023">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project3/BayesianNet/question2_test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="919">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project3/BayesianNet/question3_solver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project3/BayesianNet/cpt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1428">
+          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project3/BayesianNet/question2_solver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="27" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project3/BayesianNet/question1_solver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7399347" vertical-offset="0" max-vertical-offset="919">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding />
         </state>
       </provider>
