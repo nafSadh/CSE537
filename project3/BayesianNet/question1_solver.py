@@ -16,6 +16,19 @@ class Question1_Solver:
     #    query: "ques_ion";
     #    return "t";
     def solve(self, query):
-        return "t";
+      word = "`"+query+"`"
+      pos = word.index('_')
+      prev = word[pos-1]
+      next = word[pos+1]
+      from string import ascii_lowercase
+      max = 0.0
+      letter ="_"
+      for c in ascii_lowercase:
+        pr = self.cpt.conditional_prob(c,prev) * self.cpt.conditional_prob(next,c)
+        if pr > max:
+          max, letter = pr, c
+
+      #print query, letter
+      return letter
 
 
