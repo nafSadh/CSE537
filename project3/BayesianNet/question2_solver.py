@@ -16,6 +16,20 @@ class Question2_Solver:
     #    query: "que__ion";
     #    return ["s", "t"];
     def solve(self, query):
-        return ["s", "t"];
+      word = "`"+query+"`"
+      pos = word.index("__")
+      prev = word[pos-1]
+      next = word[pos+2]
+      from string import ascii_lowercase
+      max = 0.0
+      letter1, letter2 ="_","_"
+      for a in ascii_lowercase:
+        for b in ascii_lowercase:
+          pr = self.cpt.conditional_prob(a,prev) * self.cpt.conditional_prob(b,a) * self.cpt.conditional_prob(next,b)
+          if pr > max:
+            max, letter1, letter2 = pr, a,b
+
+      #print query, letter1, letter2
+      return [letter1, letter2]
 
 
