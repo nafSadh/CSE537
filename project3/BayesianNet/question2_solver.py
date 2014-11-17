@@ -1,7 +1,7 @@
 class Question2_Solver:
     def __init__(self, cpt):
         self.cpt = cpt;
-        return;
+        return
 
     #####################################
     # ADD YOUR CODE HERE
@@ -23,9 +23,12 @@ class Question2_Solver:
       from string import ascii_lowercase
       max = 0.0
       letter1, letter2 ="_","_"
+      # shorthand for conditional probability
+      cp = self.cpt.conditional_prob
+      # find best pair by iterating through all
       for a in ascii_lowercase:
         for b in ascii_lowercase:
-          pr = self.cpt.conditional_prob(a,prev) * self.cpt.conditional_prob(b,a) * self.cpt.conditional_prob(next,b)
+          pr = cp(a,prev) * cp(b,a) * cp(next,b)
           if pr > max:
             max, letter1, letter2 = pr, a,b
 

@@ -15,5 +15,5 @@ class Question3_Solver:
     #    query: "qu--_--n";
     #    return "t";
     def solve(self, query):
-        return "t";
+        return "t"
 
