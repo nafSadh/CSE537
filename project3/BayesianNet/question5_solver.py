@@ -25,15 +25,13 @@ class Question5_Solver:
       pos = word.index('_')
       a,b = word[pos-2],word[pos-1]
       d,e = word[pos+1],word[pos+2]
-      max = 0.0
-      letter ="_"
+      mxp, letter = 0.0, "_"
       # shorthand for conditional probability
       cp = self.cpt2.conditional_prob
       # find best pair by iterating through all
       from string import ascii_lowercase
       for c in ascii_lowercase:
         pr = cp(c,a,b) * cp(d,b,c) * cp (e,c,d)
-        if pr > max:
-          max, letter = pr, c
-
+        if pr > mxp:
+          mxp, letter = pr, c
       return letter
