@@ -1,7 +1,7 @@
 class Question5_Solver:
     def __init__(self, cpt2):
-        self.cpt2 = cpt2;
-        return;
+        self.cpt2 = cpt2
+        return
 
     #####################################
     # ADD YOUR CODE HERE
@@ -21,5 +21,19 @@ class Question5_Solver:
     #    query: "ques_ion";
     #    return "t";
     def solve(self, query):
-        return "t";
+      word = "``"+query+"``"
+      pos = word.index('_')
+      a,b = word[pos-2],word[pos-1]
+      d,e = word[pos+1],word[pos+2]
+      max = 0.0
+      letter ="_"
+      # shorthand for conditional probability
+      cp = self.cpt2.conditional_prob
+      # find best pair by iterating through all
+      from string import ascii_lowercase
+      for c in ascii_lowercase:
+        pr = cp(c,a,b) * cp(d,b,c) * cp (e,c,d)
+        if pr > max:
+          max, letter = pr, c
 
+      return letter
