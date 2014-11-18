@@ -3,9 +3,6 @@ class Question1_Solver:
         self.cpt = cpt;
         return
 
-    def cp(self, v, given):
-      return self.cpt.conditional_prob(v, given)
-
     #####################################
     # ADD YOUR CODE HERE
     # Pr(x|y) = self.cpt.conditional_prob(x, y);

@@ -8,43 +8,45 @@ from cpt import *
 from time import time
 
 def question1(cpt, test):
-    file_name = "question1.txt";
+    file_name = "question1.txt"
     if test:
-        file_name = "question1_test.txt";
-    solver = Question1_Solver(cpt);
+        file_name = "question1_test.txt"
+    solver = Question1_Solver(cpt)
     correct = 0.0;
     total = 0.0;
     with open(file_name, "r") as f:
-        data = f.read().splitlines();
+        data = f.read().splitlines()
     for row in data:
-        instance = row.split();
-        predict = solver.solve(instance[0]);
+        instance = row.split()
+        predict = solver.solve(instance[0])
         if (instance[1] == predict):
-            correct = correct + 1;
-        total = total + 1;
-    print "Question 1 accuracy: %f" % (correct / total);
+            correct = correct + 1
+        total = total + 1
+    print "Question 1 accuracy: %f" % (correct / total)
 
 def question2(cpt, test):
-    file_name = "question2.txt";
+    file_name = "question2.txt"
     if test:
-        file_name = "question2_test.txt";
-    solver = Question2_Solver(cpt);
+        file_name = "question2_test.txt"
+    solver = Question2_Solver(cpt)
+    corr = 0.0
     correct = 0.0;
     partial_correct = 0.0;
     total = 0.0;
     with open(file_name, "r") as f:
-        data = f.read().splitlines();
+        data = f.read().splitlines()
+
     for row in data:
         instance = row.split();
-        predict = solver.solve(instance[0]);
+        predict = solver.solve(instance[0])
         if (instance[1] == predict[0] and instance[2] == predict[1]):
             correct = correct + 1;
         if (instance[1] == predict[0] or instance[2] == predict[1]):
-            partial_correct = partial_correct + 1;
-        total = total + 1;
-    print "Question 2 accuracy: %f (two correct letters)" % (correct / total);
+            partial_correct = partial_correct + 1
+        total = total + 1
+    print "Question 2 accuracy: %f (two correct letters)" % (correct / total)
     print "Question 2 accuracy: %f (at least one correct letter)" % \
-          (partial_correct / total);
+          (partial_correct / total)
 
 def question3(cpt, test):
     file_name = "question3.txt";
