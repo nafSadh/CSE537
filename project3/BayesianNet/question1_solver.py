@@ -20,12 +20,12 @@ class Question1_Solver:
       pos = word.index('_')
       prev = word[pos-1]
       next = word[pos+1]
-      from string import ascii_lowercase
       max = 0.0
       letter ="_"
       # shorthand for conditional probability
       cp = self.cpt.conditional_prob
       # find best pair by iterating through all
+      from string import ascii_lowercase
       for c in ascii_lowercase:
         pr = cp(c,prev) * cp(next,c)
         if pr > max:
