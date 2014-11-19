@@ -21,7 +21,7 @@ class Question5_Solver:
     #    query: "ques_ion";
     #    return "t";
     def solve(self, query):
-      word = "``"+query+"``"
+      word = "`"+query+"``"
       pos = word.index('_')
       a,b = word[pos-2],word[pos-1]
       d,e = word[pos+1],word[pos+2]

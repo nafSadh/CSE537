@@ -1,7 +1,11 @@
+from string import ascii_lowercase
+
+def ind(c):
+  return (ord(c) - 96)
+
 class Question2_Solver:
     def __init__(self, cpt):
-        self.cpt = cpt;
-        return
+      self.cpt = cpt
 
     #####################################
     # ADD YOUR CODE HERE
@@ -18,21 +22,19 @@ class Question2_Solver:
     def solve(self, query):
       word = "`"+query+"`"
       pos = word.index("__")
-      prev = word[pos-1]
-      next = word[pos+2]
+      prev, next  = word[pos-1], word[pos+2]
       max = 0.0
       letter1, letter2 ="_","_"
       # shorthand for conditional probability
-      cp = self.cpt.conditional_prob
+      P = self.cpt.conditional_prob
       # find best pair by iterating through all
       from string import ascii_lowercase
       for a in ascii_lowercase:
         for b in ascii_lowercase:
-          pr = cp(a,prev) * cp(b,a) * cp(next,b)
+          pr = P(a,prev) * P(b,a) * P(next,b)
           if pr > max:
             max, letter1, letter2 = pr, a,b
 
       #print query, letter1, letter2
       return [letter1, letter2]
-
-
+    
