@@ -12,6 +12,10 @@ class CPT:
 
     def create_cpt(self):
         self.cpt = [[0.0] * 27 for i in range(27)]
+
+        for i in range(0, 27):
+          for j in range(0, 27):
+            self.cpt[i][j] = 1.0
         #####################################
         # Read dictionSample.txt and build the Conditional Probability Table (CPT).
         with open("dictionSample.txt", "r") as f:
@@ -21,6 +25,8 @@ class CPT:
         for i in range(0, 27):
             s = sum(self.cpt[i])
             for j in range(0, 27):
+                # if self.cpt[i][j] == 0:
+                #   print i,j, "is ZERO"
                 self.cpt[i][j] = self.cpt[i][j] / s
 
     def print_cpt(self):
