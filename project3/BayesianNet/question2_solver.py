@@ -1,8 +1,3 @@
-from string import ascii_lowercase
-
-def ind(c):
-  return (ord(c) - 96)
-
 class Question2_Solver:
     def __init__(self, cpt):
       self.cpt = cpt
@@ -19,6 +14,7 @@ class Question2_Solver:
     # query example:
     #    query: "que__ion";
     #    return ["s", "t"];
+
     def solve(self, query):
       """
       Find most likely letter in blank spaces of a word
@@ -44,18 +40,16 @@ class Question2_Solver:
       word = "`"+query+"`"
       pos = word.index("__")
       likelihood, a, d  = 0.0, word[pos-1], word[pos+2]
-
       likelyB, likelyC ="_","_"
       # shorthand for conditional probability
       P = self.cpt.conditional_prob
-      # find best pair by iterating through all
+      # find best pair by iterating over WxW
       from string import ascii_lowercase
       for b in ascii_lowercase:
         for c in ascii_lowercase:
           p = P(b,a) * P(c,b) * P(d,c)
           if p > likelihood:
             likelihood, likelyB, likelyC = p, b, c
-
-      #print query, letter1, letter2
+      #return the most likely pair
       return [likelyB, likelyC]
     
