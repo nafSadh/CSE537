@@ -47,10 +47,10 @@ class Question3_Solver:
 
     def prob(self, step, v, given):
       if step == 0:
-        return self.cpt.conditional_prob(v, given)
-      if step == 1:
+        return self.cpt.cpt[ind(given)][ind(v)]
+      elif step == 1:
         return self.cpt1[ind(given)][ind(v)]
-      if step ==2:
+      elif step ==2:
         return self.cpt2[ind(given)][ind(v)]
 
     #####################################
@@ -70,8 +70,7 @@ class Question3_Solver:
       P = self.prob
       word = "`"+query+"`"
       pos = word.index("_")
-      head = word[:pos]
-      tail = word[pos+1:]
+      head, tail = word[:pos], word[pos+1:]
       tail = tail[::-1]
 
       l1, h1 = self.marginalLetter(head)
@@ -81,13 +80,11 @@ class Question3_Solver:
         pr = P(h1,c,l1) * P(h2, l2,c)
         if pr > mxp:
           mxp, letter = pr, c
-
       # print query, letter, l1, h1, l2, h2
       return letter
 
     def marginalLetter(self, phrase):
       n = len(phrase)
       if n<2: return "`",0
-      cp = self.cpt.conditional_prob
       pos = phrase.index("-")
       return phrase[pos-1],(n-pos)
