@@ -1,6 +1,6 @@
 class Question1_Solver:
     def __init__(self, cpt):
-        self.cpt = cpt;
+        self.cpt = cpt
         return
 
     #####################################
