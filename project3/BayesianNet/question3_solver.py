@@ -85,6 +85,6 @@ class Question3_Solver:
 
     def marginalLetter(self, phrase):
       n = len(phrase)
-      if n<2: return "`",0
+      phrase += "-"
       pos = phrase.index("-")
       return phrase[pos-1],(n-pos)
