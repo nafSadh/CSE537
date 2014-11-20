@@ -6,9 +6,6 @@ class Question5_Solver:
     self.cpt2 = cpt2
     return
 
-  # ####################################
-  # ADD YOUR CODE HERE
-  # _________
   # |         v
   # Given  z -> y -> x
   # Pr(x|z,y) = self.cpt2.conditional_prob(x, z, y);
