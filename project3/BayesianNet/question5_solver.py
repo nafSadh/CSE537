@@ -37,7 +37,7 @@ class Question5_Solver:
     e.g.: ques_ion will yield the following chain:
     e->s->C->i->o
 
-    this function compute the probability of each assignments of B from W (W
+    this function compute the probability of each assignments of C from W (W
     is the set of all lowercase characters and `) and returns the letter with
     best likelihood
 

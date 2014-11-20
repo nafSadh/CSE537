@@ -32,6 +32,8 @@ class CrossWordSolver:
     self.cpt1 = [[0.0] * 27 for i in range(27)]
     self.cpt2 = [[0.0] * 27 for i in range(27)]
     self.computeIntermediateProbabilities()
+    # self.print_cpTable(self.cpt1)
+    # self.print_cpTable(self.cpt2)
 
 
   def cp1(self, c, a):
@@ -71,8 +73,8 @@ class CrossWordSolver:
       for c in letters:
         sum1 = 0.0
         for B in ascii_lowercase:
-          sum1 +=  (P(B, a) * P(c, B))
-        self.cpt1[ind(a)][ind(c)] = 1.0 * sum1
+          sum1 += 0 if a==B and B==c else (P(B, a) * P(c, B))
+        self.cpt1[ind(a)][ind(c)] = sum1
         total += sum1
       for c in letters:
         self.cpt1[ind(a)][ind(c)] /= total
@@ -81,9 +83,8 @@ class CrossWordSolver:
       total = 0.0
       for d in letters:
         sum2 = 0.0
-        for B in ascii_lowercase:
-          for C in ascii_lowercase:
-            sum2 +=  P(B,a) * P(C,B) * P(d, C)
+        for C in letters:
+          sum2 +=  self.cp1(C,a) * P(d, C)
         self.cpt2[ind(a)][ind(d)] = 1.0 * sum2
         total += sum2
       for d in letters:
@@ -105,6 +106,22 @@ class CrossWordSolver:
     elif numberOfHiddenVariables==2:
       return self.cpt2[ind(given)][ind(v)]
 
+  def print_cpTable(self, table):
+      print "%     `    a    b    c    d    e    f    " \
+            "g    h    i    j    k    l    m    n    " \
+            "o    p    q    r    s    t    u    v    w    x    y    z"
+      print "===========================================" \
+            "===========================================" \
+            "===================================================="
+      print "`", "|", "|".join(str("%.1f" % (p*100)).rjust(4, ' ') for p in table[0])
+      for i in range(1, 27):
+          print chr(i + 96), "|", \
+                "|".join(str("%.1f" % (p*100)).rjust(4, ' ') for p in table[i])
+      for i in range(0, 27):
+          s = sum(table[i])
+          if abs(s - 1.0) > 0.01:
+              print "[ERROR] The conditional probability of Pr(*|%s) " \
+                    "does not add up to 1 (actual: %f)." % (chr(i + 96), s)
 
 class Question3_Solver(CrossWordSolver):
   def __init__(self, cpt):
