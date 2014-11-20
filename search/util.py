@@ -390,7 +390,7 @@ def flipCoin( p ):
   return r < p 
 
 def chooseFromDistribution( distribution ):
-  "Takes either a counter or a list of (prob, key) pairs and samples"
+  "Takes either a counter or a list of (getConditionalProbability, key) pairs and samples"
   if type(distribution) == dict or type(distribution) == Counter:
     return sample(distribution)
   r = random.random()
