@@ -16,22 +16,39 @@ class Question1_Solver:
     #    query: "ques_ion";
     #    return "t";
     def solve(self, query):
+      """
+      Find most likely letter in blank space of a word
+
+      This is done using the CPT and setting the query as a Markov chain of
+      following form:
+
+      a->B->c
+
+      where B represent letter in the blank and a and c are known letter
+      before and after the pair of blanks
+
+      e.g.: ques_ion will yield the following chain:
+      s->B->i
+
+      this function compute the probability of each assignments of B from W (W
+      is the set of all lowercase characters and `) and returns the letter with
+      best likelihood
+
+      :param query: word with single blank; e.g. ques_ion
+      :return: a letter to fill the blank; e.g. 't'
+      """
       word = "`"+query+"`"
       pos = word.index('_')
-      prev = word[pos-1]
-      next = word[pos+1]
-      max = 0.0
-      letter ="_"
+      likelihood, a, c = 0.0, word[pos-1], word[pos+1]
+      likelyB ="_"
       # shorthand for conditional probability
-      cp = self.cpt.conditional_prob
+      P = self.cpt.conditional_prob
       # find best pair by iterating through all
       from string import ascii_lowercase
-      for c in ascii_lowercase:
-        pr = cp(c,prev) * cp(next,c)
-        if pr > max:
-          max, letter = pr, c
-
-      #print query, letter
-      return letter
+      for b in ascii_lowercase:
+        p = P(b,a) * P(c,b)
+        if p > likelihood:
+          likelihood, likelyB = p, b
+      return likelyB
 
 

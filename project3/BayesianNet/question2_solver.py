@@ -24,14 +24,14 @@ class Question2_Solver:
 
       a->B->C->d
 
-      where B and C represent letters in the blanks and a and b are known letter
+      where B and C represent letters in the blanks and a and d are known letter
       before and after the pair of blanks
 
       e.g.: que__ion will yield the following chain:
       e->B->C->i
 
       this function compute the probability of each assignments of (B,C) from
-      WxW (W is the set of all lowercase characters and `) and return the pair
+      WxW (W is the set of all lowercase characters and `) and returns the pair
       with best likelihood
 
       :param query: word with two blanks; e.g. que__ion
