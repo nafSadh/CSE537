@@ -1,7 +1,9 @@
 from string import ascii_lowercase
 
+
 def ind(c):
   return ord(c) - 96
+
 
 class CrossWordSolver:
   @staticmethod
@@ -10,7 +12,8 @@ class CrossWordSolver:
     pos = word.index("_")
     head, tail = word[:pos], word[pos + 1:]
     tail = tail[::-1]
-    return CrossWordSolver.marginalLetter(head), CrossWordSolver.marginalLetter(tail)
+    return CrossWordSolver.marginalLetter(head), \
+           CrossWordSolver.marginalLetter(tail)
 
   @staticmethod
   def marginalLetter(phrase):
@@ -20,21 +23,46 @@ class CrossWordSolver:
     # print phrase, phrase[pos-1],n, pos
     return phrase[pos - 1], (n - pos)
 
+
   def __init__(self, cpt):
+    """
+    :param cpt: First order Conditional Probability Table
+    """
     self.cpt = cpt
     self.cpt1 = [[0.0] * 27 for i in range(27)]
     self.cpt2 = [[0.0] * 27 for i in range(27)]
     self.computeIntermediateProbabilities()
 
 
-
-  def cp1(self, c,a):
+  def cp1(self, c, a):
+    """
+    conditional probability after eliminating one hidden variable
+    ref: following Markov chain
+    a->?->c
+    :param c:
+    :param a:
+    :return:
+    """
     return self.cpt1[ind(a)][ind(c)]
 
-  def cp2(self, d,a):
+  def cp2(self, d, a):
+    """
+    conditional probability after eliminating two hidden variable
+    ref: following Markov chain
+    a->?->?->c
+    :param d:
+    :param a:
+    :return:
+    """
     return self.cpt2[ind(a)][ind(d)]
 
+
   def computeIntermediateProbabilities(self):
+    """
+    compute CPT1 and CPT2, for conditional probabilities with one and two hidden
+    variables eliminated
+
+    """
     letters = "`" + ascii_lowercase
     P = self.cpt.conditional_prob
     for a in letters:
@@ -60,32 +88,27 @@ class CrossWordSolver:
         self.cpt2[ind(a)][ind(d)] /= total
 
 
-  def getConditionalProbability(self, step, v, given):
-    if step==0:
+  def getConditionalProbability(self, numberOfHiddenVariables, v, given):
+    """
+    get CPT (0,1,2) based on number of hidden variables
+    :param numberOfHiddenVariables: number of eliminated hidden variables
+    :param v: estimating value
+    :param given: given that
+    :return: conditional probability
+    """
+    if numberOfHiddenVariables==0:
       return self.cpt.cpt[ind(given)][ind(v)]
-    elif step==1:
+    elif numberOfHiddenVariables==1:
       return self.cpt1[ind(given)][ind(v)]
-    elif step==2:
+    elif numberOfHiddenVariables==2:
       return self.cpt2[ind(given)][ind(v)]
 
 
 class Question3_Solver(CrossWordSolver):
   def __init__(self, cpt):
-    CrossWordSolver.__init__(self,cpt)
+    CrossWordSolver.__init__(self, cpt)
     return
 
-  # ####################################
-  # ADD YOUR CODE HERE
-  # Pr(x|y) = self.cpt.conditional_prob(x, y);
-  # A word begins with "`" and ends with "`".
-  # For example, the probability of word "ab":
-  # Pr("ab") = \
-  # self.cpt.conditional_prob("a", "`") * \
-  #    self.cpt.conditional_prob("b", "a") * \
-  #    self.cpt.conditional_prob("`", "b");
-  # query example:
-  #    query: "qu--_--n";
-  #    return "t";
   def solve(self, query):
     """
     Find most likely letter in blank space of a word, where some neighboring
