@@ -24,8 +24,8 @@ class Question1_Solver:
 
       a->B->c
 
-      where B represent letter in the blank and a and c are known letter
-      before and after the pair of blanks
+      where B represent letter in the blank and a and c are known letter before
+      and after the blank
 
       e.g.: ques_ion will yield the following chain:
       s->B->i

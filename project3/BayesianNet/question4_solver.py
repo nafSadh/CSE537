@@ -8,6 +8,7 @@ class Question4_Solver(CrossWordSolver):
     CrossWordSolver.__init__(self, cpt)
     return
 
+
   def solve(self, query):
     """
     Find most likely letter in blank space of intersection of four words, where
@@ -53,7 +54,7 @@ class Question4_Solver(CrossWordSolver):
 
     mxp, likelyC = 0.0, '_'
     for c in ascii_lowercase:
-      pr =   P(h1, c, a1) * P(t1, e1, c) \
+      pr = P(h1, c, a1) * P(t1, e1, c) \
            * P(h2, c, a2) * P(t2, e2, c) \
            * P(h3, c, a3) * P(t3, e3, c) \
            * P(h4, c, a4) * P(t4, e4, c)

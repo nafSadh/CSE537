@@ -108,6 +108,7 @@ class Question3_Solver(CrossWordSolver):
   def __init__(self, cpt):
     CrossWordSolver.__init__(self, cpt)
     return
+  
 
   def solve(self, query):
     """
