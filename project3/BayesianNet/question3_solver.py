@@ -81,8 +81,9 @@ class CrossWordSolver:
       total = 0.0
       for d in letters:
         sum2 = 0.0
-        for C in ascii_lowercase:
-          sum2 +=  self.cp1(C,a) * P(d, C)
+        for B in ascii_lowercase:
+          for C in ascii_lowercase:
+            sum2 +=  P(B,a) * P(C,B) * P(d, C)
         self.cpt2[ind(a)][ind(d)] = 1.0 * sum2
         total += sum2
       for d in letters:

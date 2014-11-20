@@ -31,7 +31,7 @@ class Question4_Solver(CrossWordSolver):
     accessible via getConditionalProbability function
 
     for it is intersection of four letter, the probability of C=c is product of
-    P(c|ai)*P(ei|bi), for i=[1,4]; here P is probability with hidden
+    P(c|ai)*P(ei|c), for i=[1,4]; here P is probability with hidden
     intermediate variables
 
     this function compute the probability of each assignments of C from W (W
