@@ -1,7 +1,7 @@
 from string import ascii_lowercase
 
 def ind(c):
-  return (ord(c) - 96)
+  return ord(c) - 96
 
 class CrossWordSolver:
   @staticmethod
