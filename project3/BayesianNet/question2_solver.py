@@ -1,6 +1,7 @@
 class Question2_Solver:
     def __init__(self, cpt):
       self.cpt = cpt
+      return
 
     #####################################
     # ADD YOUR CODE HERE
@@ -24,8 +25,8 @@ class Question2_Solver:
 
       a->B->C->d
 
-      where B and C represent letters in the blanks and a and d are known letter
-      before and after the pair of blanks
+      where B and C represent letters in the blanks and a and d are known
+      letters before and after the pair of blanks
 
       e.g.: que__ion will yield the following chain:
       e->B->C->i
