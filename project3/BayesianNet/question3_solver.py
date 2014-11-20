@@ -69,22 +69,22 @@ class CrossWordSolver:
     for a in letters:
       total = 0.0
       for c in letters:
-        sumB = 0.0
+        sum1 = 0.0
         for B in ascii_lowercase:
-          sumB += (P(B, a) * P(c, B))
-        self.cpt1[ind(a)][ind(c)] = 1.0 * sumB
-        total += sumB
+          sum1 +=  (P(B, a) * P(c, B))
+        self.cpt1[ind(a)][ind(c)] = 1.0 * sum1
+        total += sum1
       for c in letters:
         self.cpt1[ind(a)][ind(c)] /= total
 
     for a in letters:
       total = 0.0
       for d in letters:
-        sumBC = 0.0
+        sum2 = 0.0
         for C in ascii_lowercase:
-          sumBC +=  self.cp1(C,a) * P(d, C)
-        self.cpt2[ind(a)][ind(d)] = 1.0 * sumBC
-        total += sumBC
+          sum2 +=  self.cp1(C,a) * P(d, C)
+        self.cpt2[ind(a)][ind(d)] = 1.0 * sum2
+        total += sum2
       for d in letters:
         self.cpt2[ind(a)][ind(d)] /= total
 
