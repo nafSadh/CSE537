@@ -65,25 +65,26 @@ class CrossWordSolver:
     """
     letters = "`" + ascii_lowercase
     P = self.cpt.conditional_prob
+
     for a in letters:
       total = 0.0
       for c in letters:
-        sumB = 0.0
-        for B in letters:
-          sumB += (P(B, a) * P(c, B))
-        self.cpt1[ind(a)][ind(c)] = 1.0 * sumB
-        total += sumB
+        sum1 = 0.0
+        for B in ascii_lowercase:
+          sum1 +=  (P(B, a) * P(c, B))
+        self.cpt1[ind(a)][ind(c)] = 1.0 * sum1
+        total += sum1
       for c in letters:
         self.cpt1[ind(a)][ind(c)] /= total
 
     for a in letters:
       total = 0.0
       for d in letters:
-        sumC = 0.0
-        for C in letters:
-          sumC += (self.cp1(C, a) * P(d, C))
-        self.cpt2[ind(a)][ind(d)] = 1.0 * sumC
-        total += sumC
+        sum2 = 0.0
+        for C in ascii_lowercase:
+          sum2 +=  self.cp1(C,a) * P(d, C)
+        self.cpt2[ind(a)][ind(d)] = 1.0 * sum2
+        total += sum2
       for d in letters:
         self.cpt2[ind(a)][ind(d)] /= total
 
@@ -108,7 +109,7 @@ class Question3_Solver(CrossWordSolver):
   def __init__(self, cpt):
     CrossWordSolver.__init__(self, cpt)
     return
-  
+
 
   def solve(self, query):
     """
