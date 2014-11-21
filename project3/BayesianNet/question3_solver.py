@@ -1,5 +1,5 @@
 from string import ascii_lowercase
-
+import math
 
 def ind(c):
   return ord(c) - 96
@@ -83,7 +83,7 @@ class CrossWordSolver:
       total = 0.0
       for d in letters:
         sum2 = 0.0
-        for C in letters:
+        for C in ascii_lowercase:
           sum2 +=  self.cp1(C,a) * P(d, C)
         self.cpt2[ind(a)][ind(d)] = 1.0 * sum2
         total += sum2
