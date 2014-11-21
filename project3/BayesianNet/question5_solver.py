@@ -16,7 +16,7 @@ class Question5_Solver:
   # self.cpt2.conditional_prob("a", "`", "`") * \
   # self.cpt2.conditional_prob("b", "`", "a") * \
   # self.cpt2.conditional_prob("`", "a", "b") * \
-  #    self.cpt2.conditional_prob("`", "b", "`");
+  # self.cpt2.conditional_prob("`", "b", "`");
   # query example:
   #    query: "ques_ion";
   #    return "t";

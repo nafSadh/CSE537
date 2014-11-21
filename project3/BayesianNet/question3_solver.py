@@ -1,5 +1,5 @@
 from string import ascii_lowercase
-import math
+
 
 def ind(c):
   return ord(c) - 96
@@ -63,7 +63,6 @@ class CrossWordSolver:
     """
     compute CPT1 and CPT2, for conditional probabilities with one and two hidden
     variables eliminated
-
     """
     letters = "`" + ascii_lowercase
     P = self.cpt.conditional_prob
@@ -73,7 +72,7 @@ class CrossWordSolver:
       for c in letters:
         sum1 = 0.0
         for B in ascii_lowercase:
-          sum1 += 0 if a==B and B==c else (P(B, a) * P(c, B))
+          sum1 += 0.0 if a==B and B==c else (P(B, a) * P(c, B))
         self.cpt1[ind(a)][ind(c)] = sum1
         total += sum1
       for c in letters:
@@ -84,7 +83,7 @@ class CrossWordSolver:
       for d in letters:
         sum2 = 0.0
         for C in ascii_lowercase:
-          sum2 +=  self.cp1(C,a) * P(d, C)
+          sum2 += self.cp1(C, a) * P(d, C)
         self.cpt2[ind(a)][ind(d)] = 1.0 * sum2
         total += sum2
       for d in letters:
@@ -107,21 +106,23 @@ class CrossWordSolver:
       return self.cpt2[ind(given)][ind(v)]
 
   def print_cpTable(self, table):
-      print "%     `    a    b    c    d    e    f    " \
-            "g    h    i    j    k    l    m    n    " \
-            "o    p    q    r    s    t    u    v    w    x    y    z"
-      print "===========================================" \
-            "===========================================" \
-            "===================================================="
-      print "`", "|", "|".join(str("%.1f" % (p*100)).rjust(4, ' ') for p in table[0])
-      for i in range(1, 27):
-          print chr(i + 96), "|", \
-                "|".join(str("%.1f" % (p*100)).rjust(4, ' ') for p in table[i])
-      for i in range(0, 27):
-          s = sum(table[i])
-          if abs(s - 1.0) > 0.01:
-              print "[ERROR] The conditional probability of Pr(*|%s) " \
-                    "does not add up to 1 (actual: %f)." % (chr(i + 96), s)
+    print "%     `    a    b    c    d    e    f    " \
+          "g    h    i    j    k    l    m    n    " \
+          "o    p    q    r    s    t    u    v    w    x    y    z"
+    print "===========================================" \
+          "===========================================" \
+          "===================================================="
+    print "`", "|", "|".join(
+      str("%.1f" % (p * 100)).rjust(4, ' ') for p in table[0])
+    for i in range(1, 27):
+      print chr(i + 96), "|", \
+        "|".join(str("%.1f" % (p * 100)).rjust(4, ' ') for p in table[i])
+    for i in range(0, 27):
+      s = sum(table[i])
+      if abs(s - 1.0) > 0.01:
+        print "[ERROR] The conditional probability of Pr(*|%s) " \
+              "does not add up to 1 (actual: %f)." % (chr(i + 96), s)
+
 
 class Question3_Solver(CrossWordSolver):
   def __init__(self, cpt):
