@@ -5,8 +5,8 @@ from question2_solver import *
 from question3_solver import *
 from time import time
 
-def question1():
-    solver = Question1_Solver();
+def question1(threshold):
+    solver = Question1_Solver(threshold);
     correct = 0.0;
     total = 0.0;
     with open("validation.data", "r") as f:
@@ -17,7 +17,7 @@ def question1():
         if (instance[0] == predict):
             correct = correct + 1;
         total = total + 1;
-    print "Question 1 accuracy: %f" % (correct / total);
+    print "w/th "+str(threshold)+": Question 1 accuracy: %f" % (correct / total);
 
 def question2():
     solver = Question2_Solver();
@@ -180,9 +180,16 @@ def question32():
     return;
 
 def main(argv):
+    threshold = -1
+    for arg in argv:
+        if arg.startswith('-th'):
+          threshold = int(arg[3:])
+
     for arg in argv:
         if arg == "-q1":
-            question1();
+          if threshold == -1:
+            for th in range(0,50):question1(th)
+          else:  question1(threshold);
     for arg in argv:
         if arg == "-q2":
             question2();
