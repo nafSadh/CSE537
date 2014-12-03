@@ -28,10 +28,10 @@ class Question3_Solver:
           loopCounter +=1
           # for every point in dataset
           for p in points:
-             # Get the distance between the point and centroid of the first cluster
+            # Get the distance between the point and centroid of the first cluster
              smallest_distance = getDistamce(p, clusters[0].centroid)
              
-             # Set the cluster this point belongs to 
+            # Set the cluster this point belongs to 
              clusterIndex = 0
               # For the remainder of the clusters ...
             for i in range(clusterCount - 1):
