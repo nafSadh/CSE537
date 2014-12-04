@@ -42,7 +42,6 @@ class Question2_Solver:
     features = query.split(',')
     return self.classifier.classify(features)
 
-import math
 class NBClassifier:
   def __init__(self):
     return
@@ -77,9 +76,9 @@ class NBClassifier:
 
     n = len(examples)
     P = {}
-    k = 0.0
+    k = 10.0
     for label in self.domain:
-      P[label] = count[label]/n
+      P[label] = (count[label])/(n)
       for feat in self.featNames:
         for val in self.featValues[feat]:
           P[(label, feat, val)] = (k+count[(label, feat, val)]) / (count[label]+k*len(self.featValues[feat]))
@@ -96,10 +95,10 @@ class NBClassifier:
         val = features[feat]
         if (label, feat, val) in self.P:
           p *= (self.P[(label, feat, val)])
-      if result is None or p >= mx:
+      if result is None or p > mx:
         result, mx = label, p
 
     return result
 
-def lg(x):
-  return math.log(x)
+import math
+lg=math.log
