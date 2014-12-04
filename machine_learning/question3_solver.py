@@ -14,10 +14,8 @@ class Question3_Solver:
 
 
     centroids = [(30, 60), (150, 60), (90, 130)]
+    centroids = [(30, 30), (150, 30), (90, 130)]
     return KMeans(points,3,centroids,0.00001)
-    # k should be a parameter ?? - how we know the value of k
-    # Creating k clusters using those centroids
-    clusters = [Cluster([p]) for p in centroids]
 
 
 def KMeans(points, k, seeds, threshold):
@@ -51,7 +49,6 @@ def KMeans(points, k, seeds, threshold):
     return centroids
 
 
-
 def centroid(points):
   X,Y=0,0
   for (x,y) in points:
@@ -60,6 +57,7 @@ def centroid(points):
   n = len(points)
   x,y = X/n, Y/n
   return (x,y)
+
 
 def euclideanDistance(p1,p2):
   (x1,y1) = p1
