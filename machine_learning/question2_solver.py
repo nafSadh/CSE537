@@ -77,7 +77,7 @@ class NBClassifier:
 
     n = len(examples)
     P = {}
-    k = 1.0
+    k = 0.0
     for label in self.domain:
       P[label] = count[label]/n
       for feat in self.featNames:
