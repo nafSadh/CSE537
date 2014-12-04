@@ -22,8 +22,6 @@ def KMeans(points, k, seeds, threshold):
   if seeds is None or len(seeds)<k:
     seeds = points[0:k]
 
-  converged = False
-
   cluster = []
   for i in range(0,k):
     cluster.append([])
@@ -35,15 +33,15 @@ def KMeans(points, k, seeds, threshold):
       if minD is None or d<minD:
         minD, ci = d, i
     cluster[ci].append(p)
+
   centroids=[]
   hasChange = False
   for i in range(0,k):
     centroids.append(centroid(cluster[i]))
     change = euclideanDistance(centroids[i],seeds[i])
     if change > threshold: hasChange = True
-  if not hasChange: converged =True
 
-  if not converged:
+  if hasChange:
     return KMeans(points,k, centroids, threshold)
   else:
     return centroids
