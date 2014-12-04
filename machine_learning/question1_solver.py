@@ -31,7 +31,7 @@ class Question1_Solver:
     # print threshold
     tree = ID3(examples, attributes, values, domain, "-", threshold)
 
-    print tree
+    # print tree
     self.decisionTree = tree
     self.attributes = attributes
     self.values = values

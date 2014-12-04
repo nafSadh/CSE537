@@ -27,7 +27,7 @@ class Question2_Solver:
       features = features.split(',')
       examples.append((label, features))
       # for a in attributes:
-      #   values[a].add(features[a])
+        # values[a].add(features[a])
 
     # print threshold
     self.classifier.setup(domain,attributes,values)
@@ -42,60 +42,62 @@ class Question2_Solver:
     features = query.split(',')
     return self.classifier.classify(features)
 
-
+import math
 class NBClassifier:
   def __init__(self):
     return
 
-  def setup(self, domain, attributes=[], values={}):
+  def setup(self, domain, featureNames=[], featValues={}):
     self.domain = domain
-    self.attributes = attributes
-    self.dimension = len(attributes)
-    self.values = values
+    self.featNames = featureNames
+    self.dimension = len(featureNames)
+    self.featValues = featValues
     return
 
   def learn(self, examples):
     count = {}
-    for a in self.attributes:
-      count[a] = 0.0
-      for v in self.values[a]:
-        count[(a, v)] = 0.0
+    for feat in self.featNames:
+      count[feat] = 0.0
+      for val in self.featValues[feat]:
+        count[(feat, val)] = 1.0
 
-    for type in self.domain:
-      count[type] = 0.0
-      for a in self.attributes:
-        for v in self.values[a]:
-          count[(type, a, v)] = 0.0
+    for label in self.domain:
+      count[label] = 0.0
+      for feat in self.featNames:
+        for val in self.featValues[feat]:
+          count[(label, feat, val)] = 0.0
 
-    for (type, features) in examples:
-      count[type] += 1.0
-      for a in self.attributes:
-        v = features[a]
-        count[(a, v)] += 1.0
-        count[a] += 1.0
-        count[(type, a, v)] += 1.0
+    for (label, features) in examples:
+      count[label] += 1.0
+      for feat in self.featNames:
+        val = features[feat]
+        count[(feat, val)] += 1.0
+        count[feat] += 1.0
+        count[(label, feat, val)] += 1.0
 
     n = len(examples)
     P = {}
-    for type in self.domain:
-      P[type] = count[type]/n
-      for a in self.attributes:
-        for v in self.values[a]:
-          P[(type, a, v)] = (count[(type, a, v)]) / (count[type])
+    k = 1.0
+    for label in self.domain:
+      P[label] = count[label]/n
+      for feat in self.featNames:
+        for val in self.featValues[feat]:
+          P[(label, feat, val)] = (k+count[(label, feat, val)]) / (count[label]+k*len(self.featValues[feat]))
 
     self.P = P
     return
 
   def classify(self, features):
+    lg = math.log
     mx = 0.0
-    type = None
-    for t in self.domain:
-      p = self.P[t]
-      for a in self.attributes:
-        v = features[a]
-        #if v != '?':
-        p *= self.P[(t, a, v)]
-      if type is None or p >= mx:
-        type, mx = t, p
+    result = None
+    for label in self.domain:
+      p = 1.0*(self.P[label])
+      for feat in self.featNames:
+        val = features[feat]
+        if (label, feat, val) in self.P:
+          p *= (self.P[(label, feat, val)])
+      if result is None or p >= mx:
+        result, mx = label, p
 
-    return type
+    return result

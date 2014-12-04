@@ -117,7 +117,7 @@ def getDistance(a, b):
 
 def makeRandomPoint(n, lower, upper):
   """
-  Returns a Point object with n dimensions and values between lower and
+  Returns a Point object with n dimensions and featValues between lower and
   upper in each of those dimensions
   """
   p = Point([random.uniform(lower, upper) for i in range(n)])

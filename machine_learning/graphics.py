@@ -46,7 +46,7 @@ The library provides the following graphical objects:
     Entry (for text-based input)
     Image
 
-Various attributes of graphical objects can be set such as
+Various featNames of graphical objects can be set such as
 outline-color, fill-color and line-width. Graphical objects also
 support moving and hiding for animation effects.
 
@@ -393,7 +393,7 @@ class Transform:
         return x,y
 
 
-# Default values for various item configuration options. Only a subset of
+# Default featValues for various item configuration options. Only a subset of
 #   keys may be present in the configuration dictionary for a given item
 DEFAULT_CONFIG = {"fill":"",
       "outline":"black",
@@ -858,7 +858,7 @@ class Image(GraphicsObject):
         return self.img.height()
 
     def getPixel(self, x, y):
-        """Returns a list [r,g,b] with the RGB color values for pixel (x,y)
+        """Returns a list [r,g,b] with the RGB color featValues for pixel (x,y)
         r,g,b are in range(256)
 
         """
