@@ -88,11 +88,10 @@ class NBClassifier:
     return
 
   def classify(self, features):
-    lg = math.log
     mx = 0.0
     result = None
     for label in self.domain:
-      p = 1.0*(self.P[label])
+      p = (self.P[label])
       for feat in self.featNames:
         val = features[feat]
         if (label, feat, val) in self.P:
@@ -101,3 +100,6 @@ class NBClassifier:
         result, mx = label, p
 
     return result
+
+def lg(x):
+  return math.log(x)
