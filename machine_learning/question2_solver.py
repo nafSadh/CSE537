@@ -93,11 +93,11 @@ class NBClassifier:
     mx = 0.0
     result = None
     for label in self.domain:
-      p = (self.P[label])
+      p = lg(self.P[label])
       for feat in self.featNames:
         val = features[feat]
         if (label, feat, val) in self.P:
-          p *= (self.P[(label, feat, val)])
+          p += lg(self.P[(label, feat, val)])
       if result is None or p >= mx:
         result, mx = label, p
 
