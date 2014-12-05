@@ -1,6 +1,6 @@
 class Question2_Solver:
   def __init__(self, lidstone=None):
-    if lidstone==None: lidstone = 0.0001
+    if lidstone is None: lidstone = 0.0001
     self.classifier = NBClassifier()
     self.learn('train.data', lidstone)
     return
