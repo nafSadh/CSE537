@@ -1,8 +1,8 @@
 class Question2_Solver:
-  def __init__(self, k=None):
-    if k == None: k = 0.0001
+  def __init__(self, lidstone=None):
+    if lidstone==None: lidstone = 0.0001
     self.classifier = NBClassifier()
-    self.learn('train.data',k)
+    self.learn('train.data', lidstone)
     return
 
   # Add your code here.
@@ -10,7 +10,7 @@ class Question2_Solver:
   # Store the classifier in this class
   # This function runs only once when initializing
   # Please read and only read train_data: 'train.data'
-  def learn(self, train_data,k):
+  def learn(self, train_data, lidstone):
     with open(train_data, "r") as f:
       data = f.read().splitlines()
 
@@ -19,7 +19,7 @@ class Question2_Solver:
 
     values = {}
     for a in attributes:
-      values[a]=['y','n','?']
+      values[a] = ['y', 'n', '?']
 
     domain, examples = set(), []
     for row in data:
@@ -28,10 +28,10 @@ class Question2_Solver:
       features = features.split(',')
       examples.append((label, features))
       # for a in attributes:
-        # values[a].add(features[a])
+      # values[a].add(features[a])
 
     # print threshold
-    self.classifier.setup(domain,attributes,values,k)
+    self.classifier.setup(domain, attributes, values, lidstone)
     self.classifier.learn(examples)
     return
 
@@ -43,16 +43,17 @@ class Question2_Solver:
     features = query.split(',')
     return self.classifier.classify(features)
 
+
 class NBClassifier:
   def __init__(self):
     return
 
-  def setup(self, domain, featureNames=[], featValues={}, k=0.0):
+  def setup(self, domain, featureNames=[], featValues={}, lidstone=0.0):
     self.domain = domain
     self.featNames = featureNames
     self.dimension = len(featureNames)
     self.featValues = featValues
-    self.k = k
+    self.LidstoneSmoothingFactor = lidstone
     return
 
   def learn(self, examples):
@@ -78,12 +79,12 @@ class NBClassifier:
 
     n = len(examples)
     P = {}
-    k = self.k
+    k = self.LidstoneSmoothingFactor
     for label in self.domain:
-      P[label] = (count[label])/(n)
+      P[label] = (count[label]) / (n)
       for feat in self.featNames:
         for val in self.featValues[feat]:
-          P[(label, feat, val)] = (k+count[(label, feat, val)]) / (count[label]+k*len(self.featValues[feat]))
+          P[(label, feat, val)] = (k + count[(label, feat, val)]) / (count[label] + k * len(self.featValues[feat]))
 
     self.P = P
     return
@@ -102,5 +103,7 @@ class NBClassifier:
 
     return result
 
+
 import math
-lg=math.log
+
+lg = math.log
