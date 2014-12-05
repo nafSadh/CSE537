@@ -14,7 +14,7 @@ class Question3_Solver:
 
 
     centroids = [(30, 60), (150, 60), (90, 130)]
-    centroids = [(30, 30), (150, 30), (90, 130)]
+    # centroids = [(30, 30), (150, 30), (90, 130)]
     return KMeans(points,3,centroids,0.00001)
 
 
