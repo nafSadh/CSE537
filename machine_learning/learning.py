@@ -19,8 +19,8 @@ def question1(threshold):
         total = total + 1;
     print "w/th "+str(threshold)+": Question 1 accuracy: %f" % (correct / total);
 
-def question2():
-    solver = Question2_Solver();
+def question2(k=None):
+    solver = Question2_Solver(k);
     correct = 0.0;
     total = 0.0;
     with open("validation.data", "r") as f:
@@ -192,7 +192,8 @@ def main(argv):
           else:  question1(threshold);
     for arg in argv:
         if arg == "-q2":
-            question2();
+            # for th in range(0,50000): question2(1.0*th/100000);
+            question2()
     for arg in argv:
         if arg == "-q3.1":
             question31();

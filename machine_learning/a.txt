@@ -1,0 +1,10000 @@
+0.0
+Question 2 accuracy: 0.884498
+0.001
+Question 2 accuracy: 0.924012
+0.002
+Question 2 accuracy: 0.924012
+0.003
+Question 2 accuracy: 0.920973
+0.004
+Question 2 accuracy: 0.920973
+0.005
+Question 2 accuracy: 0.920973
+0.006
+Question 2 accuracy: 0.917933
+0.007
+Question 2 accuracy: 0.917933
+0.008
+Question 2 accuracy: 0.917933
+0.009
+Question 2 accuracy: 0.917933
+0.01
+Question 2 accuracy: 0.917933
+0.011
+Question 2 accuracy: 0.914894
+0.012
+Question 2 accuracy: 0.908815
+0.013
+Question 2 accuracy: 0.908815
+0.014
+Question 2 accuracy: 0.908815
+0.015
+Question 2 accuracy: 0.908815
+0.016
+Question 2 accuracy: 0.905775
+0.017
+Question 2 accuracy: 0.905775
+0.018
+Question 2 accuracy: 0.905775
+0.019
+Question 2 accuracy: 0.905775
+0.02
+Question 2 accuracy: 0.905775
+0.021
+Question 2 accuracy: 0.905775
+0.022
+Question 2 accuracy: 0.905775
+0.023
+Question 2 accuracy: 0.905775
+0.024
+Question 2 accuracy: 0.905775
+0.025
+Question 2 accuracy: 0.905775
+0.026
+Question 2 accuracy: 0.905775
+0.027
+Question 2 accuracy: 0.905775
+0.028
+Question 2 accuracy: 0.905775
+0.029
+Question 2 accuracy: 0.905775
+0.03
+Question 2 accuracy: 0.905775
+0.031
+Question 2 accuracy: 0.905775
+0.032
+Question 2 accuracy: 0.905775
+0.033
+Question 2 accuracy: 0.905775
+0.034
+Question 2 accuracy: 0.905775
+0.035
+Question 2 accuracy: 0.905775
+0.036
+Question 2 accuracy: 0.905775
+0.037
+Question 2 accuracy: 0.905775
+0.038
+Question 2 accuracy: 0.905775
+0.039
+Question 2 accuracy: 0.905775
+0.04
+Question 2 accuracy: 0.905775
+0.041
+Question 2 accuracy: 0.905775
+0.042
+Question 2 accuracy: 0.905775
+0.043
+Question 2 accuracy: 0.902736
+0.044
+Question 2 accuracy: 0.902736
+0.045
+Question 2 accuracy: 0.902736
+0.046
+Question 2 accuracy: 0.902736
+0.047
+Question 2 accuracy: 0.902736
+0.048
+Question 2 accuracy: 0.902736
+0.049
+Question 2 accuracy: 0.902736
+0.05
+Question 2 accuracy: 0.902736
+0.051
+Question 2 accuracy: 0.902736
+0.052
+Question 2 accuracy: 0.902736
+0.053
+Question 2 accuracy: 0.902736
+0.054
+Question 2 accuracy: 0.902736
+0.055
+Question 2 accuracy: 0.902736
+0.056
+Question 2 accuracy: 0.902736
+0.057
+Question 2 accuracy: 0.902736
+0.058
+Question 2 accuracy: 0.902736
+0.059
+Question 2 accuracy: 0.902736
+0.06
+Question 2 accuracy: 0.902736
+0.061
+Question 2 accuracy: 0.902736
+0.062
+Question 2 accuracy: 0.902736
+0.063
+Question 2 accuracy: 0.902736
+0.064
+Question 2 accuracy: 0.902736
+0.065
+Question 2 accuracy: 0.902736
+0.066
+Question 2 accuracy: 0.902736
+0.067
+Question 2 accuracy: 0.902736
+0.068
+Question 2 accuracy: 0.902736
+0.069
+Question 2 accuracy: 0.902736
+0.07
+Question 2 accuracy: 0.902736
+0.071
+Question 2 accuracy: 0.902736
+0.072
+Question 2 accuracy: 0.902736
+0.073
+Question 2 accuracy: 0.902736
+0.074
+Question 2 accuracy: 0.902736
+0.075
+Question 2 accuracy: 0.902736
+0.076
+Question 2 accuracy: 0.902736
+0.077
+Question 2 accuracy: 0.902736
+0.078
+Question 2 accuracy: 0.902736
+0.079
+Question 2 accuracy: 0.902736
+0.08
+Question 2 accuracy: 0.902736
+0.081
+Question 2 accuracy: 0.902736
+0.082
+Question 2 accuracy: 0.902736
+0.083
+Question 2 accuracy: 0.902736
+0.084
+Question 2 accuracy: 0.902736
+0.085
+Question 2 accuracy: 0.902736
+0.086
+Question 2 accuracy: 0.902736
+0.087
+Question 2 accuracy: 0.902736
+0.088
+Question 2 accuracy: 0.902736
+0.089
+Question 2 accuracy: 0.902736
+0.09
+Question 2 accuracy: 0.902736
+0.091
+Question 2 accuracy: 0.902736
+0.092
+Question 2 accuracy: 0.902736
+0.093
+Question 2 accuracy: 0.902736
+0.094
+Question 2 accuracy: 0.902736
+0.095
+Question 2 accuracy: 0.902736
+0.096
+Question 2 accuracy: 0.902736
+0.097
+Question 2 accuracy: 0.902736
+0.098
+Question 2 accuracy: 0.902736
+0.099
+Question 2 accuracy: 0.902736
+0.1
+Question 2 accuracy: 0.902736
+0.101
+Question 2 accuracy: 0.902736
+0.102
+Question 2 accuracy: 0.902736
+0.103
+Question 2 accuracy: 0.902736
+0.104
+Question 2 accuracy: 0.902736
+0.105
+Question 2 accuracy: 0.902736
+0.106
+Question 2 accuracy: 0.902736
+0.107
+Question 2 accuracy: 0.902736
+0.108
+Question 2 accuracy: 0.902736
+0.109
+Question 2 accuracy: 0.902736
+0.11
+Question 2 accuracy: 0.902736
+0.111
+Question 2 accuracy: 0.902736
+0.112
+Question 2 accuracy: 0.902736
+0.113
+Question 2 accuracy: 0.902736
+0.114
+Question 2 accuracy: 0.902736
+0.115
+Question 2 accuracy: 0.902736
+0.116
+Question 2 accuracy: 0.899696
+0.117
+Question 2 accuracy: 0.899696
+0.118
+Question 2 accuracy: 0.899696
+0.119
+Question 2 accuracy: 0.899696
+0.12
+Question 2 accuracy: 0.899696
+0.121
+Question 2 accuracy: 0.899696
+0.122
+Question 2 accuracy: 0.899696
+0.123
+Question 2 accuracy: 0.899696
+0.124
+Question 2 accuracy: 0.899696
+0.125
+Question 2 accuracy: 0.899696
+0.126
+Question 2 accuracy: 0.899696
+0.127
+Question 2 accuracy: 0.899696
+0.128
+Question 2 accuracy: 0.899696
+0.129
+Question 2 accuracy: 0.899696
+0.13
+Question 2 accuracy: 0.899696
+0.131
+Question 2 accuracy: 0.899696
+0.132
+Question 2 accuracy: 0.899696
+0.133
+Question 2 accuracy: 0.899696
+0.134
+Question 2 accuracy: 0.899696
+0.135
+Question 2 accuracy: 0.899696
+0.136
+Question 2 accuracy: 0.899696
+0.137
+Question 2 accuracy: 0.899696
+0.138
+Question 2 accuracy: 0.899696
+0.139
+Question 2 accuracy: 0.899696
+0.14
+Question 2 accuracy: 0.899696
+0.141
+Question 2 accuracy: 0.899696
+0.142
+Question 2 accuracy: 0.899696
+0.143
+Question 2 accuracy: 0.899696
+0.144
+Question 2 accuracy: 0.899696
+0.145
+Question 2 accuracy: 0.899696
+0.146
+Question 2 accuracy: 0.899696
+0.147
+Question 2 accuracy: 0.899696
+0.148
+Question 2 accuracy: 0.899696
+0.149
+Question 2 accuracy: 0.899696
+0.15
+Question 2 accuracy: 0.899696
+0.151
+Question 2 accuracy: 0.899696
+0.152
+Question 2 accuracy: 0.899696
+0.153
+Question 2 accuracy: 0.899696
+0.154
+Question 2 accuracy: 0.899696
+0.155
+Question 2 accuracy: 0.899696
+0.156
+Question 2 accuracy: 0.899696
+0.157
+Question 2 accuracy: 0.899696
+0.158
+Question 2 accuracy: 0.899696
+0.159
+Question 2 accuracy: 0.899696
+0.16
+Question 2 accuracy: 0.899696
+0.161
+Question 2 accuracy: 0.899696
+0.162
+Question 2 accuracy: 0.899696
+0.163
+Question 2 accuracy: 0.899696
+0.164
+Question 2 accuracy: 0.899696
+0.165
+Question 2 accuracy: 0.899696
+0.166
+Question 2 accuracy: 0.899696
+0.167
+Question 2 accuracy: 0.899696
+0.168
+Question 2 accuracy: 0.899696
+0.169
+Question 2 accuracy: 0.899696
+0.17
+Question 2 accuracy: 0.899696
+0.171
+Question 2 accuracy: 0.899696
+0.172
+Question 2 accuracy: 0.899696
+0.173
+Question 2 accuracy: 0.899696
+0.174
+Question 2 accuracy: 0.899696
+0.175
+Question 2 accuracy: 0.899696
+0.176
+Question 2 accuracy: 0.899696
+0.177
+Question 2 accuracy: 0.899696
+0.178
+Question 2 accuracy: 0.899696
+0.179
+Question 2 accuracy: 0.899696
+0.18
+Question 2 accuracy: 0.899696
+0.181
+Question 2 accuracy: 0.899696
+0.182
+Question 2 accuracy: 0.899696
+0.183
+Question 2 accuracy: 0.899696
+0.184
+Question 2 accuracy: 0.899696
+0.185
+Question 2 accuracy: 0.899696
+0.186
+Question 2 accuracy: 0.899696
+0.187
+Question 2 accuracy: 0.899696
+0.188
+Question 2 accuracy: 0.899696
+0.189
+Question 2 accuracy: 0.899696
+0.19
+Question 2 accuracy: 0.899696
+0.191
+Question 2 accuracy: 0.899696
+0.192
+Question 2 accuracy: 0.899696
+0.193
+Question 2 accuracy: 0.899696
+0.194
+Question 2 accuracy: 0.899696
+0.195
+Question 2 accuracy: 0.899696
+0.196
+Question 2 accuracy: 0.899696
+0.197
+Question 2 accuracy: 0.899696
+0.198
+Question 2 accuracy: 0.899696
+0.199
+Question 2 accuracy: 0.899696
+0.2
+Question 2 accuracy: 0.899696
+0.201
+Question 2 accuracy: 0.899696
+0.202
+Question 2 accuracy: 0.899696
+0.203
+Question 2 accuracy: 0.899696
+0.204
+Question 2 accuracy: 0.899696
+0.205
+Question 2 accuracy: 0.899696
+0.206
+Question 2 accuracy: 0.899696
+0.207
+Question 2 accuracy: 0.899696
+0.208
+Question 2 accuracy: 0.899696
+0.209
+Question 2 accuracy: 0.899696
+0.21
+Question 2 accuracy: 0.899696
+0.211
+Question 2 accuracy: 0.899696
+0.212
+Question 2 accuracy: 0.899696
+0.213
+Question 2 accuracy: 0.899696
+0.214
+Question 2 accuracy: 0.899696
+0.215
+Question 2 accuracy: 0.899696
+0.216
+Question 2 accuracy: 0.899696
+0.217
+Question 2 accuracy: 0.899696
+0.218
+Question 2 accuracy: 0.899696
+0.219
+Question 2 accuracy: 0.899696
+0.22
+Question 2 accuracy: 0.899696
+0.221
+Question 2 accuracy: 0.899696
+0.222
+Question 2 accuracy: 0.899696
+0.223
+Question 2 accuracy: 0.899696
+0.224
+Question 2 accuracy: 0.899696
+0.225
+Question 2 accuracy: 0.899696
+0.226
+Question 2 accuracy: 0.899696
+0.227
+Question 2 accuracy: 0.899696
+0.228
+Question 2 accuracy: 0.899696
+0.229
+Question 2 accuracy: 0.899696
+0.23
+Question 2 accuracy: 0.899696
+0.231
+Question 2 accuracy: 0.899696
+0.232
+Question 2 accuracy: 0.899696
+0.233
+Question 2 accuracy: 0.899696
+0.234
+Question 2 accuracy: 0.899696
+0.235
+Question 2 accuracy: 0.899696
+0.236
+Question 2 accuracy: 0.899696
+0.237
+Question 2 accuracy: 0.899696
+0.238
+Question 2 accuracy: 0.899696
+0.239
+Question 2 accuracy: 0.899696
+0.24
+Question 2 accuracy: 0.899696
+0.241
+Question 2 accuracy: 0.899696
+0.242
+Question 2 accuracy: 0.899696
+0.243
+Question 2 accuracy: 0.899696
+0.244
+Question 2 accuracy: 0.899696
+0.245
+Question 2 accuracy: 0.899696
+0.246
+Question 2 accuracy: 0.899696
+0.247
+Question 2 accuracy: 0.899696
+0.248
+Question 2 accuracy: 0.899696
+0.249
+Question 2 accuracy: 0.899696
+0.25
+Question 2 accuracy: 0.899696
+0.251
+Question 2 accuracy: 0.899696
+0.252
+Question 2 accuracy: 0.899696
+0.253
+Question 2 accuracy: 0.899696
+0.254
+Question 2 accuracy: 0.899696
+0.255
+Question 2 accuracy: 0.899696
+0.256
+Question 2 accuracy: 0.899696
+0.257
+Question 2 accuracy: 0.899696
+0.258
+Question 2 accuracy: 0.899696
+0.259
+Question 2 accuracy: 0.899696
+0.26
+Question 2 accuracy: 0.899696
+0.261
+Question 2 accuracy: 0.899696
+0.262
+Question 2 accuracy: 0.899696
+0.263
+Question 2 accuracy: 0.899696
+0.264
+Question 2 accuracy: 0.899696
+0.265
+Question 2 accuracy: 0.899696
+0.266
+Question 2 accuracy: 0.899696
+0.267
+Question 2 accuracy: 0.899696
+0.268
+Question 2 accuracy: 0.899696
+0.269
+Question 2 accuracy: 0.899696
+0.27
+Question 2 accuracy: 0.899696
+0.271
+Question 2 accuracy: 0.899696
+0.272
+Question 2 accuracy: 0.899696
+0.273
+Question 2 accuracy: 0.899696
+0.274
+Question 2 accuracy: 0.899696
+0.275
+Question 2 accuracy: 0.899696
+0.276
+Question 2 accuracy: 0.899696
+0.277
+Question 2 accuracy: 0.899696
+0.278
+Question 2 accuracy: 0.899696
+0.279
+Question 2 accuracy: 0.899696
+0.28
+Question 2 accuracy: 0.899696
+0.281
+Question 2 accuracy: 0.899696
+0.282
+Question 2 accuracy: 0.899696
+0.283
+Question 2 accuracy: 0.899696
+0.284
+Question 2 accuracy: 0.899696
+0.285
+Question 2 accuracy: 0.899696
+0.286
+Question 2 accuracy: 0.899696
+0.287
+Question 2 accuracy: 0.899696
+0.288
+Question 2 accuracy: 0.899696
+0.289
+Question 2 accuracy: 0.899696
+0.29
+Question 2 accuracy: 0.899696
+0.291
+Question 2 accuracy: 0.899696
+0.292
+Question 2 accuracy: 0.899696
+0.293
+Question 2 accuracy: 0.899696
+0.294
+Question 2 accuracy: 0.899696
+0.295
+Question 2 accuracy: 0.899696
+0.296
+Question 2 accuracy: 0.899696
+0.297
+Question 2 accuracy: 0.899696
+0.298
+Question 2 accuracy: 0.899696
+0.299
+Question 2 accuracy: 0.899696
+0.3
+Question 2 accuracy: 0.899696
+0.301
+Question 2 accuracy: 0.899696
+0.302
+Question 2 accuracy: 0.899696
+0.303
+Question 2 accuracy: 0.899696
+0.304
+Question 2 accuracy: 0.899696
+0.305
+Question 2 accuracy: 0.899696
+0.306
+Question 2 accuracy: 0.899696
+0.307
+Question 2 accuracy: 0.899696
+0.308
+Question 2 accuracy: 0.899696
+0.309
+Question 2 accuracy: 0.899696
+0.31
+Question 2 accuracy: 0.899696
+0.311
+Question 2 accuracy: 0.899696
+0.312
+Question 2 accuracy: 0.899696
+0.313
+Question 2 accuracy: 0.899696
+0.314
+Question 2 accuracy: 0.899696
+0.315
+Question 2 accuracy: 0.899696
+0.316
+Question 2 accuracy: 0.899696
+0.317
+Question 2 accuracy: 0.899696
+0.318
+Question 2 accuracy: 0.899696
+0.319
+Question 2 accuracy: 0.899696
+0.32
+Question 2 accuracy: 0.899696
+0.321
+Question 2 accuracy: 0.899696
+0.322
+Question 2 accuracy: 0.899696
+0.323
+Question 2 accuracy: 0.899696
+0.324
+Question 2 accuracy: 0.899696
+0.325
+Question 2 accuracy: 0.899696
+0.326
+Question 2 accuracy: 0.899696
+0.327
+Question 2 accuracy: 0.899696
+0.328
+Question 2 accuracy: 0.899696
+0.329
+Question 2 accuracy: 0.899696
+0.33
+Question 2 accuracy: 0.899696
+0.331
+Question 2 accuracy: 0.899696
+0.332
+Question 2 accuracy: 0.899696
+0.333
+Question 2 accuracy: 0.899696
+0.334
+Question 2 accuracy: 0.899696
+0.335
+Question 2 accuracy: 0.899696
+0.336
+Question 2 accuracy: 0.899696
+0.337
+Question 2 accuracy: 0.899696
+0.338
+Question 2 accuracy: 0.899696
+0.339
+Question 2 accuracy: 0.899696
+0.34
+Question 2 accuracy: 0.899696
+0.341
+Question 2 accuracy: 0.899696
+0.342
+Question 2 accuracy: 0.899696
+0.343
+Question 2 accuracy: 0.899696
+0.344
+Question 2 accuracy: 0.899696
+0.345
+Question 2 accuracy: 0.899696
+0.346
+Question 2 accuracy: 0.899696
+0.347
+Question 2 accuracy: 0.899696
+0.348
+Question 2 accuracy: 0.899696
+0.349
+Question 2 accuracy: 0.899696
+0.35
+Question 2 accuracy: 0.899696
+0.351
+Question 2 accuracy: 0.899696
+0.352
+Question 2 accuracy: 0.899696
+0.353
+Question 2 accuracy: 0.899696
+0.354
+Question 2 accuracy: 0.899696
+0.355
+Question 2 accuracy: 0.899696
+0.356
+Question 2 accuracy: 0.899696
+0.357
+Question 2 accuracy: 0.899696
+0.358
+Question 2 accuracy: 0.899696
+0.359
+Question 2 accuracy: 0.899696
+0.36
+Question 2 accuracy: 0.899696
+0.361
+Question 2 accuracy: 0.899696
+0.362
+Question 2 accuracy: 0.899696
+0.363
+Question 2 accuracy: 0.899696
+0.364
+Question 2 accuracy: 0.899696
+0.365
+Question 2 accuracy: 0.899696
+0.366
+Question 2 accuracy: 0.899696
+0.367
+Question 2 accuracy: 0.899696
+0.368
+Question 2 accuracy: 0.899696
+0.369
+Question 2 accuracy: 0.899696
+0.37
+Question 2 accuracy: 0.899696
+0.371
+Question 2 accuracy: 0.899696
+0.372
+Question 2 accuracy: 0.899696
+0.373
+Question 2 accuracy: 0.899696
+0.374
+Question 2 accuracy: 0.899696
+0.375
+Question 2 accuracy: 0.899696
+0.376
+Question 2 accuracy: 0.899696
+0.377
+Question 2 accuracy: 0.899696
+0.378
+Question 2 accuracy: 0.899696
+0.379
+Question 2 accuracy: 0.899696
+0.38
+Question 2 accuracy: 0.899696
+0.381
+Question 2 accuracy: 0.899696
+0.382
+Question 2 accuracy: 0.899696
+0.383
+Question 2 accuracy: 0.899696
+0.384
+Question 2 accuracy: 0.899696
+0.385
+Question 2 accuracy: 0.899696
+0.386
+Question 2 accuracy: 0.899696
+0.387
+Question 2 accuracy: 0.899696
+0.388
+Question 2 accuracy: 0.899696
+0.389
+Question 2 accuracy: 0.899696
+0.39
+Question 2 accuracy: 0.899696
+0.391
+Question 2 accuracy: 0.899696
+0.392
+Question 2 accuracy: 0.899696
+0.393
+Question 2 accuracy: 0.899696
+0.394
+Question 2 accuracy: 0.899696
+0.395
+Question 2 accuracy: 0.899696
+0.396
+Question 2 accuracy: 0.899696
+0.397
+Question 2 accuracy: 0.899696
+0.398
+Question 2 accuracy: 0.899696
+0.399
+Question 2 accuracy: 0.899696
+0.4
+Question 2 accuracy: 0.899696
+0.401
+Question 2 accuracy: 0.899696
+0.402
+Question 2 accuracy: 0.899696
+0.403
+Question 2 accuracy: 0.899696
+0.404
+Question 2 accuracy: 0.899696
+0.405
+Question 2 accuracy: 0.899696
+0.406
+Question 2 accuracy: 0.899696
+0.407
+Question 2 accuracy: 0.899696
+0.408
+Question 2 accuracy: 0.899696
+0.409
+Question 2 accuracy: 0.899696
+0.41
+Question 2 accuracy: 0.899696
+0.411
+Question 2 accuracy: 0.899696
+0.412
+Question 2 accuracy: 0.899696
+0.413
+Question 2 accuracy: 0.899696
+0.414
+Question 2 accuracy: 0.899696
+0.415
+Question 2 accuracy: 0.899696
+0.416
+Question 2 accuracy: 0.899696
+0.417
+Question 2 accuracy: 0.899696
+0.418
+Question 2 accuracy: 0.899696
+0.419
+Question 2 accuracy: 0.899696
+0.42
+Question 2 accuracy: 0.899696
+0.421
+Question 2 accuracy: 0.899696
+0.422
+Question 2 accuracy: 0.899696
+0.423
+Question 2 accuracy: 0.899696
+0.424
+Question 2 accuracy: 0.899696
+0.425
+Question 2 accuracy: 0.899696
+0.426
+Question 2 accuracy: 0.899696
+0.427
+Question 2 accuracy: 0.899696
+0.428
+Question 2 accuracy: 0.899696
+0.429
+Question 2 accuracy: 0.899696
+0.43
+Question 2 accuracy: 0.899696
+0.431
+Question 2 accuracy: 0.899696
+0.432
+Question 2 accuracy: 0.899696
+0.433
+Question 2 accuracy: 0.899696
+0.434
+Question 2 accuracy: 0.899696
+0.435
+Question 2 accuracy: 0.899696
+0.436
+Question 2 accuracy: 0.899696
+0.437
+Question 2 accuracy: 0.899696
+0.438
+Question 2 accuracy: 0.899696
+0.439
+Question 2 accuracy: 0.899696
+0.44
+Question 2 accuracy: 0.899696
+0.441
+Question 2 accuracy: 0.899696
+0.442
+Question 2 accuracy: 0.899696
+0.443
+Question 2 accuracy: 0.899696
+0.444
+Question 2 accuracy: 0.899696
+0.445
+Question 2 accuracy: 0.899696
+0.446
+Question 2 accuracy: 0.899696
+0.447
+Question 2 accuracy: 0.899696
+0.448
+Question 2 accuracy: 0.899696
+0.449
+Question 2 accuracy: 0.899696
+0.45
+Question 2 accuracy: 0.899696
+0.451
+Question 2 accuracy: 0.899696
+0.452
+Question 2 accuracy: 0.899696
+0.453
+Question 2 accuracy: 0.899696
+0.454
+Question 2 accuracy: 0.899696
+0.455
+Question 2 accuracy: 0.899696
+0.456
+Question 2 accuracy: 0.899696
+0.457
+Question 2 accuracy: 0.899696
+0.458
+Question 2 accuracy: 0.899696
+0.459
+Question 2 accuracy: 0.899696
+0.46
+Question 2 accuracy: 0.899696
+0.461
+Question 2 accuracy: 0.899696
+0.462
+Question 2 accuracy: 0.899696
+0.463
+Question 2 accuracy: 0.899696
+0.464
+Question 2 accuracy: 0.899696
+0.465
+Question 2 accuracy: 0.899696
+0.466
+Question 2 accuracy: 0.899696
+0.467
+Question 2 accuracy: 0.899696
+0.468
+Question 2 accuracy: 0.899696
+0.469
+Question 2 accuracy: 0.899696
+0.47
+Question 2 accuracy: 0.899696
+0.471
+Question 2 accuracy: 0.899696
+0.472
+Question 2 accuracy: 0.899696
+0.473
+Question 2 accuracy: 0.899696
+0.474
+Question 2 accuracy: 0.899696
+0.475
+Question 2 accuracy: 0.899696
+0.476
+Question 2 accuracy: 0.899696
+0.477
+Question 2 accuracy: 0.899696
+0.478
+Question 2 accuracy: 0.899696
+0.479
+Question 2 accuracy: 0.899696
+0.48
+Question 2 accuracy: 0.899696
+0.481
+Question 2 accuracy: 0.899696
+0.482
+Question 2 accuracy: 0.899696
+0.483
+Question 2 accuracy: 0.899696
+0.484
+Question 2 accuracy: 0.899696
+0.485
+Question 2 accuracy: 0.899696
+0.486
+Question 2 accuracy: 0.899696
+0.487
+Question 2 accuracy: 0.899696
+0.488
+Question 2 accuracy: 0.899696
+0.489
+Question 2 accuracy: 0.899696
+0.49
+Question 2 accuracy: 0.899696
+0.491
+Question 2 accuracy: 0.899696
+0.492
+Question 2 accuracy: 0.899696
+0.493
+Question 2 accuracy: 0.899696
+0.494
+Question 2 accuracy: 0.899696
+0.495
+Question 2 accuracy: 0.899696
+0.496
+Question 2 accuracy: 0.899696
+0.497
+Question 2 accuracy: 0.899696
+0.498
+Question 2 accuracy: 0.899696
+0.499
+Question 2 accuracy: 0.899696
+0.5
+Question 2 accuracy: 0.899696
+0.501
+Question 2 accuracy: 0.899696
+0.502
+Question 2 accuracy: 0.899696
+0.503
+Question 2 accuracy: 0.899696
+0.504
+Question 2 accuracy: 0.899696
+0.505
+Question 2 accuracy: 0.899696
+0.506
+Question 2 accuracy: 0.899696
+0.507
+Question 2 accuracy: 0.899696
+0.508
+Question 2 accuracy: 0.899696
+0.509
+Question 2 accuracy: 0.899696
+0.51
+Question 2 accuracy: 0.899696
+0.511
+Question 2 accuracy: 0.899696
+0.512
+Question 2 accuracy: 0.899696
+0.513
+Question 2 accuracy: 0.899696
+0.514
+Question 2 accuracy: 0.899696
+0.515
+Question 2 accuracy: 0.899696
+0.516
+Question 2 accuracy: 0.899696
+0.517
+Question 2 accuracy: 0.899696
+0.518
+Question 2 accuracy: 0.899696
+0.519
+Question 2 accuracy: 0.899696
+0.52
+Question 2 accuracy: 0.899696
+0.521
+Question 2 accuracy: 0.899696
+0.522
+Question 2 accuracy: 0.899696
+0.523
+Question 2 accuracy: 0.899696
+0.524
+Question 2 accuracy: 0.899696
+0.525
+Question 2 accuracy: 0.899696
+0.526
+Question 2 accuracy: 0.899696
+0.527
+Question 2 accuracy: 0.899696
+0.528
+Question 2 accuracy: 0.899696
+0.529
+Question 2 accuracy: 0.899696
+0.53
+Question 2 accuracy: 0.899696
+0.531
+Question 2 accuracy: 0.899696
+0.532
+Question 2 accuracy: 0.899696
+0.533
+Question 2 accuracy: 0.899696
+0.534
+Question 2 accuracy: 0.899696
+0.535
+Question 2 accuracy: 0.899696
+0.536
+Question 2 accuracy: 0.899696
+0.537
+Question 2 accuracy: 0.899696
+0.538
+Question 2 accuracy: 0.899696
+0.539
+Question 2 accuracy: 0.899696
+0.54
+Question 2 accuracy: 0.899696
+0.541
+Question 2 accuracy: 0.899696
+0.542
+Question 2 accuracy: 0.899696
+0.543
+Question 2 accuracy: 0.899696
+0.544
+Question 2 accuracy: 0.899696
+0.545
+Question 2 accuracy: 0.899696
+0.546
+Question 2 accuracy: 0.899696
+0.547
+Question 2 accuracy: 0.899696
+0.548
+Question 2 accuracy: 0.899696
+0.549
+Question 2 accuracy: 0.899696
+0.55
+Question 2 accuracy: 0.899696
+0.551
+Question 2 accuracy: 0.899696
+0.552
+Question 2 accuracy: 0.899696
+0.553
+Question 2 accuracy: 0.899696
+0.554
+Question 2 accuracy: 0.899696
+0.555
+Question 2 accuracy: 0.899696
+0.556
+Question 2 accuracy: 0.899696
+0.557
+Question 2 accuracy: 0.899696
+0.558
+Question 2 accuracy: 0.899696
+0.559
+Question 2 accuracy: 0.899696
+0.56
+Question 2 accuracy: 0.899696
+0.561
+Question 2 accuracy: 0.899696
+0.562
+Question 2 accuracy: 0.899696
+0.563
+Question 2 accuracy: 0.899696
+0.564
+Question 2 accuracy: 0.899696
+0.565
+Question 2 accuracy: 0.899696
+0.566
+Question 2 accuracy: 0.899696
+0.567
+Question 2 accuracy: 0.899696
+0.568
+Question 2 accuracy: 0.899696
+0.569
+Question 2 accuracy: 0.899696
+0.57
+Question 2 accuracy: 0.899696
+0.571
+Question 2 accuracy: 0.899696
+0.572
+Question 2 accuracy: 0.899696
+0.573
+Question 2 accuracy: 0.899696
+0.574
+Question 2 accuracy: 0.899696
+0.575
+Question 2 accuracy: 0.899696
+0.576
+Question 2 accuracy: 0.899696
+0.577
+Question 2 accuracy: 0.899696
+0.578
+Question 2 accuracy: 0.899696
+0.579
+Question 2 accuracy: 0.899696
+0.58
+Question 2 accuracy: 0.899696
+0.581
+Question 2 accuracy: 0.899696
+0.582
+Question 2 accuracy: 0.899696
+0.583
+Question 2 accuracy: 0.899696
+0.584
+Question 2 accuracy: 0.899696
+0.585
+Question 2 accuracy: 0.899696
+0.586
+Question 2 accuracy: 0.899696
+0.587
+Question 2 accuracy: 0.899696
+0.588
+Question 2 accuracy: 0.899696
+0.589
+Question 2 accuracy: 0.899696
+0.59
+Question 2 accuracy: 0.899696
+0.591
+Question 2 accuracy: 0.899696
+0.592
+Question 2 accuracy: 0.899696
+0.593
+Question 2 accuracy: 0.899696
+0.594
+Question 2 accuracy: 0.899696
+0.595
+Question 2 accuracy: 0.899696
+0.596
+Question 2 accuracy: 0.899696
+0.597
+Question 2 accuracy: 0.899696
+0.598
+Question 2 accuracy: 0.899696
+0.599
+Question 2 accuracy: 0.899696
+0.6
+Question 2 accuracy: 0.899696
+0.601
+Question 2 accuracy: 0.899696
+0.602
+Question 2 accuracy: 0.899696
+0.603
+Question 2 accuracy: 0.899696
+0.604
+Question 2 accuracy: 0.899696
+0.605
+Question 2 accuracy: 0.899696
+0.606
+Question 2 accuracy: 0.899696
+0.607
+Question 2 accuracy: 0.899696
+0.608
+Question 2 accuracy: 0.899696
+0.609
+Question 2 accuracy: 0.899696
+0.61
+Question 2 accuracy: 0.899696
+0.611
+Question 2 accuracy: 0.899696
+0.612
+Question 2 accuracy: 0.899696
+0.613
+Question 2 accuracy: 0.899696
+0.614
+Question 2 accuracy: 0.899696
+0.615
+Question 2 accuracy: 0.899696
+0.616
+Question 2 accuracy: 0.899696
+0.617
+Question 2 accuracy: 0.899696
+0.618
+Question 2 accuracy: 0.899696
+0.619
+Question 2 accuracy: 0.899696
+0.62
+Question 2 accuracy: 0.899696
+0.621
+Question 2 accuracy: 0.899696
+0.622
+Question 2 accuracy: 0.899696
+0.623
+Question 2 accuracy: 0.899696
+0.624
+Question 2 accuracy: 0.899696
+0.625
+Question 2 accuracy: 0.899696
+0.626
+Question 2 accuracy: 0.899696
+0.627
+Question 2 accuracy: 0.899696
+0.628
+Question 2 accuracy: 0.899696
+0.629
+Question 2 accuracy: 0.899696
+0.63
+Question 2 accuracy: 0.899696
+0.631
+Question 2 accuracy: 0.899696
+0.632
+Question 2 accuracy: 0.899696
+0.633
+Question 2 accuracy: 0.899696
+0.634
+Question 2 accuracy: 0.899696
+0.635
+Question 2 accuracy: 0.899696
+0.636
+Question 2 accuracy: 0.899696
+0.637
+Question 2 accuracy: 0.899696
+0.638
+Question 2 accuracy: 0.899696
+0.639
+Question 2 accuracy: 0.899696
+0.64
+Question 2 accuracy: 0.899696
+0.641
+Question 2 accuracy: 0.899696
+0.642
+Question 2 accuracy: 0.899696
+0.643
+Question 2 accuracy: 0.899696
+0.644
+Question 2 accuracy: 0.899696
+0.645
+Question 2 accuracy: 0.899696
+0.646
+Question 2 accuracy: 0.899696
+0.647
+Question 2 accuracy: 0.899696
+0.648
+Question 2 accuracy: 0.899696
+0.649
+Question 2 accuracy: 0.899696
+0.65
+Question 2 accuracy: 0.899696
+0.651
+Question 2 accuracy: 0.899696
+0.652
+Question 2 accuracy: 0.899696
+0.653
+Question 2 accuracy: 0.899696
+0.654
+Question 2 accuracy: 0.899696
+0.655
+Question 2 accuracy: 0.899696
+0.656
+Question 2 accuracy: 0.899696
+0.657
+Question 2 accuracy: 0.899696
+0.658
+Question 2 accuracy: 0.899696
+0.659
+Question 2 accuracy: 0.899696
+0.66
+Question 2 accuracy: 0.899696
+0.661
+Question 2 accuracy: 0.899696
+0.662
+Question 2 accuracy: 0.899696
+0.663
+Question 2 accuracy: 0.899696
+0.664
+Question 2 accuracy: 0.899696
+0.665
+Question 2 accuracy: 0.899696
+0.666
+Question 2 accuracy: 0.899696
+0.667
+Question 2 accuracy: 0.899696
+0.668
+Question 2 accuracy: 0.899696
+0.669
+Question 2 accuracy: 0.899696
+0.67
+Question 2 accuracy: 0.899696
+0.671
+Question 2 accuracy: 0.899696
+0.672
+Question 2 accuracy: 0.899696
+0.673
+Question 2 accuracy: 0.899696
+0.674
+Question 2 accuracy: 0.899696
+0.675
+Question 2 accuracy: 0.899696
+0.676
+Question 2 accuracy: 0.899696
+0.677
+Question 2 accuracy: 0.899696
+0.678
+Question 2 accuracy: 0.899696
+0.679
+Question 2 accuracy: 0.899696
+0.68
+Question 2 accuracy: 0.899696
+0.681
+Question 2 accuracy: 0.899696
+0.682
+Question 2 accuracy: 0.899696
+0.683
+Question 2 accuracy: 0.899696
+0.684
+Question 2 accuracy: 0.899696
+0.685
+Question 2 accuracy: 0.899696
+0.686
+Question 2 accuracy: 0.899696
+0.687
+Question 2 accuracy: 0.899696
+0.688
+Question 2 accuracy: 0.899696
+0.689
+Question 2 accuracy: 0.899696
+0.69
+Question 2 accuracy: 0.899696
+0.691
+Question 2 accuracy: 0.899696
+0.692
+Question 2 accuracy: 0.899696
+0.693
+Question 2 accuracy: 0.899696
+0.694
+Question 2 accuracy: 0.899696
+0.695
+Question 2 accuracy: 0.899696
+0.696
+Question 2 accuracy: 0.899696
+0.697
+Question 2 accuracy: 0.899696
+0.698
+Question 2 accuracy: 0.899696
+0.699
+Question 2 accuracy: 0.899696
+0.7
+Question 2 accuracy: 0.899696
+0.701
+Question 2 accuracy: 0.899696
+0.702
+Question 2 accuracy: 0.899696
+0.703
+Question 2 accuracy: 0.899696
+0.704
+Question 2 accuracy: 0.899696
+0.705
+Question 2 accuracy: 0.899696
+0.706
+Question 2 accuracy: 0.899696
+0.707
+Question 2 accuracy: 0.899696
+0.708
+Question 2 accuracy: 0.899696
+0.709
+Question 2 accuracy: 0.899696
+0.71
+Question 2 accuracy: 0.899696
+0.711
+Question 2 accuracy: 0.899696
+0.712
+Question 2 accuracy: 0.899696
+0.713
+Question 2 accuracy: 0.899696
+0.714
+Question 2 accuracy: 0.899696
+0.715
+Question 2 accuracy: 0.899696
+0.716
+Question 2 accuracy: 0.899696
+0.717
+Question 2 accuracy: 0.899696
+0.718
+Question 2 accuracy: 0.899696
+0.719
+Question 2 accuracy: 0.899696
+0.72
+Question 2 accuracy: 0.899696
+0.721
+Question 2 accuracy: 0.899696
+0.722
+Question 2 accuracy: 0.899696
+0.723
+Question 2 accuracy: 0.899696
+0.724
+Question 2 accuracy: 0.899696
+0.725
+Question 2 accuracy: 0.896657
+0.726
+Question 2 accuracy: 0.896657
+0.727
+Question 2 accuracy: 0.896657
+0.728
+Question 2 accuracy: 0.896657
+0.729
+Question 2 accuracy: 0.896657
+0.73
+Question 2 accuracy: 0.896657
+0.731
+Question 2 accuracy: 0.896657
+0.732
+Question 2 accuracy: 0.896657
+0.733
+Question 2 accuracy: 0.896657
+0.734
+Question 2 accuracy: 0.896657
+0.735
+Question 2 accuracy: 0.896657
+0.736
+Question 2 accuracy: 0.896657
+0.737
+Question 2 accuracy: 0.896657
+0.738
+Question 2 accuracy: 0.896657
+0.739
+Question 2 accuracy: 0.896657
+0.74
+Question 2 accuracy: 0.896657
+0.741
+Question 2 accuracy: 0.896657
+0.742
+Question 2 accuracy: 0.893617
+0.743
+Question 2 accuracy: 0.893617
+0.744
+Question 2 accuracy: 0.893617
+0.745
+Question 2 accuracy: 0.893617
+0.746
+Question 2 accuracy: 0.893617
+0.747
+Question 2 accuracy: 0.893617
+0.748
+Question 2 accuracy: 0.893617
+0.749
+Question 2 accuracy: 0.893617
+0.75
+Question 2 accuracy: 0.893617
+0.751
+Question 2 accuracy: 0.893617
+0.752
+Question 2 accuracy: 0.893617
+0.753
+Question 2 accuracy: 0.893617
+0.754
+Question 2 accuracy: 0.893617
+0.755
+Question 2 accuracy: 0.893617
+0.756
+Question 2 accuracy: 0.893617
+0.757
+Question 2 accuracy: 0.893617
+0.758
+Question 2 accuracy: 0.893617
+0.759
+Question 2 accuracy: 0.893617
+0.76
+Question 2 accuracy: 0.893617
+0.761
+Question 2 accuracy: 0.893617
+0.762
+Question 2 accuracy: 0.893617
+0.763
+Question 2 accuracy: 0.893617
+0.764
+Question 2 accuracy: 0.893617
+0.765
+Question 2 accuracy: 0.893617
+0.766
+Question 2 accuracy: 0.893617
+0.767
+Question 2 accuracy: 0.893617
+0.768
+Question 2 accuracy: 0.893617
+0.769
+Question 2 accuracy: 0.893617
+0.77
+Question 2 accuracy: 0.893617
+0.771
+Question 2 accuracy: 0.893617
+0.772
+Question 2 accuracy: 0.893617
+0.773
+Question 2 accuracy: 0.893617
+0.774
+Question 2 accuracy: 0.893617
+0.775
+Question 2 accuracy: 0.893617
+0.776
+Question 2 accuracy: 0.893617
+0.777
+Question 2 accuracy: 0.893617
+0.778
+Question 2 accuracy: 0.893617
+0.779
+Question 2 accuracy: 0.893617
+0.78
+Question 2 accuracy: 0.893617
+0.781
+Question 2 accuracy: 0.893617
+0.782
+Question 2 accuracy: 0.893617
+0.783
+Question 2 accuracy: 0.893617
+0.784
+Question 2 accuracy: 0.893617
+0.785
+Question 2 accuracy: 0.893617
+0.786
+Question 2 accuracy: 0.893617
+0.787
+Question 2 accuracy: 0.893617
+0.788
+Question 2 accuracy: 0.893617
+0.789
+Question 2 accuracy: 0.893617
+0.79
+Question 2 accuracy: 0.893617
+0.791
+Question 2 accuracy: 0.893617
+0.792
+Question 2 accuracy: 0.893617
+0.793
+Question 2 accuracy: 0.893617
+0.794
+Question 2 accuracy: 0.893617
+0.795
+Question 2 accuracy: 0.893617
+0.796
+Question 2 accuracy: 0.893617
+0.797
+Question 2 accuracy: 0.893617
+0.798
+Question 2 accuracy: 0.893617
+0.799
+Question 2 accuracy: 0.893617
+0.8
+Question 2 accuracy: 0.893617
+0.801
+Question 2 accuracy: 0.893617
+0.802
+Question 2 accuracy: 0.893617
+0.803
+Question 2 accuracy: 0.893617
+0.804
+Question 2 accuracy: 0.893617
+0.805
+Question 2 accuracy: 0.893617
+0.806
+Question 2 accuracy: 0.893617
+0.807
+Question 2 accuracy: 0.893617
+0.808
+Question 2 accuracy: 0.893617
+0.809
+Question 2 accuracy: 0.893617
+0.81
+Question 2 accuracy: 0.893617
+0.811
+Question 2 accuracy: 0.893617
+0.812
+Question 2 accuracy: 0.893617
+0.813
+Question 2 accuracy: 0.893617
+0.814
+Question 2 accuracy: 0.893617
+0.815
+Question 2 accuracy: 0.893617
+0.816
+Question 2 accuracy: 0.893617
+0.817
+Question 2 accuracy: 0.893617
+0.818
+Question 2 accuracy: 0.893617
+0.819
+Question 2 accuracy: 0.893617
+0.82
+Question 2 accuracy: 0.893617
+0.821
+Question 2 accuracy: 0.893617
+0.822
+Question 2 accuracy: 0.893617
+0.823
+Question 2 accuracy: 0.893617
+0.824
+Question 2 accuracy: 0.893617
+0.825
+Question 2 accuracy: 0.893617
+0.826
+Question 2 accuracy: 0.893617
+0.827
+Question 2 accuracy: 0.893617
+0.828
+Question 2 accuracy: 0.893617
+0.829
+Question 2 accuracy: 0.893617
+0.83
+Question 2 accuracy: 0.893617
+0.831
+Question 2 accuracy: 0.893617
+0.832
+Question 2 accuracy: 0.893617
+0.833
+Question 2 accuracy: 0.893617
+0.834
+Question 2 accuracy: 0.893617
+0.835
+Question 2 accuracy: 0.893617
+0.836
+Question 2 accuracy: 0.893617
+0.837
+Question 2 accuracy: 0.893617
+0.838
+Question 2 accuracy: 0.893617
+0.839
+Question 2 accuracy: 0.893617
+0.84
+Question 2 accuracy: 0.893617
+0.841
+Question 2 accuracy: 0.893617
+0.842
+Question 2 accuracy: 0.893617
+0.843
+Question 2 accuracy: 0.893617
+0.844
+Question 2 accuracy: 0.893617
+0.845
+Question 2 accuracy: 0.893617
+0.846
+Question 2 accuracy: 0.893617
+0.847
+Question 2 accuracy: 0.893617
+0.848
+Question 2 accuracy: 0.893617
+0.849
+Question 2 accuracy: 0.893617
+0.85
+Question 2 accuracy: 0.893617
+0.851
+Question 2 accuracy: 0.893617
+0.852
+Question 2 accuracy: 0.893617
+0.853
+Question 2 accuracy: 0.893617
+0.854
+Question 2 accuracy: 0.893617
+0.855
+Question 2 accuracy: 0.893617
+0.856
+Question 2 accuracy: 0.893617
+0.857
+Question 2 accuracy: 0.893617
+0.858
+Question 2 accuracy: 0.893617
+0.859
+Question 2 accuracy: 0.893617
+0.86
+Question 2 accuracy: 0.893617
+0.861
+Question 2 accuracy: 0.893617
+0.862
+Question 2 accuracy: 0.893617
+0.863
+Question 2 accuracy: 0.893617
+0.864
+Question 2 accuracy: 0.893617
+0.865
+Question 2 accuracy: 0.893617
+0.866
+Question 2 accuracy: 0.893617
+0.867
+Question 2 accuracy: 0.893617
+0.868
+Question 2 accuracy: 0.893617
+0.869
+Question 2 accuracy: 0.893617
+0.87
+Question 2 accuracy: 0.893617
+0.871
+Question 2 accuracy: 0.893617
+0.872
+Question 2 accuracy: 0.893617
+0.873
+Question 2 accuracy: 0.893617
+0.874
+Question 2 accuracy: 0.893617
+0.875
+Question 2 accuracy: 0.893617
+0.876
+Question 2 accuracy: 0.893617
+0.877
+Question 2 accuracy: 0.893617
+0.878
+Question 2 accuracy: 0.893617
+0.879
+Question 2 accuracy: 0.893617
+0.88
+Question 2 accuracy: 0.893617
+0.881
+Question 2 accuracy: 0.893617
+0.882
+Question 2 accuracy: 0.893617
+0.883
+Question 2 accuracy: 0.893617
+0.884
+Question 2 accuracy: 0.893617
+0.885
+Question 2 accuracy: 0.893617
+0.886
+Question 2 accuracy: 0.893617
+0.887
+Question 2 accuracy: 0.893617
+0.888
+Question 2 accuracy: 0.893617
+0.889
+Question 2 accuracy: 0.893617
+0.89
+Question 2 accuracy: 0.893617
+0.891
+Question 2 accuracy: 0.893617
+0.892
+Question 2 accuracy: 0.893617
+0.893
+Question 2 accuracy: 0.893617
+0.894
+Question 2 accuracy: 0.893617
+0.895
+Question 2 accuracy: 0.893617
+0.896
+Question 2 accuracy: 0.893617
+0.897
+Question 2 accuracy: 0.893617
+0.898
+Question 2 accuracy: 0.893617
+0.899
+Question 2 accuracy: 0.893617
+0.9
+Question 2 accuracy: 0.893617
+0.901
+Question 2 accuracy: 0.893617
+0.902
+Question 2 accuracy: 0.893617
+0.903
+Question 2 accuracy: 0.893617
+0.904
+Question 2 accuracy: 0.893617
+0.905
+Question 2 accuracy: 0.893617
+0.906
+Question 2 accuracy: 0.893617
+0.907
+Question 2 accuracy: 0.893617
+0.908
+Question 2 accuracy: 0.893617
+0.909
+Question 2 accuracy: 0.893617
+0.91
+Question 2 accuracy: 0.893617
+0.911
+Question 2 accuracy: 0.893617
+0.912
+Question 2 accuracy: 0.893617
+0.913
+Question 2 accuracy: 0.893617
+0.914
+Question 2 accuracy: 0.893617
+0.915
+Question 2 accuracy: 0.893617
+0.916
+Question 2 accuracy: 0.893617
+0.917
+Question 2 accuracy: 0.893617
+0.918
+Question 2 accuracy: 0.893617
+0.919
+Question 2 accuracy: 0.893617
+0.92
+Question 2 accuracy: 0.893617
+0.921
+Question 2 accuracy: 0.893617
+0.922
+Question 2 accuracy: 0.893617
+0.923
+Question 2 accuracy: 0.893617
+0.924
+Question 2 accuracy: 0.893617
+0.925
+Question 2 accuracy: 0.893617
+0.926
+Question 2 accuracy: 0.893617
+0.927
+Question 2 accuracy: 0.893617
+0.928
+Question 2 accuracy: 0.893617
+0.929
+Question 2 accuracy: 0.893617
+0.93
+Question 2 accuracy: 0.893617
+0.931
+Question 2 accuracy: 0.893617
+0.932
+Question 2 accuracy: 0.893617
+0.933
+Question 2 accuracy: 0.893617
+0.934
+Question 2 accuracy: 0.893617
+0.935
+Question 2 accuracy: 0.893617
+0.936
+Question 2 accuracy: 0.893617
+0.937
+Question 2 accuracy: 0.893617
+0.938
+Question 2 accuracy: 0.893617
+0.939
+Question 2 accuracy: 0.893617
+0.94
+Question 2 accuracy: 0.893617
+0.941
+Question 2 accuracy: 0.893617
+0.942
+Question 2 accuracy: 0.893617
+0.943
+Question 2 accuracy: 0.893617
+0.944
+Question 2 accuracy: 0.893617
+0.945
+Question 2 accuracy: 0.893617
+0.946
+Question 2 accuracy: 0.893617
+0.947
+Question 2 accuracy: 0.893617
+0.948
+Question 2 accuracy: 0.893617
+0.949
+Question 2 accuracy: 0.893617
+0.95
+Question 2 accuracy: 0.893617
+0.951
+Question 2 accuracy: 0.893617
+0.952
+Question 2 accuracy: 0.893617
+0.953
+Question 2 accuracy: 0.893617
+0.954
+Question 2 accuracy: 0.893617
+0.955
+Question 2 accuracy: 0.893617
+0.956
+Question 2 accuracy: 0.893617
+0.957
+Question 2 accuracy: 0.893617
+0.958
+Question 2 accuracy: 0.893617
+0.959
+Question 2 accuracy: 0.893617
+0.96
+Question 2 accuracy: 0.893617
+0.961
+Question 2 accuracy: 0.893617
+0.962
+Question 2 accuracy: 0.893617
+0.963
+Question 2 accuracy: 0.893617
+0.964
+Question 2 accuracy: 0.893617
+0.965
+Question 2 accuracy: 0.893617
+0.966
+Question 2 accuracy: 0.893617
+0.967
+Question 2 accuracy: 0.893617
+0.968
+Question 2 accuracy: 0.893617
+0.969
+Question 2 accuracy: 0.893617
+0.97
+Question 2 accuracy: 0.893617
+0.971
+Question 2 accuracy: 0.893617
+0.972
+Question 2 accuracy: 0.893617
+0.973
+Question 2 accuracy: 0.893617
+0.974
+Question 2 accuracy: 0.893617
+0.975
+Question 2 accuracy: 0.893617
+0.976
+Question 2 accuracy: 0.893617
+0.977
+Question 2 accuracy: 0.893617
+0.978
+Question 2 accuracy: 0.893617
+0.979
+Question 2 accuracy: 0.893617
+0.98
+Question 2 accuracy: 0.893617
+0.981
+Question 2 accuracy: 0.893617
+0.982
+Question 2 accuracy: 0.893617
+0.983
+Question 2 accuracy: 0.893617
+0.984
+Question 2 accuracy: 0.893617
+0.985
+Question 2 accuracy: 0.893617
+0.986
+Question 2 accuracy: 0.893617
+0.987
+Question 2 accuracy: 0.893617
+0.988
+Question 2 accuracy: 0.893617
+0.989
+Question 2 accuracy: 0.893617
+0.99
+Question 2 accuracy: 0.893617
+0.991
+Question 2 accuracy: 0.893617
+0.992
+Question 2 accuracy: 0.893617
+0.993
+Question 2 accuracy: 0.893617
+0.994
+Question 2 accuracy: 0.893617
+0.995
+Question 2 accuracy: 0.893617
+0.996
+Question 2 accuracy: 0.893617
+0.997
+Question 2 accuracy: 0.893617
+0.998
+Question 2 accuracy: 0.893617
+0.999
+Question 2 accuracy: 0.893617
+1.0
+Question 2 accuracy: 0.893617
+1.001
+Question 2 accuracy: 0.893617
+1.002
+Question 2 accuracy: 0.893617
+1.003
+Question 2 accuracy: 0.893617
+1.004
+Question 2 accuracy: 0.893617
+1.005
+Question 2 accuracy: 0.893617
+1.006
+Question 2 accuracy: 0.893617
+1.007
+Question 2 accuracy: 0.893617
+1.008
+Question 2 accuracy: 0.893617
+1.009
+Question 2 accuracy: 0.893617
+1.01
+Question 2 accuracy: 0.893617
+1.011
+Question 2 accuracy: 0.893617
+1.012
+Question 2 accuracy: 0.893617
+1.013
+Question 2 accuracy: 0.893617
+1.014
+Question 2 accuracy: 0.893617
+1.015
+Question 2 accuracy: 0.893617
+1.016
+Question 2 accuracy: 0.893617
+1.017
+Question 2 accuracy: 0.893617
+1.018
+Question 2 accuracy: 0.893617
+1.019
+Question 2 accuracy: 0.893617
+1.02
+Question 2 accuracy: 0.893617
+1.021
+Question 2 accuracy: 0.893617
+1.022
+Question 2 accuracy: 0.893617
+1.023
+Question 2 accuracy: 0.893617
+1.024
+Question 2 accuracy: 0.893617
+1.025
+Question 2 accuracy: 0.893617
+1.026
+Question 2 accuracy: 0.893617
+1.027
+Question 2 accuracy: 0.893617
+1.028
+Question 2 accuracy: 0.893617
+1.029
+Question 2 accuracy: 0.893617
+1.03
+Question 2 accuracy: 0.893617
+1.031
+Question 2 accuracy: 0.893617
+1.032
+Question 2 accuracy: 0.893617
+1.033
+Question 2 accuracy: 0.893617
+1.034
+Question 2 accuracy: 0.893617
+1.035
+Question 2 accuracy: 0.893617
+1.036
+Question 2 accuracy: 0.893617
+1.037
+Question 2 accuracy: 0.893617
+1.038
+Question 2 accuracy: 0.893617
+1.039
+Question 2 accuracy: 0.893617
+1.04
+Question 2 accuracy: 0.893617
+1.041
+Question 2 accuracy: 0.893617
+1.042
+Question 2 accuracy: 0.893617
+1.043
+Question 2 accuracy: 0.893617
+1.044
+Question 2 accuracy: 0.893617
+1.045
+Question 2 accuracy: 0.893617
+1.046
+Question 2 accuracy: 0.893617
+1.047
+Question 2 accuracy: 0.893617
+1.048
+Question 2 accuracy: 0.893617
+1.049
+Question 2 accuracy: 0.893617
+1.05
+Question 2 accuracy: 0.893617
+1.051
+Question 2 accuracy: 0.893617
+1.052
+Question 2 accuracy: 0.893617
+1.053
+Question 2 accuracy: 0.893617
+1.054
+Question 2 accuracy: 0.893617
+1.055
+Question 2 accuracy: 0.893617
+1.056
+Question 2 accuracy: 0.893617
+1.057
+Question 2 accuracy: 0.893617
+1.058
+Question 2 accuracy: 0.893617
+1.059
+Question 2 accuracy: 0.893617
+1.06
+Question 2 accuracy: 0.893617
+1.061
+Question 2 accuracy: 0.893617
+1.062
+Question 2 accuracy: 0.893617
+1.063
+Question 2 accuracy: 0.893617
+1.064
+Question 2 accuracy: 0.893617
+1.065
+Question 2 accuracy: 0.893617
+1.066
+Question 2 accuracy: 0.893617
+1.067
+Question 2 accuracy: 0.893617
+1.068
+Question 2 accuracy: 0.893617
+1.069
+Question 2 accuracy: 0.893617
+1.07
+Question 2 accuracy: 0.893617
+1.071
+Question 2 accuracy: 0.893617
+1.072
+Question 2 accuracy: 0.893617
+1.073
+Question 2 accuracy: 0.893617
+1.074
+Question 2 accuracy: 0.893617
+1.075
+Question 2 accuracy: 0.893617
+1.076
+Question 2 accuracy: 0.893617
+1.077
+Question 2 accuracy: 0.893617
+1.078
+Question 2 accuracy: 0.893617
+1.079
+Question 2 accuracy: 0.893617
+1.08
+Question 2 accuracy: 0.893617
+1.081
+Question 2 accuracy: 0.893617
+1.082
+Question 2 accuracy: 0.893617
+1.083
+Question 2 accuracy: 0.893617
+1.084
+Question 2 accuracy: 0.893617
+1.085
+Question 2 accuracy: 0.893617
+1.086
+Question 2 accuracy: 0.893617
+1.087
+Question 2 accuracy: 0.893617
+1.088
+Question 2 accuracy: 0.893617
+1.089
+Question 2 accuracy: 0.893617
+1.09
+Question 2 accuracy: 0.893617
+1.091
+Question 2 accuracy: 0.893617
+1.092
+Question 2 accuracy: 0.893617
+1.093
+Question 2 accuracy: 0.893617
+1.094
+Question 2 accuracy: 0.893617
+1.095
+Question 2 accuracy: 0.893617
+1.096
+Question 2 accuracy: 0.893617
+1.097
+Question 2 accuracy: 0.893617
+1.098
+Question 2 accuracy: 0.893617
+1.099
+Question 2 accuracy: 0.893617
+1.1
+Question 2 accuracy: 0.893617
+1.101
+Question 2 accuracy: 0.893617
+1.102
+Question 2 accuracy: 0.893617
+1.103
+Question 2 accuracy: 0.893617
+1.104
+Question 2 accuracy: 0.893617
+1.105
+Question 2 accuracy: 0.893617
+1.106
+Question 2 accuracy: 0.893617
+1.107
+Question 2 accuracy: 0.893617
+1.108
+Question 2 accuracy: 0.893617
+1.109
+Question 2 accuracy: 0.893617
+1.11
+Question 2 accuracy: 0.893617
+1.111
+Question 2 accuracy: 0.893617
+1.112
+Question 2 accuracy: 0.893617
+1.113
+Question 2 accuracy: 0.893617
+1.114
+Question 2 accuracy: 0.893617
+1.115
+Question 2 accuracy: 0.893617
+1.116
+Question 2 accuracy: 0.893617
+1.117
+Question 2 accuracy: 0.893617
+1.118
+Question 2 accuracy: 0.893617
+1.119
+Question 2 accuracy: 0.893617
+1.12
+Question 2 accuracy: 0.893617
+1.121
+Question 2 accuracy: 0.893617
+1.122
+Question 2 accuracy: 0.893617
+1.123
+Question 2 accuracy: 0.893617
+1.124
+Question 2 accuracy: 0.893617
+1.125
+Question 2 accuracy: 0.893617
+1.126
+Question 2 accuracy: 0.893617
+1.127
+Question 2 accuracy: 0.893617
+1.128
+Question 2 accuracy: 0.893617
+1.129
+Question 2 accuracy: 0.893617
+1.13
+Question 2 accuracy: 0.893617
+1.131
+Question 2 accuracy: 0.893617
+1.132
+Question 2 accuracy: 0.893617
+1.133
+Question 2 accuracy: 0.893617
+1.134
+Question 2 accuracy: 0.893617
+1.135
+Question 2 accuracy: 0.893617
+1.136
+Question 2 accuracy: 0.893617
+1.137
+Question 2 accuracy: 0.893617
+1.138
+Question 2 accuracy: 0.893617
+1.139
+Question 2 accuracy: 0.893617
+1.14
+Question 2 accuracy: 0.893617
+1.141
+Question 2 accuracy: 0.893617
+1.142
+Question 2 accuracy: 0.893617
+1.143
+Question 2 accuracy: 0.893617
+1.144
+Question 2 accuracy: 0.893617
+1.145
+Question 2 accuracy: 0.893617
+1.146
+Question 2 accuracy: 0.893617
+1.147
+Question 2 accuracy: 0.893617
+1.148
+Question 2 accuracy: 0.893617
+1.149
+Question 2 accuracy: 0.893617
+1.15
+Question 2 accuracy: 0.893617
+1.151
+Question 2 accuracy: 0.893617
+1.152
+Question 2 accuracy: 0.893617
+1.153
+Question 2 accuracy: 0.893617
+1.154
+Question 2 accuracy: 0.893617
+1.155
+Question 2 accuracy: 0.893617
+1.156
+Question 2 accuracy: 0.893617
+1.157
+Question 2 accuracy: 0.893617
+1.158
+Question 2 accuracy: 0.893617
+1.159
+Question 2 accuracy: 0.893617
+1.16
+Question 2 accuracy: 0.890578
+1.161
+Question 2 accuracy: 0.890578
+1.162
+Question 2 accuracy: 0.890578
+1.163
+Question 2 accuracy: 0.890578
+1.164
+Question 2 accuracy: 0.890578
+1.165
+Question 2 accuracy: 0.890578
+1.166
+Question 2 accuracy: 0.890578
+1.167
+Question 2 accuracy: 0.890578
+1.168
+Question 2 accuracy: 0.890578
+1.169
+Question 2 accuracy: 0.890578
+1.17
+Question 2 accuracy: 0.890578
+1.171
+Question 2 accuracy: 0.890578
+1.172
+Question 2 accuracy: 0.890578
+1.173
+Question 2 accuracy: 0.890578
+1.174
+Question 2 accuracy: 0.890578
+1.175
+Question 2 accuracy: 0.893617
+1.176
+Question 2 accuracy: 0.893617
+1.177
+Question 2 accuracy: 0.893617
+1.178
+Question 2 accuracy: 0.893617
+1.179
+Question 2 accuracy: 0.893617
+1.18
+Question 2 accuracy: 0.893617
+1.181
+Question 2 accuracy: 0.893617
+1.182
+Question 2 accuracy: 0.893617
+1.183
+Question 2 accuracy: 0.893617
+1.184
+Question 2 accuracy: 0.893617
+1.185
+Question 2 accuracy: 0.893617
+1.186
+Question 2 accuracy: 0.893617
+1.187
+Question 2 accuracy: 0.893617
+1.188
+Question 2 accuracy: 0.893617
+1.189
+Question 2 accuracy: 0.893617
+1.19
+Question 2 accuracy: 0.893617
+1.191
+Question 2 accuracy: 0.893617
+1.192
+Question 2 accuracy: 0.893617
+1.193
+Question 2 accuracy: 0.893617
+1.194
+Question 2 accuracy: 0.893617
+1.195
+Question 2 accuracy: 0.893617
+1.196
+Question 2 accuracy: 0.893617
+1.197
+Question 2 accuracy: 0.893617
+1.198
+Question 2 accuracy: 0.893617
+1.199
+Question 2 accuracy: 0.893617
+1.2
+Question 2 accuracy: 0.893617
+1.201
+Question 2 accuracy: 0.893617
+1.202
+Question 2 accuracy: 0.893617
+1.203
+Question 2 accuracy: 0.893617
+1.204
+Question 2 accuracy: 0.893617
+1.205
+Question 2 accuracy: 0.893617
+1.206
+Question 2 accuracy: 0.893617
+1.207
+Question 2 accuracy: 0.893617
+1.208
+Question 2 accuracy: 0.893617
+1.209
+Question 2 accuracy: 0.893617
+1.21
+Question 2 accuracy: 0.893617
+1.211
+Question 2 accuracy: 0.893617
+1.212
+Question 2 accuracy: 0.893617
+1.213
+Question 2 accuracy: 0.893617
+1.214
+Question 2 accuracy: 0.893617
+1.215
+Question 2 accuracy: 0.893617
+1.216
+Question 2 accuracy: 0.893617
+1.217
+Question 2 accuracy: 0.893617
+1.218
+Question 2 accuracy: 0.893617
+1.219
+Question 2 accuracy: 0.893617
+1.22
+Question 2 accuracy: 0.893617
+1.221
+Question 2 accuracy: 0.893617
+1.222
+Question 2 accuracy: 0.893617
+1.223
+Question 2 accuracy: 0.893617
+1.224
+Question 2 accuracy: 0.893617
+1.225
+Question 2 accuracy: 0.893617
+1.226
+Question 2 accuracy: 0.893617
+1.227
+Question 2 accuracy: 0.893617
+1.228
+Question 2 accuracy: 0.893617
+1.229
+Question 2 accuracy: 0.893617
+1.23
+Question 2 accuracy: 0.893617
+1.231
+Question 2 accuracy: 0.893617
+1.232
+Question 2 accuracy: 0.893617
+1.233
+Question 2 accuracy: 0.893617
+1.234
+Question 2 accuracy: 0.893617
+1.235
+Question 2 accuracy: 0.893617
+1.236
+Question 2 accuracy: 0.893617
+1.237
+Question 2 accuracy: 0.893617
+1.238
+Question 2 accuracy: 0.893617
+1.239
+Question 2 accuracy: 0.893617
+1.24
+Question 2 accuracy: 0.893617
+1.241
+Question 2 accuracy: 0.893617
+1.242
+Question 2 accuracy: 0.893617
+1.243
+Question 2 accuracy: 0.893617
+1.244
+Question 2 accuracy: 0.893617
+1.245
+Question 2 accuracy: 0.893617
+1.246
+Question 2 accuracy: 0.893617
+1.247
+Question 2 accuracy: 0.893617
+1.248
+Question 2 accuracy: 0.893617
+1.249
+Question 2 accuracy: 0.893617
+1.25
+Question 2 accuracy: 0.893617
+1.251
+Question 2 accuracy: 0.893617
+1.252
+Question 2 accuracy: 0.893617
+1.253
+Question 2 accuracy: 0.893617
+1.254
+Question 2 accuracy: 0.893617
+1.255
+Question 2 accuracy: 0.893617
+1.256
+Question 2 accuracy: 0.893617
+1.257
+Question 2 accuracy: 0.893617
+1.258
+Question 2 accuracy: 0.893617
+1.259
+Question 2 accuracy: 0.893617
+1.26
+Question 2 accuracy: 0.893617
+1.261
+Question 2 accuracy: 0.893617
+1.262
+Question 2 accuracy: 0.893617
+1.263
+Question 2 accuracy: 0.893617
+1.264
+Question 2 accuracy: 0.893617
+1.265
+Question 2 accuracy: 0.893617
+1.266
+Question 2 accuracy: 0.893617
+1.267
+Question 2 accuracy: 0.893617
+1.268
+Question 2 accuracy: 0.893617
+1.269
+Question 2 accuracy: 0.893617
+1.27
+Question 2 accuracy: 0.893617
+1.271
+Question 2 accuracy: 0.893617
+1.272
+Question 2 accuracy: 0.893617
+1.273
+Question 2 accuracy: 0.893617
+1.274
+Question 2 accuracy: 0.893617
+1.275
+Question 2 accuracy: 0.893617
+1.276
+Question 2 accuracy: 0.893617
+1.277
+Question 2 accuracy: 0.893617
+1.278
+Question 2 accuracy: 0.893617
+1.279
+Question 2 accuracy: 0.893617
+1.28
+Question 2 accuracy: 0.893617
+1.281
+Question 2 accuracy: 0.893617
+1.282
+Question 2 accuracy: 0.893617
+1.283
+Question 2 accuracy: 0.893617
+1.284
+Question 2 accuracy: 0.893617
+1.285
+Question 2 accuracy: 0.893617
+1.286
+Question 2 accuracy: 0.893617
+1.287
+Question 2 accuracy: 0.893617
+1.288
+Question 2 accuracy: 0.893617
+1.289
+Question 2 accuracy: 0.893617
+1.29
+Question 2 accuracy: 0.893617
+1.291
+Question 2 accuracy: 0.893617
+1.292
+Question 2 accuracy: 0.893617
+1.293
+Question 2 accuracy: 0.893617
+1.294
+Question 2 accuracy: 0.893617
+1.295
+Question 2 accuracy: 0.893617
+1.296
+Question 2 accuracy: 0.893617
+1.297
+Question 2 accuracy: 0.893617
+1.298
+Question 2 accuracy: 0.893617
+1.299
+Question 2 accuracy: 0.893617
+1.3
+Question 2 accuracy: 0.893617
+1.301
+Question 2 accuracy: 0.893617
+1.302
+Question 2 accuracy: 0.893617
+1.303
+Question 2 accuracy: 0.893617
+1.304
+Question 2 accuracy: 0.893617
+1.305
+Question 2 accuracy: 0.893617
+1.306
+Question 2 accuracy: 0.893617
+1.307
+Question 2 accuracy: 0.893617
+1.308
+Question 2 accuracy: 0.893617
+1.309
+Question 2 accuracy: 0.893617
+1.31
+Question 2 accuracy: 0.893617
+1.311
+Question 2 accuracy: 0.893617
+1.312
+Question 2 accuracy: 0.893617
+1.313
+Question 2 accuracy: 0.893617
+1.314
+Question 2 accuracy: 0.893617
+1.315
+Question 2 accuracy: 0.893617
+1.316
+Question 2 accuracy: 0.893617
+1.317
+Question 2 accuracy: 0.893617
+1.318
+Question 2 accuracy: 0.893617
+1.319
+Question 2 accuracy: 0.893617
+1.32
+Question 2 accuracy: 0.893617
+1.321
+Question 2 accuracy: 0.893617
+1.322
+Question 2 accuracy: 0.893617
+1.323
+Question 2 accuracy: 0.893617
+1.324
+Question 2 accuracy: 0.893617
+1.325
+Question 2 accuracy: 0.893617
+1.326
+Question 2 accuracy: 0.893617
+1.327
+Question 2 accuracy: 0.893617
+1.328
+Question 2 accuracy: 0.893617
+1.329
+Question 2 accuracy: 0.893617
+1.33
+Question 2 accuracy: 0.893617
+1.331
+Question 2 accuracy: 0.893617
+1.332
+Question 2 accuracy: 0.893617
+1.333
+Question 2 accuracy: 0.893617
+1.334
+Question 2 accuracy: 0.893617
+1.335
+Question 2 accuracy: 0.893617
+1.336
+Question 2 accuracy: 0.893617
+1.337
+Question 2 accuracy: 0.893617
+1.338
+Question 2 accuracy: 0.893617
+1.339
+Question 2 accuracy: 0.893617
+1.34
+Question 2 accuracy: 0.893617
+1.341
+Question 2 accuracy: 0.893617
+1.342
+Question 2 accuracy: 0.893617
+1.343
+Question 2 accuracy: 0.893617
+1.344
+Question 2 accuracy: 0.893617
+1.345
+Question 2 accuracy: 0.893617
+1.346
+Question 2 accuracy: 0.893617
+1.347
+Question 2 accuracy: 0.893617
+1.348
+Question 2 accuracy: 0.893617
+1.349
+Question 2 accuracy: 0.893617
+1.35
+Question 2 accuracy: 0.893617
+1.351
+Question 2 accuracy: 0.893617
+1.352
+Question 2 accuracy: 0.893617
+1.353
+Question 2 accuracy: 0.893617
+1.354
+Question 2 accuracy: 0.893617
+1.355
+Question 2 accuracy: 0.893617
+1.356
+Question 2 accuracy: 0.893617
+1.357
+Question 2 accuracy: 0.893617
+1.358
+Question 2 accuracy: 0.893617
+1.359
+Question 2 accuracy: 0.893617
+1.36
+Question 2 accuracy: 0.893617
+1.361
+Question 2 accuracy: 0.893617
+1.362
+Question 2 accuracy: 0.893617
+1.363
+Question 2 accuracy: 0.893617
+1.364
+Question 2 accuracy: 0.893617
+1.365
+Question 2 accuracy: 0.893617
+1.366
+Question 2 accuracy: 0.893617
+1.367
+Question 2 accuracy: 0.893617
+1.368
+Question 2 accuracy: 0.893617
+1.369
+Question 2 accuracy: 0.893617
+1.37
+Question 2 accuracy: 0.893617
+1.371
+Question 2 accuracy: 0.893617
+1.372
+Question 2 accuracy: 0.893617
+1.373
+Question 2 accuracy: 0.893617
+1.374
+Question 2 accuracy: 0.893617
+1.375
+Question 2 accuracy: 0.893617
+1.376
+Question 2 accuracy: 0.893617
+1.377
+Question 2 accuracy: 0.893617
+1.378
+Question 2 accuracy: 0.893617
+1.379
+Question 2 accuracy: 0.893617
+1.38
+Question 2 accuracy: 0.893617
+1.381
+Question 2 accuracy: 0.893617
+1.382
+Question 2 accuracy: 0.893617
+1.383
+Question 2 accuracy: 0.893617
+1.384
+Question 2 accuracy: 0.893617
+1.385
+Question 2 accuracy: 0.893617
+1.386
+Question 2 accuracy: 0.893617
+1.387
+Question 2 accuracy: 0.893617
+1.388
+Question 2 accuracy: 0.893617
+1.389
+Question 2 accuracy: 0.893617
+1.39
+Question 2 accuracy: 0.893617
+1.391
+Question 2 accuracy: 0.893617
+1.392
+Question 2 accuracy: 0.893617
+1.393
+Question 2 accuracy: 0.893617
+1.394
+Question 2 accuracy: 0.893617
+1.395
+Question 2 accuracy: 0.893617
+1.396
+Question 2 accuracy: 0.893617
+1.397
+Question 2 accuracy: 0.893617
+1.398
+Question 2 accuracy: 0.893617
+1.399
+Question 2 accuracy: 0.893617
+1.4
+Question 2 accuracy: 0.893617
+1.401
+Question 2 accuracy: 0.893617
+1.402
+Question 2 accuracy: 0.893617
+1.403
+Question 2 accuracy: 0.893617
+1.404
+Question 2 accuracy: 0.893617
+1.405
+Question 2 accuracy: 0.893617
+1.406
+Question 2 accuracy: 0.893617
+1.407
+Question 2 accuracy: 0.893617
+1.408
+Question 2 accuracy: 0.893617
+1.409
+Question 2 accuracy: 0.893617
+1.41
+Question 2 accuracy: 0.893617
+1.411
+Question 2 accuracy: 0.893617
+1.412
+Question 2 accuracy: 0.893617
+1.413
+Question 2 accuracy: 0.893617
+1.414
+Question 2 accuracy: 0.893617
+1.415
+Question 2 accuracy: 0.893617
+1.416
+Question 2 accuracy: 0.893617
+1.417
+Question 2 accuracy: 0.893617
+1.418
+Question 2 accuracy: 0.893617
+1.419
+Question 2 accuracy: 0.893617
+1.42
+Question 2 accuracy: 0.893617
+1.421
+Question 2 accuracy: 0.893617
+1.422
+Question 2 accuracy: 0.893617
+1.423
+Question 2 accuracy: 0.893617
+1.424
+Question 2 accuracy: 0.893617
+1.425
+Question 2 accuracy: 0.893617
+1.426
+Question 2 accuracy: 0.893617
+1.427
+Question 2 accuracy: 0.893617
+1.428
+Question 2 accuracy: 0.893617
+1.429
+Question 2 accuracy: 0.893617
+1.43
+Question 2 accuracy: 0.893617
+1.431
+Question 2 accuracy: 0.893617
+1.432
+Question 2 accuracy: 0.893617
+1.433
+Question 2 accuracy: 0.893617
+1.434
+Question 2 accuracy: 0.893617
+1.435
+Question 2 accuracy: 0.893617
+1.436
+Question 2 accuracy: 0.893617
+1.437
+Question 2 accuracy: 0.893617
+1.438
+Question 2 accuracy: 0.893617
+1.439
+Question 2 accuracy: 0.893617
+1.44
+Question 2 accuracy: 0.893617
+1.441
+Question 2 accuracy: 0.893617
+1.442
+Question 2 accuracy: 0.893617
+1.443
+Question 2 accuracy: 0.893617
+1.444
+Question 2 accuracy: 0.893617
+1.445
+Question 2 accuracy: 0.893617
+1.446
+Question 2 accuracy: 0.893617
+1.447
+Question 2 accuracy: 0.893617
+1.448
+Question 2 accuracy: 0.893617
+1.449
+Question 2 accuracy: 0.893617
+1.45
+Question 2 accuracy: 0.893617
+1.451
+Question 2 accuracy: 0.893617
+1.452
+Question 2 accuracy: 0.893617
+1.453
+Question 2 accuracy: 0.893617
+1.454
+Question 2 accuracy: 0.893617
+1.455
+Question 2 accuracy: 0.893617
+1.456
+Question 2 accuracy: 0.893617
+1.457
+Question 2 accuracy: 0.893617
+1.458
+Question 2 accuracy: 0.893617
+1.459
+Question 2 accuracy: 0.893617
+1.46
+Question 2 accuracy: 0.893617
+1.461
+Question 2 accuracy: 0.893617
+1.462
+Question 2 accuracy: 0.893617
+1.463
+Question 2 accuracy: 0.893617
+1.464
+Question 2 accuracy: 0.893617
+1.465
+Question 2 accuracy: 0.893617
+1.466
+Question 2 accuracy: 0.893617
+1.467
+Question 2 accuracy: 0.893617
+1.468
+Question 2 accuracy: 0.893617
+1.469
+Question 2 accuracy: 0.893617
+1.47
+Question 2 accuracy: 0.893617
+1.471
+Question 2 accuracy: 0.893617
+1.472
+Question 2 accuracy: 0.893617
+1.473
+Question 2 accuracy: 0.893617
+1.474
+Question 2 accuracy: 0.893617
+1.475
+Question 2 accuracy: 0.893617
+1.476
+Question 2 accuracy: 0.893617
+1.477
+Question 2 accuracy: 0.893617
+1.478
+Question 2 accuracy: 0.893617
+1.479
+Question 2 accuracy: 0.893617
+1.48
+Question 2 accuracy: 0.893617
+1.481
+Question 2 accuracy: 0.893617
+1.482
+Question 2 accuracy: 0.893617
+1.483
+Question 2 accuracy: 0.893617
+1.484
+Question 2 accuracy: 0.893617
+1.485
+Question 2 accuracy: 0.893617
+1.486
+Question 2 accuracy: 0.893617
+1.487
+Question 2 accuracy: 0.893617
+1.488
+Question 2 accuracy: 0.893617
+1.489
+Question 2 accuracy: 0.893617
+1.49
+Question 2 accuracy: 0.893617
+1.491
+Question 2 accuracy: 0.893617
+1.492
+Question 2 accuracy: 0.893617
+1.493
+Question 2 accuracy: 0.893617
+1.494
+Question 2 accuracy: 0.893617
+1.495
+Question 2 accuracy: 0.893617
+1.496
+Question 2 accuracy: 0.893617
+1.497
+Question 2 accuracy: 0.893617
+1.498
+Question 2 accuracy: 0.893617
+1.499
+Question 2 accuracy: 0.893617
+1.5
+Question 2 accuracy: 0.893617
+1.501
+Question 2 accuracy: 0.893617
+1.502
+Question 2 accuracy: 0.893617
+1.503
+Question 2 accuracy: 0.893617
+1.504
+Question 2 accuracy: 0.893617
+1.505
+Question 2 accuracy: 0.893617
+1.506
+Question 2 accuracy: 0.893617
+1.507
+Question 2 accuracy: 0.893617
+1.508
+Question 2 accuracy: 0.893617
+1.509
+Question 2 accuracy: 0.893617
+1.51
+Question 2 accuracy: 0.893617
+1.511
+Question 2 accuracy: 0.893617
+1.512
+Question 2 accuracy: 0.893617
+1.513
+Question 2 accuracy: 0.893617
+1.514
+Question 2 accuracy: 0.893617
+1.515
+Question 2 accuracy: 0.893617
+1.516
+Question 2 accuracy: 0.893617
+1.517
+Question 2 accuracy: 0.893617
+1.518
+Question 2 accuracy: 0.893617
+1.519
+Question 2 accuracy: 0.893617
+1.52
+Question 2 accuracy: 0.893617
+1.521
+Question 2 accuracy: 0.893617
+1.522
+Question 2 accuracy: 0.893617
+1.523
+Question 2 accuracy: 0.893617
+1.524
+Question 2 accuracy: 0.893617
+1.525
+Question 2 accuracy: 0.893617
+1.526
+Question 2 accuracy: 0.893617
+1.527
+Question 2 accuracy: 0.893617
+1.528
+Question 2 accuracy: 0.893617
+1.529
+Question 2 accuracy: 0.893617
+1.53
+Question 2 accuracy: 0.893617
+1.531
+Question 2 accuracy: 0.893617
+1.532
+Question 2 accuracy: 0.893617
+1.533
+Question 2 accuracy: 0.893617
+1.534
+Question 2 accuracy: 0.893617
+1.535
+Question 2 accuracy: 0.893617
+1.536
+Question 2 accuracy: 0.893617
+1.537
+Question 2 accuracy: 0.893617
+1.538
+Question 2 accuracy: 0.893617
+1.539
+Question 2 accuracy: 0.893617
+1.54
+Question 2 accuracy: 0.893617
+1.541
+Question 2 accuracy: 0.893617
+1.542
+Question 2 accuracy: 0.893617
+1.543
+Question 2 accuracy: 0.893617
+1.544
+Question 2 accuracy: 0.893617
+1.545
+Question 2 accuracy: 0.893617
+1.546
+Question 2 accuracy: 0.893617
+1.547
+Question 2 accuracy: 0.893617
+1.548
+Question 2 accuracy: 0.893617
+1.549
+Question 2 accuracy: 0.893617
+1.55
+Question 2 accuracy: 0.893617
+1.551
+Question 2 accuracy: 0.893617
+1.552
+Question 2 accuracy: 0.893617
+1.553
+Question 2 accuracy: 0.893617
+1.554
+Question 2 accuracy: 0.893617
+1.555
+Question 2 accuracy: 0.893617
+1.556
+Question 2 accuracy: 0.893617
+1.557
+Question 2 accuracy: 0.893617
+1.558
+Question 2 accuracy: 0.893617
+1.559
+Question 2 accuracy: 0.893617
+1.56
+Question 2 accuracy: 0.893617
+1.561
+Question 2 accuracy: 0.893617
+1.562
+Question 2 accuracy: 0.893617
+1.563
+Question 2 accuracy: 0.893617
+1.564
+Question 2 accuracy: 0.893617
+1.565
+Question 2 accuracy: 0.893617
+1.566
+Question 2 accuracy: 0.893617
+1.567
+Question 2 accuracy: 0.893617
+1.568
+Question 2 accuracy: 0.893617
+1.569
+Question 2 accuracy: 0.893617
+1.57
+Question 2 accuracy: 0.893617
+1.571
+Question 2 accuracy: 0.893617
+1.572
+Question 2 accuracy: 0.893617
+1.573
+Question 2 accuracy: 0.893617
+1.574
+Question 2 accuracy: 0.893617
+1.575
+Question 2 accuracy: 0.893617
+1.576
+Question 2 accuracy: 0.893617
+1.577
+Question 2 accuracy: 0.893617
+1.578
+Question 2 accuracy: 0.893617
+1.579
+Question 2 accuracy: 0.893617
+1.58
+Question 2 accuracy: 0.893617
+1.581
+Question 2 accuracy: 0.893617
+1.582
+Question 2 accuracy: 0.893617
+1.583
+Question 2 accuracy: 0.893617
+1.584
+Question 2 accuracy: 0.893617
+1.585
+Question 2 accuracy: 0.893617
+1.586
+Question 2 accuracy: 0.893617
+1.587
+Question 2 accuracy: 0.893617
+1.588
+Question 2 accuracy: 0.893617
+1.589
+Question 2 accuracy: 0.893617
+1.59
+Question 2 accuracy: 0.893617
+1.591
+Question 2 accuracy: 0.893617
+1.592
+Question 2 accuracy: 0.893617
+1.593
+Question 2 accuracy: 0.893617
+1.594
+Question 2 accuracy: 0.893617
+1.595
+Question 2 accuracy: 0.893617
+1.596
+Question 2 accuracy: 0.893617
+1.597
+Question 2 accuracy: 0.893617
+1.598
+Question 2 accuracy: 0.893617
+1.599
+Question 2 accuracy: 0.893617
+1.6
+Question 2 accuracy: 0.893617
+1.601
+Question 2 accuracy: 0.893617
+1.602
+Question 2 accuracy: 0.893617
+1.603
+Question 2 accuracy: 0.893617
+1.604
+Question 2 accuracy: 0.893617
+1.605
+Question 2 accuracy: 0.893617
+1.606
+Question 2 accuracy: 0.893617
+1.607
+Question 2 accuracy: 0.893617
+1.608
+Question 2 accuracy: 0.893617
+1.609
+Question 2 accuracy: 0.893617
+1.61
+Question 2 accuracy: 0.893617
+1.611
+Question 2 accuracy: 0.893617
+1.612
+Question 2 accuracy: 0.893617
+1.613
+Question 2 accuracy: 0.893617
+1.614
+Question 2 accuracy: 0.893617
+1.615
+Question 2 accuracy: 0.893617
+1.616
+Question 2 accuracy: 0.893617
+1.617
+Question 2 accuracy: 0.893617
+1.618
+Question 2 accuracy: 0.893617
+1.619
+Question 2 accuracy: 0.893617
+1.62
+Question 2 accuracy: 0.893617
+1.621
+Question 2 accuracy: 0.893617
+1.622
+Question 2 accuracy: 0.893617
+1.623
+Question 2 accuracy: 0.893617
+1.624
+Question 2 accuracy: 0.893617
+1.625
+Question 2 accuracy: 0.893617
+1.626
+Question 2 accuracy: 0.893617
+1.627
+Question 2 accuracy: 0.893617
+1.628
+Question 2 accuracy: 0.893617
+1.629
+Question 2 accuracy: 0.893617
+1.63
+Question 2 accuracy: 0.893617
+1.631
+Question 2 accuracy: 0.893617
+1.632
+Question 2 accuracy: 0.893617
+1.633
+Question 2 accuracy: 0.893617
+1.634
+Question 2 accuracy: 0.893617
+1.635
+Question 2 accuracy: 0.893617
+1.636
+Question 2 accuracy: 0.893617
+1.637
+Question 2 accuracy: 0.893617
+1.638
+Question 2 accuracy: 0.893617
+1.639
+Question 2 accuracy: 0.893617
+1.64
+Question 2 accuracy: 0.893617
+1.641
+Question 2 accuracy: 0.893617
+1.642
+Question 2 accuracy: 0.893617
+1.643
+Question 2 accuracy: 0.893617
+1.644
+Question 2 accuracy: 0.893617
+1.645
+Question 2 accuracy: 0.893617
+1.646
+Question 2 accuracy: 0.893617
+1.647
+Question 2 accuracy: 0.893617
+1.648
+Question 2 accuracy: 0.893617
+1.649
+Question 2 accuracy: 0.893617
+1.65
+Question 2 accuracy: 0.893617
+1.651
+Question 2 accuracy: 0.893617
+1.652
+Question 2 accuracy: 0.893617
+1.653
+Question 2 accuracy: 0.893617
+1.654
+Question 2 accuracy: 0.893617
+1.655
+Question 2 accuracy: 0.893617
+1.656
+Question 2 accuracy: 0.893617
+1.657
+Question 2 accuracy: 0.893617
+1.658
+Question 2 accuracy: 0.893617
+1.659
+Question 2 accuracy: 0.893617
+1.66
+Question 2 accuracy: 0.893617
+1.661
+Question 2 accuracy: 0.893617
+1.662
+Question 2 accuracy: 0.893617
+1.663
+Question 2 accuracy: 0.893617
+1.664
+Question 2 accuracy: 0.893617
+1.665
+Question 2 accuracy: 0.893617
+1.666
+Question 2 accuracy: 0.893617
+1.667
+Question 2 accuracy: 0.893617
+1.668
+Question 2 accuracy: 0.893617
+1.669
+Question 2 accuracy: 0.893617
+1.67
+Question 2 accuracy: 0.893617
+1.671
+Question 2 accuracy: 0.893617
+1.672
+Question 2 accuracy: 0.893617
+1.673
+Question 2 accuracy: 0.893617
+1.674
+Question 2 accuracy: 0.893617
+1.675
+Question 2 accuracy: 0.893617
+1.676
+Question 2 accuracy: 0.893617
+1.677
+Question 2 accuracy: 0.893617
+1.678
+Question 2 accuracy: 0.893617
+1.679
+Question 2 accuracy: 0.893617
+1.68
+Question 2 accuracy: 0.893617
+1.681
+Question 2 accuracy: 0.893617
+1.682
+Question 2 accuracy: 0.893617
+1.683
+Question 2 accuracy: 0.893617
+1.684
+Question 2 accuracy: 0.893617
+1.685
+Question 2 accuracy: 0.893617
+1.686
+Question 2 accuracy: 0.893617
+1.687
+Question 2 accuracy: 0.893617
+1.688
+Question 2 accuracy: 0.893617
+1.689
+Question 2 accuracy: 0.893617
+1.69
+Question 2 accuracy: 0.893617
+1.691
+Question 2 accuracy: 0.893617
+1.692
+Question 2 accuracy: 0.893617
+1.693
+Question 2 accuracy: 0.893617
+1.694
+Question 2 accuracy: 0.893617
+1.695
+Question 2 accuracy: 0.893617
+1.696
+Question 2 accuracy: 0.893617
+1.697
+Question 2 accuracy: 0.893617
+1.698
+Question 2 accuracy: 0.893617
+1.699
+Question 2 accuracy: 0.893617
+1.7
+Question 2 accuracy: 0.893617
+1.701
+Question 2 accuracy: 0.893617
+1.702
+Question 2 accuracy: 0.893617
+1.703
+Question 2 accuracy: 0.893617
+1.704
+Question 2 accuracy: 0.893617
+1.705
+Question 2 accuracy: 0.893617
+1.706
+Question 2 accuracy: 0.893617
+1.707
+Question 2 accuracy: 0.893617
+1.708
+Question 2 accuracy: 0.893617
+1.709
+Question 2 accuracy: 0.893617
+1.71
+Question 2 accuracy: 0.893617
+1.711
+Question 2 accuracy: 0.893617
+1.712
+Question 2 accuracy: 0.893617
+1.713
+Question 2 accuracy: 0.893617
+1.714
+Question 2 accuracy: 0.893617
+1.715
+Question 2 accuracy: 0.893617
+1.716
+Question 2 accuracy: 0.893617
+1.717
+Question 2 accuracy: 0.893617
+1.718
+Question 2 accuracy: 0.893617
+1.719
+Question 2 accuracy: 0.893617
+1.72
+Question 2 accuracy: 0.893617
+1.721
+Question 2 accuracy: 0.893617
+1.722
+Question 2 accuracy: 0.893617
+1.723
+Question 2 accuracy: 0.893617
+1.724
+Question 2 accuracy: 0.893617
+1.725
+Question 2 accuracy: 0.893617
+1.726
+Question 2 accuracy: 0.893617
+1.727
+Question 2 accuracy: 0.893617
+1.728
+Question 2 accuracy: 0.893617
+1.729
+Question 2 accuracy: 0.893617
+1.73
+Question 2 accuracy: 0.893617
+1.731
+Question 2 accuracy: 0.893617
+1.732
+Question 2 accuracy: 0.893617
+1.733
+Question 2 accuracy: 0.893617
+1.734
+Question 2 accuracy: 0.893617
+1.735
+Question 2 accuracy: 0.893617
+1.736
+Question 2 accuracy: 0.893617
+1.737
+Question 2 accuracy: 0.893617
+1.738
+Question 2 accuracy: 0.893617
+1.739
+Question 2 accuracy: 0.893617
+1.74
+Question 2 accuracy: 0.893617
+1.741
+Question 2 accuracy: 0.893617
+1.742
+Question 2 accuracy: 0.893617
+1.743
+Question 2 accuracy: 0.893617
+1.744
+Question 2 accuracy: 0.893617
+1.745
+Question 2 accuracy: 0.893617
+1.746
+Question 2 accuracy: 0.893617
+1.747
+Question 2 accuracy: 0.893617
+1.748
+Question 2 accuracy: 0.893617
+1.749
+Question 2 accuracy: 0.893617
+1.75
+Question 2 accuracy: 0.893617
+1.751
+Question 2 accuracy: 0.893617
+1.752
+Question 2 accuracy: 0.893617
+1.753
+Question 2 accuracy: 0.893617
+1.754
+Question 2 accuracy: 0.893617
+1.755
+Question 2 accuracy: 0.893617
+1.756
+Question 2 accuracy: 0.893617
+1.757
+Question 2 accuracy: 0.893617
+1.758
+Question 2 accuracy: 0.893617
+1.759
+Question 2 accuracy: 0.893617
+1.76
+Question 2 accuracy: 0.893617
+1.761
+Question 2 accuracy: 0.893617
+1.762
+Question 2 accuracy: 0.893617
+1.763
+Question 2 accuracy: 0.893617
+1.764
+Question 2 accuracy: 0.893617
+1.765
+Question 2 accuracy: 0.893617
+1.766
+Question 2 accuracy: 0.893617
+1.767
+Question 2 accuracy: 0.893617
+1.768
+Question 2 accuracy: 0.893617
+1.769
+Question 2 accuracy: 0.893617
+1.77
+Question 2 accuracy: 0.893617
+1.771
+Question 2 accuracy: 0.893617
+1.772
+Question 2 accuracy: 0.893617
+1.773
+Question 2 accuracy: 0.893617
+1.774
+Question 2 accuracy: 0.893617
+1.775
+Question 2 accuracy: 0.893617
+1.776
+Question 2 accuracy: 0.893617
+1.777
+Question 2 accuracy: 0.893617
+1.778
+Question 2 accuracy: 0.893617
+1.779
+Question 2 accuracy: 0.893617
+1.78
+Question 2 accuracy: 0.893617
+1.781
+Question 2 accuracy: 0.893617
+1.782
+Question 2 accuracy: 0.893617
+1.783
+Question 2 accuracy: 0.893617
+1.784
+Question 2 accuracy: 0.893617
+1.785
+Question 2 accuracy: 0.893617
+1.786
+Question 2 accuracy: 0.893617
+1.787
+Question 2 accuracy: 0.893617
+1.788
+Question 2 accuracy: 0.893617
+1.789
+Question 2 accuracy: 0.893617
+1.79
+Question 2 accuracy: 0.893617
+1.791
+Question 2 accuracy: 0.893617
+1.792
+Question 2 accuracy: 0.893617
+1.793
+Question 2 accuracy: 0.893617
+1.794
+Question 2 accuracy: 0.893617
+1.795
+Question 2 accuracy: 0.893617
+1.796
+Question 2 accuracy: 0.893617
+1.797
+Question 2 accuracy: 0.893617
+1.798
+Question 2 accuracy: 0.893617
+1.799
+Question 2 accuracy: 0.893617
+1.8
+Question 2 accuracy: 0.893617
+1.801
+Question 2 accuracy: 0.893617
+1.802
+Question 2 accuracy: 0.893617
+1.803
+Question 2 accuracy: 0.893617
+1.804
+Question 2 accuracy: 0.893617
+1.805
+Question 2 accuracy: 0.893617
+1.806
+Question 2 accuracy: 0.893617
+1.807
+Question 2 accuracy: 0.893617
+1.808
+Question 2 accuracy: 0.893617
+1.809
+Question 2 accuracy: 0.893617
+1.81
+Question 2 accuracy: 0.893617
+1.811
+Question 2 accuracy: 0.893617
+1.812
+Question 2 accuracy: 0.893617
+1.813
+Question 2 accuracy: 0.893617
+1.814
+Question 2 accuracy: 0.893617
+1.815
+Question 2 accuracy: 0.893617
+1.816
+Question 2 accuracy: 0.893617
+1.817
+Question 2 accuracy: 0.893617
+1.818
+Question 2 accuracy: 0.893617
+1.819
+Question 2 accuracy: 0.893617
+1.82
+Question 2 accuracy: 0.893617
+1.821
+Question 2 accuracy: 0.893617
+1.822
+Question 2 accuracy: 0.893617
+1.823
+Question 2 accuracy: 0.893617
+1.824
+Question 2 accuracy: 0.893617
+1.825
+Question 2 accuracy: 0.893617
+1.826
+Question 2 accuracy: 0.893617
+1.827
+Question 2 accuracy: 0.893617
+1.828
+Question 2 accuracy: 0.893617
+1.829
+Question 2 accuracy: 0.893617
+1.83
+Question 2 accuracy: 0.893617
+1.831
+Question 2 accuracy: 0.893617
+1.832
+Question 2 accuracy: 0.893617
+1.833
+Question 2 accuracy: 0.893617
+1.834
+Question 2 accuracy: 0.893617
+1.835
+Question 2 accuracy: 0.893617
+1.836
+Question 2 accuracy: 0.893617
+1.837
+Question 2 accuracy: 0.893617
+1.838
+Question 2 accuracy: 0.893617
+1.839
+Question 2 accuracy: 0.893617
+1.84
+Question 2 accuracy: 0.893617
+1.841
+Question 2 accuracy: 0.893617
+1.842
+Question 2 accuracy: 0.893617
+1.843
+Question 2 accuracy: 0.893617
+1.844
+Question 2 accuracy: 0.893617
+1.845
+Question 2 accuracy: 0.893617
+1.846
+Question 2 accuracy: 0.893617
+1.847
+Question 2 accuracy: 0.893617
+1.848
+Question 2 accuracy: 0.893617
+1.849
+Question 2 accuracy: 0.893617
+1.85
+Question 2 accuracy: 0.893617
+1.851
+Question 2 accuracy: 0.893617
+1.852
+Question 2 accuracy: 0.893617
+1.853
+Question 2 accuracy: 0.893617
+1.854
+Question 2 accuracy: 0.893617
+1.855
+Question 2 accuracy: 0.893617
+1.856
+Question 2 accuracy: 0.893617
+1.857
+Question 2 accuracy: 0.893617
+1.858
+Question 2 accuracy: 0.893617
+1.859
+Question 2 accuracy: 0.893617
+1.86
+Question 2 accuracy: 0.893617
+1.861
+Question 2 accuracy: 0.893617
+1.862
+Question 2 accuracy: 0.893617
+1.863
+Question 2 accuracy: 0.893617
+1.864
+Question 2 accuracy: 0.893617
+1.865
+Question 2 accuracy: 0.893617
+1.866
+Question 2 accuracy: 0.893617
+1.867
+Question 2 accuracy: 0.893617
+1.868
+Question 2 accuracy: 0.893617
+1.869
+Question 2 accuracy: 0.893617
+1.87
+Question 2 accuracy: 0.893617
+1.871
+Question 2 accuracy: 0.893617
+1.872
+Question 2 accuracy: 0.893617
+1.873
+Question 2 accuracy: 0.893617
+1.874
+Question 2 accuracy: 0.893617
+1.875
+Question 2 accuracy: 0.893617
+1.876
+Question 2 accuracy: 0.893617
+1.877
+Question 2 accuracy: 0.893617
+1.878
+Question 2 accuracy: 0.893617
+1.879
+Question 2 accuracy: 0.893617
+1.88
+Question 2 accuracy: 0.893617
+1.881
+Question 2 accuracy: 0.893617
+1.882
+Question 2 accuracy: 0.893617
+1.883
+Question 2 accuracy: 0.893617
+1.884
+Question 2 accuracy: 0.893617
+1.885
+Question 2 accuracy: 0.893617
+1.886
+Question 2 accuracy: 0.893617
+1.887
+Question 2 accuracy: 0.893617
+1.888
+Question 2 accuracy: 0.893617
+1.889
+Question 2 accuracy: 0.893617
+1.89
+Question 2 accuracy: 0.893617
+1.891
+Question 2 accuracy: 0.893617
+1.892
+Question 2 accuracy: 0.893617
+1.893
+Question 2 accuracy: 0.893617
+1.894
+Question 2 accuracy: 0.893617
+1.895
+Question 2 accuracy: 0.893617
+1.896
+Question 2 accuracy: 0.893617
+1.897
+Question 2 accuracy: 0.893617
+1.898
+Question 2 accuracy: 0.893617
+1.899
+Question 2 accuracy: 0.893617
+1.9
+Question 2 accuracy: 0.893617
+1.901
+Question 2 accuracy: 0.893617
+1.902
+Question 2 accuracy: 0.893617
+1.903
+Question 2 accuracy: 0.893617
+1.904
+Question 2 accuracy: 0.893617
+1.905
+Question 2 accuracy: 0.893617
+1.906
+Question 2 accuracy: 0.893617
+1.907
+Question 2 accuracy: 0.893617
+1.908
+Question 2 accuracy: 0.893617
+1.909
+Question 2 accuracy: 0.893617
+1.91
+Question 2 accuracy: 0.893617
+1.911
+Question 2 accuracy: 0.893617
+1.912
+Question 2 accuracy: 0.893617
+1.913
+Question 2 accuracy: 0.893617
+1.914
+Question 2 accuracy: 0.893617
+1.915
+Question 2 accuracy: 0.893617
+1.916
+Question 2 accuracy: 0.893617
+1.917
+Question 2 accuracy: 0.893617
+1.918
+Question 2 accuracy: 0.893617
+1.919
+Question 2 accuracy: 0.893617
+1.92
+Question 2 accuracy: 0.893617
+1.921
+Question 2 accuracy: 0.893617
+1.922
+Question 2 accuracy: 0.893617
+1.923
+Question 2 accuracy: 0.893617
+1.924
+Question 2 accuracy: 0.893617
+1.925
+Question 2 accuracy: 0.893617
+1.926
+Question 2 accuracy: 0.893617
+1.927
+Question 2 accuracy: 0.893617
+1.928
+Question 2 accuracy: 0.893617
+1.929
+Question 2 accuracy: 0.893617
+1.93
+Question 2 accuracy: 0.893617
+1.931
+Question 2 accuracy: 0.893617
+1.932
+Question 2 accuracy: 0.893617
+1.933
+Question 2 accuracy: 0.893617
+1.934
+Question 2 accuracy: 0.893617
+1.935
+Question 2 accuracy: 0.893617
+1.936
+Question 2 accuracy: 0.893617
+1.937
+Question 2 accuracy: 0.893617
+1.938
+Question 2 accuracy: 0.893617
+1.939
+Question 2 accuracy: 0.893617
+1.94
+Question 2 accuracy: 0.893617
+1.941
+Question 2 accuracy: 0.893617
+1.942
+Question 2 accuracy: 0.893617
+1.943
+Question 2 accuracy: 0.893617
+1.944
+Question 2 accuracy: 0.893617
+1.945
+Question 2 accuracy: 0.893617
+1.946
+Question 2 accuracy: 0.893617
+1.947
+Question 2 accuracy: 0.893617
+1.948
+Question 2 accuracy: 0.893617
+1.949
+Question 2 accuracy: 0.893617
+1.95
+Question 2 accuracy: 0.893617
+1.951
+Question 2 accuracy: 0.893617
+1.952
+Question 2 accuracy: 0.893617
+1.953
+Question 2 accuracy: 0.893617
+1.954
+Question 2 accuracy: 0.893617
+1.955
+Question 2 accuracy: 0.893617
+1.956
+Question 2 accuracy: 0.893617
+1.957
+Question 2 accuracy: 0.893617
+1.958
+Question 2 accuracy: 0.893617
+1.959
+Question 2 accuracy: 0.893617
+1.96
+Question 2 accuracy: 0.893617
+1.961
+Question 2 accuracy: 0.893617
+1.962
+Question 2 accuracy: 0.893617
+1.963
+Question 2 accuracy: 0.893617
+1.964
+Question 2 accuracy: 0.893617
+1.965
+Question 2 accuracy: 0.893617
+1.966
+Question 2 accuracy: 0.893617
+1.967
+Question 2 accuracy: 0.893617
+1.968
+Question 2 accuracy: 0.893617
+1.969
+Question 2 accuracy: 0.893617
+1.97
+Question 2 accuracy: 0.893617
+1.971
+Question 2 accuracy: 0.893617
+1.972
+Question 2 accuracy: 0.893617
+1.973
+Question 2 accuracy: 0.893617
+1.974
+Question 2 accuracy: 0.893617
+1.975
+Question 2 accuracy: 0.893617
+1.976
+Question 2 accuracy: 0.893617
+1.977
+Question 2 accuracy: 0.893617
+1.978
+Question 2 accuracy: 0.893617
+1.979
+Question 2 accuracy: 0.893617
+1.98
+Question 2 accuracy: 0.893617
+1.981
+Question 2 accuracy: 0.893617
+1.982
+Question 2 accuracy: 0.893617
+1.983
+Question 2 accuracy: 0.893617
+1.984
+Question 2 accuracy: 0.893617
+1.985
+Question 2 accuracy: 0.893617
+1.986
+Question 2 accuracy: 0.890578
+1.987
+Question 2 accuracy: 0.890578
+1.988
+Question 2 accuracy: 0.890578
+1.989
+Question 2 accuracy: 0.890578
+1.99
+Question 2 accuracy: 0.890578
+1.991
+Question 2 accuracy: 0.890578
+1.992
+Question 2 accuracy: 0.890578
+1.993
+Question 2 accuracy: 0.890578
+1.994
+Question 2 accuracy: 0.890578
+1.995
+Question 2 accuracy: 0.890578
+1.996
+Question 2 accuracy: 0.890578
+1.997
+Question 2 accuracy: 0.890578
+1.998
+Question 2 accuracy: 0.890578
+1.999
+Question 2 accuracy: 0.890578
+2.0
+Question 2 accuracy: 0.890578
+2.001
+Question 2 accuracy: 0.890578
+2.002
+Question 2 accuracy: 0.890578
+2.003
+Question 2 accuracy: 0.890578
+2.004
+Question 2 accuracy: 0.890578
+2.005
+Question 2 accuracy: 0.890578
+2.006
+Question 2 accuracy: 0.890578
+2.007
+Question 2 accuracy: 0.890578
+2.008
+Question 2 accuracy: 0.890578
+2.009
+Question 2 accuracy: 0.890578
+2.01
+Question 2 accuracy: 0.890578
+2.011
+Question 2 accuracy: 0.890578
+2.012
+Question 2 accuracy: 0.890578
+2.013
+Question 2 accuracy: 0.890578
+2.014
+Question 2 accuracy: 0.890578
+2.015
+Question 2 accuracy: 0.890578
+2.016
+Question 2 accuracy: 0.890578
+2.017
+Question 2 accuracy: 0.890578
+2.018
+Question 2 accuracy: 0.890578
+2.019
+Question 2 accuracy: 0.890578
+2.02
+Question 2 accuracy: 0.890578
+2.021
+Question 2 accuracy: 0.890578
+2.022
+Question 2 accuracy: 0.890578
+2.023
+Question 2 accuracy: 0.890578
+2.024
+Question 2 accuracy: 0.890578
+2.025
+Question 2 accuracy: 0.890578
+2.026
+Question 2 accuracy: 0.890578
+2.027
+Question 2 accuracy: 0.890578
+2.028
+Question 2 accuracy: 0.890578
+2.029
+Question 2 accuracy: 0.890578
+2.03
+Question 2 accuracy: 0.890578
+2.031
+Question 2 accuracy: 0.890578
+2.032
+Question 2 accuracy: 0.890578
+2.033
+Question 2 accuracy: 0.890578
+2.034
+Question 2 accuracy: 0.890578
+2.035
+Question 2 accuracy: 0.890578
+2.036
+Question 2 accuracy: 0.890578
+2.037
+Question 2 accuracy: 0.890578
+2.038
+Question 2 accuracy: 0.890578
+2.039
+Question 2 accuracy: 0.890578
+2.04
+Question 2 accuracy: 0.890578
+2.041
+Question 2 accuracy: 0.890578
+2.042
+Question 2 accuracy: 0.890578
+2.043
+Question 2 accuracy: 0.890578
+2.044
+Question 2 accuracy: 0.890578
+2.045
+Question 2 accuracy: 0.890578
+2.046
+Question 2 accuracy: 0.890578
+2.047
+Question 2 accuracy: 0.890578
+2.048
+Question 2 accuracy: 0.890578
+2.049
+Question 2 accuracy: 0.890578
+2.05
+Question 2 accuracy: 0.890578
+2.051
+Question 2 accuracy: 0.890578
+2.052
+Question 2 accuracy: 0.890578
+2.053
+Question 2 accuracy: 0.890578
+2.054
+Question 2 accuracy: 0.890578
+2.055
+Question 2 accuracy: 0.890578
+2.056
+Question 2 accuracy: 0.890578
+2.057
+Question 2 accuracy: 0.890578
+2.058
+Question 2 accuracy: 0.890578
+2.059
+Question 2 accuracy: 0.890578
+2.06
+Question 2 accuracy: 0.890578
+2.061
+Question 2 accuracy: 0.890578
+2.062
+Question 2 accuracy: 0.890578
+2.063
+Question 2 accuracy: 0.890578
+2.064
+Question 2 accuracy: 0.890578
+2.065
+Question 2 accuracy: 0.890578
+2.066
+Question 2 accuracy: 0.890578
+2.067
+Question 2 accuracy: 0.890578
+2.068
+Question 2 accuracy: 0.890578
+2.069
+Question 2 accuracy: 0.890578
+2.07
+Question 2 accuracy: 0.890578
+2.071
+Question 2 accuracy: 0.890578
+2.072
+Question 2 accuracy: 0.890578
+2.073
+Question 2 accuracy: 0.890578
+2.074
+Question 2 accuracy: 0.890578
+2.075
+Question 2 accuracy: 0.890578
+2.076
+Question 2 accuracy: 0.890578
+2.077
+Question 2 accuracy: 0.890578
+2.078
+Question 2 accuracy: 0.890578
+2.079
+Question 2 accuracy: 0.890578
+2.08
+Question 2 accuracy: 0.890578
+2.081
+Question 2 accuracy: 0.890578
+2.082
+Question 2 accuracy: 0.890578
+2.083
+Question 2 accuracy: 0.890578
+2.084
+Question 2 accuracy: 0.890578
+2.085
+Question 2 accuracy: 0.890578
+2.086
+Question 2 accuracy: 0.890578
+2.087
+Question 2 accuracy: 0.890578
+2.088
+Question 2 accuracy: 0.890578
+2.089
+Question 2 accuracy: 0.890578
+2.09
+Question 2 accuracy: 0.890578
+2.091
+Question 2 accuracy: 0.890578
+2.092
+Question 2 accuracy: 0.890578
+2.093
+Question 2 accuracy: 0.890578
+2.094
+Question 2 accuracy: 0.890578
+2.095
+Question 2 accuracy: 0.890578
+2.096
+Question 2 accuracy: 0.890578
+2.097
+Question 2 accuracy: 0.890578
+2.098
+Question 2 accuracy: 0.890578
+2.099
+Question 2 accuracy: 0.890578
+2.1
+Question 2 accuracy: 0.890578
+2.101
+Question 2 accuracy: 0.890578
+2.102
+Question 2 accuracy: 0.890578
+2.103
+Question 2 accuracy: 0.890578
+2.104
+Question 2 accuracy: 0.890578
+2.105
+Question 2 accuracy: 0.890578
+2.106
+Question 2 accuracy: 0.890578
+2.107
+Question 2 accuracy: 0.890578
+2.108
+Question 2 accuracy: 0.890578
+2.109
+Question 2 accuracy: 0.890578
+2.11
+Question 2 accuracy: 0.890578
+2.111
+Question 2 accuracy: 0.890578
+2.112
+Question 2 accuracy: 0.890578
+2.113
+Question 2 accuracy: 0.890578
+2.114
+Question 2 accuracy: 0.890578
+2.115
+Question 2 accuracy: 0.890578
+2.116
+Question 2 accuracy: 0.890578
+2.117
+Question 2 accuracy: 0.890578
+2.118
+Question 2 accuracy: 0.890578
+2.119
+Question 2 accuracy: 0.890578
+2.12
+Question 2 accuracy: 0.890578
+2.121
+Question 2 accuracy: 0.890578
+2.122
+Question 2 accuracy: 0.890578
+2.123
+Question 2 accuracy: 0.890578
+2.124
+Question 2 accuracy: 0.890578
+2.125
+Question 2 accuracy: 0.890578
+2.126
+Question 2 accuracy: 0.890578
+2.127
+Question 2 accuracy: 0.890578
+2.128
+Question 2 accuracy: 0.890578
+2.129
+Question 2 accuracy: 0.890578
+2.13
+Question 2 accuracy: 0.890578
+2.131
+Question 2 accuracy: 0.890578
+2.132
+Question 2 accuracy: 0.890578
+2.133
+Question 2 accuracy: 0.890578
+2.134
+Question 2 accuracy: 0.890578
+2.135
+Question 2 accuracy: 0.890578
+2.136
+Question 2 accuracy: 0.890578
+2.137
+Question 2 accuracy: 0.890578
+2.138
+Question 2 accuracy: 0.890578
+2.139
+Question 2 accuracy: 0.890578
+2.14
+Question 2 accuracy: 0.890578
+2.141
+Question 2 accuracy: 0.890578
+2.142
+Question 2 accuracy: 0.890578
+2.143
+Question 2 accuracy: 0.890578
+2.144
+Question 2 accuracy: 0.890578
+2.145
+Question 2 accuracy: 0.890578
+2.146
+Question 2 accuracy: 0.890578
+2.147
+Question 2 accuracy: 0.890578
+2.148
+Question 2 accuracy: 0.890578
+2.149
+Question 2 accuracy: 0.890578
+2.15
+Question 2 accuracy: 0.890578
+2.151
+Question 2 accuracy: 0.890578
+2.152
+Question 2 accuracy: 0.890578
+2.153
+Question 2 accuracy: 0.890578
+2.154
+Question 2 accuracy: 0.890578
+2.155
+Question 2 accuracy: 0.890578
+2.156
+Question 2 accuracy: 0.890578
+2.157
+Question 2 accuracy: 0.890578
+2.158
+Question 2 accuracy: 0.890578
+2.159
+Question 2 accuracy: 0.890578
+2.16
+Question 2 accuracy: 0.890578
+2.161
+Question 2 accuracy: 0.890578
+2.162
+Question 2 accuracy: 0.890578
+2.163
+Question 2 accuracy: 0.890578
+2.164
+Question 2 accuracy: 0.890578
+2.165
+Question 2 accuracy: 0.890578
+2.166
+Question 2 accuracy: 0.890578
+2.167
+Question 2 accuracy: 0.890578
+2.168
+Question 2 accuracy: 0.890578
+2.169
+Question 2 accuracy: 0.890578
+2.17
+Question 2 accuracy: 0.890578
+2.171
+Question 2 accuracy: 0.890578
+2.172
+Question 2 accuracy: 0.890578
+2.173
+Question 2 accuracy: 0.890578
+2.174
+Question 2 accuracy: 0.890578
+2.175
+Question 2 accuracy: 0.890578
+2.176
+Question 2 accuracy: 0.890578
+2.177
+Question 2 accuracy: 0.890578
+2.178
+Question 2 accuracy: 0.890578
+2.179
+Question 2 accuracy: 0.890578
+2.18
+Question 2 accuracy: 0.890578
+2.181
+Question 2 accuracy: 0.890578
+2.182
+Question 2 accuracy: 0.890578
+2.183
+Question 2 accuracy: 0.893617
+2.184
+Question 2 accuracy: 0.893617
+2.185
+Question 2 accuracy: 0.893617
+2.186
+Question 2 accuracy: 0.893617
+2.187
+Question 2 accuracy: 0.893617
+2.188
+Question 2 accuracy: 0.893617
+2.189
+Question 2 accuracy: 0.893617
+2.19
+Question 2 accuracy: 0.893617
+2.191
+Question 2 accuracy: 0.893617
+2.192
+Question 2 accuracy: 0.893617
+2.193
+Question 2 accuracy: 0.893617
+2.194
+Question 2 accuracy: 0.893617
+2.195
+Question 2 accuracy: 0.893617
+2.196
+Question 2 accuracy: 0.893617
+2.197
+Question 2 accuracy: 0.893617
+2.198
+Question 2 accuracy: 0.893617
+2.199
+Question 2 accuracy: 0.893617
+2.2
+Question 2 accuracy: 0.893617
+2.201
+Question 2 accuracy: 0.893617
+2.202
+Question 2 accuracy: 0.893617
+2.203
+Question 2 accuracy: 0.893617
+2.204
+Question 2 accuracy: 0.893617
+2.205
+Question 2 accuracy: 0.893617
+2.206
+Question 2 accuracy: 0.893617
+2.207
+Question 2 accuracy: 0.893617
+2.208
+Question 2 accuracy: 0.893617
+2.209
+Question 2 accuracy: 0.893617
+2.21
+Question 2 accuracy: 0.893617
+2.211
+Question 2 accuracy: 0.893617
+2.212
+Question 2 accuracy: 0.893617
+2.213
+Question 2 accuracy: 0.893617
+2.214
+Question 2 accuracy: 0.893617
+2.215
+Question 2 accuracy: 0.893617
+2.216
+Question 2 accuracy: 0.893617
+2.217
+Question 2 accuracy: 0.893617
+2.218
+Question 2 accuracy: 0.893617
+2.219
+Question 2 accuracy: 0.893617
+2.22
+Question 2 accuracy: 0.893617
+2.221
+Question 2 accuracy: 0.893617
+2.222
+Question 2 accuracy: 0.893617
+2.223
+Question 2 accuracy: 0.893617
+2.224
+Question 2 accuracy: 0.893617
+2.225
+Question 2 accuracy: 0.893617
+2.226
+Question 2 accuracy: 0.893617
+2.227
+Question 2 accuracy: 0.893617
+2.228
+Question 2 accuracy: 0.893617
+2.229
+Question 2 accuracy: 0.893617
+2.23
+Question 2 accuracy: 0.893617
+2.231
+Question 2 accuracy: 0.893617
+2.232
+Question 2 accuracy: 0.893617
+2.233
+Question 2 accuracy: 0.893617
+2.234
+Question 2 accuracy: 0.893617
+2.235
+Question 2 accuracy: 0.893617
+2.236
+Question 2 accuracy: 0.893617
+2.237
+Question 2 accuracy: 0.893617
+2.238
+Question 2 accuracy: 0.893617
+2.239
+Question 2 accuracy: 0.893617
+2.24
+Question 2 accuracy: 0.893617
+2.241
+Question 2 accuracy: 0.893617
+2.242
+Question 2 accuracy: 0.893617
+2.243
+Question 2 accuracy: 0.893617
+2.244
+Question 2 accuracy: 0.893617
+2.245
+Question 2 accuracy: 0.893617
+2.246
+Question 2 accuracy: 0.893617
+2.247
+Question 2 accuracy: 0.893617
+2.248
+Question 2 accuracy: 0.893617
+2.249
+Question 2 accuracy: 0.893617
+2.25
+Question 2 accuracy: 0.893617
+2.251
+Question 2 accuracy: 0.893617
+2.252
+Question 2 accuracy: 0.893617
+2.253
+Question 2 accuracy: 0.893617
+2.254
+Question 2 accuracy: 0.893617
+2.255
+Question 2 accuracy: 0.893617
+2.256
+Question 2 accuracy: 0.893617
+2.257
+Question 2 accuracy: 0.893617
+2.258
+Question 2 accuracy: 0.893617
+2.259
+Question 2 accuracy: 0.893617
+2.26
+Question 2 accuracy: 0.893617
+2.261
+Question 2 accuracy: 0.893617
+2.262
+Question 2 accuracy: 0.893617
+2.263
+Question 2 accuracy: 0.893617
+2.264
+Question 2 accuracy: 0.893617
+2.265
+Question 2 accuracy: 0.893617
+2.266
+Question 2 accuracy: 0.893617
+2.267
+Question 2 accuracy: 0.893617
+2.268
+Question 2 accuracy: 0.893617
+2.269
+Question 2 accuracy: 0.893617
+2.27
+Question 2 accuracy: 0.893617
+2.271
+Question 2 accuracy: 0.893617
+2.272
+Question 2 accuracy: 0.893617
+2.273
+Question 2 accuracy: 0.893617
+2.274
+Question 2 accuracy: 0.893617
+2.275
+Question 2 accuracy: 0.893617
+2.276
+Question 2 accuracy: 0.893617
+2.277
+Question 2 accuracy: 0.893617
+2.278
+Question 2 accuracy: 0.893617
+2.279
+Question 2 accuracy: 0.893617
+2.28
+Question 2 accuracy: 0.893617
+2.281
+Question 2 accuracy: 0.893617
+2.282
+Question 2 accuracy: 0.893617
+2.283
+Question 2 accuracy: 0.893617
+2.284
+Question 2 accuracy: 0.893617
+2.285
+Question 2 accuracy: 0.893617
+2.286
+Question 2 accuracy: 0.893617
+2.287
+Question 2 accuracy: 0.893617
+2.288
+Question 2 accuracy: 0.893617
+2.289
+Question 2 accuracy: 0.893617
+2.29
+Question 2 accuracy: 0.893617
+2.291
+Question 2 accuracy: 0.893617
+2.292
+Question 2 accuracy: 0.893617
+2.293
+Question 2 accuracy: 0.893617
+2.294
+Question 2 accuracy: 0.893617
+2.295
+Question 2 accuracy: 0.893617
+2.296
+Question 2 accuracy: 0.893617
+2.297
+Question 2 accuracy: 0.893617
+2.298
+Question 2 accuracy: 0.893617
+2.299
+Question 2 accuracy: 0.893617
+2.3
+Question 2 accuracy: 0.893617
+2.301
+Question 2 accuracy: 0.893617
+2.302
+Question 2 accuracy: 0.893617
+2.303
+Question 2 accuracy: 0.893617
+2.304
+Question 2 accuracy: 0.893617
+2.305
+Question 2 accuracy: 0.893617
+2.306
+Question 2 accuracy: 0.893617
+2.307
+Question 2 accuracy: 0.893617
+2.308
+Question 2 accuracy: 0.893617
+2.309
+Question 2 accuracy: 0.893617
+2.31
+Question 2 accuracy: 0.893617
+2.311
+Question 2 accuracy: 0.893617
+2.312
+Question 2 accuracy: 0.893617
+2.313
+Question 2 accuracy: 0.893617
+2.314
+Question 2 accuracy: 0.893617
+2.315
+Question 2 accuracy: 0.893617
+2.316
+Question 2 accuracy: 0.893617
+2.317
+Question 2 accuracy: 0.893617
+2.318
+Question 2 accuracy: 0.893617
+2.319
+Question 2 accuracy: 0.893617
+2.32
+Question 2 accuracy: 0.893617
+2.321
+Question 2 accuracy: 0.893617
+2.322
+Question 2 accuracy: 0.893617
+2.323
+Question 2 accuracy: 0.893617
+2.324
+Question 2 accuracy: 0.893617
+2.325
+Question 2 accuracy: 0.893617
+2.326
+Question 2 accuracy: 0.893617
+2.327
+Question 2 accuracy: 0.893617
+2.328
+Question 2 accuracy: 0.893617
+2.329
+Question 2 accuracy: 0.893617
+2.33
+Question 2 accuracy: 0.893617
+2.331
+Question 2 accuracy: 0.893617
+2.332
+Question 2 accuracy: 0.893617
+2.333
+Question 2 accuracy: 0.893617
+2.334
+Question 2 accuracy: 0.893617
+2.335
+Question 2 accuracy: 0.893617
+2.336
+Question 2 accuracy: 0.893617
+2.337
+Question 2 accuracy: 0.893617
+2.338
+Question 2 accuracy: 0.893617
+2.339
+Question 2 accuracy: 0.893617
+2.34
+Question 2 accuracy: 0.893617
+2.341
+Question 2 accuracy: 0.893617
+2.342
+Question 2 accuracy: 0.893617
+2.343
+Question 2 accuracy: 0.893617
+2.344
+Question 2 accuracy: 0.893617
+2.345
+Question 2 accuracy: 0.893617
+2.346
+Question 2 accuracy: 0.893617
+2.347
+Question 2 accuracy: 0.893617
+2.348
+Question 2 accuracy: 0.893617
+2.349
+Question 2 accuracy: 0.893617
+2.35
+Question 2 accuracy: 0.893617
+2.351
+Question 2 accuracy: 0.893617
+2.352
+Question 2 accuracy: 0.893617
+2.353
+Question 2 accuracy: 0.893617
+2.354
+Question 2 accuracy: 0.893617
+2.355
+Question 2 accuracy: 0.893617
+2.356
+Question 2 accuracy: 0.893617
+2.357
+Question 2 accuracy: 0.893617
+2.358
+Question 2 accuracy: 0.893617
+2.359
+Question 2 accuracy: 0.893617
+2.36
+Question 2 accuracy: 0.893617
+2.361
+Question 2 accuracy: 0.893617
+2.362
+Question 2 accuracy: 0.893617
+2.363
+Question 2 accuracy: 0.893617
+2.364
+Question 2 accuracy: 0.893617
+2.365
+Question 2 accuracy: 0.893617
+2.366
+Question 2 accuracy: 0.893617
+2.367
+Question 2 accuracy: 0.893617
+2.368
+Question 2 accuracy: 0.893617
+2.369
+Question 2 accuracy: 0.893617
+2.37
+Question 2 accuracy: 0.893617
+2.371
+Question 2 accuracy: 0.893617
+2.372
+Question 2 accuracy: 0.893617
+2.373
+Question 2 accuracy: 0.893617
+2.374
+Question 2 accuracy: 0.893617
+2.375
+Question 2 accuracy: 0.893617
+2.376
+Question 2 accuracy: 0.893617
+2.377
+Question 2 accuracy: 0.893617
+2.378
+Question 2 accuracy: 0.893617
+2.379
+Question 2 accuracy: 0.893617
+2.38
+Question 2 accuracy: 0.893617
+2.381
+Question 2 accuracy: 0.893617
+2.382
+Question 2 accuracy: 0.893617
+2.383
+Question 2 accuracy: 0.893617
+2.384
+Question 2 accuracy: 0.893617
+2.385
+Question 2 accuracy: 0.893617
+2.386
+Question 2 accuracy: 0.893617
+2.387
+Question 2 accuracy: 0.893617
+2.388
+Question 2 accuracy: 0.893617
+2.389
+Question 2 accuracy: 0.893617
+2.39
+Question 2 accuracy: 0.893617
+2.391
+Question 2 accuracy: 0.893617
+2.392
+Question 2 accuracy: 0.893617
+2.393
+Question 2 accuracy: 0.893617
+2.394
+Question 2 accuracy: 0.893617
+2.395
+Question 2 accuracy: 0.893617
+2.396
+Question 2 accuracy: 0.893617
+2.397
+Question 2 accuracy: 0.893617
+2.398
+Question 2 accuracy: 0.893617
+2.399
+Question 2 accuracy: 0.893617
+2.4
+Question 2 accuracy: 0.893617
+2.401
+Question 2 accuracy: 0.893617
+2.402
+Question 2 accuracy: 0.893617
+2.403
+Question 2 accuracy: 0.893617
+2.404
+Question 2 accuracy: 0.893617
+2.405
+Question 2 accuracy: 0.893617
+2.406
+Question 2 accuracy: 0.893617
+2.407
+Question 2 accuracy: 0.893617
+2.408
+Question 2 accuracy: 0.893617
+2.409
+Question 2 accuracy: 0.893617
+2.41
+Question 2 accuracy: 0.893617
+2.411
+Question 2 accuracy: 0.893617
+2.412
+Question 2 accuracy: 0.893617
+2.413
+Question 2 accuracy: 0.893617
+2.414
+Question 2 accuracy: 0.893617
+2.415
+Question 2 accuracy: 0.893617
+2.416
+Question 2 accuracy: 0.893617
+2.417
+Question 2 accuracy: 0.893617
+2.418
+Question 2 accuracy: 0.893617
+2.419
+Question 2 accuracy: 0.893617
+2.42
+Question 2 accuracy: 0.893617
+2.421
+Question 2 accuracy: 0.893617
+2.422
+Question 2 accuracy: 0.893617
+2.423
+Question 2 accuracy: 0.893617
+2.424
+Question 2 accuracy: 0.893617
+2.425
+Question 2 accuracy: 0.893617
+2.426
+Question 2 accuracy: 0.893617
+2.427
+Question 2 accuracy: 0.893617
+2.428
+Question 2 accuracy: 0.893617
+2.429
+Question 2 accuracy: 0.893617
+2.43
+Question 2 accuracy: 0.893617
+2.431
+Question 2 accuracy: 0.893617
+2.432
+Question 2 accuracy: 0.893617
+2.433
+Question 2 accuracy: 0.893617
+2.434
+Question 2 accuracy: 0.893617
+2.435
+Question 2 accuracy: 0.893617
+2.436
+Question 2 accuracy: 0.893617
+2.437
+Question 2 accuracy: 0.893617
+2.438
+Question 2 accuracy: 0.893617
+2.439
+Question 2 accuracy: 0.893617
+2.44
+Question 2 accuracy: 0.893617
+2.441
+Question 2 accuracy: 0.893617
+2.442
+Question 2 accuracy: 0.893617
+2.443
+Question 2 accuracy: 0.893617
+2.444
+Question 2 accuracy: 0.893617
+2.445
+Question 2 accuracy: 0.893617
+2.446
+Question 2 accuracy: 0.893617
+2.447
+Question 2 accuracy: 0.893617
+2.448
+Question 2 accuracy: 0.893617
+2.449
+Question 2 accuracy: 0.893617
+2.45
+Question 2 accuracy: 0.893617
+2.451
+Question 2 accuracy: 0.893617
+2.452
+Question 2 accuracy: 0.893617
+2.453
+Question 2 accuracy: 0.893617
+2.454
+Question 2 accuracy: 0.893617
+2.455
+Question 2 accuracy: 0.893617
+2.456
+Question 2 accuracy: 0.893617
+2.457
+Question 2 accuracy: 0.893617
+2.458
+Question 2 accuracy: 0.893617
+2.459
+Question 2 accuracy: 0.893617
+2.46
+Question 2 accuracy: 0.893617
+2.461
+Question 2 accuracy: 0.893617
+2.462
+Question 2 accuracy: 0.893617
+2.463
+Question 2 accuracy: 0.893617
+2.464
+Question 2 accuracy: 0.893617
+2.465
+Question 2 accuracy: 0.893617
+2.466
+Question 2 accuracy: 0.893617
+2.467
+Question 2 accuracy: 0.893617
+2.468
+Question 2 accuracy: 0.893617
+2.469
+Question 2 accuracy: 0.893617
+2.47
+Question 2 accuracy: 0.893617
+2.471
+Question 2 accuracy: 0.893617
+2.472
+Question 2 accuracy: 0.893617
+2.473
+Question 2 accuracy: 0.893617
+2.474
+Question 2 accuracy: 0.893617
+2.475
+Question 2 accuracy: 0.893617
+2.476
+Question 2 accuracy: 0.893617
+2.477
+Question 2 accuracy: 0.893617
+2.478
+Question 2 accuracy: 0.893617
+2.479
+Question 2 accuracy: 0.893617
+2.48
+Question 2 accuracy: 0.893617
+2.481
+Question 2 accuracy: 0.893617
+2.482
+Question 2 accuracy: 0.893617
+2.483
+Question 2 accuracy: 0.893617
+2.484
+Question 2 accuracy: 0.893617
+2.485
+Question 2 accuracy: 0.893617
+2.486
+Question 2 accuracy: 0.893617
+2.487
+Question 2 accuracy: 0.893617
+2.488
+Question 2 accuracy: 0.893617
+2.489
+Question 2 accuracy: 0.893617
+2.49
+Question 2 accuracy: 0.893617
+2.491
+Question 2 accuracy: 0.893617
+2.492
+Question 2 accuracy: 0.893617
+2.493
+Question 2 accuracy: 0.893617
+2.494
+Question 2 accuracy: 0.893617
+2.495
+Question 2 accuracy: 0.893617
+2.496
+Question 2 accuracy: 0.893617
+2.497
+Question 2 accuracy: 0.893617
+2.498
+Question 2 accuracy: 0.893617
+2.499
+Question 2 accuracy: 0.893617
+2.5
+Question 2 accuracy: 0.893617
+2.501
+Question 2 accuracy: 0.893617
+2.502
+Question 2 accuracy: 0.893617
+2.503
+Question 2 accuracy: 0.893617
+2.504
+Question 2 accuracy: 0.893617
+2.505
+Question 2 accuracy: 0.893617
+2.506
+Question 2 accuracy: 0.893617
+2.507
+Question 2 accuracy: 0.893617
+2.508
+Question 2 accuracy: 0.893617
+2.509
+Question 2 accuracy: 0.893617
+2.51
+Question 2 accuracy: 0.893617
+2.511
+Question 2 accuracy: 0.893617
+2.512
+Question 2 accuracy: 0.893617
+2.513
+Question 2 accuracy: 0.893617
+2.514
+Question 2 accuracy: 0.893617
+2.515
+Question 2 accuracy: 0.893617
+2.516
+Question 2 accuracy: 0.893617
+2.517
+Question 2 accuracy: 0.893617
+2.518
+Question 2 accuracy: 0.893617
+2.519
+Question 2 accuracy: 0.893617
+2.52
+Question 2 accuracy: 0.893617
+2.521
+Question 2 accuracy: 0.893617
+2.522
+Question 2 accuracy: 0.893617
+2.523
+Question 2 accuracy: 0.893617
+2.524
+Question 2 accuracy: 0.893617
+2.525
+Question 2 accuracy: 0.893617
+2.526
+Question 2 accuracy: 0.893617
+2.527
+Question 2 accuracy: 0.893617
+2.528
+Question 2 accuracy: 0.893617
+2.529
+Question 2 accuracy: 0.893617
+2.53
+Question 2 accuracy: 0.893617
+2.531
+Question 2 accuracy: 0.893617
+2.532
+Question 2 accuracy: 0.893617
+2.533
+Question 2 accuracy: 0.893617
+2.534
+Question 2 accuracy: 0.893617
+2.535
+Question 2 accuracy: 0.893617
+2.536
+Question 2 accuracy: 0.893617
+2.537
+Question 2 accuracy: 0.893617
+2.538
+Question 2 accuracy: 0.893617
+2.539
+Question 2 accuracy: 0.893617
+2.54
+Question 2 accuracy: 0.893617
+2.541
+Question 2 accuracy: 0.893617
+2.542
+Question 2 accuracy: 0.893617
+2.543
+Question 2 accuracy: 0.893617
+2.544
+Question 2 accuracy: 0.893617
+2.545
+Question 2 accuracy: 0.893617
+2.546
+Question 2 accuracy: 0.893617
+2.547
+Question 2 accuracy: 0.893617
+2.548
+Question 2 accuracy: 0.893617
+2.549
+Question 2 accuracy: 0.893617
+2.55
+Question 2 accuracy: 0.893617
+2.551
+Question 2 accuracy: 0.893617
+2.552
+Question 2 accuracy: 0.893617
+2.553
+Question 2 accuracy: 0.893617
+2.554
+Question 2 accuracy: 0.893617
+2.555
+Question 2 accuracy: 0.893617
+2.556
+Question 2 accuracy: 0.893617
+2.557
+Question 2 accuracy: 0.893617
+2.558
+Question 2 accuracy: 0.893617
+2.559
+Question 2 accuracy: 0.893617
+2.56
+Question 2 accuracy: 0.893617
+2.561
+Question 2 accuracy: 0.893617
+2.562
+Question 2 accuracy: 0.893617
+2.563
+Question 2 accuracy: 0.893617
+2.564
+Question 2 accuracy: 0.893617
+2.565
+Question 2 accuracy: 0.893617
+2.566
+Question 2 accuracy: 0.893617
+2.567
+Question 2 accuracy: 0.893617
+2.568
+Question 2 accuracy: 0.893617
+2.569
+Question 2 accuracy: 0.893617
+2.57
+Question 2 accuracy: 0.893617
+2.571
+Question 2 accuracy: 0.893617
+2.572
+Question 2 accuracy: 0.893617
+2.573
+Question 2 accuracy: 0.893617
+2.574
+Question 2 accuracy: 0.893617
+2.575
+Question 2 accuracy: 0.893617
+2.576
+Question 2 accuracy: 0.893617
+2.577
+Question 2 accuracy: 0.893617
+2.578
+Question 2 accuracy: 0.893617
+2.579
+Question 2 accuracy: 0.893617
+2.58
+Question 2 accuracy: 0.893617
+2.581
+Question 2 accuracy: 0.893617
+2.582
+Question 2 accuracy: 0.893617
+2.583
+Question 2 accuracy: 0.893617
+2.584
+Question 2 accuracy: 0.893617
+2.585
+Question 2 accuracy: 0.893617
+2.586
+Question 2 accuracy: 0.893617
+2.587
+Question 2 accuracy: 0.893617
+2.588
+Question 2 accuracy: 0.893617
+2.589
+Question 2 accuracy: 0.893617
+2.59
+Question 2 accuracy: 0.893617
+2.591
+Question 2 accuracy: 0.893617
+2.592
+Question 2 accuracy: 0.893617
+2.593
+Question 2 accuracy: 0.893617
+2.594
+Question 2 accuracy: 0.893617
+2.595
+Question 2 accuracy: 0.893617
+2.596
+Question 2 accuracy: 0.893617
+2.597
+Question 2 accuracy: 0.893617
+2.598
+Question 2 accuracy: 0.893617
+2.599
+Question 2 accuracy: 0.893617
+2.6
+Question 2 accuracy: 0.893617
+2.601
+Question 2 accuracy: 0.893617
+2.602
+Question 2 accuracy: 0.893617
+2.603
+Question 2 accuracy: 0.893617
+2.604
+Question 2 accuracy: 0.893617
+2.605
+Question 2 accuracy: 0.893617
+2.606
+Question 2 accuracy: 0.893617
+2.607
+Question 2 accuracy: 0.893617
+2.608
+Question 2 accuracy: 0.893617
+2.609
+Question 2 accuracy: 0.893617
+2.61
+Question 2 accuracy: 0.893617
+2.611
+Question 2 accuracy: 0.893617
+2.612
+Question 2 accuracy: 0.893617
+2.613
+Question 2 accuracy: 0.893617
+2.614
+Question 2 accuracy: 0.893617
+2.615
+Question 2 accuracy: 0.893617
+2.616
+Question 2 accuracy: 0.893617
+2.617
+Question 2 accuracy: 0.893617
+2.618
+Question 2 accuracy: 0.893617
+2.619
+Question 2 accuracy: 0.893617
+2.62
+Question 2 accuracy: 0.893617
+2.621
+Question 2 accuracy: 0.893617
+2.622
+Question 2 accuracy: 0.893617
+2.623
+Question 2 accuracy: 0.893617
+2.624
+Question 2 accuracy: 0.893617
+2.625
+Question 2 accuracy: 0.893617
+2.626
+Question 2 accuracy: 0.893617
+2.627
+Question 2 accuracy: 0.893617
+2.628
+Question 2 accuracy: 0.893617
+2.629
+Question 2 accuracy: 0.893617
+2.63
+Question 2 accuracy: 0.893617
+2.631
+Question 2 accuracy: 0.893617
+2.632
+Question 2 accuracy: 0.893617
+2.633
+Question 2 accuracy: 0.893617
+2.634
+Question 2 accuracy: 0.893617
+2.635
+Question 2 accuracy: 0.893617
+2.636
+Question 2 accuracy: 0.893617
+2.637
+Question 2 accuracy: 0.893617
+2.638
+Question 2 accuracy: 0.893617
+2.639
+Question 2 accuracy: 0.893617
+2.64
+Question 2 accuracy: 0.893617
+2.641
+Question 2 accuracy: 0.893617
+2.642
+Question 2 accuracy: 0.893617
+2.643
+Question 2 accuracy: 0.893617
+2.644
+Question 2 accuracy: 0.893617
+2.645
+Question 2 accuracy: 0.893617
+2.646
+Question 2 accuracy: 0.893617
+2.647
+Question 2 accuracy: 0.893617
+2.648
+Question 2 accuracy: 0.893617
+2.649
+Question 2 accuracy: 0.893617
+2.65
+Question 2 accuracy: 0.893617
+2.651
+Question 2 accuracy: 0.893617
+2.652
+Question 2 accuracy: 0.893617
+2.653
+Question 2 accuracy: 0.893617
+2.654
+Question 2 accuracy: 0.893617
+2.655
+Question 2 accuracy: 0.893617
+2.656
+Question 2 accuracy: 0.893617
+2.657
+Question 2 accuracy: 0.893617
+2.658
+Question 2 accuracy: 0.893617
+2.659
+Question 2 accuracy: 0.893617
+2.66
+Question 2 accuracy: 0.893617
+2.661
+Question 2 accuracy: 0.893617
+2.662
+Question 2 accuracy: 0.893617
+2.663
+Question 2 accuracy: 0.893617
+2.664
+Question 2 accuracy: 0.893617
+2.665
+Question 2 accuracy: 0.893617
+2.666
+Question 2 accuracy: 0.893617
+2.667
+Question 2 accuracy: 0.893617
+2.668
+Question 2 accuracy: 0.893617
+2.669
+Question 2 accuracy: 0.893617
+2.67
+Question 2 accuracy: 0.893617
+2.671
+Question 2 accuracy: 0.893617
+2.672
+Question 2 accuracy: 0.893617
+2.673
+Question 2 accuracy: 0.893617
+2.674
+Question 2 accuracy: 0.893617
+2.675
+Question 2 accuracy: 0.893617
+2.676
+Question 2 accuracy: 0.893617
+2.677
+Question 2 accuracy: 0.893617
+2.678
+Question 2 accuracy: 0.893617
+2.679
+Question 2 accuracy: 0.893617
+2.68
+Question 2 accuracy: 0.893617
+2.681
+Question 2 accuracy: 0.893617
+2.682
+Question 2 accuracy: 0.893617
+2.683
+Question 2 accuracy: 0.893617
+2.684
+Question 2 accuracy: 0.893617
+2.685
+Question 2 accuracy: 0.893617
+2.686
+Question 2 accuracy: 0.893617
+2.687
+Question 2 accuracy: 0.893617
+2.688
+Question 2 accuracy: 0.893617
+2.689
+Question 2 accuracy: 0.893617
+2.69
+Question 2 accuracy: 0.893617
+2.691
+Question 2 accuracy: 0.893617
+2.692
+Question 2 accuracy: 0.893617
+2.693
+Question 2 accuracy: 0.893617
+2.694
+Question 2 accuracy: 0.893617
+2.695
+Question 2 accuracy: 0.893617
+2.696
+Question 2 accuracy: 0.893617
+2.697
+Question 2 accuracy: 0.893617
+2.698
+Question 2 accuracy: 0.893617
+2.699
+Question 2 accuracy: 0.893617
+2.7
+Question 2 accuracy: 0.893617
+2.701
+Question 2 accuracy: 0.893617
+2.702
+Question 2 accuracy: 0.893617
+2.703
+Question 2 accuracy: 0.893617
+2.704
+Question 2 accuracy: 0.893617
+2.705
+Question 2 accuracy: 0.893617
+2.706
+Question 2 accuracy: 0.893617
+2.707
+Question 2 accuracy: 0.893617
+2.708
+Question 2 accuracy: 0.893617
+2.709
+Question 2 accuracy: 0.893617
+2.71
+Question 2 accuracy: 0.893617
+2.711
+Question 2 accuracy: 0.893617
+2.712
+Question 2 accuracy: 0.893617
+2.713
+Question 2 accuracy: 0.893617
+2.714
+Question 2 accuracy: 0.893617
+2.715
+Question 2 accuracy: 0.893617
+2.716
+Question 2 accuracy: 0.893617
+2.717
+Question 2 accuracy: 0.893617
+2.718
+Question 2 accuracy: 0.893617
+2.719
+Question 2 accuracy: 0.893617
+2.72
+Question 2 accuracy: 0.893617
+2.721
+Question 2 accuracy: 0.893617
+2.722
+Question 2 accuracy: 0.893617
+2.723
+Question 2 accuracy: 0.893617
+2.724
+Question 2 accuracy: 0.893617
+2.725
+Question 2 accuracy: 0.893617
+2.726
+Question 2 accuracy: 0.893617
+2.727
+Question 2 accuracy: 0.893617
+2.728
+Question 2 accuracy: 0.893617
+2.729
+Question 2 accuracy: 0.893617
+2.73
+Question 2 accuracy: 0.893617
+2.731
+Question 2 accuracy: 0.893617
+2.732
+Question 2 accuracy: 0.893617
+2.733
+Question 2 accuracy: 0.893617
+2.734
+Question 2 accuracy: 0.893617
+2.735
+Question 2 accuracy: 0.893617
+2.736
+Question 2 accuracy: 0.893617
+2.737
+Question 2 accuracy: 0.893617
+2.738
+Question 2 accuracy: 0.893617
+2.739
+Question 2 accuracy: 0.893617
+2.74
+Question 2 accuracy: 0.893617
+2.741
+Question 2 accuracy: 0.893617
+2.742
+Question 2 accuracy: 0.893617
+2.743
+Question 2 accuracy: 0.893617
+2.744
+Question 2 accuracy: 0.893617
+2.745
+Question 2 accuracy: 0.893617
+2.746
+Question 2 accuracy: 0.893617
+2.747
+Question 2 accuracy: 0.893617
+2.748
+Question 2 accuracy: 0.893617
+2.749
+Question 2 accuracy: 0.893617
+2.75
+Question 2 accuracy: 0.893617
+2.751
+Question 2 accuracy: 0.893617
+2.752
+Question 2 accuracy: 0.893617
+2.753
+Question 2 accuracy: 0.893617
+2.754
+Question 2 accuracy: 0.893617
+2.755
+Question 2 accuracy: 0.893617
+2.756
+Question 2 accuracy: 0.893617
+2.757
+Question 2 accuracy: 0.893617
+2.758
+Question 2 accuracy: 0.893617
+2.759
+Question 2 accuracy: 0.893617
+2.76
+Question 2 accuracy: 0.893617
+2.761
+Question 2 accuracy: 0.893617
+2.762
+Question 2 accuracy: 0.893617
+2.763
+Question 2 accuracy: 0.893617
+2.764
+Question 2 accuracy: 0.893617
+2.765
+Question 2 accuracy: 0.893617
+2.766
+Question 2 accuracy: 0.893617
+2.767
+Question 2 accuracy: 0.893617
+2.768
+Question 2 accuracy: 0.893617
+2.769
+Question 2 accuracy: 0.893617
+2.77
+Question 2 accuracy: 0.893617
+2.771
+Question 2 accuracy: 0.893617
+2.772
+Question 2 accuracy: 0.893617
+2.773
+Question 2 accuracy: 0.893617
+2.774
+Question 2 accuracy: 0.893617
+2.775
+Question 2 accuracy: 0.893617
+2.776
+Question 2 accuracy: 0.893617
+2.777
+Question 2 accuracy: 0.893617
+2.778
+Question 2 accuracy: 0.893617
+2.779
+Question 2 accuracy: 0.893617
+2.78
+Question 2 accuracy: 0.893617
+2.781
+Question 2 accuracy: 0.893617
+2.782
+Question 2 accuracy: 0.893617
+2.783
+Question 2 accuracy: 0.893617
+2.784
+Question 2 accuracy: 0.893617
+2.785
+Question 2 accuracy: 0.893617
+2.786
+Question 2 accuracy: 0.893617
+2.787
+Question 2 accuracy: 0.893617
+2.788
+Question 2 accuracy: 0.893617
+2.789
+Question 2 accuracy: 0.893617
+2.79
+Question 2 accuracy: 0.893617
+2.791
+Question 2 accuracy: 0.893617
+2.792
+Question 2 accuracy: 0.893617
+2.793
+Question 2 accuracy: 0.893617
+2.794
+Question 2 accuracy: 0.893617
+2.795
+Question 2 accuracy: 0.893617
+2.796
+Question 2 accuracy: 0.893617
+2.797
+Question 2 accuracy: 0.893617
+2.798
+Question 2 accuracy: 0.893617
+2.799
+Question 2 accuracy: 0.893617
+2.8
+Question 2 accuracy: 0.893617
+2.801
+Question 2 accuracy: 0.893617
+2.802
+Question 2 accuracy: 0.893617
+2.803
+Question 2 accuracy: 0.893617
+2.804
+Question 2 accuracy: 0.893617
+2.805
+Question 2 accuracy: 0.893617
+2.806
+Question 2 accuracy: 0.893617
+2.807
+Question 2 accuracy: 0.893617
+2.808
+Question 2 accuracy: 0.893617
+2.809
+Question 2 accuracy: 0.893617
+2.81
+Question 2 accuracy: 0.893617
+2.811
+Question 2 accuracy: 0.893617
+2.812
+Question 2 accuracy: 0.893617
+2.813
+Question 2 accuracy: 0.893617
+2.814
+Question 2 accuracy: 0.893617
+2.815
+Question 2 accuracy: 0.893617
+2.816
+Question 2 accuracy: 0.893617
+2.817
+Question 2 accuracy: 0.893617
+2.818
+Question 2 accuracy: 0.893617
+2.819
+Question 2 accuracy: 0.893617
+2.82
+Question 2 accuracy: 0.893617
+2.821
+Question 2 accuracy: 0.893617
+2.822
+Question 2 accuracy: 0.893617
+2.823
+Question 2 accuracy: 0.893617
+2.824
+Question 2 accuracy: 0.893617
+2.825
+Question 2 accuracy: 0.893617
+2.826
+Question 2 accuracy: 0.893617
+2.827
+Question 2 accuracy: 0.893617
+2.828
+Question 2 accuracy: 0.893617
+2.829
+Question 2 accuracy: 0.893617
+2.83
+Question 2 accuracy: 0.893617
+2.831
+Question 2 accuracy: 0.893617
+2.832
+Question 2 accuracy: 0.893617
+2.833
+Question 2 accuracy: 0.893617
+2.834
+Question 2 accuracy: 0.893617
+2.835
+Question 2 accuracy: 0.893617
+2.836
+Question 2 accuracy: 0.893617
+2.837
+Question 2 accuracy: 0.893617
+2.838
+Question 2 accuracy: 0.893617
+2.839
+Question 2 accuracy: 0.893617
+2.84
+Question 2 accuracy: 0.893617
+2.841
+Question 2 accuracy: 0.893617
+2.842
+Question 2 accuracy: 0.893617
+2.843
+Question 2 accuracy: 0.893617
+2.844
+Question 2 accuracy: 0.893617
+2.845
+Question 2 accuracy: 0.893617
+2.846
+Question 2 accuracy: 0.893617
+2.847
+Question 2 accuracy: 0.893617
+2.848
+Question 2 accuracy: 0.893617
+2.849
+Question 2 accuracy: 0.893617
+2.85
+Question 2 accuracy: 0.893617
+2.851
+Question 2 accuracy: 0.893617
+2.852
+Question 2 accuracy: 0.893617
+2.853
+Question 2 accuracy: 0.893617
+2.854
+Question 2 accuracy: 0.893617
+2.855
+Question 2 accuracy: 0.893617
+2.856
+Question 2 accuracy: 0.893617
+2.857
+Question 2 accuracy: 0.893617
+2.858
+Question 2 accuracy: 0.893617
+2.859
+Question 2 accuracy: 0.893617
+2.86
+Question 2 accuracy: 0.893617
+2.861
+Question 2 accuracy: 0.893617
+2.862
+Question 2 accuracy: 0.893617
+2.863
+Question 2 accuracy: 0.893617
+2.864
+Question 2 accuracy: 0.893617
+2.865
+Question 2 accuracy: 0.893617
+2.866
+Question 2 accuracy: 0.893617
+2.867
+Question 2 accuracy: 0.893617
+2.868
+Question 2 accuracy: 0.893617
+2.869
+Question 2 accuracy: 0.893617
+2.87
+Question 2 accuracy: 0.893617
+2.871
+Question 2 accuracy: 0.893617
+2.872
+Question 2 accuracy: 0.893617
+2.873
+Question 2 accuracy: 0.893617
+2.874
+Question 2 accuracy: 0.893617
+2.875
+Question 2 accuracy: 0.893617
+2.876
+Question 2 accuracy: 0.893617
+2.877
+Question 2 accuracy: 0.893617
+2.878
+Question 2 accuracy: 0.893617
+2.879
+Question 2 accuracy: 0.893617
+2.88
+Question 2 accuracy: 0.893617
+2.881
+Question 2 accuracy: 0.893617
+2.882
+Question 2 accuracy: 0.893617
+2.883
+Question 2 accuracy: 0.893617
+2.884
+Question 2 accuracy: 0.893617
+2.885
+Question 2 accuracy: 0.893617
+2.886
+Question 2 accuracy: 0.893617
+2.887
+Question 2 accuracy: 0.893617
+2.888
+Question 2 accuracy: 0.893617
+2.889
+Question 2 accuracy: 0.893617
+2.89
+Question 2 accuracy: 0.893617
+2.891
+Question 2 accuracy: 0.893617
+2.892
+Question 2 accuracy: 0.893617
+2.893
+Question 2 accuracy: 0.893617
+2.894
+Question 2 accuracy: 0.893617
+2.895
+Question 2 accuracy: 0.893617
+2.896
+Question 2 accuracy: 0.893617
+2.897
+Question 2 accuracy: 0.893617
+2.898
+Question 2 accuracy: 0.893617
+2.899
+Question 2 accuracy: 0.893617
+2.9
+Question 2 accuracy: 0.893617
+2.901
+Question 2 accuracy: 0.893617
+2.902
+Question 2 accuracy: 0.893617
+2.903
+Question 2 accuracy: 0.893617
+2.904
+Question 2 accuracy: 0.893617
+2.905
+Question 2 accuracy: 0.893617
+2.906
+Question 2 accuracy: 0.893617
+2.907
+Question 2 accuracy: 0.893617
+2.908
+Question 2 accuracy: 0.893617
+2.909
+Question 2 accuracy: 0.893617
+2.91
+Question 2 accuracy: 0.893617
+2.911
+Question 2 accuracy: 0.893617
+2.912
+Question 2 accuracy: 0.893617
+2.913
+Question 2 accuracy: 0.893617
+2.914
+Question 2 accuracy: 0.893617
+2.915
+Question 2 accuracy: 0.893617
+2.916
+Question 2 accuracy: 0.893617
+2.917
+Question 2 accuracy: 0.893617
+2.918
+Question 2 accuracy: 0.893617
+2.919
+Question 2 accuracy: 0.893617
+2.92
+Question 2 accuracy: 0.893617
+2.921
+Question 2 accuracy: 0.893617
+2.922
+Question 2 accuracy: 0.893617
+2.923
+Question 2 accuracy: 0.893617
+2.924
+Question 2 accuracy: 0.893617
+2.925
+Question 2 accuracy: 0.893617
+2.926
+Question 2 accuracy: 0.893617
+2.927
+Question 2 accuracy: 0.893617
+2.928
+Question 2 accuracy: 0.893617
+2.929
+Question 2 accuracy: 0.893617
+2.93
+Question 2 accuracy: 0.893617
+2.931
+Question 2 accuracy: 0.893617
+2.932
+Question 2 accuracy: 0.893617
+2.933
+Question 2 accuracy: 0.893617
+2.934
+Question 2 accuracy: 0.893617
+2.935
+Question 2 accuracy: 0.893617
+2.936
+Question 2 accuracy: 0.893617
+2.937
+Question 2 accuracy: 0.893617
+2.938
+Question 2 accuracy: 0.893617
+2.939
+Question 2 accuracy: 0.893617
+2.94
+Question 2 accuracy: 0.893617
+2.941
+Question 2 accuracy: 0.893617
+2.942
+Question 2 accuracy: 0.893617
+2.943
+Question 2 accuracy: 0.893617
+2.944
+Question 2 accuracy: 0.893617
+2.945
+Question 2 accuracy: 0.893617
+2.946
+Question 2 accuracy: 0.893617
+2.947
+Question 2 accuracy: 0.893617
+2.948
+Question 2 accuracy: 0.893617
+2.949
+Question 2 accuracy: 0.893617
+2.95
+Question 2 accuracy: 0.893617
+2.951
+Question 2 accuracy: 0.893617
+2.952
+Question 2 accuracy: 0.893617
+2.953
+Question 2 accuracy: 0.893617
+2.954
+Question 2 accuracy: 0.893617
+2.955
+Question 2 accuracy: 0.893617
+2.956
+Question 2 accuracy: 0.893617
+2.957
+Question 2 accuracy: 0.893617
+2.958
+Question 2 accuracy: 0.893617
+2.959
+Question 2 accuracy: 0.893617
+2.96
+Question 2 accuracy: 0.893617
+2.961
+Question 2 accuracy: 0.893617
+2.962
+Question 2 accuracy: 0.893617
+2.963
+Question 2 accuracy: 0.893617
+2.964
+Question 2 accuracy: 0.893617
+2.965
+Question 2 accuracy: 0.893617
+2.966
+Question 2 accuracy: 0.893617
+2.967
+Question 2 accuracy: 0.893617
+2.968
+Question 2 accuracy: 0.893617
+2.969
+Question 2 accuracy: 0.893617
+2.97
+Question 2 accuracy: 0.893617
+2.971
+Question 2 accuracy: 0.893617
+2.972
+Question 2 accuracy: 0.893617
+2.973
+Question 2 accuracy: 0.893617
+2.974
+Question 2 accuracy: 0.893617
+2.975
+Question 2 accuracy: 0.893617
+2.976
+Question 2 accuracy: 0.893617
+2.977
+Question 2 accuracy: 0.893617
+2.978
+Question 2 accuracy: 0.893617
+2.979
+Question 2 accuracy: 0.893617
+2.98
+Question 2 accuracy: 0.893617
+2.981
+Question 2 accuracy: 0.893617
+2.982
+Question 2 accuracy: 0.893617
+2.983
+Question 2 accuracy: 0.893617
+2.984
+Question 2 accuracy: 0.893617
+2.985
+Question 2 accuracy: 0.893617
+2.986
+Question 2 accuracy: 0.893617
+2.987
+Question 2 accuracy: 0.893617
+2.988
+Question 2 accuracy: 0.893617
+2.989
+Question 2 accuracy: 0.893617
+2.99
+Question 2 accuracy: 0.893617
+2.991
+Question 2 accuracy: 0.893617
+2.992
+Question 2 accuracy: 0.893617
+2.993
+Question 2 accuracy: 0.893617
+2.994
+Question 2 accuracy: 0.893617
+2.995
+Question 2 accuracy: 0.893617
+2.996
+Question 2 accuracy: 0.893617
+2.997
+Question 2 accuracy: 0.893617
+2.998
+Question 2 accuracy: 0.893617
+2.999
+Question 2 accuracy: 0.893617
+3.0
+Question 2 accuracy: 0.893617
+3.001
+Question 2 accuracy: 0.893617
+3.002
+Question 2 accuracy: 0.893617
+3.003
+Question 2 accuracy: 0.893617
+3.004
+Question 2 accuracy: 0.893617
+3.005
+Question 2 accuracy: 0.893617
+3.006
+Question 2 accuracy: 0.893617
+3.007
+Question 2 accuracy: 0.893617
+3.008
+Question 2 accuracy: 0.893617
+3.009
+Question 2 accuracy: 0.893617
+3.01
+Question 2 accuracy: 0.893617
+3.011
+Question 2 accuracy: 0.893617
+3.012
+Question 2 accuracy: 0.893617
+3.013
+Question 2 accuracy: 0.893617
+3.014
+Question 2 accuracy: 0.893617
+3.015
+Question 2 accuracy: 0.893617
+3.016
+Question 2 accuracy: 0.893617
+3.017
+Question 2 accuracy: 0.893617
+3.018
+Question 2 accuracy: 0.893617
+3.019
+Question 2 accuracy: 0.893617
+3.02
+Question 2 accuracy: 0.893617
+3.021
+Question 2 accuracy: 0.893617
+3.022
+Question 2 accuracy: 0.893617
+3.023
+Question 2 accuracy: 0.893617
+3.024
+Question 2 accuracy: 0.893617
+3.025
+Question 2 accuracy: 0.893617
+3.026
+Question 2 accuracy: 0.893617
+3.027
+Question 2 accuracy: 0.893617
+3.028
+Question 2 accuracy: 0.893617
+3.029
+Question 2 accuracy: 0.893617
+3.03
+Question 2 accuracy: 0.893617
+3.031
+Question 2 accuracy: 0.893617
+3.032
+Question 2 accuracy: 0.893617
+3.033
+Question 2 accuracy: 0.893617
+3.034
+Question 2 accuracy: 0.893617
+3.035
+Question 2 accuracy: 0.893617
+3.036
+Question 2 accuracy: 0.893617
+3.037
+Question 2 accuracy: 0.893617
+3.038
+Question 2 accuracy: 0.893617
+3.039
+Question 2 accuracy: 0.893617
+3.04
+Question 2 accuracy: 0.893617
+3.041
+Question 2 accuracy: 0.893617
+3.042
+Question 2 accuracy: 0.893617
+3.043
+Question 2 accuracy: 0.893617
+3.044
+Question 2 accuracy: 0.893617
+3.045
+Question 2 accuracy: 0.893617
+3.046
+Question 2 accuracy: 0.893617
+3.047
+Question 2 accuracy: 0.893617
+3.048
+Question 2 accuracy: 0.893617
+3.049
+Question 2 accuracy: 0.893617
+3.05
+Question 2 accuracy: 0.893617
+3.051
+Question 2 accuracy: 0.893617
+3.052
+Question 2 accuracy: 0.893617
+3.053
+Question 2 accuracy: 0.893617
+3.054
+Question 2 accuracy: 0.893617
+3.055
+Question 2 accuracy: 0.893617
+3.056
+Question 2 accuracy: 0.893617
+3.057
+Question 2 accuracy: 0.893617
+3.058
+Question 2 accuracy: 0.893617
+3.059
+Question 2 accuracy: 0.893617
+3.06
+Question 2 accuracy: 0.893617
+3.061
+Question 2 accuracy: 0.893617
+3.062
+Question 2 accuracy: 0.893617
+3.063
+Question 2 accuracy: 0.893617
+3.064
+Question 2 accuracy: 0.893617
+3.065
+Question 2 accuracy: 0.893617
+3.066
+Question 2 accuracy: 0.893617
+3.067
+Question 2 accuracy: 0.893617
+3.068
+Question 2 accuracy: 0.893617
+3.069
+Question 2 accuracy: 0.893617
+3.07
+Question 2 accuracy: 0.893617
+3.071
+Question 2 accuracy: 0.893617
+3.072
+Question 2 accuracy: 0.893617
+3.073
+Question 2 accuracy: 0.893617
+3.074
+Question 2 accuracy: 0.893617
+3.075
+Question 2 accuracy: 0.893617
+3.076
+Question 2 accuracy: 0.893617
+3.077
+Question 2 accuracy: 0.893617
+3.078
+Question 2 accuracy: 0.893617
+3.079
+Question 2 accuracy: 0.893617
+3.08
+Question 2 accuracy: 0.893617
+3.081
+Question 2 accuracy: 0.893617
+3.082
+Question 2 accuracy: 0.893617
+3.083
+Question 2 accuracy: 0.893617
+3.084
+Question 2 accuracy: 0.893617
+3.085
+Question 2 accuracy: 0.893617
+3.086
+Question 2 accuracy: 0.893617
+3.087
+Question 2 accuracy: 0.893617
+3.088
+Question 2 accuracy: 0.893617
+3.089
+Question 2 accuracy: 0.893617
+3.09
+Question 2 accuracy: 0.893617
+3.091
+Question 2 accuracy: 0.893617
+3.092
+Question 2 accuracy: 0.893617
+3.093
+Question 2 accuracy: 0.893617
+3.094
+Question 2 accuracy: 0.893617
+3.095
+Question 2 accuracy: 0.893617
+3.096
+Question 2 accuracy: 0.893617
+3.097
+Question 2 accuracy: 0.893617
+3.098
+Question 2 accuracy: 0.893617
+3.099
+Question 2 accuracy: 0.893617
+3.1
+Question 2 accuracy: 0.893617
+3.101
+Question 2 accuracy: 0.893617
+3.102
+Question 2 accuracy: 0.893617
+3.103
+Question 2 accuracy: 0.893617
+3.104
+Question 2 accuracy: 0.893617
+3.105
+Question 2 accuracy: 0.893617
+3.106
+Question 2 accuracy: 0.893617
+3.107
+Question 2 accuracy: 0.893617
+3.108
+Question 2 accuracy: 0.893617
+3.109
+Question 2 accuracy: 0.893617
+3.11
+Question 2 accuracy: 0.893617
+3.111
+Question 2 accuracy: 0.893617
+3.112
+Question 2 accuracy: 0.893617
+3.113
+Question 2 accuracy: 0.893617
+3.114
+Question 2 accuracy: 0.893617
+3.115
+Question 2 accuracy: 0.893617
+3.116
+Question 2 accuracy: 0.893617
+3.117
+Question 2 accuracy: 0.893617
+3.118
+Question 2 accuracy: 0.893617
+3.119
+Question 2 accuracy: 0.893617
+3.12
+Question 2 accuracy: 0.893617
+3.121
+Question 2 accuracy: 0.893617
+3.122
+Question 2 accuracy: 0.893617
+3.123
+Question 2 accuracy: 0.893617
+3.124
+Question 2 accuracy: 0.893617
+3.125
+Question 2 accuracy: 0.893617
+3.126
+Question 2 accuracy: 0.893617
+3.127
+Question 2 accuracy: 0.893617
+3.128
+Question 2 accuracy: 0.893617
+3.129
+Question 2 accuracy: 0.893617
+3.13
+Question 2 accuracy: 0.893617
+3.131
+Question 2 accuracy: 0.893617
+3.132
+Question 2 accuracy: 0.893617
+3.133
+Question 2 accuracy: 0.893617
+3.134
+Question 2 accuracy: 0.893617
+3.135
+Question 2 accuracy: 0.893617
+3.136
+Question 2 accuracy: 0.893617
+3.137
+Question 2 accuracy: 0.893617
+3.138
+Question 2 accuracy: 0.893617
+3.139
+Question 2 accuracy: 0.893617
+3.14
+Question 2 accuracy: 0.893617
+3.141
+Question 2 accuracy: 0.893617
+3.142
+Question 2 accuracy: 0.893617
+3.143
+Question 2 accuracy: 0.893617
+3.144
+Question 2 accuracy: 0.893617
+3.145
+Question 2 accuracy: 0.893617
+3.146
+Question 2 accuracy: 0.893617
+3.147
+Question 2 accuracy: 0.893617
+3.148
+Question 2 accuracy: 0.893617
+3.149
+Question 2 accuracy: 0.893617
+3.15
+Question 2 accuracy: 0.893617
+3.151
+Question 2 accuracy: 0.893617
+3.152
+Question 2 accuracy: 0.893617
+3.153
+Question 2 accuracy: 0.893617
+3.154
+Question 2 accuracy: 0.893617
+3.155
+Question 2 accuracy: 0.893617
+3.156
+Question 2 accuracy: 0.893617
+3.157
+Question 2 accuracy: 0.893617
+3.158
+Question 2 accuracy: 0.893617
+3.159
+Question 2 accuracy: 0.893617
+3.16
+Question 2 accuracy: 0.893617
+3.161
+Question 2 accuracy: 0.893617
+3.162
+Question 2 accuracy: 0.893617
+3.163
+Question 2 accuracy: 0.893617
+3.164
+Question 2 accuracy: 0.893617
+3.165
+Question 2 accuracy: 0.893617
+3.166
+Question 2 accuracy: 0.893617
+3.167
+Question 2 accuracy: 0.893617
+3.168
+Question 2 accuracy: 0.893617
+3.169
+Question 2 accuracy: 0.893617
+3.17
+Question 2 accuracy: 0.893617
+3.171
+Question 2 accuracy: 0.893617
+3.172
+Question 2 accuracy: 0.893617
+3.173
+Question 2 accuracy: 0.893617
+3.174
+Question 2 accuracy: 0.893617
+3.175
+Question 2 accuracy: 0.893617
+3.176
+Question 2 accuracy: 0.893617
+3.177
+Question 2 accuracy: 0.893617
+3.178
+Question 2 accuracy: 0.893617
+3.179
+Question 2 accuracy: 0.893617
+3.18
+Question 2 accuracy: 0.893617
+3.181
+Question 2 accuracy: 0.893617
+3.182
+Question 2 accuracy: 0.893617
+3.183
+Question 2 accuracy: 0.893617
+3.184
+Question 2 accuracy: 0.893617
+3.185
+Question 2 accuracy: 0.893617
+3.186
+Question 2 accuracy: 0.893617
+3.187
+Question 2 accuracy: 0.893617
+3.188
+Question 2 accuracy: 0.893617
+3.189
+Question 2 accuracy: 0.893617
+3.19
+Question 2 accuracy: 0.893617
+3.191
+Question 2 accuracy: 0.893617
+3.192
+Question 2 accuracy: 0.893617
+3.193
+Question 2 accuracy: 0.893617
+3.194
+Question 2 accuracy: 0.893617
+3.195
+Question 2 accuracy: 0.893617
+3.196
+Question 2 accuracy: 0.893617
+3.197
+Question 2 accuracy: 0.893617
+3.198
+Question 2 accuracy: 0.893617
+3.199
+Question 2 accuracy: 0.893617
+3.2
+Question 2 accuracy: 0.893617
+3.201
+Question 2 accuracy: 0.893617
+3.202
+Question 2 accuracy: 0.893617
+3.203
+Question 2 accuracy: 0.893617
+3.204
+Question 2 accuracy: 0.893617
+3.205
+Question 2 accuracy: 0.893617
+3.206
+Question 2 accuracy: 0.893617
+3.207
+Question 2 accuracy: 0.893617
+3.208
+Question 2 accuracy: 0.893617
+3.209
+Question 2 accuracy: 0.893617
+3.21
+Question 2 accuracy: 0.893617
+3.211
+Question 2 accuracy: 0.893617
+3.212
+Question 2 accuracy: 0.893617
+3.213
+Question 2 accuracy: 0.893617
+3.214
+Question 2 accuracy: 0.893617
+3.215
+Question 2 accuracy: 0.893617
+3.216
+Question 2 accuracy: 0.893617
+3.217
+Question 2 accuracy: 0.893617
+3.218
+Question 2 accuracy: 0.893617
+3.219
+Question 2 accuracy: 0.893617
+3.22
+Question 2 accuracy: 0.893617
+3.221
+Question 2 accuracy: 0.893617
+3.222
+Question 2 accuracy: 0.893617
+3.223
+Question 2 accuracy: 0.893617
+3.224
+Question 2 accuracy: 0.893617
+3.225
+Question 2 accuracy: 0.893617
+3.226
+Question 2 accuracy: 0.893617
+3.227
+Question 2 accuracy: 0.893617
+3.228
+Question 2 accuracy: 0.893617
+3.229
+Question 2 accuracy: 0.893617
+3.23
+Question 2 accuracy: 0.893617
+3.231
+Question 2 accuracy: 0.893617
+3.232
+Question 2 accuracy: 0.893617
+3.233
+Question 2 accuracy: 0.893617
+3.234
+Question 2 accuracy: 0.893617
+3.235
+Question 2 accuracy: 0.893617
+3.236
+Question 2 accuracy: 0.893617
+3.237
+Question 2 accuracy: 0.893617
+3.238
+Question 2 accuracy: 0.893617
+3.239
+Question 2 accuracy: 0.893617
+3.24
+Question 2 accuracy: 0.893617
+3.241
+Question 2 accuracy: 0.893617
+3.242
+Question 2 accuracy: 0.893617
+3.243
+Question 2 accuracy: 0.893617
+3.244
+Question 2 accuracy: 0.893617
+3.245
+Question 2 accuracy: 0.893617
+3.246
+Question 2 accuracy: 0.893617
+3.247
+Question 2 accuracy: 0.893617
+3.248
+Question 2 accuracy: 0.893617
+3.249
+Question 2 accuracy: 0.893617
+3.25
+Question 2 accuracy: 0.893617
+3.251
+Question 2 accuracy: 0.893617
+3.252
+Question 2 accuracy: 0.893617
+3.253
+Question 2 accuracy: 0.893617
+3.254
+Question 2 accuracy: 0.893617
+3.255
+Question 2 accuracy: 0.893617
+3.256
+Question 2 accuracy: 0.893617
+3.257
+Question 2 accuracy: 0.893617
+3.258
+Question 2 accuracy: 0.893617
+3.259
+Question 2 accuracy: 0.893617
+3.26
+Question 2 accuracy: 0.893617
+3.261
+Question 2 accuracy: 0.893617
+3.262
+Question 2 accuracy: 0.893617
+3.263
+Question 2 accuracy: 0.893617
+3.264
+Question 2 accuracy: 0.893617
+3.265
+Question 2 accuracy: 0.893617
+3.266
+Question 2 accuracy: 0.893617
+3.267
+Question 2 accuracy: 0.893617
+3.268
+Question 2 accuracy: 0.893617
+3.269
+Question 2 accuracy: 0.893617
+3.27
+Question 2 accuracy: 0.893617
+3.271
+Question 2 accuracy: 0.893617
+3.272
+Question 2 accuracy: 0.893617
+3.273
+Question 2 accuracy: 0.893617
+3.274
+Question 2 accuracy: 0.893617
+3.275
+Question 2 accuracy: 0.893617
+3.276
+Question 2 accuracy: 0.893617
+3.277
+Question 2 accuracy: 0.893617
+3.278
+Question 2 accuracy: 0.893617
+3.279
+Question 2 accuracy: 0.893617
+3.28
+Question 2 accuracy: 0.893617
+3.281
+Question 2 accuracy: 0.893617
+3.282
+Question 2 accuracy: 0.893617
+3.283
+Question 2 accuracy: 0.893617
+3.284
+Question 2 accuracy: 0.893617
+3.285
+Question 2 accuracy: 0.893617
+3.286
+Question 2 accuracy: 0.893617
+3.287
+Question 2 accuracy: 0.893617
+3.288
+Question 2 accuracy: 0.893617
+3.289
+Question 2 accuracy: 0.893617
+3.29
+Question 2 accuracy: 0.893617
+3.291
+Question 2 accuracy: 0.893617
+3.292
+Question 2 accuracy: 0.893617
+3.293
+Question 2 accuracy: 0.893617
+3.294
+Question 2 accuracy: 0.893617
+3.295
+Question 2 accuracy: 0.893617
+3.296
+Question 2 accuracy: 0.893617
+3.297
+Question 2 accuracy: 0.893617
+3.298
+Question 2 accuracy: 0.893617
+3.299
+Question 2 accuracy: 0.893617
+3.3
+Question 2 accuracy: 0.893617
+3.301
+Question 2 accuracy: 0.893617
+3.302
+Question 2 accuracy: 0.893617
+3.303
+Question 2 accuracy: 0.893617
+3.304
+Question 2 accuracy: 0.893617
+3.305
+Question 2 accuracy: 0.893617
+3.306
+Question 2 accuracy: 0.893617
+3.307
+Question 2 accuracy: 0.893617
+3.308
+Question 2 accuracy: 0.893617
+3.309
+Question 2 accuracy: 0.893617
+3.31
+Question 2 accuracy: 0.893617
+3.311
+Question 2 accuracy: 0.893617
+3.312
+Question 2 accuracy: 0.893617
+3.313
+Question 2 accuracy: 0.893617
+3.314
+Question 2 accuracy: 0.893617
+3.315
+Question 2 accuracy: 0.893617
+3.316
+Question 2 accuracy: 0.893617
+3.317
+Question 2 accuracy: 0.893617
+3.318
+Question 2 accuracy: 0.893617
+3.319
+Question 2 accuracy: 0.893617
+3.32
+Question 2 accuracy: 0.893617
+3.321
+Question 2 accuracy: 0.893617
+3.322
+Question 2 accuracy: 0.893617
+3.323
+Question 2 accuracy: 0.893617
+3.324
+Question 2 accuracy: 0.893617
+3.325
+Question 2 accuracy: 0.893617
+3.326
+Question 2 accuracy: 0.893617
+3.327
+Question 2 accuracy: 0.893617
+3.328
+Question 2 accuracy: 0.893617
+3.329
+Question 2 accuracy: 0.893617
+3.33
+Question 2 accuracy: 0.893617
+3.331
+Question 2 accuracy: 0.893617
+3.332
+Question 2 accuracy: 0.893617
+3.333
+Question 2 accuracy: 0.893617
+3.334
+Question 2 accuracy: 0.893617
+3.335
+Question 2 accuracy: 0.893617
+3.336
+Question 2 accuracy: 0.893617
+3.337
+Question 2 accuracy: 0.893617
+3.338
+Question 2 accuracy: 0.893617
+3.339
+Question 2 accuracy: 0.893617
+3.34
+Question 2 accuracy: 0.893617
+3.341
+Question 2 accuracy: 0.893617
+3.342
+Question 2 accuracy: 0.893617
+3.343
+Question 2 accuracy: 0.893617
+3.344
+Question 2 accuracy: 0.893617
+3.345
+Question 2 accuracy: 0.893617
+3.346
+Question 2 accuracy: 0.893617
+3.347
+Question 2 accuracy: 0.893617
+3.348
+Question 2 accuracy: 0.893617
+3.349
+Question 2 accuracy: 0.893617
+3.35
+Question 2 accuracy: 0.893617
+3.351
+Question 2 accuracy: 0.893617
+3.352
+Question 2 accuracy: 0.893617
+3.353
+Question 2 accuracy: 0.893617
+3.354
+Question 2 accuracy: 0.893617
+3.355
+Question 2 accuracy: 0.893617
+3.356
+Question 2 accuracy: 0.893617
+3.357
+Question 2 accuracy: 0.893617
+3.358
+Question 2 accuracy: 0.893617
+3.359
+Question 2 accuracy: 0.893617
+3.36
+Question 2 accuracy: 0.893617
+3.361
+Question 2 accuracy: 0.893617
+3.362
+Question 2 accuracy: 0.893617
+3.363
+Question 2 accuracy: 0.893617
+3.364
+Question 2 accuracy: 0.893617
+3.365
+Question 2 accuracy: 0.893617
+3.366
+Question 2 accuracy: 0.893617
+3.367
+Question 2 accuracy: 0.893617
+3.368
+Question 2 accuracy: 0.893617
+3.369
+Question 2 accuracy: 0.893617
+3.37
+Question 2 accuracy: 0.893617
+3.371
+Question 2 accuracy: 0.893617
+3.372
+Question 2 accuracy: 0.893617
+3.373
+Question 2 accuracy: 0.893617
+3.374
+Question 2 accuracy: 0.893617
+3.375
+Question 2 accuracy: 0.893617
+3.376
+Question 2 accuracy: 0.893617
+3.377
+Question 2 accuracy: 0.893617
+3.378
+Question 2 accuracy: 0.893617
+3.379
+Question 2 accuracy: 0.893617
+3.38
+Question 2 accuracy: 0.893617
+3.381
+Question 2 accuracy: 0.893617
+3.382
+Question 2 accuracy: 0.893617
+3.383
+Question 2 accuracy: 0.893617
+3.384
+Question 2 accuracy: 0.893617
+3.385
+Question 2 accuracy: 0.893617
+3.386
+Question 2 accuracy: 0.893617
+3.387
+Question 2 accuracy: 0.893617
+3.388
+Question 2 accuracy: 0.893617
+3.389
+Question 2 accuracy: 0.893617
+3.39
+Question 2 accuracy: 0.893617
+3.391
+Question 2 accuracy: 0.893617
+3.392
+Question 2 accuracy: 0.893617
+3.393
+Question 2 accuracy: 0.893617
+3.394
+Question 2 accuracy: 0.893617
+3.395
+Question 2 accuracy: 0.893617
+3.396
+Question 2 accuracy: 0.893617
+3.397
+Question 2 accuracy: 0.893617
+3.398
+Question 2 accuracy: 0.893617
+3.399
+Question 2 accuracy: 0.893617
+3.4
+Question 2 accuracy: 0.893617
+3.401
+Question 2 accuracy: 0.893617
+3.402
+Question 2 accuracy: 0.893617
+3.403
+Question 2 accuracy: 0.893617
+3.404
+Question 2 accuracy: 0.893617
+3.405
+Question 2 accuracy: 0.893617
+3.406
+Question 2 accuracy: 0.893617
+3.407
+Question 2 accuracy: 0.893617
+3.408
+Question 2 accuracy: 0.893617
+3.409
+Question 2 accuracy: 0.893617
+3.41
+Question 2 accuracy: 0.893617
+3.411
+Question 2 accuracy: 0.893617
+3.412
+Question 2 accuracy: 0.893617
+3.413
+Question 2 accuracy: 0.893617
+3.414
+Question 2 accuracy: 0.893617
+3.415
+Question 2 accuracy: 0.893617
+3.416
+Question 2 accuracy: 0.893617
+3.417
+Question 2 accuracy: 0.893617
+3.418
+Question 2 accuracy: 0.893617
+3.419
+Question 2 accuracy: 0.893617
+3.42
+Question 2 accuracy: 0.893617
+3.421
+Question 2 accuracy: 0.893617
+3.422
+Question 2 accuracy: 0.893617
+3.423
+Question 2 accuracy: 0.893617
+3.424
+Question 2 accuracy: 0.893617
+3.425
+Question 2 accuracy: 0.893617
+3.426
+Question 2 accuracy: 0.893617
+3.427
+Question 2 accuracy: 0.893617
+3.428
+Question 2 accuracy: 0.893617
+3.429
+Question 2 accuracy: 0.893617
+3.43
+Question 2 accuracy: 0.893617
+3.431
+Question 2 accuracy: 0.893617
+3.432
+Question 2 accuracy: 0.893617
+3.433
+Question 2 accuracy: 0.893617
+3.434
+Question 2 accuracy: 0.893617
+3.435
+Question 2 accuracy: 0.893617
+3.436
+Question 2 accuracy: 0.893617
+3.437
+Question 2 accuracy: 0.893617
+3.438
+Question 2 accuracy: 0.893617
+3.439
+Question 2 accuracy: 0.893617
+3.44
+Question 2 accuracy: 0.893617
+3.441
+Question 2 accuracy: 0.893617
+3.442
+Question 2 accuracy: 0.893617
+3.443
+Question 2 accuracy: 0.893617
+3.444
+Question 2 accuracy: 0.893617
+3.445
+Question 2 accuracy: 0.893617
+3.446
+Question 2 accuracy: 0.893617
+3.447
+Question 2 accuracy: 0.893617
+3.448
+Question 2 accuracy: 0.893617
+3.449
+Question 2 accuracy: 0.893617
+3.45
+Question 2 accuracy: 0.893617
+3.451
+Question 2 accuracy: 0.893617
+3.452
+Question 2 accuracy: 0.893617
+3.453
+Question 2 accuracy: 0.893617
+3.454
+Question 2 accuracy: 0.893617
+3.455
+Question 2 accuracy: 0.893617
+3.456
+Question 2 accuracy: 0.893617
+3.457
+Question 2 accuracy: 0.893617
+3.458
+Question 2 accuracy: 0.893617
+3.459
+Question 2 accuracy: 0.893617
+3.46
+Question 2 accuracy: 0.893617
+3.461
+Question 2 accuracy: 0.893617
+3.462
+Question 2 accuracy: 0.893617
+3.463
+Question 2 accuracy: 0.893617
+3.464
+Question 2 accuracy: 0.893617
+3.465
+Question 2 accuracy: 0.893617
+3.466
+Question 2 accuracy: 0.893617
+3.467
+Question 2 accuracy: 0.893617
+3.468
+Question 2 accuracy: 0.893617
+3.469
+Question 2 accuracy: 0.893617
+3.47
+Question 2 accuracy: 0.893617
+3.471
+Question 2 accuracy: 0.893617
+3.472
+Question 2 accuracy: 0.893617
+3.473
+Question 2 accuracy: 0.893617
+3.474
+Question 2 accuracy: 0.893617
+3.475
+Question 2 accuracy: 0.893617
+3.476
+Question 2 accuracy: 0.893617
+3.477
+Question 2 accuracy: 0.893617
+3.478
+Question 2 accuracy: 0.893617
+3.479
+Question 2 accuracy: 0.893617
+3.48
+Question 2 accuracy: 0.893617
+3.481
+Question 2 accuracy: 0.893617
+3.482
+Question 2 accuracy: 0.893617
+3.483
+Question 2 accuracy: 0.893617
+3.484
+Question 2 accuracy: 0.893617
+3.485
+Question 2 accuracy: 0.893617
+3.486
+Question 2 accuracy: 0.893617
+3.487
+Question 2 accuracy: 0.893617
+3.488
+Question 2 accuracy: 0.893617
+3.489
+Question 2 accuracy: 0.893617
+3.49
+Question 2 accuracy: 0.893617
+3.491
+Question 2 accuracy: 0.893617
+3.492
+Question 2 accuracy: 0.893617
+3.493
+Question 2 accuracy: 0.893617
+3.494
+Question 2 accuracy: 0.893617
+3.495
+Question 2 accuracy: 0.893617
+3.496
+Question 2 accuracy: 0.893617
+3.497
+Question 2 accuracy: 0.893617
+3.498
+Question 2 accuracy: 0.893617
+3.499
+Question 2 accuracy: 0.893617
+3.5
+Question 2 accuracy: 0.893617
+3.501
+Question 2 accuracy: 0.893617
+3.502
+Question 2 accuracy: 0.893617
+3.503
+Question 2 accuracy: 0.893617
+3.504
+Question 2 accuracy: 0.893617
+3.505
+Question 2 accuracy: 0.893617
+3.506
+Question 2 accuracy: 0.893617
+3.507
+Question 2 accuracy: 0.893617
+3.508
+Question 2 accuracy: 0.893617
+3.509
+Question 2 accuracy: 0.893617
+3.51
+Question 2 accuracy: 0.893617
+3.511
+Question 2 accuracy: 0.893617
+3.512
+Question 2 accuracy: 0.893617
+3.513
+Question 2 accuracy: 0.893617
+3.514
+Question 2 accuracy: 0.893617
+3.515
+Question 2 accuracy: 0.893617
+3.516
+Question 2 accuracy: 0.893617
+3.517
+Question 2 accuracy: 0.893617
+3.518
+Question 2 accuracy: 0.893617
+3.519
+Question 2 accuracy: 0.893617
+3.52
+Question 2 accuracy: 0.893617
+3.521
+Question 2 accuracy: 0.893617
+3.522
+Question 2 accuracy: 0.893617
+3.523
+Question 2 accuracy: 0.893617
+3.524
+Question 2 accuracy: 0.893617
+3.525
+Question 2 accuracy: 0.893617
+3.526
+Question 2 accuracy: 0.893617
+3.527
+Question 2 accuracy: 0.893617
+3.528
+Question 2 accuracy: 0.893617
+3.529
+Question 2 accuracy: 0.893617
+3.53
+Question 2 accuracy: 0.893617
+3.531
+Question 2 accuracy: 0.893617
+3.532
+Question 2 accuracy: 0.893617
+3.533
+Question 2 accuracy: 0.893617
+3.534
+Question 2 accuracy: 0.893617
+3.535
+Question 2 accuracy: 0.893617
+3.536
+Question 2 accuracy: 0.893617
+3.537
+Question 2 accuracy: 0.893617
+3.538
+Question 2 accuracy: 0.893617
+3.539
+Question 2 accuracy: 0.893617
+3.54
+Question 2 accuracy: 0.893617
+3.541
+Question 2 accuracy: 0.893617
+3.542
+Question 2 accuracy: 0.893617
+3.543
+Question 2 accuracy: 0.893617
+3.544
+Question 2 accuracy: 0.893617
+3.545
+Question 2 accuracy: 0.893617
+3.546
+Question 2 accuracy: 0.893617
+3.547
+Question 2 accuracy: 0.893617
+3.548
+Question 2 accuracy: 0.893617
+3.549
+Question 2 accuracy: 0.893617
+3.55
+Question 2 accuracy: 0.893617
+3.551
+Question 2 accuracy: 0.893617
+3.552
+Question 2 accuracy: 0.893617
+3.553
+Question 2 accuracy: 0.893617
+3.554
+Question 2 accuracy: 0.893617
+3.555
+Question 2 accuracy: 0.893617
+3.556
+Question 2 accuracy: 0.893617
+3.557
+Question 2 accuracy: 0.893617
+3.558
+Question 2 accuracy: 0.893617
+3.559
+Question 2 accuracy: 0.893617
+3.56
+Question 2 accuracy: 0.893617
+3.561
+Question 2 accuracy: 0.893617
+3.562
+Question 2 accuracy: 0.893617
+3.563
+Question 2 accuracy: 0.893617
+3.564
+Question 2 accuracy: 0.893617
+3.565
+Question 2 accuracy: 0.893617
+3.566
+Question 2 accuracy: 0.893617
+3.567
+Question 2 accuracy: 0.893617
+3.568
+Question 2 accuracy: 0.893617
+3.569
+Question 2 accuracy: 0.893617
+3.57
+Question 2 accuracy: 0.893617
+3.571
+Question 2 accuracy: 0.893617
+3.572
+Question 2 accuracy: 0.893617
+3.573
+Question 2 accuracy: 0.893617
+3.574
+Question 2 accuracy: 0.893617
+3.575
+Question 2 accuracy: 0.893617
+3.576
+Question 2 accuracy: 0.893617
+3.577
+Question 2 accuracy: 0.893617
+3.578
+Question 2 accuracy: 0.893617
+3.579
+Question 2 accuracy: 0.893617
+3.58
+Question 2 accuracy: 0.893617
+3.581
+Question 2 accuracy: 0.893617
+3.582
+Question 2 accuracy: 0.893617
+3.583
+Question 2 accuracy: 0.893617
+3.584
+Question 2 accuracy: 0.893617
+3.585
+Question 2 accuracy: 0.893617
+3.586
+Question 2 accuracy: 0.893617
+3.587
+Question 2 accuracy: 0.893617
+3.588
+Question 2 accuracy: 0.893617
+3.589
+Question 2 accuracy: 0.893617
+3.59
+Question 2 accuracy: 0.893617
+3.591
+Question 2 accuracy: 0.893617
+3.592
+Question 2 accuracy: 0.893617
+3.593
+Question 2 accuracy: 0.893617
+3.594
+Question 2 accuracy: 0.893617
+3.595
+Question 2 accuracy: 0.893617
+3.596
+Question 2 accuracy: 0.893617
+3.597
+Question 2 accuracy: 0.893617
+3.598
+Question 2 accuracy: 0.893617
+3.599
+Question 2 accuracy: 0.893617
+3.6
+Question 2 accuracy: 0.893617
+3.601
+Question 2 accuracy: 0.893617
+3.602
+Question 2 accuracy: 0.893617
+3.603
+Question 2 accuracy: 0.893617
+3.604
+Question 2 accuracy: 0.893617
+3.605
+Question 2 accuracy: 0.893617
+3.606
+Question 2 accuracy: 0.893617
+3.607
+Question 2 accuracy: 0.893617
+3.608
+Question 2 accuracy: 0.893617
+3.609
+Question 2 accuracy: 0.893617
+3.61
+Question 2 accuracy: 0.893617
+3.611
+Question 2 accuracy: 0.893617
+3.612
+Question 2 accuracy: 0.893617
+3.613
+Question 2 accuracy: 0.893617
+3.614
+Question 2 accuracy: 0.893617
+3.615
+Question 2 accuracy: 0.893617
+3.616
+Question 2 accuracy: 0.893617
+3.617
+Question 2 accuracy: 0.893617
+3.618
+Question 2 accuracy: 0.893617
+3.619
+Question 2 accuracy: 0.893617
+3.62
+Question 2 accuracy: 0.893617
+3.621
+Question 2 accuracy: 0.893617
+3.622
+Question 2 accuracy: 0.893617
+3.623
+Question 2 accuracy: 0.893617
+3.624
+Question 2 accuracy: 0.893617
+3.625
+Question 2 accuracy: 0.893617
+3.626
+Question 2 accuracy: 0.893617
+3.627
+Question 2 accuracy: 0.893617
+3.628
+Question 2 accuracy: 0.893617
+3.629
+Question 2 accuracy: 0.893617
+3.63
+Question 2 accuracy: 0.893617
+3.631
+Question 2 accuracy: 0.893617
+3.632
+Question 2 accuracy: 0.893617
+3.633
+Question 2 accuracy: 0.893617
+3.634
+Question 2 accuracy: 0.893617
+3.635
+Question 2 accuracy: 0.893617
+3.636
+Question 2 accuracy: 0.893617
+3.637
+Question 2 accuracy: 0.893617
+3.638
+Question 2 accuracy: 0.893617
+3.639
+Question 2 accuracy: 0.893617
+3.64
+Question 2 accuracy: 0.893617
+3.641
+Question 2 accuracy: 0.893617
+3.642
+Question 2 accuracy: 0.893617
+3.643
+Question 2 accuracy: 0.893617
+3.644
+Question 2 accuracy: 0.893617
+3.645
+Question 2 accuracy: 0.893617
+3.646
+Question 2 accuracy: 0.893617
+3.647
+Question 2 accuracy: 0.893617
+3.648
+Question 2 accuracy: 0.893617
+3.649
+Question 2 accuracy: 0.893617
+3.65
+Question 2 accuracy: 0.893617
+3.651
+Question 2 accuracy: 0.893617
+3.652
+Question 2 accuracy: 0.893617
+3.653
+Question 2 accuracy: 0.893617
+3.654
+Question 2 accuracy: 0.893617
+3.655
+Question 2 accuracy: 0.893617
+3.656
+Question 2 accuracy: 0.893617
+3.657
+Question 2 accuracy: 0.893617
+3.658
+Question 2 accuracy: 0.893617
+3.659
+Question 2 accuracy: 0.893617
+3.66
+Question 2 accuracy: 0.893617
+3.661
+Question 2 accuracy: 0.893617
+3.662
+Question 2 accuracy: 0.893617
+3.663
+Question 2 accuracy: 0.893617
+3.664
+Question 2 accuracy: 0.893617
+3.665
+Question 2 accuracy: 0.893617
+3.666
+Question 2 accuracy: 0.893617
+3.667
+Question 2 accuracy: 0.893617
+3.668
+Question 2 accuracy: 0.893617
+3.669
+Question 2 accuracy: 0.893617
+3.67
+Question 2 accuracy: 0.893617
+3.671
+Question 2 accuracy: 0.893617
+3.672
+Question 2 accuracy: 0.893617
+3.673
+Question 2 accuracy: 0.893617
+3.674
+Question 2 accuracy: 0.893617
+3.675
+Question 2 accuracy: 0.893617
+3.676
+Question 2 accuracy: 0.893617
+3.677
+Question 2 accuracy: 0.893617
+3.678
+Question 2 accuracy: 0.893617
+3.679
+Question 2 accuracy: 0.893617
+3.68
+Question 2 accuracy: 0.893617
+3.681
+Question 2 accuracy: 0.893617
+3.682
+Question 2 accuracy: 0.893617
+3.683
+Question 2 accuracy: 0.893617
+3.684
+Question 2 accuracy: 0.893617
+3.685
+Question 2 accuracy: 0.893617
+3.686
+Question 2 accuracy: 0.893617
+3.687
+Question 2 accuracy: 0.893617
+3.688
+Question 2 accuracy: 0.893617
+3.689
+Question 2 accuracy: 0.893617
+3.69
+Question 2 accuracy: 0.893617
+3.691
+Question 2 accuracy: 0.893617
+3.692
+Question 2 accuracy: 0.893617
+3.693
+Question 2 accuracy: 0.893617
+3.694
+Question 2 accuracy: 0.893617
+3.695
+Question 2 accuracy: 0.893617
+3.696
+Question 2 accuracy: 0.893617
+3.697
+Question 2 accuracy: 0.893617
+3.698
+Question 2 accuracy: 0.893617
+3.699
+Question 2 accuracy: 0.893617
+3.7
+Question 2 accuracy: 0.893617
+3.701
+Question 2 accuracy: 0.893617
+3.702
+Question 2 accuracy: 0.893617
+3.703
+Question 2 accuracy: 0.893617
+3.704
+Question 2 accuracy: 0.893617
+3.705
+Question 2 accuracy: 0.893617
+3.706
+Question 2 accuracy: 0.893617
+3.707
+Question 2 accuracy: 0.893617
+3.708
+Question 2 accuracy: 0.893617
+3.709
+Question 2 accuracy: 0.893617
+3.71
+Question 2 accuracy: 0.893617
+3.711
+Question 2 accuracy: 0.893617
+3.712
+Question 2 accuracy: 0.893617
+3.713
+Question 2 accuracy: 0.893617
+3.714
+Question 2 accuracy: 0.893617
+3.715
+Question 2 accuracy: 0.893617
+3.716
+Question 2 accuracy: 0.893617
+3.717
+Question 2 accuracy: 0.893617
+3.718
+Question 2 accuracy: 0.893617
+3.719
+Question 2 accuracy: 0.893617
+3.72
+Question 2 accuracy: 0.893617
+3.721
+Question 2 accuracy: 0.893617
+3.722
+Question 2 accuracy: 0.893617
+3.723
+Question 2 accuracy: 0.893617
+3.724
+Question 2 accuracy: 0.893617
+3.725
+Question 2 accuracy: 0.893617
+3.726
+Question 2 accuracy: 0.893617
+3.727
+Question 2 accuracy: 0.893617
+3.728
+Question 2 accuracy: 0.893617
+3.729
+Question 2 accuracy: 0.893617
+3.73
+Question 2 accuracy: 0.893617
+3.731
+Question 2 accuracy: 0.893617
+3.732
+Question 2 accuracy: 0.893617
+3.733
+Question 2 accuracy: 0.893617
+3.734
+Question 2 accuracy: 0.893617
+3.735
+Question 2 accuracy: 0.893617
+3.736
+Question 2 accuracy: 0.893617
+3.737
+Question 2 accuracy: 0.893617
+3.738
+Question 2 accuracy: 0.893617
+3.739
+Question 2 accuracy: 0.893617
+3.74
+Question 2 accuracy: 0.893617
+3.741
+Question 2 accuracy: 0.893617
+3.742
+Question 2 accuracy: 0.893617
+3.743
+Question 2 accuracy: 0.893617
+3.744
+Question 2 accuracy: 0.893617
+3.745
+Question 2 accuracy: 0.893617
+3.746
+Question 2 accuracy: 0.893617
+3.747
+Question 2 accuracy: 0.893617
+3.748
+Question 2 accuracy: 0.893617
+3.749
+Question 2 accuracy: 0.893617
+3.75
+Question 2 accuracy: 0.893617
+3.751
+Question 2 accuracy: 0.893617
+3.752
+Question 2 accuracy: 0.893617
+3.753
+Question 2 accuracy: 0.893617
+3.754
+Question 2 accuracy: 0.893617
+3.755
+Question 2 accuracy: 0.893617
+3.756
+Question 2 accuracy: 0.893617
+3.757
+Question 2 accuracy: 0.893617
+3.758
+Question 2 accuracy: 0.893617
+3.759
+Question 2 accuracy: 0.893617
+3.76
+Question 2 accuracy: 0.893617
+3.761
+Question 2 accuracy: 0.893617
+3.762
+Question 2 accuracy: 0.893617
+3.763
+Question 2 accuracy: 0.893617
+3.764
+Question 2 accuracy: 0.893617
+3.765
+Question 2 accuracy: 0.893617
+3.766
+Question 2 accuracy: 0.893617
+3.767
+Question 2 accuracy: 0.893617
+3.768
+Question 2 accuracy: 0.893617
+3.769
+Question 2 accuracy: 0.893617
+3.77
+Question 2 accuracy: 0.893617
+3.771
+Question 2 accuracy: 0.893617
+3.772
+Question 2 accuracy: 0.893617
+3.773
+Question 2 accuracy: 0.893617
+3.774
+Question 2 accuracy: 0.893617
+3.775
+Question 2 accuracy: 0.893617
+3.776
+Question 2 accuracy: 0.893617
+3.777
+Question 2 accuracy: 0.893617
+3.778
+Question 2 accuracy: 0.893617
+3.779
+Question 2 accuracy: 0.893617
+3.78
+Question 2 accuracy: 0.893617
+3.781
+Question 2 accuracy: 0.893617
+3.782
+Question 2 accuracy: 0.893617
+3.783
+Question 2 accuracy: 0.893617
+3.784
+Question 2 accuracy: 0.893617
+3.785
+Question 2 accuracy: 0.893617
+3.786
+Question 2 accuracy: 0.893617
+3.787
+Question 2 accuracy: 0.893617
+3.788
+Question 2 accuracy: 0.893617
+3.789
+Question 2 accuracy: 0.893617
+3.79
+Question 2 accuracy: 0.893617
+3.791
+Question 2 accuracy: 0.893617
+3.792
+Question 2 accuracy: 0.893617
+3.793
+Question 2 accuracy: 0.893617
+3.794
+Question 2 accuracy: 0.893617
+3.795
+Question 2 accuracy: 0.893617
+3.796
+Question 2 accuracy: 0.893617
+3.797
+Question 2 accuracy: 0.893617
+3.798
+Question 2 accuracy: 0.893617
+3.799
+Question 2 accuracy: 0.893617
+3.8
+Question 2 accuracy: 0.893617
+3.801
+Question 2 accuracy: 0.893617
+3.802
+Question 2 accuracy: 0.893617
+3.803
+Question 2 accuracy: 0.893617
+3.804
+Question 2 accuracy: 0.893617
+3.805
+Question 2 accuracy: 0.893617
+3.806
+Question 2 accuracy: 0.893617
+3.807
+Question 2 accuracy: 0.893617
+3.808
+Question 2 accuracy: 0.893617
+3.809
+Question 2 accuracy: 0.893617
+3.81
+Question 2 accuracy: 0.893617
+3.811
+Question 2 accuracy: 0.893617
+3.812
+Question 2 accuracy: 0.893617
+3.813
+Question 2 accuracy: 0.893617
+3.814
+Question 2 accuracy: 0.893617
+3.815
+Question 2 accuracy: 0.893617
+3.816
+Question 2 accuracy: 0.893617
+3.817
+Question 2 accuracy: 0.893617
+3.818
+Question 2 accuracy: 0.893617
+3.819
+Question 2 accuracy: 0.893617
+3.82
+Question 2 accuracy: 0.893617
+3.821
+Question 2 accuracy: 0.893617
+3.822
+Question 2 accuracy: 0.893617
+3.823
+Question 2 accuracy: 0.893617
+3.824
+Question 2 accuracy: 0.893617
+3.825
+Question 2 accuracy: 0.893617
+3.826
+Question 2 accuracy: 0.893617
+3.827
+Question 2 accuracy: 0.893617
+3.828
+Question 2 accuracy: 0.893617
+3.829
+Question 2 accuracy: 0.893617
+3.83
+Question 2 accuracy: 0.893617
+3.831
+Question 2 accuracy: 0.893617
+3.832
+Question 2 accuracy: 0.893617
+3.833
+Question 2 accuracy: 0.893617
+3.834
+Question 2 accuracy: 0.893617
+3.835
+Question 2 accuracy: 0.893617
+3.836
+Question 2 accuracy: 0.893617
+3.837
+Question 2 accuracy: 0.893617
+3.838
+Question 2 accuracy: 0.893617
+3.839
+Question 2 accuracy: 0.893617
+3.84
+Question 2 accuracy: 0.893617
+3.841
+Question 2 accuracy: 0.893617
+3.842
+Question 2 accuracy: 0.893617
+3.843
+Question 2 accuracy: 0.893617
+3.844
+Question 2 accuracy: 0.893617
+3.845
+Question 2 accuracy: 0.893617
+3.846
+Question 2 accuracy: 0.893617
+3.847
+Question 2 accuracy: 0.893617
+3.848
+Question 2 accuracy: 0.893617
+3.849
+Question 2 accuracy: 0.893617
+3.85
+Question 2 accuracy: 0.893617
+3.851
+Question 2 accuracy: 0.893617
+3.852
+Question 2 accuracy: 0.893617
+3.853
+Question 2 accuracy: 0.893617
+3.854
+Question 2 accuracy: 0.893617
+3.855
+Question 2 accuracy: 0.893617
+3.856
+Question 2 accuracy: 0.893617
+3.857
+Question 2 accuracy: 0.893617
+3.858
+Question 2 accuracy: 0.893617
+3.859
+Question 2 accuracy: 0.893617
+3.86
+Question 2 accuracy: 0.893617
+3.861
+Question 2 accuracy: 0.893617
+3.862
+Question 2 accuracy: 0.893617
+3.863
+Question 2 accuracy: 0.893617
+3.864
+Question 2 accuracy: 0.893617
+3.865
+Question 2 accuracy: 0.893617
+3.866
+Question 2 accuracy: 0.893617
+3.867
+Question 2 accuracy: 0.893617
+3.868
+Question 2 accuracy: 0.893617
+3.869
+Question 2 accuracy: 0.893617
+3.87
+Question 2 accuracy: 0.893617
+3.871
+Question 2 accuracy: 0.893617
+3.872
+Question 2 accuracy: 0.893617
+3.873
+Question 2 accuracy: 0.893617
+3.874
+Question 2 accuracy: 0.893617
+3.875
+Question 2 accuracy: 0.893617
+3.876
+Question 2 accuracy: 0.893617
+3.877
+Question 2 accuracy: 0.893617
+3.878
+Question 2 accuracy: 0.893617
+3.879
+Question 2 accuracy: 0.893617
+3.88
+Question 2 accuracy: 0.893617
+3.881
+Question 2 accuracy: 0.893617
+3.882
+Question 2 accuracy: 0.893617
+3.883
+Question 2 accuracy: 0.893617
+3.884
+Question 2 accuracy: 0.893617
+3.885
+Question 2 accuracy: 0.893617
+3.886
+Question 2 accuracy: 0.893617
+3.887
+Question 2 accuracy: 0.893617
+3.888
+Question 2 accuracy: 0.893617
+3.889
+Question 2 accuracy: 0.893617
+3.89
+Question 2 accuracy: 0.893617
+3.891
+Question 2 accuracy: 0.893617
+3.892
+Question 2 accuracy: 0.893617
+3.893
+Question 2 accuracy: 0.893617
+3.894
+Question 2 accuracy: 0.893617
+3.895
+Question 2 accuracy: 0.893617
+3.896
+Question 2 accuracy: 0.893617
+3.897
+Question 2 accuracy: 0.893617
+3.898
+Question 2 accuracy: 0.893617
+3.899
+Question 2 accuracy: 0.893617
+3.9
+Question 2 accuracy: 0.893617
+3.901
+Question 2 accuracy: 0.893617
+3.902
+Question 2 accuracy: 0.893617
+3.903
+Question 2 accuracy: 0.893617
+3.904
+Question 2 accuracy: 0.893617
+3.905
+Question 2 accuracy: 0.893617
+3.906
+Question 2 accuracy: 0.893617
+3.907
+Question 2 accuracy: 0.893617
+3.908
+Question 2 accuracy: 0.893617
+3.909
+Question 2 accuracy: 0.893617
+3.91
+Question 2 accuracy: 0.893617
+3.911
+Question 2 accuracy: 0.893617
+3.912
+Question 2 accuracy: 0.893617
+3.913
+Question 2 accuracy: 0.893617
+3.914
+Question 2 accuracy: 0.893617
+3.915
+Question 2 accuracy: 0.893617
+3.916
+Question 2 accuracy: 0.893617
+3.917
+Question 2 accuracy: 0.893617
+3.918
+Question 2 accuracy: 0.893617
+3.919
+Question 2 accuracy: 0.893617
+3.92
+Question 2 accuracy: 0.893617
+3.921
+Question 2 accuracy: 0.893617
+3.922
+Question 2 accuracy: 0.893617
+3.923
+Question 2 accuracy: 0.893617
+3.924
+Question 2 accuracy: 0.893617
+3.925
+Question 2 accuracy: 0.893617
+3.926
+Question 2 accuracy: 0.893617
+3.927
+Question 2 accuracy: 0.893617
+3.928
+Question 2 accuracy: 0.893617
+3.929
+Question 2 accuracy: 0.893617
+3.93
+Question 2 accuracy: 0.893617
+3.931
+Question 2 accuracy: 0.893617
+3.932
+Question 2 accuracy: 0.893617
+3.933
+Question 2 accuracy: 0.893617
+3.934
+Question 2 accuracy: 0.893617
+3.935
+Question 2 accuracy: 0.893617
+3.936
+Question 2 accuracy: 0.893617
+3.937
+Question 2 accuracy: 0.893617
+3.938
+Question 2 accuracy: 0.893617
+3.939
+Question 2 accuracy: 0.893617
+3.94
+Question 2 accuracy: 0.893617
+3.941
+Question 2 accuracy: 0.893617
+3.942
+Question 2 accuracy: 0.893617
+3.943
+Question 2 accuracy: 0.893617
+3.944
+Question 2 accuracy: 0.893617
+3.945
+Question 2 accuracy: 0.893617
+3.946
+Question 2 accuracy: 0.893617
+3.947
+Question 2 accuracy: 0.893617
+3.948
+Question 2 accuracy: 0.893617
+3.949
+Question 2 accuracy: 0.893617
+3.95
+Question 2 accuracy: 0.893617
+3.951
+Question 2 accuracy: 0.893617
+3.952
+Question 2 accuracy: 0.893617
+3.953
+Question 2 accuracy: 0.893617
+3.954
+Question 2 accuracy: 0.893617
+3.955
+Question 2 accuracy: 0.893617
+3.956
+Question 2 accuracy: 0.893617
+3.957
+Question 2 accuracy: 0.893617
+3.958
+Question 2 accuracy: 0.893617
+3.959
+Question 2 accuracy: 0.893617
+3.96
+Question 2 accuracy: 0.893617
+3.961
+Question 2 accuracy: 0.893617
+3.962
+Question 2 accuracy: 0.893617
+3.963
+Question 2 accuracy: 0.893617
+3.964
+Question 2 accuracy: 0.893617
+3.965
+Question 2 accuracy: 0.893617
+3.966
+Question 2 accuracy: 0.893617
+3.967
+Question 2 accuracy: 0.893617
+3.968
+Question 2 accuracy: 0.893617
+3.969
+Question 2 accuracy: 0.893617
+3.97
+Question 2 accuracy: 0.893617
+3.971
+Question 2 accuracy: 0.893617
+3.972
+Question 2 accuracy: 0.893617
+3.973
+Question 2 accuracy: 0.893617
+3.974
+Question 2 accuracy: 0.893617
+3.975
+Question 2 accuracy: 0.893617
+3.976
+Question 2 accuracy: 0.893617
+3.977
+Question 2 accuracy: 0.893617
+3.978
+Question 2 accuracy: 0.893617
+3.979
+Question 2 accuracy: 0.893617
+3.98
+Question 2 accuracy: 0.893617
+3.981
+Question 2 accuracy: 0.893617
+3.982
+Question 2 accuracy: 0.893617
+3.983
+Question 2 accuracy: 0.893617
+3.984
+Question 2 accuracy: 0.893617
+3.985
+Question 2 accuracy: 0.893617
+3.986
+Question 2 accuracy: 0.893617
+3.987
+Question 2 accuracy: 0.893617
+3.988
+Question 2 accuracy: 0.893617
+3.989
+Question 2 accuracy: 0.893617
+3.99
+Question 2 accuracy: 0.893617
+3.991
+Question 2 accuracy: 0.893617
+3.992
+Question 2 accuracy: 0.893617
+3.993
+Question 2 accuracy: 0.893617
+3.994
+Question 2 accuracy: 0.893617
+3.995
+Question 2 accuracy: 0.893617
+3.996
+Question 2 accuracy: 0.893617
+3.997
+Question 2 accuracy: 0.893617
+3.998
+Question 2 accuracy: 0.893617
+3.999
+Question 2 accuracy: 0.893617
+4.0
+Question 2 accuracy: 0.893617
+4.001
+Question 2 accuracy: 0.893617
+4.002
+Question 2 accuracy: 0.893617
+4.003
+Question 2 accuracy: 0.893617
+4.004
+Question 2 accuracy: 0.893617
+4.005
+Question 2 accuracy: 0.893617
+4.006
+Question 2 accuracy: 0.893617
+4.007
+Question 2 accuracy: 0.893617
+4.008
+Question 2 accuracy: 0.893617
+4.009
+Question 2 accuracy: 0.893617
+4.01
+Question 2 accuracy: 0.893617
+4.011
+Question 2 accuracy: 0.893617
+4.012
+Question 2 accuracy: 0.893617
+4.013
+Question 2 accuracy: 0.893617
+4.014
+Question 2 accuracy: 0.893617
+4.015
+Question 2 accuracy: 0.893617
+4.016
+Question 2 accuracy: 0.893617
+4.017
+Question 2 accuracy: 0.893617
+4.018
+Question 2 accuracy: 0.893617
+4.019
+Question 2 accuracy: 0.893617
+4.02
+Question 2 accuracy: 0.893617
+4.021
+Question 2 accuracy: 0.893617
+4.022
+Question 2 accuracy: 0.893617
+4.023
+Question 2 accuracy: 0.893617
+4.024
+Question 2 accuracy: 0.893617
+4.025
+Question 2 accuracy: 0.893617
+4.026
+Question 2 accuracy: 0.893617
+4.027
+Question 2 accuracy: 0.893617
+4.028
+Question 2 accuracy: 0.893617
+4.029
+Question 2 accuracy: 0.893617
+4.03
+Question 2 accuracy: 0.893617
+4.031
+Question 2 accuracy: 0.893617
+4.032
+Question 2 accuracy: 0.893617
+4.033
+Question 2 accuracy: 0.893617
+4.034
+Question 2 accuracy: 0.893617
+4.035
+Question 2 accuracy: 0.893617
+4.036
+Question 2 accuracy: 0.893617
+4.037
+Question 2 accuracy: 0.893617
+4.038
+Question 2 accuracy: 0.893617
+4.039
+Question 2 accuracy: 0.893617
+4.04
+Question 2 accuracy: 0.893617
+4.041
+Question 2 accuracy: 0.893617
+4.042
+Question 2 accuracy: 0.893617
+4.043
+Question 2 accuracy: 0.893617
+4.044
+Question 2 accuracy: 0.893617
+4.045
+Question 2 accuracy: 0.893617
+4.046
+Question 2 accuracy: 0.896657
+4.047
+Question 2 accuracy: 0.896657
+4.048
+Question 2 accuracy: 0.896657
+4.049
+Question 2 accuracy: 0.896657
+4.05
+Question 2 accuracy: 0.896657
+4.051
+Question 2 accuracy: 0.896657
+4.052
+Question 2 accuracy: 0.896657
+4.053
+Question 2 accuracy: 0.896657
+4.054
+Question 2 accuracy: 0.896657
+4.055
+Question 2 accuracy: 0.896657
+4.056
+Question 2 accuracy: 0.896657
+4.057
+Question 2 accuracy: 0.896657
+4.058
+Question 2 accuracy: 0.896657
+4.059
+Question 2 accuracy: 0.896657
+4.06
+Question 2 accuracy: 0.896657
+4.061
+Question 2 accuracy: 0.896657
+4.062
+Question 2 accuracy: 0.896657
+4.063
+Question 2 accuracy: 0.896657
+4.064
+Question 2 accuracy: 0.896657
+4.065
+Question 2 accuracy: 0.896657
+4.066
+Question 2 accuracy: 0.896657
+4.067
+Question 2 accuracy: 0.896657
+4.068
+Question 2 accuracy: 0.896657
+4.069
+Question 2 accuracy: 0.896657
+4.07
+Question 2 accuracy: 0.896657
+4.071
+Question 2 accuracy: 0.896657
+4.072
+Question 2 accuracy: 0.896657
+4.073
+Question 2 accuracy: 0.896657
+4.074
+Question 2 accuracy: 0.896657
+4.075
+Question 2 accuracy: 0.896657
+4.076
+Question 2 accuracy: 0.896657
+4.077
+Question 2 accuracy: 0.896657
+4.078
+Question 2 accuracy: 0.896657
+4.079
+Question 2 accuracy: 0.896657
+4.08
+Question 2 accuracy: 0.896657
+4.081
+Question 2 accuracy: 0.896657
+4.082
+Question 2 accuracy: 0.896657
+4.083
+Question 2 accuracy: 0.896657
+4.084
+Question 2 accuracy: 0.896657
+4.085
+Question 2 accuracy: 0.896657
+4.086
+Question 2 accuracy: 0.896657
+4.087
+Question 2 accuracy: 0.896657
+4.088
+Question 2 accuracy: 0.896657
+4.089
+Question 2 accuracy: 0.896657
+4.09
+Question 2 accuracy: 0.896657
+4.091
+Question 2 accuracy: 0.896657
+4.092
+Question 2 accuracy: 0.896657
+4.093
+Question 2 accuracy: 0.896657
+4.094
+Question 2 accuracy: 0.896657
+4.095
+Question 2 accuracy: 0.896657
+4.096
+Question 2 accuracy: 0.896657
+4.097
+Question 2 accuracy: 0.896657
+4.098
+Question 2 accuracy: 0.896657
+4.099
+Question 2 accuracy: 0.896657
+4.1
+Question 2 accuracy: 0.896657
+4.101
+Question 2 accuracy: 0.896657
+4.102
+Question 2 accuracy: 0.896657
+4.103
+Question 2 accuracy: 0.896657
+4.104
+Question 2 accuracy: 0.896657
+4.105
+Question 2 accuracy: 0.896657
+4.106
+Question 2 accuracy: 0.896657
+4.107
+Question 2 accuracy: 0.896657
+4.108
+Question 2 accuracy: 0.896657
+4.109
+Question 2 accuracy: 0.896657
+4.11
+Question 2 accuracy: 0.896657
+4.111
+Question 2 accuracy: 0.896657
+4.112
+Question 2 accuracy: 0.896657
+4.113
+Question 2 accuracy: 0.896657
+4.114
+Question 2 accuracy: 0.896657
+4.115
+Question 2 accuracy: 0.896657
+4.116
+Question 2 accuracy: 0.896657
+4.117
+Question 2 accuracy: 0.896657
+4.118
+Question 2 accuracy: 0.896657
+4.119
+Question 2 accuracy: 0.896657
+4.12
+Question 2 accuracy: 0.896657
+4.121
+Question 2 accuracy: 0.896657
+4.122
+Question 2 accuracy: 0.896657
+4.123
+Question 2 accuracy: 0.896657
+4.124
+Question 2 accuracy: 0.896657
+4.125
+Question 2 accuracy: 0.896657
+4.126
+Question 2 accuracy: 0.896657
+4.127
+Question 2 accuracy: 0.896657
+4.128
+Question 2 accuracy: 0.896657
+4.129
+Question 2 accuracy: 0.896657
+4.13
+Question 2 accuracy: 0.896657
+4.131
+Question 2 accuracy: 0.896657
+4.132
+Question 2 accuracy: 0.896657
+4.133
+Question 2 accuracy: 0.896657
+4.134
+Question 2 accuracy: 0.896657
+4.135
+Question 2 accuracy: 0.896657
+4.136
+Question 2 accuracy: 0.896657
+4.137
+Question 2 accuracy: 0.896657
+4.138
+Question 2 accuracy: 0.896657
+4.139
+Question 2 accuracy: 0.896657
+4.14
+Question 2 accuracy: 0.896657
+4.141
+Question 2 accuracy: 0.896657
+4.142
+Question 2 accuracy: 0.896657
+4.143
+Question 2 accuracy: 0.896657
+4.144
+Question 2 accuracy: 0.896657
+4.145
+Question 2 accuracy: 0.896657
+4.146
+Question 2 accuracy: 0.896657
+4.147
+Question 2 accuracy: 0.896657
+4.148
+Question 2 accuracy: 0.896657
+4.149
+Question 2 accuracy: 0.896657
+4.15
+Question 2 accuracy: 0.896657
+4.151
+Question 2 accuracy: 0.896657
+4.152
+Question 2 accuracy: 0.896657
+4.153
+Question 2 accuracy: 0.896657
+4.154
+Question 2 accuracy: 0.896657
+4.155
+Question 2 accuracy: 0.896657
+4.156
+Question 2 accuracy: 0.896657
+4.157
+Question 2 accuracy: 0.896657
+4.158
+Question 2 accuracy: 0.896657
+4.159
+Question 2 accuracy: 0.896657
+4.16
+Question 2 accuracy: 0.896657
+4.161
+Question 2 accuracy: 0.896657
+4.162
+Question 2 accuracy: 0.896657
+4.163
+Question 2 accuracy: 0.896657
+4.164
+Question 2 accuracy: 0.896657
+4.165
+Question 2 accuracy: 0.896657
+4.166
+Question 2 accuracy: 0.896657
+4.167
+Question 2 accuracy: 0.896657
+4.168
+Question 2 accuracy: 0.896657
+4.169
+Question 2 accuracy: 0.896657
+4.17
+Question 2 accuracy: 0.896657
+4.171
+Question 2 accuracy: 0.896657
+4.172
+Question 2 accuracy: 0.896657
+4.173
+Question 2 accuracy: 0.896657
+4.174
+Question 2 accuracy: 0.896657
+4.175
+Question 2 accuracy: 0.896657
+4.176
+Question 2 accuracy: 0.896657
+4.177
+Question 2 accuracy: 0.896657
+4.178
+Question 2 accuracy: 0.896657
+4.179
+Question 2 accuracy: 0.896657
+4.18
+Question 2 accuracy: 0.896657
+4.181
+Question 2 accuracy: 0.896657
+4.182
+Question 2 accuracy: 0.896657
+4.183
+Question 2 accuracy: 0.896657
+4.184
+Question 2 accuracy: 0.896657
+4.185
+Question 2 accuracy: 0.896657
+4.186
+Question 2 accuracy: 0.896657
+4.187
+Question 2 accuracy: 0.896657
+4.188
+Question 2 accuracy: 0.896657
+4.189
+Question 2 accuracy: 0.896657
+4.19
+Question 2 accuracy: 0.896657
+4.191
+Question 2 accuracy: 0.896657
+4.192
+Question 2 accuracy: 0.896657
+4.193
+Question 2 accuracy: 0.896657
+4.194
+Question 2 accuracy: 0.896657
+4.195
+Question 2 accuracy: 0.896657
+4.196
+Question 2 accuracy: 0.896657
+4.197
+Question 2 accuracy: 0.896657
+4.198
+Question 2 accuracy: 0.896657
+4.199
+Question 2 accuracy: 0.896657
+4.2
+Question 2 accuracy: 0.896657
+4.201
+Question 2 accuracy: 0.896657
+4.202
+Question 2 accuracy: 0.896657
+4.203
+Question 2 accuracy: 0.896657
+4.204
+Question 2 accuracy: 0.896657
+4.205
+Question 2 accuracy: 0.896657
+4.206
+Question 2 accuracy: 0.896657
+4.207
+Question 2 accuracy: 0.896657
+4.208
+Question 2 accuracy: 0.896657
+4.209
+Question 2 accuracy: 0.896657
+4.21
+Question 2 accuracy: 0.896657
+4.211
+Question 2 accuracy: 0.896657
+4.212
+Question 2 accuracy: 0.896657
+4.213
+Question 2 accuracy: 0.896657
+4.214
+Question 2 accuracy: 0.896657
+4.215
+Question 2 accuracy: 0.896657
+4.216
+Question 2 accuracy: 0.896657
+4.217
+Question 2 accuracy: 0.896657
+4.218
+Question 2 accuracy: 0.896657
+4.219
+Question 2 accuracy: 0.896657
+4.22
+Question 2 accuracy: 0.896657
+4.221
+Question 2 accuracy: 0.896657
+4.222
+Question 2 accuracy: 0.896657
+4.223
+Question 2 accuracy: 0.896657
+4.224
+Question 2 accuracy: 0.896657
+4.225
+Question 2 accuracy: 0.896657
+4.226
+Question 2 accuracy: 0.896657
+4.227
+Question 2 accuracy: 0.896657
+4.228
+Question 2 accuracy: 0.896657
+4.229
+Question 2 accuracy: 0.896657
+4.23
+Question 2 accuracy: 0.896657
+4.231
+Question 2 accuracy: 0.896657
+4.232
+Question 2 accuracy: 0.896657
+4.233
+Question 2 accuracy: 0.896657
+4.234
+Question 2 accuracy: 0.896657
+4.235
+Question 2 accuracy: 0.896657
+4.236
+Question 2 accuracy: 0.896657
+4.237
+Question 2 accuracy: 0.896657
+4.238
+Question 2 accuracy: 0.896657
+4.239
+Question 2 accuracy: 0.896657
+4.24
+Question 2 accuracy: 0.896657
+4.241
+Question 2 accuracy: 0.896657
+4.242
+Question 2 accuracy: 0.896657
+4.243
+Question 2 accuracy: 0.896657
+4.244
+Question 2 accuracy: 0.896657
+4.245
+Question 2 accuracy: 0.896657
+4.246
+Question 2 accuracy: 0.896657
+4.247
+Question 2 accuracy: 0.896657
+4.248
+Question 2 accuracy: 0.896657
+4.249
+Question 2 accuracy: 0.896657
+4.25
+Question 2 accuracy: 0.896657
+4.251
+Question 2 accuracy: 0.896657
+4.252
+Question 2 accuracy: 0.896657
+4.253
+Question 2 accuracy: 0.896657
+4.254
+Question 2 accuracy: 0.896657
+4.255
+Question 2 accuracy: 0.896657
+4.256
+Question 2 accuracy: 0.896657
+4.257
+Question 2 accuracy: 0.896657
+4.258
+Question 2 accuracy: 0.896657
+4.259
+Question 2 accuracy: 0.896657
+4.26
+Question 2 accuracy: 0.896657
+4.261
+Question 2 accuracy: 0.896657
+4.262
+Question 2 accuracy: 0.896657
+4.263
+Question 2 accuracy: 0.896657
+4.264
+Question 2 accuracy: 0.896657
+4.265
+Question 2 accuracy: 0.896657
+4.266
+Question 2 accuracy: 0.896657
+4.267
+Question 2 accuracy: 0.896657
+4.268
+Question 2 accuracy: 0.896657
+4.269
+Question 2 accuracy: 0.896657
+4.27
+Question 2 accuracy: 0.896657
+4.271
+Question 2 accuracy: 0.896657
+4.272
+Question 2 accuracy: 0.896657
+4.273
+Question 2 accuracy: 0.896657
+4.274
+Question 2 accuracy: 0.896657
+4.275
+Question 2 accuracy: 0.896657
+4.276
+Question 2 accuracy: 0.896657
+4.277
+Question 2 accuracy: 0.896657
+4.278
+Question 2 accuracy: 0.896657
+4.279
+Question 2 accuracy: 0.896657
+4.28
+Question 2 accuracy: 0.896657
+4.281
+Question 2 accuracy: 0.896657
+4.282
+Question 2 accuracy: 0.896657
+4.283
+Question 2 accuracy: 0.896657
+4.284
+Question 2 accuracy: 0.896657
+4.285
+Question 2 accuracy: 0.896657
+4.286
+Question 2 accuracy: 0.896657
+4.287
+Question 2 accuracy: 0.896657
+4.288
+Question 2 accuracy: 0.896657
+4.289
+Question 2 accuracy: 0.896657
+4.29
+Question 2 accuracy: 0.896657
+4.291
+Question 2 accuracy: 0.896657
+4.292
+Question 2 accuracy: 0.896657
+4.293
+Question 2 accuracy: 0.896657
+4.294
+Question 2 accuracy: 0.896657
+4.295
+Question 2 accuracy: 0.896657
+4.296
+Question 2 accuracy: 0.896657
+4.297
+Question 2 accuracy: 0.896657
+4.298
+Question 2 accuracy: 0.896657
+4.299
+Question 2 accuracy: 0.896657
+4.3
+Question 2 accuracy: 0.896657
+4.301
+Question 2 accuracy: 0.896657
+4.302
+Question 2 accuracy: 0.896657
+4.303
+Question 2 accuracy: 0.896657
+4.304
+Question 2 accuracy: 0.896657
+4.305
+Question 2 accuracy: 0.896657
+4.306
+Question 2 accuracy: 0.896657
+4.307
+Question 2 accuracy: 0.896657
+4.308
+Question 2 accuracy: 0.896657
+4.309
+Question 2 accuracy: 0.896657
+4.31
+Question 2 accuracy: 0.896657
+4.311
+Question 2 accuracy: 0.896657
+4.312
+Question 2 accuracy: 0.896657
+4.313
+Question 2 accuracy: 0.896657
+4.314
+Question 2 accuracy: 0.896657
+4.315
+Question 2 accuracy: 0.896657
+4.316
+Question 2 accuracy: 0.896657
+4.317
+Question 2 accuracy: 0.896657
+4.318
+Question 2 accuracy: 0.896657
+4.319
+Question 2 accuracy: 0.896657
+4.32
+Question 2 accuracy: 0.896657
+4.321
+Question 2 accuracy: 0.896657
+4.322
+Question 2 accuracy: 0.896657
+4.323
+Question 2 accuracy: 0.896657
+4.324
+Question 2 accuracy: 0.896657
+4.325
+Question 2 accuracy: 0.896657
+4.326
+Question 2 accuracy: 0.896657
+4.327
+Question 2 accuracy: 0.896657
+4.328
+Question 2 accuracy: 0.896657
+4.329
+Question 2 accuracy: 0.896657
+4.33
+Question 2 accuracy: 0.896657
+4.331
+Question 2 accuracy: 0.896657
+4.332
+Question 2 accuracy: 0.896657
+4.333
+Question 2 accuracy: 0.896657
+4.334
+Question 2 accuracy: 0.896657
+4.335
+Question 2 accuracy: 0.896657
+4.336
+Question 2 accuracy: 0.896657
+4.337
+Question 2 accuracy: 0.896657
+4.338
+Question 2 accuracy: 0.896657
+4.339
+Question 2 accuracy: 0.896657
+4.34
+Question 2 accuracy: 0.896657
+4.341
+Question 2 accuracy: 0.896657
+4.342
+Question 2 accuracy: 0.896657
+4.343
+Question 2 accuracy: 0.896657
+4.344
+Question 2 accuracy: 0.896657
+4.345
+Question 2 accuracy: 0.896657
+4.346
+Question 2 accuracy: 0.896657
+4.347
+Question 2 accuracy: 0.896657
+4.348
+Question 2 accuracy: 0.896657
+4.349
+Question 2 accuracy: 0.896657
+4.35
+Question 2 accuracy: 0.896657
+4.351
+Question 2 accuracy: 0.896657
+4.352
+Question 2 accuracy: 0.896657
+4.353
+Question 2 accuracy: 0.896657
+4.354
+Question 2 accuracy: 0.896657
+4.355
+Question 2 accuracy: 0.896657
+4.356
+Question 2 accuracy: 0.896657
+4.357
+Question 2 accuracy: 0.896657
+4.358
+Question 2 accuracy: 0.896657
+4.359
+Question 2 accuracy: 0.896657
+4.36
+Question 2 accuracy: 0.896657
+4.361
+Question 2 accuracy: 0.896657
+4.362
+Question 2 accuracy: 0.896657
+4.363
+Question 2 accuracy: 0.896657
+4.364
+Question 2 accuracy: 0.896657
+4.365
+Question 2 accuracy: 0.896657
+4.366
+Question 2 accuracy: 0.896657
+4.367
+Question 2 accuracy: 0.896657
+4.368
+Question 2 accuracy: 0.896657
+4.369
+Question 2 accuracy: 0.896657
+4.37
+Question 2 accuracy: 0.896657
+4.371
+Question 2 accuracy: 0.896657
+4.372
+Question 2 accuracy: 0.896657
+4.373
+Question 2 accuracy: 0.896657
+4.374
+Question 2 accuracy: 0.896657
+4.375
+Question 2 accuracy: 0.896657
+4.376
+Question 2 accuracy: 0.896657
+4.377
+Question 2 accuracy: 0.896657
+4.378
+Question 2 accuracy: 0.896657
+4.379
+Question 2 accuracy: 0.896657
+4.38
+Question 2 accuracy: 0.896657
+4.381
+Question 2 accuracy: 0.896657
+4.382
+Question 2 accuracy: 0.896657
+4.383
+Question 2 accuracy: 0.896657
+4.384
+Question 2 accuracy: 0.896657
+4.385
+Question 2 accuracy: 0.896657
+4.386
+Question 2 accuracy: 0.896657
+4.387
+Question 2 accuracy: 0.896657
+4.388
+Question 2 accuracy: 0.896657
+4.389
+Question 2 accuracy: 0.896657
+4.39
+Question 2 accuracy: 0.896657
+4.391
+Question 2 accuracy: 0.896657
+4.392
+Question 2 accuracy: 0.896657
+4.393
+Question 2 accuracy: 0.896657
+4.394
+Question 2 accuracy: 0.896657
+4.395
+Question 2 accuracy: 0.896657
+4.396
+Question 2 accuracy: 0.896657
+4.397
+Question 2 accuracy: 0.896657
+4.398
+Question 2 accuracy: 0.896657
+4.399
+Question 2 accuracy: 0.896657
+4.4
+Question 2 accuracy: 0.896657
+4.401
+Question 2 accuracy: 0.896657
+4.402
+Question 2 accuracy: 0.896657
+4.403
+Question 2 accuracy: 0.896657
+4.404
+Question 2 accuracy: 0.896657
+4.405
+Question 2 accuracy: 0.896657
+4.406
+Question 2 accuracy: 0.896657
+4.407
+Question 2 accuracy: 0.896657
+4.408
+Question 2 accuracy: 0.896657
+4.409
+Question 2 accuracy: 0.896657
+4.41
+Question 2 accuracy: 0.896657
+4.411
+Question 2 accuracy: 0.896657
+4.412
+Question 2 accuracy: 0.896657
+4.413
+Question 2 accuracy: 0.896657
+4.414
+Question 2 accuracy: 0.896657
+4.415
+Question 2 accuracy: 0.896657
+4.416
+Question 2 accuracy: 0.896657
+4.417
+Question 2 accuracy: 0.896657
+4.418
+Question 2 accuracy: 0.896657
+4.419
+Question 2 accuracy: 0.896657
+4.42
+Question 2 accuracy: 0.896657
+4.421
+Question 2 accuracy: 0.896657
+4.422
+Question 2 accuracy: 0.896657
+4.423
+Question 2 accuracy: 0.896657
+4.424
+Question 2 accuracy: 0.896657
+4.425
+Question 2 accuracy: 0.896657
+4.426
+Question 2 accuracy: 0.896657
+4.427
+Question 2 accuracy: 0.896657
+4.428
+Question 2 accuracy: 0.896657
+4.429
+Question 2 accuracy: 0.896657
+4.43
+Question 2 accuracy: 0.896657
+4.431
+Question 2 accuracy: 0.896657
+4.432
+Question 2 accuracy: 0.896657
+4.433
+Question 2 accuracy: 0.896657
+4.434
+Question 2 accuracy: 0.896657
+4.435
+Question 2 accuracy: 0.896657
+4.436
+Question 2 accuracy: 0.896657
+4.437
+Question 2 accuracy: 0.896657
+4.438
+Question 2 accuracy: 0.896657
+4.439
+Question 2 accuracy: 0.896657
+4.44
+Question 2 accuracy: 0.896657
+4.441
+Question 2 accuracy: 0.896657
+4.442
+Question 2 accuracy: 0.896657
+4.443
+Question 2 accuracy: 0.896657
+4.444
+Question 2 accuracy: 0.896657
+4.445
+Question 2 accuracy: 0.896657
+4.446
+Question 2 accuracy: 0.896657
+4.447
+Question 2 accuracy: 0.896657
+4.448
+Question 2 accuracy: 0.896657
+4.449
+Question 2 accuracy: 0.896657
+4.45
+Question 2 accuracy: 0.896657
+4.451
+Question 2 accuracy: 0.896657
+4.452
+Question 2 accuracy: 0.896657
+4.453
+Question 2 accuracy: 0.896657
+4.454
+Question 2 accuracy: 0.896657
+4.455
+Question 2 accuracy: 0.896657
+4.456
+Question 2 accuracy: 0.896657
+4.457
+Question 2 accuracy: 0.896657
+4.458
+Question 2 accuracy: 0.896657
+4.459
+Question 2 accuracy: 0.896657
+4.46
+Question 2 accuracy: 0.896657
+4.461
+Question 2 accuracy: 0.896657
+4.462
+Question 2 accuracy: 0.896657
+4.463
+Question 2 accuracy: 0.896657
+4.464
+Question 2 accuracy: 0.896657
+4.465
+Question 2 accuracy: 0.896657
+4.466
+Question 2 accuracy: 0.896657
+4.467
+Question 2 accuracy: 0.896657
+4.468
+Question 2 accuracy: 0.896657
+4.469
+Question 2 accuracy: 0.896657
+4.47
+Question 2 accuracy: 0.896657
+4.471
+Question 2 accuracy: 0.896657
+4.472
+Question 2 accuracy: 0.896657
+4.473
+Question 2 accuracy: 0.896657
+4.474
+Question 2 accuracy: 0.896657
+4.475
+Question 2 accuracy: 0.896657
+4.476
+Question 2 accuracy: 0.896657
+4.477
+Question 2 accuracy: 0.896657
+4.478
+Question 2 accuracy: 0.896657
+4.479
+Question 2 accuracy: 0.896657
+4.48
+Question 2 accuracy: 0.896657
+4.481
+Question 2 accuracy: 0.896657
+4.482
+Question 2 accuracy: 0.896657
+4.483
+Question 2 accuracy: 0.896657
+4.484
+Question 2 accuracy: 0.896657
+4.485
+Question 2 accuracy: 0.896657
+4.486
+Question 2 accuracy: 0.896657
+4.487
+Question 2 accuracy: 0.896657
+4.488
+Question 2 accuracy: 0.896657
+4.489
+Question 2 accuracy: 0.896657
+4.49
+Question 2 accuracy: 0.896657
+4.491
+Question 2 accuracy: 0.896657
+4.492
+Question 2 accuracy: 0.896657
+4.493
+Question 2 accuracy: 0.896657
+4.494
+Question 2 accuracy: 0.896657
+4.495
+Question 2 accuracy: 0.896657
+4.496
+Question 2 accuracy: 0.896657
+4.497
+Question 2 accuracy: 0.896657
+4.498
+Question 2 accuracy: 0.896657
+4.499
+Question 2 accuracy: 0.896657
+4.5
+Question 2 accuracy: 0.896657
+4.501
+Question 2 accuracy: 0.896657
+4.502
+Question 2 accuracy: 0.896657
+4.503
+Question 2 accuracy: 0.896657
+4.504
+Question 2 accuracy: 0.896657
+4.505
+Question 2 accuracy: 0.896657
+4.506
+Question 2 accuracy: 0.896657
+4.507
+Question 2 accuracy: 0.896657
+4.508
+Question 2 accuracy: 0.896657
+4.509
+Question 2 accuracy: 0.896657
+4.51
+Question 2 accuracy: 0.896657
+4.511
+Question 2 accuracy: 0.896657
+4.512
+Question 2 accuracy: 0.896657
+4.513
+Question 2 accuracy: 0.896657
+4.514
+Question 2 accuracy: 0.896657
+4.515
+Question 2 accuracy: 0.896657
+4.516
+Question 2 accuracy: 0.896657
+4.517
+Question 2 accuracy: 0.896657
+4.518
+Question 2 accuracy: 0.896657
+4.519
+Question 2 accuracy: 0.896657
+4.52
+Question 2 accuracy: 0.896657
+4.521
+Question 2 accuracy: 0.896657
+4.522
+Question 2 accuracy: 0.896657
+4.523
+Question 2 accuracy: 0.896657
+4.524
+Question 2 accuracy: 0.896657
+4.525
+Question 2 accuracy: 0.896657
+4.526
+Question 2 accuracy: 0.896657
+4.527
+Question 2 accuracy: 0.896657
+4.528
+Question 2 accuracy: 0.896657
+4.529
+Question 2 accuracy: 0.896657
+4.53
+Question 2 accuracy: 0.896657
+4.531
+Question 2 accuracy: 0.896657
+4.532
+Question 2 accuracy: 0.896657
+4.533
+Question 2 accuracy: 0.896657
+4.534
+Question 2 accuracy: 0.896657
+4.535
+Question 2 accuracy: 0.896657
+4.536
+Question 2 accuracy: 0.896657
+4.537
+Question 2 accuracy: 0.896657
+4.538
+Question 2 accuracy: 0.896657
+4.539
+Question 2 accuracy: 0.896657
+4.54
+Question 2 accuracy: 0.896657
+4.541
+Question 2 accuracy: 0.896657
+4.542
+Question 2 accuracy: 0.896657
+4.543
+Question 2 accuracy: 0.896657
+4.544
+Question 2 accuracy: 0.896657
+4.545
+Question 2 accuracy: 0.896657
+4.546
+Question 2 accuracy: 0.896657
+4.547
+Question 2 accuracy: 0.896657
+4.548
+Question 2 accuracy: 0.896657
+4.549
+Question 2 accuracy: 0.896657
+4.55
+Question 2 accuracy: 0.896657
+4.551
+Question 2 accuracy: 0.896657
+4.552
+Question 2 accuracy: 0.896657
+4.553
+Question 2 accuracy: 0.896657
+4.554
+Question 2 accuracy: 0.896657
+4.555
+Question 2 accuracy: 0.896657
+4.556
+Question 2 accuracy: 0.896657
+4.557
+Question 2 accuracy: 0.896657
+4.558
+Question 2 accuracy: 0.896657
+4.559
+Question 2 accuracy: 0.896657
+4.56
+Question 2 accuracy: 0.896657
+4.561
+Question 2 accuracy: 0.896657
+4.562
+Question 2 accuracy: 0.896657
+4.563
+Question 2 accuracy: 0.896657
+4.564
+Question 2 accuracy: 0.896657
+4.565
+Question 2 accuracy: 0.896657
+4.566
+Question 2 accuracy: 0.896657
+4.567
+Question 2 accuracy: 0.896657
+4.568
+Question 2 accuracy: 0.896657
+4.569
+Question 2 accuracy: 0.896657
+4.57
+Question 2 accuracy: 0.896657
+4.571
+Question 2 accuracy: 0.896657
+4.572
+Question 2 accuracy: 0.896657
+4.573
+Question 2 accuracy: 0.896657
+4.574
+Question 2 accuracy: 0.896657
+4.575
+Question 2 accuracy: 0.896657
+4.576
+Question 2 accuracy: 0.896657
+4.577
+Question 2 accuracy: 0.896657
+4.578
+Question 2 accuracy: 0.896657
+4.579
+Question 2 accuracy: 0.896657
+4.58
+Question 2 accuracy: 0.896657
+4.581
+Question 2 accuracy: 0.896657
+4.582
+Question 2 accuracy: 0.896657
+4.583
+Question 2 accuracy: 0.896657
+4.584
+Question 2 accuracy: 0.896657
+4.585
+Question 2 accuracy: 0.896657
+4.586
+Question 2 accuracy: 0.896657
+4.587
+Question 2 accuracy: 0.896657
+4.588
+Question 2 accuracy: 0.896657
+4.589
+Question 2 accuracy: 0.896657
+4.59
+Question 2 accuracy: 0.896657
+4.591
+Question 2 accuracy: 0.896657
+4.592
+Question 2 accuracy: 0.896657
+4.593
+Question 2 accuracy: 0.896657
+4.594
+Question 2 accuracy: 0.896657
+4.595
+Question 2 accuracy: 0.896657
+4.596
+Question 2 accuracy: 0.896657
+4.597
+Question 2 accuracy: 0.896657
+4.598
+Question 2 accuracy: 0.896657
+4.599
+Question 2 accuracy: 0.896657
+4.6
+Question 2 accuracy: 0.896657
+4.601
+Question 2 accuracy: 0.896657
+4.602
+Question 2 accuracy: 0.896657
+4.603
+Question 2 accuracy: 0.896657
+4.604
+Question 2 accuracy: 0.896657
+4.605
+Question 2 accuracy: 0.896657
+4.606
+Question 2 accuracy: 0.896657
+4.607
+Question 2 accuracy: 0.896657
+4.608
+Question 2 accuracy: 0.896657
+4.609
+Question 2 accuracy: 0.896657
+4.61
+Question 2 accuracy: 0.896657
+4.611
+Question 2 accuracy: 0.896657
+4.612
+Question 2 accuracy: 0.896657
+4.613
+Question 2 accuracy: 0.896657
+4.614
+Question 2 accuracy: 0.896657
+4.615
+Question 2 accuracy: 0.896657
+4.616
+Question 2 accuracy: 0.896657
+4.617
+Question 2 accuracy: 0.896657
+4.618
+Question 2 accuracy: 0.896657
+4.619
+Question 2 accuracy: 0.896657
+4.62
+Question 2 accuracy: 0.896657
+4.621
+Question 2 accuracy: 0.896657
+4.622
+Question 2 accuracy: 0.896657
+4.623
+Question 2 accuracy: 0.896657
+4.624
+Question 2 accuracy: 0.896657
+4.625
+Question 2 accuracy: 0.896657
+4.626
+Question 2 accuracy: 0.896657
+4.627
+Question 2 accuracy: 0.896657
+4.628
+Question 2 accuracy: 0.896657
+4.629
+Question 2 accuracy: 0.896657
+4.63
+Question 2 accuracy: 0.896657
+4.631
+Question 2 accuracy: 0.896657
+4.632
+Question 2 accuracy: 0.896657
+4.633
+Question 2 accuracy: 0.896657
+4.634
+Question 2 accuracy: 0.896657
+4.635
+Question 2 accuracy: 0.896657
+4.636
+Question 2 accuracy: 0.896657
+4.637
+Question 2 accuracy: 0.896657
+4.638
+Question 2 accuracy: 0.896657
+4.639
+Question 2 accuracy: 0.896657
+4.64
+Question 2 accuracy: 0.896657
+4.641
+Question 2 accuracy: 0.896657
+4.642
+Question 2 accuracy: 0.896657
+4.643
+Question 2 accuracy: 0.896657
+4.644
+Question 2 accuracy: 0.896657
+4.645
+Question 2 accuracy: 0.896657
+4.646
+Question 2 accuracy: 0.896657
+4.647
+Question 2 accuracy: 0.896657
+4.648
+Question 2 accuracy: 0.896657
+4.649
+Question 2 accuracy: 0.896657
+4.65
+Question 2 accuracy: 0.896657
+4.651
+Question 2 accuracy: 0.896657
+4.652
+Question 2 accuracy: 0.896657
+4.653
+Question 2 accuracy: 0.896657
+4.654
+Question 2 accuracy: 0.896657
+4.655
+Question 2 accuracy: 0.896657
+4.656
+Question 2 accuracy: 0.896657
+4.657
+Question 2 accuracy: 0.896657
+4.658
+Question 2 accuracy: 0.896657
+4.659
+Question 2 accuracy: 0.896657
+4.66
+Question 2 accuracy: 0.896657
+4.661
+Question 2 accuracy: 0.896657
+4.662
+Question 2 accuracy: 0.896657
+4.663
+Question 2 accuracy: 0.896657
+4.664
+Question 2 accuracy: 0.896657
+4.665
+Question 2 accuracy: 0.896657
+4.666
+Question 2 accuracy: 0.896657
+4.667
+Question 2 accuracy: 0.896657
+4.668
+Question 2 accuracy: 0.896657
+4.669
+Question 2 accuracy: 0.896657
+4.67
+Question 2 accuracy: 0.896657
+4.671
+Question 2 accuracy: 0.896657
+4.672
+Question 2 accuracy: 0.896657
+4.673
+Question 2 accuracy: 0.896657
+4.674
+Question 2 accuracy: 0.896657
+4.675
+Question 2 accuracy: 0.896657
+4.676
+Question 2 accuracy: 0.896657
+4.677
+Question 2 accuracy: 0.896657
+4.678
+Question 2 accuracy: 0.896657
+4.679
+Question 2 accuracy: 0.896657
+4.68
+Question 2 accuracy: 0.896657
+4.681
+Question 2 accuracy: 0.896657
+4.682
+Question 2 accuracy: 0.896657
+4.683
+Question 2 accuracy: 0.896657
+4.684
+Question 2 accuracy: 0.896657
+4.685
+Question 2 accuracy: 0.896657
+4.686
+Question 2 accuracy: 0.896657
+4.687
+Question 2 accuracy: 0.896657
+4.688
+Question 2 accuracy: 0.896657
+4.689
+Question 2 accuracy: 0.896657
+4.69
+Question 2 accuracy: 0.896657
+4.691
+Question 2 accuracy: 0.896657
+4.692
+Question 2 accuracy: 0.896657
+4.693
+Question 2 accuracy: 0.896657
+4.694
+Question 2 accuracy: 0.896657
+4.695
+Question 2 accuracy: 0.896657
+4.696
+Question 2 accuracy: 0.896657
+4.697
+Question 2 accuracy: 0.896657
+4.698
+Question 2 accuracy: 0.896657
+4.699
+Question 2 accuracy: 0.896657
+4.7
+Question 2 accuracy: 0.896657
+4.701
+Question 2 accuracy: 0.896657
+4.702
+Question 2 accuracy: 0.896657
+4.703
+Question 2 accuracy: 0.896657
+4.704
+Question 2 accuracy: 0.896657
+4.705
+Question 2 accuracy: 0.896657
+4.706
+Question 2 accuracy: 0.896657
+4.707
+Question 2 accuracy: 0.896657
+4.708
+Question 2 accuracy: 0.896657
+4.709
+Question 2 accuracy: 0.896657
+4.71
+Question 2 accuracy: 0.896657
+4.711
+Question 2 accuracy: 0.896657
+4.712
+Question 2 accuracy: 0.896657
+4.713
+Question 2 accuracy: 0.896657
+4.714
+Question 2 accuracy: 0.896657
+4.715
+Question 2 accuracy: 0.896657
+4.716
+Question 2 accuracy: 0.896657
+4.717
+Question 2 accuracy: 0.896657
+4.718
+Question 2 accuracy: 0.896657
+4.719
+Question 2 accuracy: 0.896657
+4.72
+Question 2 accuracy: 0.896657
+4.721
+Question 2 accuracy: 0.896657
+4.722
+Question 2 accuracy: 0.896657
+4.723
+Question 2 accuracy: 0.896657
+4.724
+Question 2 accuracy: 0.896657
+4.725
+Question 2 accuracy: 0.896657
+4.726
+Question 2 accuracy: 0.896657
+4.727
+Question 2 accuracy: 0.896657
+4.728
+Question 2 accuracy: 0.896657
+4.729
+Question 2 accuracy: 0.896657
+4.73
+Question 2 accuracy: 0.896657
+4.731
+Question 2 accuracy: 0.896657
+4.732
+Question 2 accuracy: 0.896657
+4.733
+Question 2 accuracy: 0.896657
+4.734
+Question 2 accuracy: 0.896657
+4.735
+Question 2 accuracy: 0.896657
+4.736
+Question 2 accuracy: 0.896657
+4.737
+Question 2 accuracy: 0.896657
+4.738
+Question 2 accuracy: 0.896657
+4.739
+Question 2 accuracy: 0.896657
+4.74
+Question 2 accuracy: 0.896657
+4.741
+Question 2 accuracy: 0.896657
+4.742
+Question 2 accuracy: 0.896657
+4.743
+Question 2 accuracy: 0.896657
+4.744
+Question 2 accuracy: 0.896657
+4.745
+Question 2 accuracy: 0.896657
+4.746
+Question 2 accuracy: 0.896657
+4.747
+Question 2 accuracy: 0.896657
+4.748
+Question 2 accuracy: 0.896657
+4.749
+Question 2 accuracy: 0.896657
+4.75
+Question 2 accuracy: 0.896657
+4.751
+Question 2 accuracy: 0.896657
+4.752
+Question 2 accuracy: 0.896657
+4.753
+Question 2 accuracy: 0.896657
+4.754
+Question 2 accuracy: 0.896657
+4.755
+Question 2 accuracy: 0.896657
+4.756
+Question 2 accuracy: 0.896657
+4.757
+Question 2 accuracy: 0.896657
+4.758
+Question 2 accuracy: 0.896657
+4.759
+Question 2 accuracy: 0.896657
+4.76
+Question 2 accuracy: 0.896657
+4.761
+Question 2 accuracy: 0.896657
+4.762
+Question 2 accuracy: 0.896657
+4.763
+Question 2 accuracy: 0.896657
+4.764
+Question 2 accuracy: 0.896657
+4.765
+Question 2 accuracy: 0.896657
+4.766
+Question 2 accuracy: 0.896657
+4.767
+Question 2 accuracy: 0.896657
+4.768
+Question 2 accuracy: 0.896657
+4.769
+Question 2 accuracy: 0.896657
+4.77
+Question 2 accuracy: 0.896657
+4.771
+Question 2 accuracy: 0.896657
+4.772
+Question 2 accuracy: 0.896657
+4.773
+Question 2 accuracy: 0.896657
+4.774
+Question 2 accuracy: 0.896657
+4.775
+Question 2 accuracy: 0.896657
+4.776
+Question 2 accuracy: 0.896657
+4.777
+Question 2 accuracy: 0.896657
+4.778
+Question 2 accuracy: 0.896657
+4.779
+Question 2 accuracy: 0.896657
+4.78
+Question 2 accuracy: 0.896657
+4.781
+Question 2 accuracy: 0.896657
+4.782
+Question 2 accuracy: 0.896657
+4.783
+Question 2 accuracy: 0.896657
+4.784
+Question 2 accuracy: 0.896657
+4.785
+Question 2 accuracy: 0.896657
+4.786
+Question 2 accuracy: 0.896657
+4.787
+Question 2 accuracy: 0.896657
+4.788
+Question 2 accuracy: 0.896657
+4.789
+Question 2 accuracy: 0.896657
+4.79
+Question 2 accuracy: 0.896657
+4.791
+Question 2 accuracy: 0.896657
+4.792
+Question 2 accuracy: 0.896657
+4.793
+Question 2 accuracy: 0.896657
+4.794
+Question 2 accuracy: 0.896657
+4.795
+Question 2 accuracy: 0.896657
+4.796
+Question 2 accuracy: 0.896657
+4.797
+Question 2 accuracy: 0.896657
+4.798
+Question 2 accuracy: 0.896657
+4.799
+Question 2 accuracy: 0.896657
+4.8
+Question 2 accuracy: 0.896657
+4.801
+Question 2 accuracy: 0.896657
+4.802
+Question 2 accuracy: 0.896657
+4.803
+Question 2 accuracy: 0.896657
+4.804
+Question 2 accuracy: 0.896657
+4.805
+Question 2 accuracy: 0.896657
+4.806
+Question 2 accuracy: 0.896657
+4.807
+Question 2 accuracy: 0.896657
+4.808
+Question 2 accuracy: 0.896657
+4.809
+Question 2 accuracy: 0.896657
+4.81
+Question 2 accuracy: 0.896657
+4.811
+Question 2 accuracy: 0.896657
+4.812
+Question 2 accuracy: 0.896657
+4.813
+Question 2 accuracy: 0.896657
+4.814
+Question 2 accuracy: 0.896657
+4.815
+Question 2 accuracy: 0.896657
+4.816
+Question 2 accuracy: 0.896657
+4.817
+Question 2 accuracy: 0.896657
+4.818
+Question 2 accuracy: 0.896657
+4.819
+Question 2 accuracy: 0.896657
+4.82
+Question 2 accuracy: 0.896657
+4.821
+Question 2 accuracy: 0.896657
+4.822
+Question 2 accuracy: 0.896657
+4.823
+Question 2 accuracy: 0.896657
+4.824
+Question 2 accuracy: 0.896657
+4.825
+Question 2 accuracy: 0.896657
+4.826
+Question 2 accuracy: 0.896657
+4.827
+Question 2 accuracy: 0.896657
+4.828
+Question 2 accuracy: 0.896657
+4.829
+Question 2 accuracy: 0.896657
+4.83
+Question 2 accuracy: 0.896657
+4.831
+Question 2 accuracy: 0.896657
+4.832
+Question 2 accuracy: 0.896657
+4.833
+Question 2 accuracy: 0.896657
+4.834
+Question 2 accuracy: 0.896657
+4.835
+Question 2 accuracy: 0.896657
+4.836
+Question 2 accuracy: 0.896657
+4.837
+Question 2 accuracy: 0.896657
+4.838
+Question 2 accuracy: 0.896657
+4.839
+Question 2 accuracy: 0.896657
+4.84
+Question 2 accuracy: 0.896657
+4.841
+Question 2 accuracy: 0.896657
+4.842
+Question 2 accuracy: 0.896657
+4.843
+Question 2 accuracy: 0.896657
+4.844
+Question 2 accuracy: 0.896657
+4.845
+Question 2 accuracy: 0.896657
+4.846
+Question 2 accuracy: 0.896657
+4.847
+Question 2 accuracy: 0.896657
+4.848
+Question 2 accuracy: 0.896657
+4.849
+Question 2 accuracy: 0.896657
+4.85
+Question 2 accuracy: 0.896657
+4.851
+Question 2 accuracy: 0.896657
+4.852
+Question 2 accuracy: 0.896657
+4.853
+Question 2 accuracy: 0.896657
+4.854
+Question 2 accuracy: 0.896657
+4.855
+Question 2 accuracy: 0.896657
+4.856
+Question 2 accuracy: 0.896657
+4.857
+Question 2 accuracy: 0.896657
+4.858
+Question 2 accuracy: 0.896657
+4.859
+Question 2 accuracy: 0.896657
+4.86
+Question 2 accuracy: 0.896657
+4.861
+Question 2 accuracy: 0.896657
+4.862
+Question 2 accuracy: 0.896657
+4.863
+Question 2 accuracy: 0.896657
+4.864
+Question 2 accuracy: 0.896657
+4.865
+Question 2 accuracy: 0.896657
+4.866
+Question 2 accuracy: 0.896657
+4.867
+Question 2 accuracy: 0.896657
+4.868
+Question 2 accuracy: 0.896657
+4.869
+Question 2 accuracy: 0.899696
+4.87
+Question 2 accuracy: 0.899696
+4.871
+Question 2 accuracy: 0.899696
+4.872
+Question 2 accuracy: 0.899696
+4.873
+Question 2 accuracy: 0.899696
+4.874
+Question 2 accuracy: 0.899696
+4.875
+Question 2 accuracy: 0.899696
+4.876
+Question 2 accuracy: 0.899696
+4.877
+Question 2 accuracy: 0.899696
+4.878
+Question 2 accuracy: 0.899696
+4.879
+Question 2 accuracy: 0.899696
+4.88
+Question 2 accuracy: 0.899696
+4.881
+Question 2 accuracy: 0.899696
+4.882
+Question 2 accuracy: 0.899696
+4.883
+Question 2 accuracy: 0.899696
+4.884
+Question 2 accuracy: 0.899696
+4.885
+Question 2 accuracy: 0.899696
+4.886
+Question 2 accuracy: 0.899696
+4.887
+Question 2 accuracy: 0.899696
+4.888
+Question 2 accuracy: 0.899696
+4.889
+Question 2 accuracy: 0.899696
+4.89
+Question 2 accuracy: 0.899696
+4.891
+Question 2 accuracy: 0.899696
+4.892
+Question 2 accuracy: 0.899696
+4.893
+Question 2 accuracy: 0.899696
+4.894
+Question 2 accuracy: 0.899696
+4.895
+Question 2 accuracy: 0.899696
+4.896
+Question 2 accuracy: 0.899696
+4.897
+Question 2 accuracy: 0.899696
+4.898
+Question 2 accuracy: 0.899696
+4.899
+Question 2 accuracy: 0.899696
+4.9
+Question 2 accuracy: 0.899696
+4.901
+Question 2 accuracy: 0.899696
+4.902
+Question 2 accuracy: 0.899696
+4.903
+Question 2 accuracy: 0.899696
+4.904
+Question 2 accuracy: 0.899696
+4.905
+Question 2 accuracy: 0.899696
+4.906
+Question 2 accuracy: 0.899696
+4.907
+Question 2 accuracy: 0.899696
+4.908
+Question 2 accuracy: 0.899696
+4.909
+Question 2 accuracy: 0.899696
+4.91
+Question 2 accuracy: 0.899696
+4.911
+Question 2 accuracy: 0.899696
+4.912
+Question 2 accuracy: 0.899696
+4.913
+Question 2 accuracy: 0.899696
+4.914
+Question 2 accuracy: 0.899696
+4.915
+Question 2 accuracy: 0.899696
+4.916
+Question 2 accuracy: 0.899696
+4.917
+Question 2 accuracy: 0.899696
+4.918
+Question 2 accuracy: 0.899696
+4.919
+Question 2 accuracy: 0.899696
+4.92
+Question 2 accuracy: 0.899696
+4.921
+Question 2 accuracy: 0.899696
+4.922
+Question 2 accuracy: 0.899696
+4.923
+Question 2 accuracy: 0.899696
+4.924
+Question 2 accuracy: 0.899696
+4.925
+Question 2 accuracy: 0.899696
+4.926
+Question 2 accuracy: 0.899696
+4.927
+Question 2 accuracy: 0.899696
+4.928
+Question 2 accuracy: 0.899696
+4.929
+Question 2 accuracy: 0.899696
+4.93
+Question 2 accuracy: 0.899696
+4.931
+Question 2 accuracy: 0.899696
+4.932
+Question 2 accuracy: 0.899696
+4.933
+Question 2 accuracy: 0.899696
+4.934
+Question 2 accuracy: 0.899696
+4.935
+Question 2 accuracy: 0.899696
+4.936
+Question 2 accuracy: 0.899696
+4.937
+Question 2 accuracy: 0.899696
+4.938
+Question 2 accuracy: 0.899696
+4.939
+Question 2 accuracy: 0.899696
+4.94
+Question 2 accuracy: 0.899696
+4.941
+Question 2 accuracy: 0.899696
+4.942
+Question 2 accuracy: 0.899696
+4.943
+Question 2 accuracy: 0.899696
+4.944
+Question 2 accuracy: 0.899696
+4.945
+Question 2 accuracy: 0.899696
+4.946
+Question 2 accuracy: 0.899696
+4.947
+Question 2 accuracy: 0.899696
+4.948
+Question 2 accuracy: 0.899696
+4.949
+Question 2 accuracy: 0.899696
+4.95
+Question 2 accuracy: 0.899696
+4.951
+Question 2 accuracy: 0.899696
+4.952
+Question 2 accuracy: 0.899696
+4.953
+Question 2 accuracy: 0.899696
+4.954
+Question 2 accuracy: 0.899696
+4.955
+Question 2 accuracy: 0.899696
+4.956
+Question 2 accuracy: 0.899696
+4.957
+Question 2 accuracy: 0.899696
+4.958
+Question 2 accuracy: 0.899696
+4.959
+Question 2 accuracy: 0.899696
+4.96
+Question 2 accuracy: 0.899696
+4.961
+Question 2 accuracy: 0.899696
+4.962
+Question 2 accuracy: 0.899696
+4.963
+Question 2 accuracy: 0.899696
+4.964
+Question 2 accuracy: 0.899696
+4.965
+Question 2 accuracy: 0.899696
+4.966
+Question 2 accuracy: 0.899696
+4.967
+Question 2 accuracy: 0.899696
+4.968
+Question 2 accuracy: 0.899696
+4.969
+Question 2 accuracy: 0.899696
+4.97
+Question 2 accuracy: 0.899696
+4.971
+Question 2 accuracy: 0.899696
+4.972
+Question 2 accuracy: 0.899696
+4.973
+Question 2 accuracy: 0.899696
+4.974
+Question 2 accuracy: 0.899696
+4.975
+Question 2 accuracy: 0.899696
+4.976
+Question 2 accuracy: 0.899696
+4.977
+Question 2 accuracy: 0.899696
+4.978
+Question 2 accuracy: 0.899696
+4.979
+Question 2 accuracy: 0.899696
+4.98
+Question 2 accuracy: 0.899696
+4.981
+Question 2 accuracy: 0.899696
+4.982
+Question 2 accuracy: 0.899696
+4.983
+Question 2 accuracy: 0.899696
+4.984
+Question 2 accuracy: 0.899696
+4.985
+Question 2 accuracy: 0.899696
+4.986
+Question 2 accuracy: 0.899696
+4.987
+Question 2 accuracy: 0.899696
+4.988
+Question 2 accuracy: 0.899696
+4.989
+Question 2 accuracy: 0.899696
+4.99
+Question 2 accuracy: 0.899696
+4.991
+Question 2 accuracy: 0.899696
+4.992
+Question 2 accuracy: 0.899696
+4.993
+Question 2 accuracy: 0.899696
+4.994
+Question 2 accuracy: 0.899696
+4.995
+Question 2 accuracy: 0.899696
+4.996
+Question 2 accuracy: 0.899696
+4.997
+Question 2 accuracy: 0.899696
+4.998
+Question 2 accuracy: 0.899696
+4.999
+Question 2 accuracy: 0.899696

@@ -1,7 +1,8 @@
 class Question2_Solver:
-  def __init__(self):
+  def __init__(self, k=None):
+    if k == None: k = 0.0001
     self.classifier = NBClassifier()
-    self.learn('train.data')
+    self.learn('train.data',k)
     return
 
   # Add your code here.
@@ -9,7 +10,7 @@ class Question2_Solver:
   # Store the classifier in this class
   # This function runs only once when initializing
   # Please read and only read train_data: 'train.data'
-  def learn(self, train_data):
+  def learn(self, train_data,k):
     with open(train_data, "r") as f:
       data = f.read().splitlines()
 
@@ -30,7 +31,7 @@ class Question2_Solver:
         # values[a].add(features[a])
 
     # print threshold
-    self.classifier.setup(domain,attributes,values)
+    self.classifier.setup(domain,attributes,values,k)
     self.classifier.learn(examples)
     return
 
@@ -46,11 +47,12 @@ class NBClassifier:
   def __init__(self):
     return
 
-  def setup(self, domain, featureNames=[], featValues={}):
+  def setup(self, domain, featureNames=[], featValues={}, k=0.0):
     self.domain = domain
     self.featNames = featureNames
     self.dimension = len(featureNames)
     self.featValues = featValues
+    self.k = k
     return
 
   def learn(self, examples):
@@ -76,7 +78,7 @@ class NBClassifier:
 
     n = len(examples)
     P = {}
-    k = 10.0
+    k = self.k
     for label in self.domain:
       P[label] = (count[label])/(n)
       for feat in self.featNames:
@@ -95,7 +97,7 @@ class NBClassifier:
         val = features[feat]
         if (label, feat, val) in self.P:
           p *= (self.P[(label, feat, val)])
-      if result is None or p > mx:
+      if result is None or p >= mx:
         result, mx = label, p
 
     return result
